@@ -1,0 +1,66 @@
+rank,game,type,fees_24h_usd,fees_30d_usd,volume_24h_usd,tvl_usd,chains_total,evm_chains,major_versions,audits,upgrade_milestones,upgrade_events,url
+1,SLVR,Gamified mining,15371,883475,130158,110455.16,1,Robinhood Chain,0,0,0,0,https://slvr.fun/
+2,Fake World Assets V2,Betting / casino,8235,3407748,28696,1579317.35,1,Ethereum,1,0,0,1,https://www.fwa.fun
+3,Bloom Trading Bot,Game,7424,378948,726185,0,3,Binance; Base,0,0,0,0,https://www.bloombot.app/
+4,Axie Infinity,Game,6441,135739,,0,2,Ethereum; Ronin,0,0,0,0,https://axieinfinity.com
+5,Ape Church,Betting / casino,5293,110629,211738,1403963.05,1,ApeChain,0,0,0,0,https://www.ape.church/
+6,PancakeSwap Lottery,Betting / casino,643,19889.6,3211,0,1,Binance,1,0,0,1,https://pancakeswap.finance/lottery
+7,MineBean,Gamified mining,519,20714,,0,1,Base,0,0,0,0,https://minebean.com/
+8,Illuvium,Game,304,3531.32,,0,1,Ethereum,0,1,0,1,https://illuvium.io
+9,StockRip,Gamified mining,300,10410.04,,169063.97,1,Robinhood Chain,0,0,0,0,https://stockrip.com/
+10,Fake World Assets V1,Betting / casino,166,27175.62,0,297367.44,1,Ethereum,1,0,0,1,https://www.fwa.fun
+11,HASHCATS,Gamified mining,125,11603.43,,74510.2,1,Robinhood Chain,0,0,0,0,
+12,Gas,Game,58.88,69899.65,,0,1,Robinhood Chain,0,0,0,0,
+13,GuessOne,Gamified mining,26.31,2505.17,,0,1,Monad,0,0,0,0,
+14,PFWA Sherwood,Game,9.57,292.7,,13.02,1,Robinhood Chain,0,0,0,0,https://pfwa.fun
+15,NarBet,Betting / casino,5.49,114.17,29.82,11379.19,1,Monad,0,1,0,1,https://www.nar.bet/
+16,Orchard,Gamified mining,0,0.69,,28675.69,1,Robinhood Chain,0,0,0,0,https://orchard.gold
+17,Witty,Game,0,0,,27872.38,1,Abstract,0,0,0,0,https://www.witty.game/
+18,Astro,Betting / casino,0,-8.5,,22170.16,1,Robinhood Chain,0,0,0,0,https://astro.fun
+19,Thaw,Betting / casino,0,-1.65,0,10942.96,1,Hyperliquid L1,0,1,0,1,https://thaw.bet/
+20,Fake Wall Street,Betting / casino,0,0,0,6588.14,1,Robinhood Chain,0,0,0,0,https://fws.fun
+21,LUNA,Gamified mining,0,49,,2420.23,1,Robinhood Chain,0,0,0,0,
+22,Windfall Lotto,Betting / casino,0,1,,1453.45,1,Polygon,0,1,0,1,https://windfall-lotto.com/
+23,ROAR,Gamified mining,0,0,,487.24,1,Robinhood Chain,0,0,0,0,https://roar.supply/
+24,STEEL,Gamified mining,0,0,,264.91,1,Robinhood Chain,0,0,0,0,
+25,ArcLotls,Gamified mining,0,438,,216.99,1,Arc,0,0,0,0,
+26,BCraft,Game,0,0,,185.17,1,Base,0,0,0,0,
+27,MinePea,Gamified mining,0,0,,155.92,1,Robinhood Chain,0,0,0,0,
+28,Yeet BGT Auction,Gamified mining,0,0,,96.44,1,Berachain,0,0,0,0,https://www.yeetit.xyz/
+29,Musical Chairs,Game,0,0,,11.12,3,Arbitrum; Ethereum; Base,0,0,0,0,
+30,EL Casino Rooms,Betting / casino,0,0,,7.2,1,Robinhood Chain,0,0,0,0,
+31,EtherFlip,Betting / casino,,,,1814216.35,1,Ethereum,0,0,0,0,
+32,B-Lucky,Betting / casino,,,,259383.08,1,Binance,0,1,0,1,https://b-lucky.gg/
+33,Fren Pets,Game,,,,112178.24,1,Base,0,0,0,0,https://frenpet.xyz/
+34,Jiko,Game,,,,89504.32,1,Berachain,0,2,0,2,https://app.jiko.finance/
+35,MegaMoon,Betting / casino,,,,39612.35,1,Polygon,0,0,0,0,
+36,Bitmap Game,Game,,,,27358.72,1,Merlin,0,1,0,1,https://bitmap.game
+37,FerdyFlip,Betting / casino,,,,13998.4,4,Avalanche; Mantle; Base; MegaETH,0,0,0,0,https://www.ferdyflip.xyz
+38,MiningTycoon,Game,,,,9615.62,2,Binance; Heco,0,1,0,1,https://nextype.finance
+39,EnterDAO,Game,,,,8725.55,1,Ethereum,0,0,0,0,
+40,Chisino,Betting / casino,,,,7939.56,1,MegaETH,0,0,0,0, 
+41,PepeDex,Game,,,,7173.82,1,Ethereum,0,0,0,0,https://pepemon.world
+42,Aavegotchi,Game,,,,5713.12,2,Polygon; Ethereum,0,1,0,1,https://aavegotchi.com
+43,Farm Hero,Game,,,,1684.06,3,Binance; OKExChain; Polygon,0,2,0,2,
+44,Orixium,Gamified mining,,,,1422.75,1,Robinhood Chain,0,0,0,0,https://cave.watch
+45,LuckyChip,Betting / casino,,,,652.02,1,Binance,0,4,0,4,
+46,BowStop,Gamified mining,,,,595.1,1,Robinhood Chain,0,0,0,0,https://bowstop.xyz
+47,zAVA,Gamified mining,,,,553.2,1,Avalanche,0,0,0,0,
+48,Sacra,Game,,,,504.29,3,Fantom; Sonic; re.al,0,0,0,0,https://sacra.game/
+49,Ryoshi Royale,Game,,,,373.08,1,Cronos,0,0,0,0,https://ryoshiroyale.com/
+50,BetMode,Betting / casino,,,,342.95,3,Mode; Base; Optimism,0,0,0,0,https://www.betmode.io/
+51,Rollspace,Betting / casino,,,,325.57,2,Binance; Base,0,0,0,0,https://rollspace.com
+52,Chance,Game,,,,158.59,1,Robinhood Chain,0,0,0,0,
+53,HOODZ,Game,,,,80.42,1,Robinhood Chain,0,0,0,0,https://hoodz.gg
+54,Robots.Farm,Game,,,,74.78,1,Base,0,0,0,0,https://robots.farm
+55,P2PFlip,Betting / casino,,,,61.29,1,Matchain,0,0,0,0,
+56,CroVegas,Betting / casino,,,,45.77,1,Cronos,0,0,0,0,https://www.crovegas.fun/
+57,Offshore Protocol,Gamified mining,,,,11.22,1,MegaETH,0,0,0,0,
+58,DogeClaw,Game,,,,9.99,1,OKExChain,0,1,0,1,
+59,Z3Z,Game,,,,8.54,1,World Chain,0,0,0,0,https://world.org/ecosystem/app_414a9e0340275a42a2a252f0f76a7a27
+60,Lucky38,Betting / casino,,,,7.76,1,Base,0,0,0,0,https://randomy.fun/
+61,Cronos Bet,Betting / casino,,,,3.11,1,Cronos,0,0,0,0,
+62,DiceMoon,Betting / casino,,,,0.74,1,Base,0,0,0,0,
+63,Crack And Stack,Game,,,,0.73,1,Taiko,0,0,0,0,
+64,Fliperino,Betting / casino,,,,0.2,1,EthereumPoW,0,0,0,0,
+65,death.fun,Betting / casino,-90.44,8176.19,1912,0.15,1,Abstract,0,0,0,0,https://death.fun

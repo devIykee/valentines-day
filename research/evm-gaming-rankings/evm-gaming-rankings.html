@@ -1,0 +1,89 @@
+<title>EVM Gaming Rankings</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one column ledger — header, method notes, tab switch, filters, a scrolling ranked table */
+:root{--bg:#f5f7f6;--surface:#ffffff;--fg:#14201d;--muted:#5b6b66;--line:#dbe3e0;--accent:#0f766e;--accent-soft:#d6efec;--warn:#a15c07;--warn-soft:#fbecd5;
+--display:"Archivo",system-ui,sans-serif;--body:"IBM Plex Sans",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1513;--surface:#151f1c;--fg:#e4ece9;--muted:#93a49e;--line:#26332f;--accent:#3cc4b4;--accent-soft:#163c37;--warn:#f0b35a;--warn-soft:#3a2a12;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e1513;--surface:#151f1c;--fg:#e4ece9;--muted:#93a49e;--line:#26332f;--accent:#3cc4b4;--accent-soft:#163c37;--warn:#f0b35a;--warn-soft:#3a2a12;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:14px;line-height:1.5}
+.wrap{max-width:1180px;margin:0 auto;padding-block:28px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:18px}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(26px,5vw,38px);line-height:1.1;margin:0;text-wrap:balance;letter-spacing:-.01em}
+.sub{color:var(--muted);margin:6px 0 0;max-width:68ch}
+.notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.note{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px;min-width:0}
+.note h2{font-family:var(--display);font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin:0 0 4px;color:var(--accent)}
+.note p{margin:0;color:var(--muted);font-size:13px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+.tabs button{font:600 14px var(--body);padding:9px 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.tabs button:focus-visible,.filters input:focus-visible,.filters select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.filters input,.filters select{font:14px var(--body);padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--fg);min-width:0}
+.filters input{flex:1 1 200px}
+.count{color:var(--muted);font-size:13px;font-family:var(--mono)}
+.tablebox{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{padding:7px 10px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap;vertical-align:top}
+th{font-family:var(--display);font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);position:sticky;top:0;background:var(--surface)}
+td.n,th.n{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+td.rk{font-family:var(--mono);color:var(--muted);text-align:right}
+td.name a{color:var(--fg);font-weight:600;text-decoration:none}td.name a:hover{color:var(--accent);text-decoration:underline}
+td.chains{color:var(--muted);font-size:12px;max-width:240px;white-space:normal;min-width:160px}
+.cat{display:inline-block;font-size:11px;padding:1px 7px;border-radius:999px;background:var(--accent-soft);color:var(--fg)}
+.flag{display:inline-block;font-size:10px;padding:0 6px;margin-left:6px;border-radius:999px;background:var(--warn-soft);color:var(--warn);font-weight:600}
+.dim{color:var(--muted)}
+.hl{font-weight:600;color:var(--accent)}
+.more{justify-self:center;font:600 14px var(--body);padding:9px 16px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer}
+foot,.foot{color:var(--muted);font-size:12px}
+</style>
+<div class="wrap">
+<header>
+<h1>EVM Gaming Rankings</h1>
+<p class="sub">All 65 gaming protocols on DefiLlama that run on an EVM chain and have activity data, ranked two ways. Pulled 22 Oct 2026. Tap a name to visit the game.</p>
+</header>
+<section class="notes">
+<div class="note"><h2>List 1 · Daily activity</h2><p>Ranked by <b>24h fees</b>: what players paid the game or platform that day. Only 7 of these have trading volume on DefiLlama, so fees are the better measure. 31 have fee data; the rest follow by TVL.</p></div>
+<div class="note"><h2>List 2 · Upgrades</h2><p><b>Upgrade events</b> = major versions + published audits + upgrade milestones DefiLlama records. Few games publish audits, so most score 0 or 1 and the order below the top few is mostly tie-breaks (chains, then TVL).</p></div>
+<div class="note"><h2>Coverage gap</h2><p>DefiLlama tracks DeFi money flows, not game economies. Most big web3 games aren't listed at all, and listed ones like Axie only show on-chain fees. For player counts and in-game spend, sources like DappRadar are better.</p></div>
+</section>
+<div class="tabs" role="tablist">
+<button id="t1" role="tab" aria-selected="true" data-k="vol">1 · By daily activity</button>
+<button id="t2" role="tab" aria-selected="false" data-k="upg">2 · By upgrades</button>
+</div>
+<div class="filters">
+<input id="q" type="search" placeholder="Search game or chain" aria-label="Search game or chain">
+<select id="cat" aria-label="Type"><option value="">All types</option></select>
+<span class="count" id="count"></span>
+</div>
+<div class="tablebox"><table><thead id="th"></thead><tbody id="tb"></tbody></table></div>
+<button class="more" id="more">Show 100 more</button>
+<p class="foot">Sources: api.llama.fi/protocols, /overview/fees, /overview/dexs. Categories: Gaming, Luck Games (betting/casino), Gamified Mining.</p>
+</div>
+<script>
+const D=[[1,27,"SLVR","Gamified mining",15371,883475,130158,110455,1,"Robinhood Chain",0,0,0,0,"https://slvr.fun/"],[2,4,"Fake World Assets V2","Betting / casino",8235,3407748,28696,1579317,1,"Ethereum",1,0,0,1,"https://www.fwa.fun"],[3,20,"Bloom Trading Bot","Game",7424,378948,726185,0,3,"Binance, Base",0,0,0,0,"https://www.bloombot.app/"],[4,22,"Axie Infinity","Game",6441,135739,null,0,2,"Ethereum, Ronin",0,0,0,0,"https://axieinfinity.com"],[5,24,"Ape Church","Betting / casino",5293,110629,211738,1403963,1,"ApeChain",0,0,0,0,"https://www.ape.church/"],[6,6,"PancakeSwap Lottery","Betting / casino",643,19890,3211,0,1,"Binance",1,0,0,1,"https://pancakeswap.finance/lottery"],[7,63,"MineBean","Gamified mining",519,20714,null,0,1,"Base",0,0,0,0,"https://minebean.com/"],[8,15,"Illuvium","Game",304,3531,null,0,1,"Ethereum",0,1,0,1,"https://illuvium.io"],[9,25,"StockRip","Gamified mining",300,10410,null,169064,1,"Robinhood Chain",0,0,0,0,"https://stockrip.com/"],[10,5,"Fake World Assets V1","Betting / casino",166,27176,null,297367,1,"Ethereum",1,0,0,1,"https://www.fwa.fun"],[11,28,"HASHCATS","Gamified mining",125,11603,null,74510,1,"Robinhood Chain",0,0,0,0,""],[12,64,"Gas","Game",59,69900,null,0,1,"Robinhood Chain",0,0,0,0,""],[13,65,"GuessOne","Gamified mining",26,2505,null,0,1,"Monad",0,0,0,0,""],[14,53,"PFWA Sherwood","Game",10,293,null,13,1,"Robinhood Chain",0,0,0,0,"https://pfwa.fun"],[15,11,"NarBet","Betting / casino",5,114,30,11379,1,"Monad",0,1,0,1,"https://www.nar.bet/"],[16,30,"Orchard","Gamified mining",0,1,null,28676,1,"Robinhood Chain",0,0,0,0,"https://orchard.gold"],[17,31,"Witty","Game",0,0,null,27872,1,"Abstract",0,0,0,0,"https://www.witty.game/"],[18,32,"Astro","Betting / casino",0,-8,null,22170,1,"Robinhood Chain",0,0,0,0,"https://astro.fun"],[19,12,"Thaw","Betting / casino",0,-2,null,10943,1,"Hyperliquid L1",0,1,0,1,"https://thaw.bet/"],[20,36,"Fake Wall Street","Betting / casino",0,0,null,6588,1,"Robinhood Chain",0,0,0,0,"https://fws.fun"],[21,37,"LUNA","Gamified mining",0,49,null,2420,1,"Robinhood Chain",0,0,0,0,""],[22,13,"Windfall Lotto","Betting / casino",0,1,null,1453,1,"Polygon",0,1,0,1,"https://windfall-lotto.com/"],[23,41,"ROAR","Gamified mining",0,0,null,487,1,"Robinhood Chain",0,0,0,0,"https://roar.supply/"],[24,43,"STEEL","Gamified mining",0,0,null,265,1,"Robinhood Chain",0,0,0,0,""],[25,44,"ArcLotls","Gamified mining",0,438,null,217,1,"Arc",0,0,0,0,""],[26,45,"BCraft","Game",0,0,null,185,1,"Base",0,0,0,0,""],[27,47,"MinePea","Gamified mining",0,0,null,156,1,"Robinhood Chain",0,0,0,0,""],[28,48,"Yeet BGT Auction","Gamified mining",0,0,null,96,1,"Berachain",0,0,0,0,"https://www.yeetit.xyz/"],[29,19,"Musical Chairs","Game",0,0,null,11,3,"Arbitrum, Ethereum, Base",0,0,0,0,""],[30,57,"EL Casino Rooms","Betting / casino",0,0,null,7,1,"Robinhood Chain",0,0,0,0,""],[31,23,"EtherFlip","Betting / casino",null,null,null,1814216,1,"Ethereum",0,0,0,0,""],[32,9,"B-Lucky","Betting / casino",null,null,null,259383,1,"Binance",0,1,0,1,"https://b-lucky.gg/"],[33,26,"Fren Pets","Game",null,null,null,112178,1,"Base",0,0,0,0,"https://frenpet.xyz/"],[34,3,"Jiko","Game",null,null,null,89504,1,"Berachain",0,2,0,2,"https://app.jiko.finance/"],[35,29,"MegaMoon","Betting / casino",null,null,null,39612,1,"Polygon",0,0,0,0,""],[36,10,"Bitmap Game","Game",null,null,null,27359,1,"Merlin",0,1,0,1,"https://bitmap.game"],[37,16,"FerdyFlip","Betting / casino",null,null,null,13998,4,"Avalanche, Mantle, Base, MegaETH",0,0,0,0,"https://www.ferdyflip.xyz"],[38,7,"MiningTycoon","Game",null,null,null,9616,2,"Binance, Heco",0,1,0,1,"https://nextype.finance"],[39,33,"EnterDAO","Game",null,null,null,8726,1,"Ethereum",0,0,0,0,""],[40,34,"Chisino","Betting / casino",null,null,null,7940,1,"MegaETH",0,0,0,0," "],[41,35,"PepeDex","Game",null,null,null,7174,1,"Ethereum",0,0,0,0,"https://pepemon.world"],[42,8,"Aavegotchi","Game",null,null,null,5713,2,"Polygon, Ethereum",0,1,0,1,"https://aavegotchi.com"],[43,2,"Farm Hero","Game",null,null,null,1684,3,"Binance, OKExChain, Polygon",0,2,0,2,""],[44,38,"Orixium","Gamified mining",null,null,null,1423,1,"Robinhood Chain",0,0,0,0,"https://cave.watch"],[45,1,"LuckyChip","Betting / casino",null,null,null,652,1,"Binance",0,4,0,4,""],[46,39,"BowStop","Gamified mining",null,null,null,595,1,"Robinhood Chain",0,0,0,0,"https://bowstop.xyz"],[47,40,"zAVA","Gamified mining",null,null,null,553,1,"Avalanche",0,0,0,0,""],[48,17,"Sacra","Game",null,null,null,504,3,"Fantom, Sonic, re.al",0,0,0,0,"https://sacra.game/"],[49,42,"Ryoshi Royale","Game",null,null,null,373,1,"Cronos",0,0,0,0,"https://ryoshiroyale.com/"],[50,18,"BetMode","Betting / casino",null,null,null,343,3,"Mode, Base, Optimism",0,0,0,0,"https://www.betmode.io/"],[51,21,"Rollspace","Betting / casino",null,null,null,326,2,"Binance, Base",0,0,0,0,"https://rollspace.com"],[52,46,"Chance","Game",null,null,null,159,1,"Robinhood Chain",0,0,0,0,""],[53,49,"HOODZ","Game",null,null,null,80,1,"Robinhood Chain",0,0,0,0,"https://hoodz.gg"],[54,50,"Robots.Farm","Game",null,null,null,75,1,"Base",0,0,0,0,"https://robots.farm"],[55,51,"P2PFlip","Betting / casino",null,null,null,61,1,"Matchain",0,0,0,0,""],[56,52,"CroVegas","Betting / casino",null,null,null,46,1,"Cronos",0,0,0,0,"https://www.crovegas.fun/"],[57,54,"Offshore Protocol","Gamified mining",null,null,null,11,1,"MegaETH",0,0,0,0,""],[58,14,"DogeClaw","Game",null,null,null,10,1,"OKExChain",0,1,0,1,""],[59,55,"Z3Z","Game",null,null,null,9,1,"World Chain",0,0,0,0,"https://world.org/ecosystem/app_414a9e0340275a42a2a252f0f76a7a27"],[60,56,"Lucky38","Betting / casino",null,null,null,8,1,"Base",0,0,0,0,"https://randomy.fun/"],[61,58,"Cronos Bet","Betting / casino",null,null,null,3,1,"Cronos",0,0,0,0,""],[62,59,"DiceMoon","Betting / casino",null,null,null,1,1,"Base",0,0,0,0,""],[63,60,"Crack And Stack","Game",null,null,null,1,1,"Taiko",0,0,0,0,""],[64,61,"Fliperino","Betting / casino",null,null,null,0,1,"EthereumPoW",0,0,0,0,""],[65,62,"death.fun","Betting / casino",-90,8176,1912,0,1,"Abstract",0,0,0,0,"https://death.fun"]];const CATS=["Betting / casino", "Game", "Gamified mining"];
+const $=s=>document.querySelector(s);let mode='vol',shown=100;
+CATS.forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;$('#cat').appendChild(o)});
+const usd=v=>v==null?'<span class="dim">–</span>':v>=1e9?'$'+(v/1e9).toFixed(2)+'B':v>=1e6?'$'+(v/1e6).toFixed(2)+'M':v>=1e3?'$'+(v/1e3).toFixed(1)+'K':'$'+v;
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function nameCell(r){const n=esc(r[2]);return `<td class="name">${/^https?:/.test(r[14])?`<a href="${esc(r[14])}" target="_blank" rel="noopener">${n}</a>`:n}</td>`}
+function render(){
+ const q=$('#q').value.trim().toLowerCase(),c=$('#cat').value;
+ let rows=D.filter(r=>(!c||r[3]===c)&&(!q||(r[2]+' '+r[9]).toLowerCase().includes(q)));
+ rows.sort((a,b)=>mode==='vol'?a[0]-b[0]:a[1]-b[1]);
+ $('#count').textContent=rows.length+' protocols';
+ $('#th').innerHTML=mode==='vol'
+ ?'<tr><th class="n">#</th><th>Game</th><th>Type</th><th class="n">24h fees</th><th class="n">30d fees</th><th class="n">24h volume</th><th class="n">TVL</th><th>EVM chains</th></tr>'
+ :'<tr><th class="n">#</th><th>Game</th><th>Type</th><th class="n" title="Versions + audits + milestones">Upgrade events</th><th class="n">Versions</th><th class="n">Audits</th><th class="n">Milestones</th><th class="n">Chains</th><th class="n">TVL</th></tr>';
+ $('#tb').innerHTML=rows.slice(0,shown).map(r=>mode==='vol'
+ ?`<tr><td class="rk">${r[0]}</td>${nameCell(r)}<td><span class="cat">${esc(r[3])}</span></td><td class="n">${usd(r[4])}</td><td class="n">${usd(r[5])}</td><td class="n">${usd(r[6])}</td><td class="n">${usd(r[7])}</td><td class="chains">${esc(r[9])}</td></tr>`
+ :`<tr><td class="rk">${r[1]}</td>${nameCell(r)}<td><span class="cat">${esc(r[3])}</span></td><td class="n hl">${r[13]}</td><td class="n">${r[10]}</td><td class="n">${r[11]}</td><td class="n">${r[12]}</td><td class="n">${r[8]}</td><td class="n">${usd(r[7])}</td></tr>`).join('');
+ $('#more').hidden=rows.length<=shown;
+}
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{mode=b.dataset.k;shown=100;document.querySelectorAll('.tabs button').forEach(x=>x.setAttribute('aria-selected',x===b));try{localStorage.setItem('tab',mode)}catch(e){}render()});
+$('#q').oninput=()=>{shown=100;render()};$('#cat').onchange=()=>{shown=100;render()};
+$('#more').onclick=()=>{shown+=100;render()};
+try{const t=localStorage.getItem('tab');if(t==='upg')document.querySelector('#t2').click()}catch(e){}
+render();
+</script>
