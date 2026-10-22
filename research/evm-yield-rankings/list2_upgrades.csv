@@ -1,0 +1,1001 @@
+rank,name,cat,parent,fees24h,fees30d,vol24h,tvl,evm_chains,major_versions,audits,upg_hallmarks,upgrade_events,flag,url
+1,Rysk V12,Options Vault,Rysk Finance,,,10914,51388037.98,Hyperliquid L1; Ethereum,11,0,0,11,,https://app.rysk.finance
+2,Toros,Yield,Chamber,524,11630,,5264161.53,Arbitrum; Base; Optimism; Ethereum; Polygon; Hyperliquid L1,1,1,8,10,,https://toros.finance
+3,Bifrost Liquid Staking,Liquid Staking,Bifrost Protocol,98,8310,,13092591.28,Ethereum; Manta; Astar,0,9,0,9,,https://app.bifrost.io/?channelId=17
+4,Badger DAO,Yield Aggregator,,0,4643.23,,12896315.31,Ethereum; Arbitrum; Polygon; Binance; Fantom,0,8,0,8,,https://badger.com/
+5,Flashstake,Yield,,,,,50318.03,Ethereum; Arbitrum; Optimism,0,2,6,8,,https://flashstake.io/
+6,DexFi Aggregator,Yield Aggregator,DexFi,448,21514,,2640112.61,Robinhood Chain; Base; Ethereum; Arbitrum; Arc; Binance; Sonic; Avalanche,0,0,8,8,,https://dexfi.com/
+7,Silo V1,Lending,Silo Finance,33.25,3944.18,,920062.24,Arbitrum; Ethereum; Optimism; Base; Sonic,2,3,2,7,,https://app.silo.finance
+8,PoolTogether V3,Yield Lottery,PoolTogether,,,,4826070.2,Ethereum; Polygon; Celo; Binance,2,1,4,7,,https://pooltogether.com/
+9,Minterest,Lending,,,,,101540.18,Mantle; Ethereum; Taiko; Morph,0,7,0,7,,
+10,Twyne,Lending,,,,,11200893.38,Ethereum,0,7,0,7,,https://twyne.xyz/
+11,Resonate Finance,Yield,,,,,98677.48,Optimism; Arbitrum; Ethereum; Polygon; Fantom,0,5,2,7,,https://resonate.finance
+12,Colony,Yield,,,,,160333.06,Avalanche,0,3,4,7,,
+13,Peapods Finance,Yield,,0.01,16457.29,,1576118.58,Ethereum; Base; Sonic; Arbitrum; Berachain; Mode,0,1,6,7,,https://peapods.finance
+14,Aave V2,Lending,Aave,4109,159488,,106400784.22,Ethereum; Polygon; Avalanche,3,1,2,6,,https://aave.com
+15,Umami Finance,Yield,BonsaiDAO Ecosystem,,,,369521.34,Arbitrum; Avalanche,1,5,0,6,,https://umami.finance/
+16,DeltaPrime,Leveraged Farming,,,,,3384771.45,Avalanche; Arbitrum,0,6,0,6,,https://deltaprime.io
+17,Superform,Yield Aggregator,,1133,41902,,16516578.75,Ethereum; Base; Arbitrum; Polygon; Optimism; Blast; Linea; Binance; Avalanche; Fantom,0,3,3,6,,https://app.superform.xyz
+18,Sommelier,Onchain Capital Allocator,,12.82,217.81,,948615.28,Ethereum; Arbitrum; Optimism,0,2,4,6,,https://somm.finance/
+19,PoolTogether V5,Yield Lottery,PoolTogether,321,10199,,2181487.03,Optimism; Ethereum; Base; World Chain; xDai; Arbitrum; Scroll,4,1,0,5,,https://pooltogether.com/
+20,BiFi,Lending,,,,,8291099.56,Bifrost Network; Binance; Ethereum; Klaytn; Avalanche,0,5,0,5,,https://bifi.finance/
+21,Cybro,Yield Aggregator,,,,,15801.7,Arbitrum; Blast; Base; Binance,0,5,0,5,,
+22,Amphor,Yield,Inception,0,0,,62161.84,Ethereum,0,2,3,5,,https://amphor.io
+23,Aave V3,Lending,Aave,1120236,36945248,,16918960446.59,Ethereum; Base; Arbitrum; Plasma; Monad; Avalanche; Binance; Polygon; X Layer; Mantle; xDai; Optimism; MegaETH; Linea; Sonic; Celo; Scroll; zkSync Era; Metis; Soneium; Fantom,3,1,0,4,,https://aave.com
+24,PoolTogether V4,Yield Lottery,PoolTogether,,,,728383.98,Polygon; Optimism; Ethereum; Avalanche,3,1,0,4,,https://pooltogether.com/
+25,Aave V4,Lending,Aave,38658,1041855,,678886988.69,Ethereum; Arc; Avalanche,3,1,0,4,,https://aave.com
+26,Aave Horizon RWA,Lending,Aave,,,,253026348.95,Ethereum,3,1,0,4,,https://app.aave.com/markets/?marketName=proto_horizon_v3
+27,Aave V1,Lending,Aave,,,,7580266.13,Ethereum,3,1,0,4,,https://aave.com
+28,Aave Arc,Lending,Aave,,,,57252.75,Ethereum,3,1,0,4,,https://aave.com
+29,Bunni v1,Liquidity Manager,Bunni,,,,32862.06,Ethereum; Arbitrum; Optimism; Polygon,1,3,0,4,,https://bunni.pro
+30,Wise Lending V2,Lending,Wise Lending,0,0,,29.9,Ethereum; Arbitrum,1,3,0,4,,
+31,Hermes V2,Yield,Maia DAO Ecosystem,0,16.01,,4660.78,Arbitrum,1,3,0,4,,https://www.maiadao.io
+32,Arrakis V1,Liquidity Manager,Arrakis Finance,,,,1312208.85,Ethereum; Optimism; Polygon,1,2,1,4,,https://arrakis.finance/
+33,Veda,Onchain Capital Allocator,,171528,5006037,,1834086905.69,Ink; Ethereum; Optimism; Monad; Hyperliquid L1; Plasma; Arbitrum; Base; Berachain; Sonic; Binance; BOB; Scroll,0,4,0,4,,https://veda.tech
+34,Skate Fi,Liquidity Manager,,,,,90247.25,Ethereum; Manta; ZetaChain; Binance; Arbitrum; Mantle; Blast; Zkfair; Polygon; Scroll; Base,0,4,0,4,,
+35,Rocket Pool,Liquid Staking,,48263,2157103,,1174359484.56,Ethereum,0,4,0,4,,https://rocketpool.net
+36,Shift DeFi,Yield,,,,,1247207.92,Ethereum,0,4,0,4,,https://shiftdefi.com/
+37,Goat Protocol,Yield Aggregator,,0,0,,5440.96,Arbitrum; Sonic,0,3,1,4,,https://app.goat.fi/
+38,FIAT DAO,Yield,,,,,104494.53,Ethereum,0,3,1,4,,
+39,Thesauros,Yield,,,,,51545.93,Arbitrum; Base; Monad; Plasma,0,2,2,4,,https://thesauros.io
+40,Convex Finance,Yield,,40365,2464381,,585227323.59,Ethereum; Fraxtal; Arbitrum; Polygon,0,1,3,4,,https://www.convexfinance.com/
+41,Compound V3,Lending,Compound Finance,83087,2548909,,1401525807.44,Ethereum; Arbitrum; Base; Optimism; Polygon; Mantle; Unichain; Linea; Scroll; Ronin,2,1,0,3,,https://www.compound.xyz/
+42,Silo V3,Lending,Silo Finance,71.35,2522.82,,737692.54,XDC; Avalanche; Ethereum; Arbitrum; Sonic; MegaETH,2,1,0,3,,https://app.silo.finance
+43,Silo V2,Lending,Silo Finance,68.16,4912.37,,5665178.67,Sonic; Avalanche; Ethereum; Arbitrum,2,1,0,3,,https://app.silo.finance
+44,Velvet V3,Yield,Velvet.Capital,,,,231257.97,Base; Ethereum; Binance,2,1,0,3,,https://dapp.velvet.capital/Referred/6956901b440d4fc522b2eb7b
+45,Yelay V3,Yield Aggregator,Yelay Protocol,,,,90480.52,Sonic; Ethereum; Base,2,1,0,3,,https://www.yelay.io/
+46,StakeWise V3,Liquid Staking,StakeWise,24339,840948,,913943997.93,Ethereum; xDai,2,1,0,3,,https://stakewise.io/
+47,Compound V2,Lending,Compound Finance,6160,115509,,104404324.44,Ethereum,2,1,0,3,,https://www.compound.xyz/
+48,Compound V1,Lending,Compound Finance,,,,3158261.08,Ethereum,2,1,0,3,,https://www.compound.xyz/
+49,MYSO V2,Lending,MYSO,,,,19702.29,Arbitrum; Mantle; Ethereum; Telos; Base; Evmos; Linea,1,2,0,3,,https://www.myso.finance
+50,Arrakis Modular,Liquidity Manager,Arrakis Finance,8818,426238,,59708999.46,Ethereum; Base; Arbitrum; Plasma; Binance; Robinhood Chain,1,2,0,3,,https://arrakis.finance/
+51,Sturdy V2,Lending,Sturdy,,,,234622.55,Mode; Ethereum; Optimism; Linea; Sei,1,2,0,3,,https://v2.sturdy.finance/
+52,Fuji V1,Lending,Fuji Finance,,,,197432.14,Ethereum; Arbitrum; Polygon; Fantom; Optimism,1,2,0,3,,
+53,Arcadia V1,Leveraged Farming,Arcadia Finance,,,,23878.6,Ethereum; Optimism,1,2,0,3,,https://arcadia.finance
+54,Curve LlamaLend V2,Lending,Curve Finance,2959,84727,,43443864.39,Ethereum; Optimism,1,0,2,3,,https://www.curve.finance/lend/ethereum/markets/
+55,vfat.io,Yield Aggregator,vfat,4680,93000,,35186252.32,Base; Ethereum; Hyperliquid L1; Robinhood Chain; Arbitrum; Monad; Optimism; Binance; Avalanche; Polygon; Ink; Arc; Unichain; Sonic; Hemi; Celo; Linea; Cronos; Plasma; Berachain; Katana; World Chain; Mantle; Peaq; Pulse; Soneium; MegaETH; Fraxtal; Lisk; Scroll; Etherlink; Mode; BOT Chain; Tempo; Telos; MetalL2; ZetaChain; Fantom,0,3,0,3,,https://vfat.io/yield
+56,Folks Finance xChain,Lending,Folks Finance,270,23842,,4109225.84,Avalanche; Polygon; Monad; Ethereum; Arbitrum; Base; Sei; Binance,0,3,0,3,,https://xapp.folks.finance
+57,Stader,Liquid Staking,,1989,445975,,225742758.45,Ethereum; Fantom; Binance,0,3,0,3,,https://staderlabs.com
+58,Yuzu Money,Yield,,18798,556142,,77235941.51,Plasma; Monad; Ethereum,0,3,0,3,,https://app.yuzu.money
+59,infiniFi,Yield,,12837,313908,,66194598.3,Ethereum; Monad; Base,0,3,0,3,,https://infinifi.xyz
+60,T3tris Finance,Onchain Capital Allocator,,167,-18902.54,,13474751.32,Arbitrum; Robinhood Chain,0,3,0,3,,https://t3tris.finance/
+61,Solera,Lending,,0,0,,1738044.44,Plume Mainnet; Hemi,0,3,0,3,,https://app.solera.market/
+62,Swell Earn,Yield Aggregator,Swell,,,,510972.0,Ethereum; Swellchain,0,3,0,3,,https://app.swellnetwork.io/earn/vaults
+63,Spiral Stake,Yield Aggregator,,,,,24279.87,Robinhood Chain; Ethereum,0,3,0,3,,https://spiralstake.xyz
+64,Bitway Earn,Basis Trading,,8458,387388,,37284516.18,Binance,0,3,0,3,,https://bitway.com/
+65,Aurora Plus,Farm,,,,,3314669.55,Aurora,0,3,0,3,,https://aurora.plus/
+66,Ammalgam Vaults,Yield,Ammalgam,,,,1110675.35,Ethereum,0,3,0,3,,https://app.ammalgam.xyz/vaults
+67,Liquis,Yield,,0,0,,454032.85,Ethereum,0,3,0,3,,
+68,Beradrome,Yield,,0,4.86,,451176.66,Berachain,0,3,0,3,,https://www.beradrome.com
+69,Ammalgam DLEX,Lending,Ammalgam,131,762.96,4313,226283.42,Ethereum,0,3,0,3,,https://ammalgam.xyz/
+70,PolygonFarm Finance,Yield,,,,,50475.51,Polygon,0,3,0,3,,
+71,Thoreum Finance,Yield,,,,,40961.76,Binance,0,3,0,3,,https://thoreum.finance/
+72,KlayBank,Lending,,,,,14791.43,Klaytn,0,3,0,3,,
+73,maxAPY,Yield Aggregator,,0,0,,61501.72,Base; Ethereum; Polygon,0,1,2,3,,
+74,Sophon Farm,Farm,,,,,2964989.14,Sophon; Ethereum,0,1,2,3,,https://farm.sophon.xyz/
+75,Harbor,Yield,,0,20382.26,,65177.88,Ethereum; MegaETH,0,1,2,3,,https://app.harborfinance.io
+76,Aera V3,Onchain Capital Allocator,Aera,15386,397045,,177895596.25,Base; Morph; Ethereum; Arbitrum; Optimism,2,0,0,2,,https://www.aera.finance
+77,SparkDEX stFLR,Liquid Staking,SparkDEX,,,,3115561.79,Flare,2,0,0,2,,https://sparkdex.ai/home
+78,Kim Vaults,Yield,KIM Exchange,,,,24700.75,Mode,2,0,0,2,,https://app.kim.exchange
+79,Euler V2,Lending,Euler,56608,1693222,,280871717.11,Monad; Ethereum; Base; Avalanche; Unichain; Plasma; Hyperliquid L1; Arbitrum; Binance; Linea; Sonic; Berachain; BOB; TAC; Swellchain; Mantle,1,1,0,2,,https://www.euler.finance
+80,Impermax V2,Lending,Impermax Finance,,,,539331.57,Polygon; Ethereum; Base; Avalanche; Arbitrum; Optimism; Sonic; zkSync Era; Fantom; Scroll; Linea; Blast; Mantle; Moonriver; Canto,1,1,0,2,,https://impermax.finance/
+81,Pendle V2,Yield,Pendle,15662,419321,39225276,1095383494.81,Ethereum; Monad; Arbitrum; X Layer; Plasma; Hyperliquid L1; Binance; Base; Sonic; Robinhood Chain; Mantle; Avalanche; Berachain; Optimism,1,1,0,2,,https://pendle.finance/
+82,Ajna V2,Lending,Ajna Protocol,3.45,312.16,,47036.6,Ethereum; Arbitrum; Base; Optimism; Polygon; Avalanche; Hemi; Filecoin; Blast; Binance; xDai; Linea; Mode; Rari,1,1,0,2,,https://www.ajna.finance/
+83,Charm Finance V2,Liquidity Manager,Charm Finance,59.14,4099.15,,1706389.24,Berachain; Ethereum; Katana; Arbitrum; Base; Polygon; Optimism; Blast; Scroll; Linea; Boba,1,1,0,2,,https://alpha.charm.fi/vaults
+84,Shoebill V2,Lending,Shoebill Finance,16431,137589,,240136.69,Manta; zkLink; Mode; WEMIX; Klaytn; BOB; Metis; BSquared; Kroma; Fuse,1,1,0,2,fees/TVL looks off,https://shoebill.finance
+85,Aera V2,Onchain Capital Allocator,Aera,-1,-31.24,,45391025.05,Ethereum; Base; Polygon; Arbitrum,1,1,0,2,,https://www.aera.finance
+86,Arcadia V2,Liquidity Manager,Arcadia Finance,1727,48556,,5396933.71,Base; Optimism; Robinhood Chain; Unichain,1,1,0,2,,https://arcadia.finance
+87,Radiant V2,Lending,Radiant,1.37,2669.32,,534589.54,Ethereum; Arbitrum; Base; Binance,1,1,0,2,,https://radiant.capital/#/markets
+88,Vendor V2,Lending,BonsaiDAO Ecosystem,,,,82217.56,Arbitrum; Base; Berachain; Superposition,1,1,0,2,,https://vendor.finance
+89,Beta Finance V2,Lending,Beta Finance,,,,18525.9,Ethereum; Binance; Arbitrum,1,1,0,2,,
+90,Seamless V2,Lending,Seamless Protocol,0,0,,6473554.36,Ethereum; Base,1,1,0,2,,
+91,UFarm Digital V1,Onchain Capital Allocator,UFarm Digital,,,,473658.8,Ethereum; Arbitrum,1,1,0,2,,https://ufarm.digital
+92,Beta Finance V1,Lending,Beta Finance,,,,459940.73,Ethereum; Avalanche,1,1,0,2,,
+93,Tenderize V2,Liquid Staking,Tenderize,,,,279630.72,Arbitrum; Ethereum,1,1,0,2,,https://tenderize.me
+94,Astaria V2,Lending,Astaria,,,,75124.61,Base; Ethereum,1,1,0,2,,
+95,UFarm Digital V2,Onchain Capital Allocator,UFarm Digital,,,,23360.77,Ethereum; Arbitrum,1,1,0,2,,https://ufarm.digital
+96,RociFi V2,Lending,RociFi,,,,16412.63,zkSync Era; Polygon,1,1,0,2,,
+97,Kodiak Islands,Liquidity Manager,Kodiak,,,,36392522.1,Berachain,1,1,0,2,,https://app.kodiak.finance
+98,StableJack V1,Yield,StableJack,,,,1320764.59,Avalanche,1,1,0,2,,https://legacy.stablejack.xyz/
+99,Seamless V1,Lending,Seamless Protocol,9.86,266.41,,544607.95,Base,1,1,0,2,,
+100,AllBlue Stable,Yield,AllBlue,0.03,1506.46,,356323.59,Avalanche,1,1,0,2,,https://allbluedex.io
+101,Charm Finance V1,Liquidity Manager,Charm Finance,,,,310749.33,Ethereum,1,1,0,2,,https://charm.fi/
+102,Radiant V1,Lending,Radiant,,,,246245.78,Arbitrum,1,1,0,2,,https://radiant.capital/#/markets
+103,Timeswap V1,Lending,Timeswap,,,,43998.29,Polygon,1,1,0,2,,
+104,exit.tech,Liquidity Manager,BonsaiDAO Ecosystem,,,,38907.04,Arbitrum,1,1,0,2,,
+105,RociFi V1,Lending,RociFi,,,,30321.45,Polygon,1,1,0,2,,
+106,Euler V1,Lending,Euler,,,,26354.74,Ethereum,1,1,0,2,,https://www.euler.finance
+107,Atlendis V1,Uncollateralized Lending,Atlendis,,,,16209.77,Polygon,1,1,0,2,,
+108,Fringe V1,Lending,Fringe Finance,,,,15009.14,Ethereum,1,1,0,2,,
+109,Ajna V1,Lending,Ajna Protocol,0,0,,13530.08,Ethereum,1,1,0,2,,https://www.ajna.finance/
+110,Spectra V2,Yield,Spectra,10.19,7279.47,122109,10020801.31,Flare; Ethereum; Katana; Base; Sonic; Avalanche; Binance; Hyperliquid L1; Hemi; Optimism; Arbitrum; Monad,1,0,1,2,,https://app.spectra.finance/fixed-rate
+111,Timeswap V2,Lending,Timeswap,,,,273579.21,Hyperliquid L1; Arbitrum; Base; Polygon; Optimism; Mantle; Ethereum; X Layer; Polygon zkEVM; inEVM,1,0,1,2,,
+112,Spectra MetaVaults,Onchain Capital Allocator,Spectra,,,,6600079.67,Base; Flare; Katana; Ethereum; Arbitrum; Avalanche,1,0,1,2,,https://app.spectra.finance/metavaults
+113,Spectra MetaVaults Outside V2,Onchain Capital Allocator,Spectra,,,,3163120.89,Base; Katana; Ethereum; Arbitrum; Avalanche; Flare,1,0,1,2,,https://app.spectra.finance/metavaults
+114,Spectra V1,Yield Aggregator,Spectra,,,,193587.94,Polygon; Ethereum,1,0,1,2,,https://www.spectra.finance/
+115,Gamma,Liquidity Manager,,1688,50300,,2911930.04,Ethereum; Binance; Polygon; Arbitrum; xDai; Linea; Base; Optimism; Metis; Zircuit; Sonic; BOB; Unichain; Mantle; Scroll; Manta; Immutable zkEVM; Blast; Rollux; IOTA EVM; Avalanche; Celo; Berachain; Taiko; World Chain; Hemi; ApeChain; RSK; Mode; X Layer; CORE; Fantom; Op_Bnb; Polygon zkEVM; Moonbeam; Kava,0,2,0,2,,https://www.gamma.xyz
+116,Avalon Finance,Lending,Avalon Labs,4775,93917.04,,1086287.57,IoTeX; Bitlayer; Merlin; Pharos; Binance; Klaytn; Arbitrum; BOB; Sonic; Plume Mainnet; Goat; Ethereum; Taiko; Base; CORE; Mode; BSquared; Scroll; ZetaChain; Sei; Corn; DuckChain,0,2,0,2,,https://www.avalonfinance.xyz
+117,Napier,Yield,,2.47,21.79,180,108162.57,Ethereum; Robinhood Chain; Base; Sonic; Arbitrum; Hyperliquid L1; Polygon; Fraxtal; Optimism; Mantle; Avalanche; Plume; Binance,0,2,0,2,,https://app.napier.finance/
+118,Cytonic Airdrop Campaign,Farm,,,,,147083.62,Arbitrum; Base; Ethereum; Binance; Optimism; Polygon; Blast; Avalanche; Manta; BSquared,0,2,0,2,,https://www.cytonic.com/
+119,Clearpool Lending,Uncollateralized Lending,Clearpool,0.1,4581.68,,200030.62,Base; Ethereum; Optimism; Mantle; Polygon; Avalanche; Arbitrum; Polygon zkEVM; Flare,0,2,0,2,,https://clearpool.finance
+120,FilDA,Lending,,,,,86988.23,IoTeX; Bittorrent; Arbitrum; Binance; Polygon; Kava; Heco; REI,0,2,0,2,,https://filda.io/
+121,Dolomite,Lending,,61523,1449314,,210278189.52,Ethereum; Arbitrum; Berachain; Mantle; X Layer; Botanix; Polygon zkEVM,0,2,0,2,,https://dolomite.io
+122,ZEROBASE CeDeFi,Basis Trading,,,,,60944181.51,Binance; Ethereum; Base; Arbitrum; Optimism; Polygon; Avalanche,0,2,0,2,,https://app.zerobase.pro/
+123,Concrete,Onchain Capital Allocator,,115011,1879113,,1286169715.85,Ethereum; Stable; Arbitrum; Berachain; Katana,0,2,0,2,,https://app.concrete.xyz
+124,Revert Compoundor,Liquidity Automation,Revert,,,,148859.39,Ethereum; Arbitrum; Optimism; Polygon; Binance,0,2,0,2,,https://revert.finance/#/ref/w6vno3
+125,Moonwell Lending,Lending,Moonwell,3227,136181,,10747453.67,Base; Ethereum; Optimism; Moonbeam,0,2,0,2,,https://moonwell.fi
+126,Theo Straddle Vaults,Basis Trading,Theo,0,-328.11,,1073789.45,Ethereum; Linea; Arbitrum; Base,0,2,0,2,,https://app.theo.xyz/invite?invite=defillama
+127,Sector Finance,Yield,,,,,67168.24,Arbitrum; Optimism; Ethereum; Moonriver,0,2,0,2,,https://sector.finance
+128,Singularity Finance,Yield,,,,,47470.1,Ethereum; Base; Arbitrum; Binance,0,2,0,2,,https://singularityfinance.ai/
+129,wefi,Lending,,,,,16101.04,Polygon; Boba; XDC; Linea,0,2,0,2,,
+130,Origin Ether,Liquid Staking,Origin Protocol,7014,217865,,58017910.88,Ethereum; Base; Plume Mainnet,0,2,0,2,,https://www.originprotocol.com/oeth
+131,Tranchess Yield,Yield,Tranchess,,,,4972068.89,Binance; Scroll; Ethereum,0,2,0,2,,https://tranchess.com
+132,Geyser,Yield,,,,,120185.16,Ethereum; Polygon; Optimism,0,2,0,2,,
+133,Kalmy App,Yield,,,,,35947.9,Binance; Fantom; Avalanche,0,2,0,2,,
+134,Kasu,Uncollateralized Lending,,3184,89156,,25660.91,Base; XDC; Plume Mainnet,0,2,0,2,,https://kasu.finance/
+135,Makina,Onchain Capital Allocator,,4703,220292.01,,40183712.15,Ethereum; Base,0,2,0,2,,https://app.makina.finance/
+136,Templar Protocol,Lending,,,,,30839328.91,Ethereum; Flare,0,2,0,2,,https://www.templarfi.org/
+137,Pirex,Yield,Dinero,,,,4160228.6,Ethereum; Arbitrum,0,2,0,2,,https://pirex.io/
+138,MortgageFi,Lending,,,,,1002107.73,Base; Arbitrum,0,2,0,2,,https://mortgagefi.app
+139,SingularityDAO,Yield,,,,,444026.51,Ethereum; Binance,0,2,0,2,,https://singularitydao.ai
+140,Sperax USD,Yield Aggregator,Sperax,0.06,356.96,,271972.21,Arbitrum; Ethereum,0,2,0,2,,http://sperax.io
+141,Hourglass,Yield,,,,,124143.89,Ethereum; Mantle,0,2,0,2,,https://hourglass.com/
+142,Trava Finance,Lending,,,,,64134.74,Binance; Fantom,0,2,0,2,,https://trava.finance
+143,Arkis,Lending,,,,,60145.77,Hyperliquid L1; Ethereum,0,2,0,2,,https://www.arkis.xyz/
+144,Universe Finance,Liquidity Manager,,,,,25816.6,Ethereum; Polygon,0,2,0,2,,
+145,Brahma Vaults (Sunset),Yield,,,,,22683.4,Ethereum; Polygon,0,2,0,2,,https://www.brahma.fi/blog/withdrawal-mode-brahma-vaults
+146,Koala Defi,Farm,,,,,17995.37,Binance; Polygon,0,2,0,2,,https://koaladefi.finance/
+147,Rheo,Lending,,0,0,,15540.53,Ethereum; Base,0,2,0,2,,https://app.rheo.xyz/
+148,Curvance,Lending,,9991,390389,,131502044.77,Monad,0,2,0,2,,https://app.curvance.com
+149,NodeDAO,Liquid Staking,,2007,64557,,34539684.15,Ethereum,0,2,0,2,,https://www.nodedao.com
+150,Origin Dollar,Yield Aggregator,Origin Protocol,1084,33639,,6082427.3,Ethereum,0,2,0,2,,https://www.originprotocol.com/ousd
+151,Kinetiq Launch,Liquid Staking,Kinetiq,353,10466,,5769128.58,Hyperliquid L1,0,2,0,2,,https://kinetiq.xyz/launch
+152,Turbo Loop,Yield,,,,,4198977.47,Binance,0,2,0,2,,https://turboloop.io
+153,Surge Credit,Lending,,195,4228.66,,1478204.81,Base,0,2,0,2,,https://surge.credit
+154,King Protocol,Liquid Restaking,,,,,1343242.44,Ethereum,0,2,0,2,,https://kingprotocol.org/
+155,Ethereal Season Zero,Farm,,,,,1230639.89,Ethereum,0,2,0,2,,https://www.ethereal.trade/
+156,Phiat Protocol,Lending,,,,,540070.97,Pulse,0,2,0,2,,https://dapp.phiat.io/#/markets
+157,Swell BTC LRT,Yield Aggregator,Swell,,,,473572.68,Ethereum,0,2,0,2,,https://app.swellnetwork.io/stake/swbtc
+158,PlutusDAO,Yield,,,,,456464.26,Arbitrum,0,2,0,2,,https://plutusdao.io
+159,Fyde Protocol,Yield Aggregator,,,,,375555.19,Ethereum,0,2,0,2,,
+160,Goose Finance,Farm,,,,,371674.54,Binance,0,2,0,2,,
+161,ENKI Protocol,Liquid Staking,,,,,350042.52,Metis,0,2,0,2,,https://www.enkixyz.com/mint
+162,Cakepie,Yield,Magpie Ecosystem,0,0,,265152.56,Binance,0,2,0,2,,https://www.pancake.magpiexyz.io/stake
+163,ArcX.trade,Yield,,,,,216692.25,Ethereum,0,2,0,2,,https://arcx.trade
+164,SpinUp Liquid Staking,Liquid Staking,SpinUp,,,,201169.66,Hyperliquid L1,0,2,0,2,,https://www.spinup.zone/
+165,MEV Protocol,Liquid Staking,,,,,118568.72,Ethereum,0,2,0,2,,
+166,Tropykus RSK,Lending,Tropykus Finance,,,,107609.94,RSK,0,2,0,2,,https://app.tropykus.com
+167,USDFI Lending,Lending,,,,,83697.91,Binance,0,2,0,2,,https://lending.usdfi.com/usdlend
+168,Hyper Finance,Yield,,,,,35418.56,Binance,0,2,0,2,,
+169,DegenPrime,Leveraged Farming,,,,,35391.19,Base,0,2,0,2,,https://www.degenprime.io
+170,Ion Protocol,Lending,,,,,35306.33,Ethereum,0,2,0,2,,https://ionprotocol.io/
+171,Pacoca,Yield,,,,,28592.45,Binance,0,2,0,2,,
+172,Aladdin DAO,Yield Aggregator,,,,,18146.48,Ethereum,0,2,0,2,,https://www.aladdin.club
+173,Vaultka,Yield,,0,0,,6340.34,Arbitrum,0,2,0,2,,https://www.vaultka.com
+174,YieldFi,Yield Aggregator,,0,0,,11381778.64,Ethereum; Base; Arbitrum; Plume Mainnet; Sonic; Binance; Optimism; Plasma; Katana; TAC; Saga; Linea; Avalanche,0,1,1,2,,https://yield.fi/
+175,Fusion by IPOR,Onchain Capital Allocator,IPOR Protocol,11459,291297,,85095939.71,Base; Ethereum; Arbitrum; Katana; Unichain; Avalanche; Plasma; Hyperliquid L1; Monad; Ink; Robinhood Chain; Flare,0,1,1,2,,https://app.ipor.io/fusion
+176,Yearn Finance,Yield Aggregator,Yearn,18240,655018,,153867041.58,Ethereum; Katana; Optimism; Base; Polygon; Arbitrum; Fantom,0,1,1,2,,https://yearn.fi/
+177,Baseline Protocol,Liquidity Manager,,,,,1791037.79,Ethereum; Base; Blast,0,1,1,2,,https://www.baseline.markets/
+178,Stakingverse,Liquid Staking,,,,,4689019.17,Ethereum; LUKSO,0,1,1,2,,https://stakingverse.io
+179,Maple,Lending,Maple Finance,84819,9757070,,2796667498.77,Ethereum,0,1,1,2,,https://www.maple.finance
+180,Benqi Staked Avax,Liquid Staking,Benqi,23089,1105819,,217870590.39,Avalanche,0,1,1,2,,https://app.benqi.fi/savax
+181,Unitas USDu,Basis Trading,Unitas,15635,459801,,53384354.63,Binance,0,1,1,2,,https://app.unitas.so
+182,Geode,Liquid Staking,,,,,487639.2,Avalanche,0,1,1,2,,https://www.geode.fi/
+183,BlastUp,Farm,,,,,21195.98,Blast,0,1,1,2,,
+184,Re7 Labs,Risk Curators,,3584,93680,,60555892.71,World Chain; Ethereum; Avalanche; Optimism; Plume Mainnet; Base; Linea; Binance; Sonic; Unichain; TAC; BOB; Berachain; Arc; Polygon; Plasma,0,0,2,2,,https://www.re7labs.xyz
+185,Surf Liquid,Yield,,0.14,4.4,,195828.72,Base; Ethereum; Polygon; Arbitrum,0,0,2,2,,https://surfliquid.com/
+186,Sushi BentoBox,Yield,Sushi,,,,2438307.55,Arbitrum; Ethereum; Polygon; Optimism; Avalanche; xDai; Moonbeam; Moonriver; Celo,1,0,0,1,,https://www.sushi.com
+187,Royco V1,Yield,Royco Protocol,,0,,1539081.54,Arbitrum; Ethereum; Sonic; Base; Plume Mainnet; Berachain; Hyperliquid L1; Corn,1,0,0,1,,https://www.royco.org
+188,MoneyFi V1,Yield Aggregator,MoneyFi,0,139.55,,24593.24,Base; Ethereum; Binance; Arbitrum; Optimism; Soneium; CORE,1,0,0,1,,https://app.moneyfi.fund/
+189,Royco V2,Yield,Royco Protocol,,,,15679751.19,Ethereum; Avalanche; Base; Arbitrum,1,0,0,1,,https://www.royco.org
+190,Arrakis V2,Liquidity Manager,Arrakis Finance,3.63,368.38,,167151.06,Ethereum; Polygon; Arbitrum; Optimism,1,0,0,1,,https://arrakis.finance/
+191,Amulet V2,Yield Aggregator,Amulet,,,,69003.25,Optimism; Ethereum; Polygon zkEVM,1,0,0,1,,
+192,BendDAO APE Staking,Yield,BendDAO,,,,1587593.65,Ethereum; ApeChain,1,0,0,1,,https://www.benddao.xyz/en/apecoin-staking/explore/pairing-listings/
+193,Rysk Premium,Yield,Rysk Finance,,,0,82300.39,Hyperliquid L1; Ethereum,1,0,0,1,,https://app.rysk.finance/join?code=DEFILLAMA
+194,FLRFarm,Yield,Enosys,,,,48495.3,Flare; Songbird,1,0,0,1,,https://enosys.global/products/farms
+195,RealT RMM Marketplace V2,Lending,RealT,4463,97397,,29066749.53,xDai,1,0,0,1,,
+196,Mezo Vaults,Yield Aggregator,Mezo Tigris,,,,7446912.56,Mezo,1,0,0,1,,https://mezo.org/earn/vaults
+197,Voltage Liquid Staking,Liquid Staking,Voltage,,,,378454.3,Fuse,1,0,0,1,,https://app.voltage.finance/#/stake
+198,MoneyFi V2,Yield Aggregator,MoneyFi,0,1644,,89096.88,Binance,1,0,0,1,,https://app.moneyfi.fund/
+199,Kona Lend,Lending,KittyPunch,,,,77924.66,Abstract,1,0,0,1,,https://app.kona.surf/lending
+200,Factor Leverage Vault,Leveraged Farming,Factor,,,,68623.34,Arbitrum,1,0,0,1,,https://app.factor.fi/studio
+201,Stabl.fi V1,Yield,Stabl.fi,,,,59518.87,Polygon,1,0,0,1,,
+202,Lodestar V1,Lending,Lodestar Finance,,,,54004.57,Arbitrum,1,0,0,1,,
+203,Sperax Demeter V2,Farm,Sperax,,,,32259.97,Arbitrum,1,0,0,1,,https://demeter.sperax.io
+204,Voltage Lending,Lending,Voltage,,,,23093.52,Fuse,1,0,0,1,,https://voltage.finance/lend
+205,Stabl.fi V2,Yield,Stabl.fi,,,,14767.54,Polygon,1,0,0,1,,
+206,Morpho Blue,Lending,Morpho,774148,22425631,,11197930632.67,Ethereum; Base; Robinhood Chain; Arc; Monad; Hyperliquid L1; Arbitrum; Morph; Pharos; Tempo; Flare; World Chain; Katana; Stable; Citrea; Etherlink; Sei; Optimism; Polygon; Plume Mainnet; Unichain; MegaETH; XDC; Celo; TAC; Klaytn; Abstract; Soneium; Scroll; Lisk; Hemi; Avalanche; Fraxtal; Sonic; RISE; Binance; 0G; Ink; Mode; Corn; Zircuit; Bitlayer; xDai; Botanix; Linea,0,1,0,1,,https://app.morpho.org
+207,Steer Protocol,Liquidity Manager,,283,24530,,18259078.59,Binance; Base; Katana; Flare; Ethereum; Bittensor EVM; Polygon; Linea; Manta; Robinhood Chain; Arbitrum; Avalanche; Metis; Mode; Nibiru; Hyperliquid L1; Sonic; Zircuit; Sei; Optimism; Celo; Scroll; Blast; Berachain; RSK; X Layer; Mantle; Telos; Fantom; Filecoin; zkLink; Unichain; ApeChain; Taiko; Evmos; ThunderCore; Kava; Polygon zkEVM; Astar; Moonbeam; ZetaChain; Hemi; Saga; Ronin; Soneium,0,1,0,1,,https://app.steer.finance
+208,Beefy,Yield Aggregator,,3865,103335,,108058503.88,Ethereum; Base; Arbitrum; Binance; Monad; Fraxtal; Optimism; Polygon; Robinhood Chain; Avalanche; Plasma; Hyperliquid L1; Metis; Sonic; Linea; MegaETH; zkSync Era; Arc; Sei; xDai; Berachain; Mantle; Lisk; Cronos; RSK; Fuse; Heco; Manta; Fantom; Polygon zkEVM; Moonbeam; Moonriver; Kava; Saga; Canto; Mode; Celo; Oasis; re.al; Scroll; Aurora; Harmony,0,1,0,1,,https://beefy.com
+209,ICHI,Liquidity Manager,,,,,6496887.94,Base; Ethereum; Binance; Sonic; Celo; Polygon; Linea; Nibiru; Arbitrum; Fantom; Mantle; Scroll; Blast; Op_Bnb; zkSync Era; Kava; Taiko; Zircuit; Mode; RSK; Hemi; Fuse; Horizen EON; Evmos; Flare; Polygon zkEVM,0,1,0,1,,https://www.ichi.org
+210,Lagoon,Onchain Capital Allocator,,2296,104371,,157596115.52,Ethereum; Arbitrum; Base; Avalanche; Binance; Hyperliquid L1; Plasma; TAC; Hemi; Linea; Monad; Rayls; Robinhood Chain; Optimism; Katana; Sonic; Mantle; Arc; Berachain; Polygon; Unichain; World Chain; Flare,0,1,0,1,,https://lagoon.finance
+211,Autofarm,Yield Aggregator,,,,,6196582.49,Binance; Polygon; Cronos; OKExChain; Avalanche; Celo; xDai; Oasis; Fantom; Boba; Aurora; Kucoin; Wanchain; Fuse; Harmony; Heco; Moonbeam; Moonriver; Velas; Evmos,0,1,0,1,,
+212,Pell Network,Restaking,,,,,182217.25,Bitlayer; Binance; BOB; CORE; BSquared; Merlin; Ethereum; RSK; IoTeX; Arbitrum; Mantle; AILayer; ZetaChain; Hemi; Goat; HashKey Chain; BEVM; Plume Mainnet; Scroll; Base,0,1,0,1,,https://pell.network/
+213,ACryptoS,Liquidity Manager,,,,,10532853.62,Binance; Arbitrum; Avalanche; Base; Astar; Linea; Ethereum; Optimism; Cronos; xDai; Polygon; Fantom; Moonbeam; Moonriver; Kava; Canto; Harmony,0,1,0,1,,https://www.acryptos.com/
+214,LayerBank,Lending,,,,,3635834.85,RSK; Robinhood Chain; BOB; Plume Mainnet; Manta; BSquared; Taiko; Morph; Hemi; Scroll; Bitlayer; Nibiru; zkLink; Linea; Binance; Mode; Mint,0,1,0,1,,https://layerbank.finance
+215,Sumer.money,Lending,,0,566.61,,808655.8,Berachain; Meter; Goat; Base; Arbitrum; CORE; Binance; Ethereum; Monad; Hemi; Bitlayer; zkLink; BSquared,0,1,0,1,,
+216,Upshift,Onchain Capital Allocator,,70921,2032617,,375685157.22,Ethereum; Flare; Monad; Fluent; Hyperliquid L1; Base; Citrea; Avalanche; Plasma; Binance; Mezo; Ink,0,1,0,1,,https://app.upshift.finance
+217,Renzo,Liquid Restaking,,7.34,213865.09,,109615316.97,Ethereum; Linea; Arbitrum; Zircuit; Mode; Base; Optimism; Blast; Fraxtal; Binance; Monad; Sei,0,1,0,1,,https://app.renzoprotocol.com/restake
+218,Pickle,Yield Aggregator,,,,,4789498.88,Ethereum; Polygon; Optimism; Aurora; Arbitrum; Metis; OKExChain; Cronos; Moonriver; Harmony; Moonbeam; Kava,0,1,0,1,,https://pickle.finance/
+219,Mitosis,Onchain Capital Allocator,,,,,1317239.58,Binance; Linea; Arbitrum; Ethereum; Morph; Base; Optimism; Manta; Scroll; Blast; Mantle; Mode,0,1,0,1,,https://mitosis.org
+220,WePiggy,Lending,,,,,691127.23,Ethereum; Arbitrum; Optimism; Binance; Polygon; Aurora; Oasis; OKExChain; Heco; Moonriver; Harmony; Moonbeam,0,1,0,1,,https://www.wepiggy.com/
+221,BIM Yield,Yield Aggregator,BIM,180,4836.59,,50173.85,Base; Polygon; Optimism; Plasma; Binance; Sonic; Fraxtal; Hyperliquid L1; Arbitrum; Avalanche; xDai; Ethereum,0,1,0,1,,https://exchange.bim.finance/
+222,PWN,Lending,,,,,21852.4,Polygon; Ethereum; Arbitrum; Unichain; Base; Optimism; xDai; Cronos; Linea; Binance; World Chain; Mantle,0,1,0,1,,https://pwn.xyz
+223,Gearbox,Lending,,128,5193,,23518288.17,Ethereum; Etherlink; Monad; Plasma; Hemi; Arbitrum; Optimism; Somnia; Sonic; Lisk; Binance,0,1,0,1,,https://gearbox.finance/
+224,ZeroLend Lending,Lending,ZeroLend,4183,4827.84,,1291055.45,zkSync Era; Blast; Abstract; Manta; Linea; X Layer; Hemi; Base; Zircuit; Ethereum; Corn,0,1,0,1,,https://zerolend.xyz/
+225,Stake DAO Yield,Yield,Stake DAO,505,73189,,149206489.71,Ethereum; Base; Fraxtal; Arbitrum; Polygon; Optimism; Avalanche; Sonic; Linea; xDai,0,1,0,1,,https://stakedao.org/
+226,Equilibria,Yield,,,,,11970492.92,Ethereum; Binance; Arbitrum; Base; Sonic; Mantle; Hyperliquid L1; Plasma; Berachain; Optimism,0,1,0,1,,https://equilibria.fi/home
+227,Clovis,Yield Aggregator,,,,,227186.01,Sei; Arbitrum; Base; Binance; Ethereum; Optimism; Avalanche; Polygon; Hyperliquid L1; Swellchain,0,1,0,1,,https://clovis.network/
+228,TermMax,Lending,,0,17.46,,11074926.93,Ethereum; Berachain; Binance; Robinhood Chain; X Layer; Arbitrum; Base; Hyperliquid L1; BSquared,0,1,0,1,,https://ts.finance/termmax/
+229,Aura,Yield,,0,0,,9761152.03,Ethereum; Base; Arbitrum; Optimism; Polygon; xDai; Polygon zkEVM; Avalanche; Fraxtal,0,1,0,1,,https://aura.finance
+230,WOOFi Earn,Yield,WOOFi,,,,3967813.68,Arbitrum; Optimism; Base; Binance; Avalanche; Polygon; Mantle; zkSync Era; Fantom,0,1,0,1,,https://fi.woo.org/earn
+231,Saffron Vaults,Yield,Saffron Finance,,,,2404308.31,Ethereum; Robinhood Chain; Arbitrum; Base; Binance; X Layer; Monad; Optimism; xDai,0,1,0,1,,https://saffron.finance
+232,Tempest Finance,Liquidity Manager,,,,,17670.48,Scroll; Ethereum; Optimism; Binance; Manta; Canto; Base; Arbitrum; Swellchain,0,1,0,1,,https://www.tempestfinance.xyz/
+233,Spark Liquidity Layer,Onchain Capital Allocator,Spark,446130,12467233,,2745646437.16,Ethereum; Base; Arbitrum; Optimism; Unichain; Avalanche; Robinhood Chain; X Layer,0,1,0,1,,https://spark.finance/
+234,Venus Core Pool,Lending,Venus,30348,1292208,,1182606630.91,Binance; Ethereum; Arbitrum; zkSync Era; Base; Unichain; Optimism; Op_Bnb,0,1,0,1,,https://app.venus.io/#/core-pool
+235,Accountable,Uncollateralized Lending,,72686,2086220,,1110613.29,Arbitrum; Monad; Ethereum; Robinhood Chain; Pharos; Citrea; Base; Binance,0,1,0,1,fees/TVL looks off,https://accountable.capital/
+236,dForce Lending,Lending,dForce,,,,1024621.51,Ethereum; Binance; Optimism; Arbitrum; Polygon; Avalanche; Kava; Conflux,0,1,0,1,,https://dforce.network/
+237,Hundred Finance,Lending,,,,,70916.79,Arbitrum; Fantom; Polygon; xDai; Optimism; Ethereum; Harmony; Moonriver,0,1,0,1,,
+238,CougarSwap,Yield,,,,,43778.66,Cronos; Binance; Avalanche; Polygon; Fantom; Arbitrum; Harmony; Moonbeam,0,1,0,1,,
+239,Teahouse Permissionless,Liquidity Manager,Teahouse Finance,,,,17505.67,Optimism; Arbitrum; Boba; Polygon; Linea; Mantle; Scroll; Binance,0,1,0,1,,https://vault.teahouse.finance
+240,Solv Basis Trading,Basis Trading,Solv Protocol,,,,203337512.54,Binance; Arbitrum; Ethereum; Mantle; Polygon; Merlin; Soneium,0,1,0,1,,https://solv.finance/
+241,D2 Finance,Onchain Capital Allocator,,0,355317,,23573004.08,Hyperliquid L1; Arbitrum; Base; Ethereum; Robinhood Chain; Berachain; Optimism,0,1,0,1,,https://d2.finance/strategies
+242,Unitus,Lending,dForce,,,,6325441.66,Conflux; Ethereum; Binance; Arbitrum; Polygon; Optimism; Base,0,1,0,1,,https://unitus.finance/
+243,VaultCraft,Yield,,0,0,,545052.24,Arbitrum; Ethereum; Polygon; Optimism; Base; Binance; Hemi,0,1,0,1,,https://vaultcraft.io/
+244,YieldWolf,Yield,,,,,63282.27,Avalanche; Cronos; Binance; Fantom; Polygon; Celo; Harmony,0,1,0,1,,
+245,AUTOfinance,Yield,,3957,97173,,38547973.27,Ethereum; Base; Arbitrum; Sonic; Plasma; Monad,0,1,0,1,,https://www.auto.finance
+246,EZManager,Liquidity Manager,,,,,529640.33,Base; Robinhood Chain; Hyperliquid L1; Ethereum; Binance; Arbitrum,0,1,0,1,,https://ezmanager.finance
+247,Teahouse Managed,Yield Aggregator,Teahouse Finance,,,,315677.64,Ethereum; Arbitrum; Sei; Optimism; Polygon; Binance,0,1,0,1,,https://vault.teahouse.finance
+248,Segment Finance,Lending,,20,1332.1,,292284.11,BOB; Binance; BSquared; Op_Bnb; CORE; RSK,0,1,0,1,,https://segment.finance
+249,Fluid Lending,Lending,Fluid,89711,3303307,,669194919.81,Ethereum; Arbitrum; Plasma; Base; Polygon,0,1,0,1,,https://www.fluid.io/
+250,Mellow Core,Onchain Capital Allocator,Mellow Protocol,,,,255647923.36,Ethereum; RSK; Robinhood Chain; Mezo; Monad,0,1,0,1,,https://app.mellow.finance/vaults
+251,Vesper,Yield Aggregator,,270,2960.67,,86415808.72,Ethereum; Base; Optimism; Polygon; Avalanche,0,1,0,1,,https://vesper.finance/
+252,Ankr,Liquid Staking,,2526,114708,,28493391.18,Ethereum; Binance; Avalanche; Fantom; xDai,0,1,0,1,,https://www.ankr.com/
+253,Harvest Finance,Yield Aggregator,,,,,20226790.36,Base; Ethereum; Arbitrum; Polygon; zkSync Era,0,1,0,1,,https://harvest.finance/
+254,TermFinance Lend,Lending,TermFinance,,,,3539276.47,Ethereum; Arbitrum; Plasma; Base; Avalanche,0,1,0,1,,https://term.finance
+255,Odyssey Finance,Yield Aggregator,,0,267.52,,2604763.75,Ethereum; Base; Plasma; Optimism; Robinhood Chain,0,1,0,1,,https://app.odyssey.finance/en
+256,The Moats,Staking Pool,,,,,1395180.32,Avalanche; Robinhood Chain; Monad; Binance; Base,0,1,0,1,,https://moats.app/
+257,Idle,Yield Aggregator,Pareto,8.62,1470.88,,623971.77,Ethereum; Optimism; Polygon; Polygon zkEVM; Arbitrum,0,1,0,1,,https://idle.finance
+258,Tetu Earn,Yield,Tetu,,,,487573.81,Polygon; Binance; Base; Ethereum; Fantom,0,1,0,1,,http://tetu.io
+259,Secured Finance Lending,Lending,Secured Finance,,,1.48,234060.86,Ethereum; Filecoin; Arbitrum; Avalanche; Polygon zkEVM,0,1,0,1,,https://secured.finance
+260,EZMoney,Liquidity Manager,,,,,208388.13,Robinhood Chain; Base; Hyperliquid L1; Binance; Arbitrum,0,1,0,1,,https://ezmoney.finance
+261,CREAM Lending,Lending,CREAM Finance,,,,144137.16,Binance; Polygon; Arbitrum; Ethereum; Base,0,1,0,1,,https://cream.finance/
+262,ParaSpace Lending V1,Lending,,,,,142358.88,Ethereum; Arbitrum; Polygon; zkSync Era; Moonbeam,0,1,0,1,,https://parallel.fi/
+263,Aloe,Lending,,,,,73796.89,Arbitrum; Optimism; Base; Linea; Ethereum,0,1,0,1,,
+264,Mushrooms Finance,Yield Aggregator,,,,,31962.02,Avalanche; Ethereum; Polygon; Binance; Fantom,0,1,0,1,,
+265,Ember Protocol,Onchain Capital Allocator,,26835,656300,,106959683.18,Ethereum; Base; Pharos; Monad,0,1,0,1,,https://ember.so/
+266,Noon,Yield,,7821,255947,,37118424.04,Ethereum; Sophon; zkSync Era; TAC,0,1,0,1,,https://app.noon.capital
+267,Veno Finance,Liquid Staking,,2002,68042,,34118573.68,Cronos; Ethereum; Cronos zkEVM; zkSync Era,0,1,0,1,,https://veno.finance/
+268,Nucleus,Yield Aggregator,,,,,7606944.89,Plume Mainnet; Ethereum; Arbitrum; Swellchain,0,1,0,1,,
+269,Harmonix Finance,Yield,,,,,6454260.75,Hyperliquid L1; Arbitrum; Ethereum; Base,0,1,0,1,,https://app.harmonix.fi
+270,Wing Finance,Lending,,1.42,37.32,,5216371.35,Ethereum; Binance; OKExChain; OntologyEVM,0,1,0,1,,https://wing.finance
+271,Varlamore Capital,Risk Curators,,0.56,14.52,,1860209.11,Sonic; Ethereum; Avalanche; Arbitrum,0,1,0,1,,https://varlamore.capital/
+272,Cyclone,Yield,,,,,1382276.97,Ethereum; Binance; IoTeX; Polygon,0,1,0,1,,https://cyclone.xyz
+273,Reaper Farm,Yield Aggregator,Cod3x,,,,1376847.57,Optimism; Fantom; Binance; Arbitrum,0,1,0,1,,
+274,Kine Finance,Yield,,,,,1165024.2,Ethereum; Binance; Polygon; Avalanche,0,1,0,1,,
+275,HyperWave,Yield,,8.58,1318.2,,973961.19,Hyperliquid L1; Base; Ethereum; Arbitrum,0,1,0,1,,https://app.hyperwavefi.xyz
+276,Solo Top,Yield,,,,,940924.77,Binance; Polygon; OKExChain; Heco,0,1,0,1,,
+277,xToken,Liquidity Manager,,,,,814341.14,Ethereum; Optimism; Arbitrum; Polygon,0,1,0,1,,
+278,88mph,Lending,,,,,404445.32,Ethereum; Fantom; Avalanche; Polygon,0,1,0,1,,
+279,OnX Finance,Yield Aggregator,,,,,259275.42,Ethereum; Polygon; Fantom; Avalanche,0,1,0,1,,
+280,Aarna Protocol,Yield,,,,,216812.25,Ethereum; Sonic; Arbitrum; Base,0,1,0,1,,https://www.aarna.ai
+281,Iron Bank,Lending,,0.42,139.7,,216617.41,Ethereum; Optimism; Avalanche; Fantom,0,1,0,1,,
+282,Kogefarm,Yield,,,,,165426.58,Polygon; Fantom; Kava; Moonriver,0,1,0,1,,https://kogefarm.io
+283,Adamant Finance,Yield,,,,,164300.79,Polygon; Arbitrum; Cronos; Fraxtal,0,1,0,1,,
+284,Pareto Credit,Uncollateralized Lending,Pareto,,,,145701.67,Ethereum; Polygon; Optimism; Arbitrum,0,1,0,1,,https://pareto.credit/
+285,Antfarm finance,Liquidity Manager,,,,,119815.38,Ethereum; Arbitrum; Avalanche; Polygon zkEVM,0,1,0,1,,https://antfarm.finance
+286,Accumulated Finance Lending,Lending,Accumulated Finance,,,,113256.42,Bitkub; ZetaChain; Sapphire; Velas,0,1,0,1,,https://accumulated.finance/lend
+287,Midas Capital,Lending,,,,,105926.6,Binance; Arbitrum; Polygon; Moonbeam,0,1,0,1,,
+288,Mellow Yield,Yield Aggregator,Mellow Protocol,,,,95127.5,Ethereum; Polygon; Base; Polygon zkEVM,0,1,0,1,,https://mellow.finance
+289,StoneDefi,Yield Aggregator,,,,,71102.06,Binance; Avalanche; Polygon; Ethereum,0,1,0,1,,
+290,Hyperdrive,Yield,DELV,,,,70968.84,Ethereum; Linea; xDai; Base,0,1,0,1,,
+291,Loop,Leveraged Farming,,,,,70080.77,XDC; Ethereum; Binance; Scroll,0,1,0,1,,https://www.loopfi.xyz/
+292,Omni Liquid Staking,Liquid Staking,,,,,67464.6,Astar; Astar zkEVM; Moonbeam; Moonriver,0,1,0,1,,https://omni.ls/
+293,Tranche Finance,Yield,,,,,34713.28,Ethereum; Polygon; Avalanche; Fantom,0,1,0,1,,
+294,Singular Farm,Yield,,,,,22051.9,Binance; Polygon; Avalanche; Fantom,0,1,0,1,,
+295,Bella Protocol,Yield,,,,,19751.32,Ethereum; Manta; Mantle; zkSync Era,0,1,0,1,,
+296,Lido,Liquid Staking,,1614892,51364872,,23328390947.65,Ethereum; Moonriver; Moonbeam,0,1,0,1,,https://lido.fi/
+297,Origami Finance,Leveraged Farming,,1700,16497.06,,55592989.57,Ethereum; Plasma; Berachain,0,1,0,1,,https://origami.finance
+298,Sierra Protocol,Yield,,170,5082,,44859366.0,Avalanche; Ethereum; Plume Mainnet,0,1,0,1,,https://sierra.money/
+299,40 Acres,Lending,,2358,17601,,35906696.83,Base; Optimism; Avalanche,0,1,0,1,,https://www.40acres.finance/
+300,YO Protocol,Yield Aggregator,,1845,56860,,33882368.89,Base; Ethereum; Arbitrum,0,1,0,1,,https://app.yo.xyz
+301,Extra Finance Leverage Farming,Leveraged Farming,Extra Finance,3350,54617,,16126369.0,Base; Optimism; Berachain,0,1,0,1,,https://app.extrafi.io/
+302,Belt Finance,Yield,,,,,13475231.02,Binance; Klaytn; Heco,0,1,0,1,,https://belt.fi/
+303,Exactly,Lending,,4630,83682,,12451635.23,Base; Optimism; Ethereum,0,1,0,1,,https://exact.ly
+304,Snuggle,Liquidity Manager,,33905,1325901,,11980914.86,Robinhood Chain; Base; Arbitrum,0,1,0,1,,https://snuggle.fi/
+305,Flying Tulip Lend,Lending,Flying Tulip,729,17546,,9492531.59,Ethereum; Sonic; Binance,0,1,0,1,,https://flyingtulip.com/lend/
+306,Revert Lend,Lending,Revert,821,19187,,6827352.23,Base; Arbitrum; Ethereum,0,1,0,1,,https://revert.finance/#/ref/w6vno3
+307,Flying Tulip ftUSD,Yield Aggregator,Flying Tulip,78.93,1719.01,,5519961.77,Ethereum; Sonic; Binance,0,1,0,1,,https://flyingtulip.com/
+308,Stride,Liquid Staking,,,42735,,4599751.42,HAQQ; Berachain; Evmos,0,1,0,1,,https://stride.zone/
+309,Ribbon,Options Vault,Ribbon Finance,,,,4097581.0,Ethereum; Avalanche; Binance,0,1,0,1,,https://www.ribbon.finance/
+310,Lair Finance,Liquid Staking,,,,,2702228.25,Klaytn; Somnia; Berachain,0,1,0,1,,https://lair.fi
+311,Parasail,Restaking,,,,,1684519.67,Filecoin; Arbitrum; Swan,0,1,0,1,,https://www.parasail.network/
+312,Filet Finance,Liquid Staking,,,,,1420761.8,Filecoin; Binance; Heco,0,1,0,1,,https://www.filet.finance
+313,Blueberry,Yield,,,,,1245564.45,Monad; Ethereum; Hyperliquid L1,0,1,0,1,,https://app.blueberry.garden
+314,Venus Isolated Pools,Lending,Venus,,,,1019977.32,Binance; Ethereum; Arbitrum,0,1,0,1,,https://app.venus.io/#/isolated-pools/
+315,CIAN Automation,Yield,CIAN Protocol,,,,829927.15,Avalanche; Polygon; Ethereum,0,1,0,1,,https://yieldlayer.cian.app/vaults/0xB13aa2d0345b0439b064f26B82D8dCf3f508775d?chainId=1&utm_source=TPFDZE
+316,Shift Protocol,Onchain Capital Allocator,,140,5204.62,,670493.3,Arbitrum; Ethereum; Base,0,1,0,1,,https://shiftprotocol.xyz
+317,Sherpa,Onchain Capital Allocator,,,,,472750.41,Ethereum; Base; Monad,0,1,0,1,,https://earn.sherpa.trade
+318,Crystl Finance,Yield,,,,,254348.72,Binance; Cronos; Polygon,0,1,0,1,,
+319,UniFarm,Yield,,,,,204685.76,Ethereum; Binance; Polygon,0,1,0,1,,
+320,Wasabix,Yield,,,,,204642.39,Ethereum; Polygon; Binance,0,1,0,1,,
+321,YieldFlow Yield Farming,Liquidity Manager,YieldFlow,,,,186774.32,Arbitrum; Ethereum; Robinhood Chain,0,1,0,1,,https://yieldflow.com
+322,Volmex,Yield,,0,1.46,0,131599.8,Arbitrum; Ethereum; Polygon,0,1,0,1,,https://volmex.finance/
+323,Clip Finance,Liquidity Manager,,,,,84256.51,Linea; Binance; Base,0,1,0,1,,https://www.clip.finance/
+324,Olive Cash,Yield,,,,,82131.65,Binance; Avalanche; Fantom,0,1,0,1,,
+325,HaloDAO,Yield,,,,,61690.36,Polygon; Ethereum; Arbitrum,0,1,0,1,,
+326,Olive,Options Vault,,,,,49699.5,Ethereum; Polygon; Arbitrum,0,1,0,1,,
+327,zkDX,Farm,,,,,36806.35,zkLink; Linea; zkSync Era,0,1,0,1,,
+328,Single Finance,Leveraged Farming,,,,,34466.1,Cronos; Arbitrum; Fantom,0,1,0,1,,https://singlefinance.io
+329,Quantum Pools,Liquidity Manager,,,,,23937.5,Robinhood Chain; Base; Binance,0,1,0,1,,https://quantumpools.io
+330,BarnBridge,Yield Aggregator,,,,,23820.15,Ethereum; Optimism; Arbitrum,0,1,0,1,,
+331,Lucidly Finance,Yield,,,,,19808.15,Base; Ethereum; Arbitrum,0,1,0,1,,https://app.lucidly.finance
+332,Salem Finance,Yield,,,,,15042.83,Polygon; Cronos; Fantom,0,1,0,1,,
+333,VII Finance,Leveraged Farming,,0,0,,10908.7,Monad; Unichain; Ethereum,0,1,0,1,,https://www.vii.finance/
+334,PrimeFi,Lending,,0,4631.59,,1032.59,Hyperliquid L1; Base; XDC,0,1,0,1,,https://primefi.xyz/
+335,Binance staked ETH,Liquid Staking,,613208,19652774,,8990949947.32,Ethereum; Binance,0,1,0,1,,https://www.binance.com/en/wbeth
+336,SparkLend,Lending,Spark,232641,7199162,,5089335954.47,Ethereum; xDai,0,1,0,1,,https://spark.finance/
+337,Lista Lending,Lending,Lista DAO,18758,434785,,976961088.44,Binance; Ethereum,0,1,0,1,,https://lista.org/lending
+338,Zircuit Staking,Farm,,13427,96932,,57139597.17,Ethereum; Zircuit,0,1,0,1,,https://app.zircuit.com/liquidity-hub
+339,Alpaca Leveraged Yield Farming,Leveraged Farming,Alpaca Finance,,,,34684111.64,Binance; Fantom,0,1,0,1,,
+340,YieldNest,Onchain Capital Allocator,,58,2391,,23759106.04,Ethereum; Binance,0,1,0,1,,https://yieldnest.finance/
+341,Agua,Onchain Capital Allocator,,,,,20889603.29,Ethereum; Monad,0,1,0,1,,
+342,Api3,Risk Curators,,3807,113538,,19771542.25,Ethereum; Base,0,1,0,1,,https://api3.org/
+343,XSY,Basis Trading,,,,,12988681.18,Base; Avalanche,0,1,0,1,,https://xsy.fi
+344,Origin ARM,Yield,Origin Protocol,1241,34657,,12729087.93,Ethereum; Sonic,0,1,0,1,,https://www.originprotocol.com/arm
+345,August Digital,Risk Curators,,,,,11705144.65,Monad; Ethereum,0,1,0,1,,https://augustdigital.io/
+346,Stafi,Liquid Staking,,,,,4580975.28,Ethereum; Binance,0,1,0,1,,https://www.stafi.io/
+347,Eigenpie,Liquid Restaking,Magpie Ecosystem,,,,4235514.5,Ethereum; Zircuit,0,1,0,1,,https://www.eigenlayer.magpiexyz.io
+348,Bunny,Yield,,,,,3877580.21,Binance; Polygon,0,1,0,1,,https://pancakebunny.finance/
+349,INIT Capital,Lending,,,,,1902328.48,Mantle; Blast,0,1,0,1,,https://app.init.capital
+350,Gro,Yield,,,,,1780257.38,Ethereum; Avalanche,0,1,0,1,,
+351,DeFIL,Lending,,,,,1758248.87,Ethereum; Binance,0,1,0,1,,
+352,Aegis Markets,Liquidity Manager,,,,,1656742.91,Unichain; Base,0,1,0,1,,https://aegis.markets/
+353,Kintsu,Liquid Staking,,468,19356.86,,1618281.81,Monad; Hyperliquid L1,0,1,0,1,,https://kintsu.xyz/
+354,Zircuit Finance,Yield,,,,,1502353.13,Base; Ethereum,0,1,0,1,,https://finance.zircuit.com/
+355,Extra Finance Xlend,Lending,Extra Finance,318,2342.8,,1345636.87,Base; Optimism,0,1,0,1,,https://xlend.extrafi.io/
+356,Neemo Finance,Liquid Restaking,,,,,1062031.3,Astar; Ethereum,0,1,0,1,,https://neemo.finance/
+357,Rari Capital,Yield Aggregator,,,,,1006060.2,Ethereum; Arbitrum,0,1,0,1,,
+358,GMD Protocol,Yield Aggregator,,,,,988428.74,Arbitrum; Avalanche,0,1,0,1,,
+359,Jones DAO,Yield Aggregator,,,,,976645.8,Arbitrum; Ethereum,0,1,0,1,,https://jonesdao.io
+360,Wompie,Yield,Magpie Ecosystem,0,6.89,,897915.06,Binance; Arbitrum,0,1,0,1,,https://www.magpiexyz.io
+361,Solid Yield,Yield,,78.56,1958.06,,614348.72,Fuse; Ethereum,0,1,0,1,,https://solid.xyz
+362,INFINIT,Onchain Capital Allocator,,,,,545493.74,Arbitrum; Binance,0,1,0,1,,https://infinit.tech/
+363,MoreMarkets.xyz,Yield,,,,,462944.47,Ethereum; Flare,0,1,0,1,,
+364,Artemis Finance,Liquid Staking,,,,,455001.11,Metis; Goat,0,1,0,1,,https://artemisfinance.io/
+365,Demeter,Lending,,,,,285009.49,Binance; Heco,0,1,0,1,,
+366,Almanak,Onchain Capital Allocator,,8.76,815.88,,266423.65,Ethereum; Base,0,1,0,1,,https://almanak.co
+367,Mesher,Lending,,,,,261295.89,Ethereum; Klaytn,0,1,0,1,,https://center.mesher.io
+368,Yield Protocol,Lending,,,,,260204.84,Arbitrum; Ethereum,0,1,0,1,,https://www.yo.xyz/
+369,BTCD,Yield,,,,,251878.25,Ethereum; Arbitrum,0,1,0,1,,https://btcd.fi/
+370,TermFinance Parity,Risk Curators,TermFinance,,,,248501.89,Ethereum; Arbitrum,0,1,0,1,,https://term.finance
+371,Kalax,Yield Aggregator,,,,,149603.84,Blast; Scroll,0,1,0,1,,
+372,Deepr Finance,Lending,,39,230.62,,141621.43,IOTA EVM; ShimmerEVM,0,1,0,1,,https://www.deepr.finance/
+373,PEAKDEFI,Yield,,,,,110201.48,Ethereum; Binance,0,1,0,1,,
+374,Olive Network,Farm,,,,,96476.98,Ethereum; Arbitrum,0,1,0,1,,
+375,SpringX,Yield,,,,,68331.22,Monad; Plasma,0,1,0,1,,https://springx.finance/
+376,SteakHut Liquidity,Liquidity Manager,Steakhut Finance,,,,58035.12,Avalanche; Arbitrum,0,1,0,1,,https://www.steakhut.finance
+377,Affine Restaking,Liquid Restaking,Affine DeFi,,,,56028.96,Ethereum; Linea,0,1,0,1,,https://app.affinedefi.com/restake
+378,Multiplier,Lending,,,,,37661.93,Binance; Ethereum,0,1,0,1,,
+379,Locus Finance,Yield,,,,,34893.34,Arbitrum; Ethereum,0,1,0,1,,
+380,Zona,Lending,,0,0,,33619.58,Robinhood Chain; Pharos,0,1,0,1,,https://www.zona.finance/
+381,Affine DeFi Earn,Yield Aggregator,Affine DeFi,,,,31869.38,Polygon; Ethereum,0,1,0,1,,https://app.affinedefi.com
+382,Waterfall BSC,Yield,Waterfall Finance,,,,31622.14,Binance; Arbitrum,0,1,0,1,,
+383,GoodDollar,Yield,,,,,25347.42,Ethereum; Fuse,0,1,0,1,,https://www.gooddollar.org
+384,Aquarius Loan,Lending,,,,,22533.52,Arbitrum; CORE,0,1,0,1,,
+385,TrueFi,Uncollateralized Lending,,,,,21688.17,Ethereum; Arbitrum,0,1,0,1,,
+386,Gaj Finance,Yield,,,,,21136.54,Avalanche; Polygon,0,1,0,1,,
+387,Waterfall DeFi,Yield Aggregator,,,,,20880.7,Binance; Avalanche,0,1,0,1,,
+388,Qubit,Lending,,,,,16894.77,Binance; Klaytn,0,1,0,1,,https://qbt.fi
+389,Bolide,Yield Aggregator,,,,,15352.24,Binance; Polygon,0,1,0,1,,
+390,Purrlend,Lending,,0,0,,461.93,Hyperliquid L1; MegaETH,0,1,0,1,,
+391,Tea-Fi,Yield,,0,0,0,14.5,Ethereum; Polygon,0,1,0,1,,
+392,EigenCloud,Restaking,,11970,416269,,6205762012.91,Ethereum,0,1,0,1,,https://www.eigencloud.xyz
+393,Ethena USDe,Basis Trading,Ethena,3128889,16652038.24,,4653721889.68,Ethereum,0,1,0,1,,https://www.app.ethena.fi/join/3y20d
+394,Falcon Finance,Basis Trading,,7912,202008,,1720918759.96,Ethereum,0,1,0,1,,https://app.falcon.finance
+395,Kelp,Liquid Restaking,KernelDAO,82330,2206056,,954565016.67,Ethereum,0,1,0,1,,https://kelpdao.xyz/restake/?utm_source=0x798fF1e6D7AFd28c333eE6eBe03125d30ec6eF10
+396,Lista Liquid Staking,Liquid Staking,Lista DAO,11355,507560,,756485544.18,Binance,0,1,0,1,,https://lista.org/
+397,Liquid Collective,Liquid Staking,,45480,1554811,,660526104.47,Ethereum,0,1,0,1,,https://liquidcollective.io
+398,HyperLend Pooled,Lending,HyperLend,10816,791026,,311132873.26,Hyperliquid L1,0,1,0,1,,https://app.hyperlend.finance/?ref=DEFILLAMA
+399,b14g,Restaking,,2859,74905,,263008499.22,CORE,0,1,0,1,,https://www.b14g.xyz/
+400,cap,Lending,,15224,476905,,211027789.54,Ethereum,0,1,0,1,,https://cap.app/
+401,stHYPE,Liquid Staking,Valantis,11064,361743,,172988111.85,Hyperliquid L1,0,1,0,1,,https://app.valantis.xyz
+402,Avant avUSD,Onchain Capital Allocator,Avant Protocol,23495,750193,,120073940.25,Avalanche,0,1,0,1,,https://app.avantprotocol.com/products
+403,Benqi Lending,Lending,Benqi,5340,178030,,110135297.03,Avalanche,0,1,0,1,,https://benqi.fi
+404,Meta Pool Near,Liquid Staking,Meta Pool,,,,105559287.05,Aurora,0,1,0,1,,https://metapool.app
+405,Concentrator,Yield,,3557,7838,,83160126.5,Ethereum,0,1,0,1,,https://concentrator.aladdin.club/
+406,Tori Finance,Basis Trading,,,,,72431524.15,Ethereum,0,1,0,1,,https://tori.finance/
+407,Axis,Basis Trading,,,,,66879071.98,Ethereum,0,1,0,1,,https://axis.to
+408,Resupply,Lending,,6910,126511,,57543047.89,Ethereum,0,1,0,1,,https://resupply.fi/
+409,Kinetiq kmHYPE,Liquid Staking,Kinetiq,,,,38860206.83,Hyperliquid L1,0,1,0,1,,https://markets.xyz
+410,Mantle Restaking,Liquid Restaking,,2910,186919,,38560658.86,Ethereum,0,1,0,1,,https://www.methprotocol.xyz/
+411,Kinetic,Lending,,2499,100378,,33522987.88,Flare,0,1,0,1,,https://kinetic.market
+412,Avant avETH,Onchain Capital Allocator,Avant Protocol,3122,102893,,29305864.37,Ethereum,0,1,0,1,,https://app.avantprotocol.com/?ref=defillama
+413,Swell Liquid Staking,Liquid Staking,Swell,582,57685,,29288854.45,Ethereum,0,1,0,1,,https://app.swellnetwork.io/
+414,Swell Liquid Restaking,Liquid Restaking,Swell,1569672,466891,,29137824.35,Ethereum,0,1,0,1,fees/TVL looks off,https://app.swellnetwork.io/restake
+415,Bedrock uniETH,Liquid Restaking,Bedrock,17,57867.25,,24747385.4,Ethereum,0,1,0,1,,https://bedrock.rockx.com/unieth
+416,Strata Markets,Yield,Strata,31922,232367,,22396977.48,Ethereum,0,1,0,1,,https://strata.markets
+417,Liminal Basis,Basis Trading,Liminal,,,,20826302.59,Hyperliquid L1,0,1,0,1,,https://liminal.money
+418,Tectonic,Lending,,17,1120.66,,20115542.55,Cronos,0,1,0,1,,https://tectonic.finance/
+419,Piku Finance,Basis Trading,,156,76667,,20004008.96,Ethereum,0,1,0,1,,https://piku.co/
+420,StakeStone STONE,Liquid Staking,StakeStone,3221,31708,,18679592.02,Ethereum,0,1,0,1,,https://stakestone.io/
+421,WEMIX.FI Staking,Staking Pool,WEMIX.FI,,,,17379725.64,WEMIX,0,1,0,1,,https://wemix.fi
+422,Sceptre Liquid,Liquid Staking,,,,,13575372.3,Flare,0,1,0,1,,
+423,3Jane Lending,Uncollateralized Lending,3Jane,1754,47186,,11700276.87,Ethereum,0,1,0,1,,https://www.3jane.xyz/
+424,BEND,Lending,,312,13678,,11329193.2,Berachain,0,1,0,1,,https://bend.berachain.com
+425,Kava Lend,Lending,,,,,7883123.47,Kava,0,1,0,1,,https://app.kava.io/lend
+426,CLever,Yield,,0,11381,,7674537.8,Ethereum,0,1,0,1,,https://clever.aladdin.club/
+427,ShMonad,Liquid Staking,,2251,90188,,7615335.92,Monad,0,1,0,1,,https://shmonad.xyz/
+428,Fira,Lending,,0,34143.33,,7439336.2,Ethereum,0,1,0,1,,https://www.fira.money/
+429,Echelon Market,Lending,,2211,67231,,7074350.3,Echelon Chain,0,1,0,1,,https://app.echelon.market/
+430,NUVA,Yield,,,,,6665449.49,Ethereum,0,1,0,1,,https://nuva.finance
+431,Neverland,Lending,,1949,41396,,6501976.24,Monad,0,1,0,1,,https://neverland.money
+432,Looped Hype,Yield,Looping Collective,1019,7182,,6392666.54,Hyperliquid L1,0,1,0,1,,https://www.loopingcollective.org/
+433,cVault Finance,Yield,,,,,6280205.14,Ethereum,0,1,0,1,,
+434,Takara Lend,Lending,,1269,29506,,5687141.72,Sei,0,1,0,1,,https://app.takaralend.com/
+435,STFIL,Liquid Staking,,,,,5410828.29,Filecoin,0,1,0,1,,
+436,Splashing Stake,Liquid Staking,,,,,5380513.69,Sei,0,1,0,1,,https://www.splashing.xyz/
+437,Dinero (pxETH),Liquid Staking,Dinero,0,0,,5180579.02,Ethereum,0,1,0,1,,https://dinero.xyz
+438,HypurrFi Pooled,Lending,HypurrFi,109,4070,,4785860.96,Hyperliquid L1,0,1,0,1,,https://hypurrfi.com/
+439,Tangent Finance,Lending,,1254,37828,,3912291.4,Ethereum,0,1,0,1,,https://app.tangent.finance/
+440,StakeStone Berachain Vault,Onchain Capital Allocator,StakeStone,,,,3325152.45,Ethereum,0,1,0,1,,https://app.stakestone.io/u/vault
+441,TruStake,Liquid Staking,TruYields,,,,3078919.54,Ethereum,0,1,0,1,,https://app.truyields.com
+442,Universe XYZ,Yield,,,,,2730616.22,Ethereum,0,1,0,1,,
+443,RateX DEX,Yield,RateX,,14927.52,0,2478217.7,Binance,0,1,0,1,,https://app.rate-x.io
+444,Swapscanner LSD,Liquid Staking,Swapscanner,,,,2395797.76,Klaytn,0,1,0,1,,https://swapscanner.io/staking
+445,Rank Trading,Yield,,0,0,,2292961.29,Binance,0,1,0,1,,https://rank.trading/
+446,Planet Farm,Yield,Planet,,,,1897884.76,Binance,0,1,0,1,,https://app.planet.finance/
+447,Bedrock uniIOTX,Liquid Staking,Bedrock,1008,1324,,1763680.58,IoTeX,0,1,0,1,,https://app.bedrock.technology/uniiotx
+448,LUSD ChickenBonds,Yield Aggregator,,,,,1496172.58,Ethereum,0,1,0,1,,https://www.chickenbonds.org
+449,Latch,Yield,,,,,1448225.12,Ethereum,0,1,0,1,,https://savings.latch.io/
+450,Swamp Finance,Yield,,,,,1418473.85,Binance,0,1,0,1,,
+451,Wrapped HLP,Yield,Looping Collective,122,3154.75,,1402397.98,Hyperliquid L1,0,1,0,1,,https://www.loopingcollective.org/wrapped-hlp
+452,MineFi,Liquid Staking,,,,,1377690.63,Filecoin,0,1,0,1,,
+453,SHUI,Liquid Staking,,,,,1372299.17,Conflux,0,1,0,1,,https://app.shui.finance
+454,stCELO,Liquid Staking,,,,,1367009.45,Celo,0,1,0,1,,https://stcelo.xyz/
+455,LendFlare,Lending,,,,,1203745.81,Ethereum,0,1,0,1,,
+456,Moola Market,Lending,,,,,1119904.19,Celo,0,1,0,1,,https://moola.market
+457,ForgeYields,Onchain Capital Allocator,,,,,1022201.89,Ethereum,0,1,0,1,,https://app.forgeyields.com
+458,stCYBER,Liquid Staking,,,,,981575.11,Cyber,0,1,0,1,,https://cyber.co/stake
+459,YieldSeeker,Yield Aggregator,,,,,910039.21,Base,0,1,0,1,,https://yieldseeker.xyz
+460,Suzaku,Restaking,,,,,748621.07,Avalanche,0,1,0,1,,https://www.suzaku.network/
+461,Aurigami,Lending,,,,,747708.65,Aurora,0,1,0,1,,https://www.aurigami.finance
+462,Kaskad,Lending,,51,899.76,,731370.3,Robinhood Chain,0,1,0,1,,https://kaskad.app
+463,DELV Yield,Yield,DELV,,,,727328.23,Ethereum,0,1,0,1,,
+464,Nucleon,Liquid Staking,,,,,701547.02,Conflux,0,1,0,1,,https://www.nucleon.space
+465,Smilee Finance gBERA,Liquid Staking,Smilee Finance,,,,672515.23,Berachain,0,1,0,1,,https://smilee.finance/
+466,Hyperdrive HL Lending,Lending,Hyperdrive HL,,,,623499.03,Hyperliquid L1,0,1,0,1,,https://hyperdrive.fi/
+467,DIEM Relay,Liquid Staking,,123,2555,,613296.61,Base,0,1,0,1,,https://diem-relay.com
+468,SakeFinance,Lending,,25,1141,,574919.62,Soneium,0,1,0,1,,https://app.sakefinance.com/
+469,Stella,Leveraged Farming,,,,,555459.8,Arbitrum,0,1,0,1,,https://app.stellaxyz.io/
+470,Zunami Protocol,Yield Aggregator,,,,,546886.96,Ethereum,0,1,0,1,,
+471,yAxis,Yield Aggregator,,,,,533734.95,Ethereum,0,1,0,1,,
+472,Goldilocks,Yield,,,,,525496.85,Berachain,0,1,0,1,,https://www.goldilocksdao.io/
+473,Yield Yak Staked Avax,Liquid Staking,Yield Yak,,,,487570.04,Avalanche,0,1,0,1,,https://yieldyak.com/liquid-staking
+474,Bracket Vaults,Onchain Capital Allocator,Bracket Protocol,29.77,3574.91,,471477.93,Ethereum,0,1,0,1,,https://app.bracket.fi/
+475,YFII,Yield Aggregator,,,,,463452.32,Ethereum,0,1,0,1,,
+476,HashKing,Liquid Staking,,,,,440080.28,Filecoin,0,1,0,1,,https://www.hashking.fi/
+477,Hypha,Liquid Staking,,,,,422492.65,Avalanche,0,1,0,1,,https://www.hypha.sh/
+478,FortiFi,Yield Aggregator,,,,,422064.66,Avalanche,0,1,0,1,,
+479,MochiFi,Lending,,,,,419064.62,Ethereum,0,1,0,1,,
+480,APY Finance,Yield,,,,,413854.29,Ethereum,0,1,0,1,,https://apy.finance
+481,HypurrFi Isolated,Lending,HypurrFi,143,7997.46,,388615.79,Hyperliquid L1,0,1,0,1,,https://hypurrfi.com/
+482,Corn Kernels,Farm,,,,,337913.08,Ethereum,0,1,0,1,,https://usecorn.com/
+483,Goldsand by InshAllah,Liquid Staking,,,,,335276.29,Ethereum,0,1,0,1,,https://goldsand.fi/
+484,RAGE Protocol,Onchain Capital Allocator,,,,,322225.32,Base,0,1,0,1,,https://ultraroundmoney.com/rage
+485,Stratis Liquid Staking,Liquid Staking,,,,,312242.22,Stratis,0,1,0,1,,https://liquid.stratisplatform.com/STRAX/
+486,Cove Boosties,Yield Aggregator,Cove Finance,,,,311969.55,Ethereum,0,1,0,1,,https://www.cove.finance
+487,SteakBank Finance,Liquid Staking,,,,,311185.84,Binance,0,1,0,1,,
+488,Sprinter,Yield,,,,,310924.45,Base,0,1,0,1,,https://sprinter.tech/
+489,sTLOS Liquid Staking,Liquid Staking,,,,,300803.5,Telos,0,1,0,1,,https://www.telos.net/
+490,Euclid Finance,Liquid Restaking,,,,,285954.33,Ethereum,0,1,0,1,,
+491,SeaFi,Yield,,,,,264214.12,Avalanche,0,1,0,1,,https://seafi.app
+492,Altitude.Fi,Lending,,,,,245646.16,Ethereum,0,1,0,1,,
+493,Alcum,Yield,,,,,238718.67,Ethereum,0,1,0,1,,https://alcum.com/
+494,Bracket LST,Liquid Staking,Bracket Protocol,28,365.43,,229838.87,Ethereum,0,1,0,1,,https://app.bracket.fi/
+495,Argo Finance,Liquid Staking,,,,,228669.55,Cronos,0,1,0,1,,
+496,Tizi,Yield Aggregator,,0,1779,,225984.22,Base,0,1,0,1,,https://tizi.money/
+497,Cub Finance,Farm,,,,,221180.69,Binance,0,1,0,1,,
+498,Polycat,Farm,Polycat Finance,,,1654,220966.21,Polygon,0,1,0,1,,
+499,ApeSwap Lending,Lending,ApeBond,,,,218116.0,Binance,0,1,0,1,,https://ape.bond/
+500,TEN Finance,Yield,,,,,212374.38,Binance,0,1,0,1,,https://ten.finance
+501,HyperLend Isolated,Lending,HyperLend,45.95,1803.56,,210342.6,Hyperliquid L1,0,1,0,1,,https://app.hyperlend.finance/?ref=DEFILLAMA
+502,Meta Pool stIP,Liquid Staking,Meta Pool,,,,205535.68,Story,0,1,0,1,,https://main.metapool.app/
+503,SmartCredit,Lending,,,,,203388.7,Ethereum,0,1,0,1,,https://smartcredit.io
+504,Poppie,Lending,,,,,182830.51,Binance,0,1,0,1,,https://poppie.io
+505,Astake,Liquid Staking,,,,,179767.82,Astar,0,1,0,1,,https://www.astake.dev/
+506,Lendle Pooled Markets,Lending,Lendle,323,9643,,174044.55,Mantle,0,1,0,1,,
+507,Sparkswap,Farm,EmpMoney,,,,169801.61,Pulse,0,1,0,1,,
+508,Tender Finance,Lending,,,,,169695.57,Arbitrum,0,1,0,1,,
+509,JetFuel Finance,Yield,,,,,166028.4,Binance,0,1,0,1,,
+510,FilFi,Staking Pool,,,,,163228.44,Filecoin,0,1,0,1,,https://filfi.io
+511,Origin Sonic,Liquid Staking,Origin Protocol,0,0,,147001.66,Sonic,0,1,0,1,,https://www.originprotocol.com
+512,Ruby.Exchange Yield,Yield,Ruby.Exchange,,,,137047.47,Europa,0,1,0,1,,
+513,Morpho Optimizer AaveV2,Lending,Morpho,,,,136303.32,Ethereum,0,1,0,1,,
+514,Metronome V1,Yield,Metronome,,,,132569.72,Ethereum,0,1,0,1,,https://metronome.io/
+515,Fungify,Lending,,,,,130900.67,Ethereum,0,1,0,1,,
+516,Starlay Finance,Lending,,,,,130837.45,Astar,0,1,0,1,,https://starlay.finance
+517,Spice Finance,Yield Aggregator,,,,,128719.16,Ethereum,0,1,0,1,,
+518,ZebraDAO,Lending,,,,,124059.94,Base,0,1,0,1,,
+519,Strata Season 0,Farm,Strata,,,,123842.97,Ethereum,0,1,0,1,,https://strata.markets
+520,Hyperdrive HL Earn,Yield,Hyperdrive HL,,,,121111.23,Hyperliquid L1,0,1,0,1,,https://hyperdrive.fi/
+521,Frgmnt,Yield Aggregator,,,,,121101.79,Base,0,1,0,1,,https://frgmnt.fi/
+522,Button Tranche,Yield,Buttonwood,,,,115993.65,Ethereum,0,1,0,1,,https://app.button.finance/
+523,UntitledBank,Lending,,,,,113613.63,Soneium,0,1,0,1,,https://untitledbank.co/
+524,3Jane Options,Options Vault,3Jane,,,,104711.3,Ethereum,0,1,0,1,,https://www.3jane.xyz/
+525,HYDT Protocol,Yield,,,,,99924.8,Binance,0,1,0,1,,
+526,Layer2 Finance,Yield,,,,,98664.5,Ethereum,0,1,0,1,,https://layer2.finance
+527,Unagii,Yield,,,,,97193.79,Ethereum,0,1,0,1,,
+528,Lixir Finance,Liquidity Manager,,,,,94775.72,Ethereum,0,1,0,1,,
+529,Penguin Finance,Yield,,,,,89790.69,Avalanche,0,1,0,1,,
+530,Mero,Yield,,,,,87761.61,Ethereum,0,1,0,1,,https://mero.finance
+531,Gudchain,Farm,,,,,85431.99,Ethereum,0,1,0,1,,https://gudchain.com/
+532,PolyCub,Yield,,,,,83364.05,Polygon,0,1,0,1,,
+533,Hunny Finance,Yield,,,,,83247.86,Binance,0,1,0,1,,
+534,Autopilot,Yield Aggregator,,,,,77939.63,Base,0,1,0,1,,
+535,Deq,Liquid Staking,,,,,75809.56,Ethereum,0,1,0,1,,https://deq.fi
+536,246Club,Lending,,,,,72763.35,Plasma,0,1,0,1,,https://www.246club.xyz/
+537,TreeDefi,Yield,,,,,70917.57,Binance,0,1,0,1,,https://treedefi.com
+538,Conic Finance,Yield,,,,,62857.11,Ethereum,0,1,0,1,,https://conic.finance
+539,Circuit Protocol,Yield Aggregator,,,,,61694.75,Mantle,0,1,0,1,,https://www.circuit.farm
+540,Restake Finance,Liquid Restaking,,,,,56666.17,Ethereum,0,1,0,1,,
+541,SiO2 Finance,Lending,,,,,53962.47,Astar,0,1,0,1,,
+542,Ribbon Lend,Uncollateralized Lending,Ribbon Finance,,,,52319.54,Ethereum,0,1,0,1,,https://www.ribbon.finance/
+543,Nereus Finance,Lending,,,,,51280.98,Avalanche,0,1,0,1,,https://nereus.finance/
+544,Tetu Swap,Yield,Tetu,,,0,51110.74,Polygon,0,1,0,1,,
+545,Paladin Vote,Lending,Paladin Finance,,,,46294.6,Ethereum,0,1,0,1,,
+546,Zarban,Lending,,131,267.81,,45854.68,Arbitrum,0,1,0,1,,
+547,Vovo Finance,Yield,,,,,42254.12,Arbitrum,0,1,0,1,,https://vovo.finance
+548,ApeRocket,Yield,,,,,42083.27,Binance,0,1,0,1,,
+549,Covenant,Lending,,,,,41908.87,Monad,0,1,0,1,,https://app.covenant.finance
+550,Warp Protocol,Lending,,,,,39252.07,Ethereum,0,1,0,1,,
+551,Liquid Ron,Liquid Staking,,0,0,,39214.17,Ronin,0,1,0,1,,https://www.liquidron.com/
+552,HyperYield,Lending,,0,64.71,,38956.91,Hyperliquid L1,0,1,0,1,,
+553,The Gavel Protocol,Lending,,,,,37102.44,Arbitrum,0,1,0,1,,
+554,BeraPaw,Liquid Staking,,,,,33165.92,Berachain,0,1,0,1,,
+555,VivaLeva Protocol,Leveraged Farming,,,,,32484.18,zkSync Era,0,1,0,1,,
+556,Morpho Optimizer CompoundV2,Lending,Morpho,,,,29666.42,Ethereum,0,1,0,1,,
+557,Sense,Yield,,,,,28635.21,Ethereum,0,1,0,1,,
+558,Mimas Finance,Lending,,,,,27784.17,Cronos,0,1,0,1,,
+559,Alkemi,Lending,,,,,27642.19,Ethereum,0,1,0,1,,https://alkemi.network
+560,Morpho Optimizer AaveV3,Lending,Morpho,,,,27594.86,Ethereum,0,1,0,1,,
+561,Gloop,Lending,,,,,27102.02,Arbitrum,0,1,0,1,,https://gloop.finance/
+562,sKCS,Liquid Staking,,,,,26926.61,Kucoin,0,1,0,1,,https://skcs.io
+563,Onyx Protocol,Lending,Onyx,,,,26720.07,Ethereum,0,1,0,1,,https://app.onyx.org/
+564,Bent Finance,Yield,,,,,26112.64,Ethereum,0,1,0,1,,https://app.bentfinance.com
+565,GrizzlyFi Hives,Yield,Grizzlyfi,,,,25992.99,Binance,0,1,0,1,,
+566,Torches,Lending,,,,,25698.75,Kucoin,0,1,0,1,,https://www.torches.finance/
+567,Float Protocol,Yield,,,,,24670.21,Ethereum,0,1,0,1,,
+568,Poof Cash,Lending,,,,,24546.65,Celo,0,1,0,1,,
+569,Vector Finance,Yield,,,,,24502.09,Avalanche,0,1,0,1,,
+570,dAMM Finance,Uncollateralized Lending,,,,,23955.78,Ethereum,0,1,0,1,,
+571,SandClock,Yield,,,,,23847.79,Ethereum,0,1,0,1,,https://www.sandclock.org
+572,BasisOS,Basis Trading,,63,2.79,,23640.63,Arbitrum,0,1,0,1,,
+573,Doma,Yield,,,,,23555.61,Doma,0,1,0,1,,https://app.doma.xyz
+574,Parallel Staking,Yield,Parallel Super App,,,,22634.0,Ethereum,0,1,0,1,,
+575,Struct Finance,Yield,,,,,22348.99,Avalanche,0,1,0,1,,
+576,Algem,Liquid Staking,,,,,21680.64,Astar,0,1,0,1,,https://www.algem.io
+577,Tonpound,Lending,,,,,20175.2,Ethereum,0,1,0,1,,
+578,Coupon Finance,Lending,,,,,19425.53,Arbitrum,0,1,0,1,,https://www.coupon.finance
+579,Umee,Lending,,,,,19401.78,Ethereum,0,1,0,1,,
+580,ENZO Finance,Lending,,,,,19290.31,Bitlayer,0,1,0,1,,
+581,Aqua Patina,Liquid Restaking,,,,,17904.43,Ethereum,0,1,0,1,,
+582,BooFinance,Yield,,,,,17786.95,Avalanche,0,1,0,1,,
+583,Stake.ly,Liquid Staking,,,,,17634.52,Klaytn,0,1,0,1,,
+584,PolyYeld Finance,Yield,,,,,17478.38,Polygon,0,1,0,1,,
+585,ParaSpace APE Staking V1,Yield,Parallel Super App,,,,17408.96,Ethereum,0,1,0,1,,
+586,Pit Finance,Yield Aggregator,,,,,16753.49,Sei,0,1,0,1,,https://pit.finance
+587,Zoro Protocol,Lending,,,,,16498.45,zkSync Era,0,1,0,1,,
+588,MFinance,Yield,,,,,16158.88,Ethereum,0,1,0,1,,
+589,GenesisLRT (Native Restaking),Liquid Restaking,Inception,,,,15917.99,Ethereum,0,1,0,1,,
+590,Manga FI,Yield,,0,0,,8392.45,Ethereum,0,1,0,1,,
+591,Lodestar Protocol,Lending,,0.55,0,,5610.35,Flare,0,1,0,1,,https://lodestarprotocol.xyz/
+592,MachFi,Lending,,0,0,,3895.81,Sonic,0,1,0,1,,https://www.machfi.xyz/
+593,Strike,Lending,,0,0,,2740.19,Ethereum,0,1,0,1,,
+594,Hover,Lending,,0,0,,2304.02,Kava,0,1,0,1,,
+595,Votre,Lending,,0,0,,1425.07,Base,0,1,0,1,,
+596,kicker,Yield,,0,1361.43,,749.29,Robinhood Chain,0,1,0,1,,
+597,Vault Bridge,Risk Curators,,2708,72648,,175.83,Ethereum,0,1,0,1,,https://www.agglayer.dev/
+598,Velkonix,Lending,,0,0,,158.17,MegaETH,0,1,0,1,,https://velkonix.com
+599,Chedda Finance,Lending,,3.38,159.54,,46.65,Base,0,1,0,1,,
+600,Clearstar,Risk Curators,,14212,400733,,226026470.26,Base; Flare; Ethereum; Monad; Hyperliquid L1; Katana; Arbitrum; Hemi; Unichain; Polygon,0,0,1,1,,https://clearstar.xyz
+601,Curve LlamaLend,Lending,Curve Finance,318,4995.04,52529,73778484.47,Ethereum; Arbitrum; Fraxtal; Optimism,0,0,1,1,,https://www.curve.finance/lend/ethereum/markets/
+602,EtherFi Borrowing Market,Lending,ether.fi,429,14537,,301607086.26,Optimism; Scroll,0,0,1,1,,https://www.ether.fi
+603,Katana Pre-Launch,Farm,,,,,18611990.27,Ethereum,0,0,1,1,,https://app.katana.network/
+604,ZenSats,Yield,,,,,17681.89,Ethereum,0,0,1,1,,https://zensats.app
+605,DeSyn Basis Trading,Basis Trading,DeSyn Protocol,,,,1813383.48,Bitlayer; Arbitrum; Mode; zkLink; CORE; AILayer; Linea; Merlin; Scroll; BSquared; Hemi; Binance; Goat; Plume Mainnet; HashKey Chain,0,0,0,0,,https://www.desyn.io/#/
+606,Gauntlet,Risk Curators,,139501,3879573,,1631256693.93,Base; Binance; Ethereum; Arbitrum; Morph; Stable; Hyperliquid L1; Polygon; Optimism; Unichain; Katana; Arc; Tempo,0,0,0,0,,https://www.gauntlet.xyz
+607,Tarot,Lending,,,0,,606338.17,Base; Optimism; Fantom; Binance; Avalanche; Linea; Arbitrum; Kava; zkSync Era; Scroll; Ethereum; Polygon; Canto,0,0,0,0,,https://www.tarot.to
+608,UltraYield Curator,Risk Curators,UltraYield,0,37.32,,49902537.25,Ethereum; Hyperliquid L1; Etherlink; Base; Monad; Plasma; Plume Mainnet; TAC; Linea; Arbitrum; Optimism,0,0,0,0,,https://ultrayield.app/
+609,MEV Capital,Risk Curators,,923,128868,,10178878.36,Ethereum; Hyperliquid L1; Base; Avalanche; Arbitrum; Unichain; Sonic; Polygon; Plume; Berachain; Binance,0,0,0,0,,https://mevcapital.com
+610,Steakhouse Financial,Risk Curators,,225145,7574233,,2566400320.69,Base; Ethereum; Robinhood Chain; Arbitrum; Monad; Katana; Arc; Polygon; Unichain; Corn,0,0,0,0,,https://www.steakhouse.financial/
+611,KPK,Risk Curators,,6979,186451,,221032333.95,Ethereum; xDai; Base; Arbitrum; Robinhood Chain; Binance; Arc; Optimism; Polygon; Avalanche,0,0,0,0,,https://kpk.io/
+612,Accumulated Finance Liquid Staking,Liquid Staking,Accumulated Finance,,,,777451.63,Sapphire; Bitkub; ZetaChain; Ethereum; Manta; Arbitrum; Sei; Binance; Velas; Artela,0,0,0,0,,https://accumulated.finance/stake
+613,RockawayX,Risk Curators,,25119,827154,,277740924.4,Ethereum; Monad; Pharos; Sei; Base; Binance; Citrea; Etherlink; Plume Mainnet,0,0,0,0,,https://rockawayx.com/
+614,Hyperithm,Risk Curators,,15121,393272,,260626066.7,Monad; Ethereum; Arbitrum; Plasma; Hyperliquid L1; Katana; Stable; XRPL EVM; Binance,0,0,0,0,,https://www.hyperithm.com
+615,K3 Capital,Risk Curators,,28121,835142,,225284821.6,Monad; Ethereum; Optimism; Arbitrum; Hyperliquid L1; Plasma; Binance; Unichain; Avalanche,0,0,0,0,,https://k3.capital
+616,Penpie,Yield,Magpie Ecosystem,0,630.16,,6567949.31,Arbitrum; Ethereum; Hyperliquid L1; Binance; Sonic; Optimism; Base; Plasma; Berachain,0,0,0,0,,https://www.pendle.magpiexyz.io/stake
+617,Teller,Lending,,,,,945595.64,Base; Ethereum; Arbitrum; ApeChain; Katana; XDC; Hyperliquid L1; Polygon; Binance,0,0,0,0,,
+618,Spark Savings,Yield,Spark,,,,1619023812.07,Ethereum; Arbitrum; X Layer; Robinhood Chain; Base; Optimism; Avalanche; Unichain,0,0,0,0,,https://spark.finance/
+619,Tulipa Capital,Risk Curators,,36.31,914.81,,61573204.34,Ethereum; Base; Berachain; Avalanche; BOB; Binance; Monad; TAC,0,0,0,0,,https://www.tulipa.capital
+620,TheDeep,Liquidity Manager,,,,,4565873.41,Base; Celo; Binance; Ink; Katana; Polygon; Botanix; Hemi,0,0,0,0,,https://app.thedeep.ink/
+621,Guru Network Classic,Yield,Guru Network DAO,,,,1723291.39,Binance; Sonic; Fantom; Arbitrum; Kucoin; Polygon; Avalanche; Metis,0,0,0,0,,
+622,Ample,Yield Lottery,,,,,337056.83,Base; Arbitrum; Hyperliquid L1; Binance; Robinhood Chain; Katana; Monad; Ethereum,0,0,0,0,,https://ample.money/
+623,Granary Finance,Lending,,,,,169900.57,Optimism; Metis; Arbitrum; Binance; Avalanche; Fantom; Ethereum; Base,0,0,0,0,,
+624,dexVAULTS,Yield,DexFi,,,,14678.67,Base; Pulse; Manta; Arbitrum; Optimism; Binance; Avalanche; Fantom,0,0,0,0,,https://dexfi.com/
+625,CIAN Yield Layer,Yield Aggregator,CIAN Protocol,23389,692401,,317530908.08,Ethereum; Mantle; Arbitrum; Optimism; Base; Binance; Scroll,0,0,0,0,,https://yieldlayer.cian.app/vaults/0xB13aa2d0345b0439b064f26B82D8dCf3f508775d?chainId=1&utm_source=TPFDZE
+626,BitFi Basis,Basis Trading,BitFi,4.74,569.69,,256904902.04,Binance; Ethereum; Base; Pharos; Hemi; Bitlayer; CORE,0,0,0,0,,https://www.bitfi.one
+627,Native Credit Pool,Lending,Native,554,16206,,22202964.79,Ethereum; Morph; Binance; Base; Arbitrum; Robinhood Chain; X Layer,0,0,0,0,,https://native.org
+628,OpenGDP Shared Security,Restaking,Karak Protocol,,,,6594256.69,Ethereum; Arbitrum; Mantle; Binance; Blast; Fraxtal; K2,0,0,0,0,,https://opengdp.network/
+629,OmniBTC,Lending,,,,,1991228.19,Arbitrum; Base; Ethereum; Polygon; Optimism; Avalanche; Binance,0,0,0,0,,https://www.omnibtc.finance
+630,Dyson,Liquidity Manager,SPHERE,,,,254140.62,Arbitrum; Polygon; Base; Avalanche; Optimism; Binance; Kava,0,0,0,0,,https://www.dyson.money/
+631,Rigoblock,Onchain Capital Allocator,,,,,50179.48,Hyperliquid L1; Optimism; Ethereum; Arbitrum; Unichain; Base; Binance,0,0,0,0,,https://rigoblock.com
+632,ether.fi Stake,Liquid Staking,ether.fi,287931,10136088,,4561158729.87,Ethereum; Base; Arbitrum; Scroll; Berachain; Optimism,0,0,0,0,,https://www.ether.fi
+633,Gami Labs,Risk Curators,,,,,54656034.99,Ethereum; Base; Flare; Avalanche; Robinhood Chain; Hemi,0,0,0,0,,https://gamilabs.io/
+634,Zoo Finance,Yield,,,,,34223344.89,Binance; Story; Sei; Arbitrum; Base; Berachain,0,0,0,0,,https://zoofi.io
+635,Feather,Risk Curators,,911,25003.91,,9029710.89,Sei; Celo; MegaETH; Polygon; Klaytn; Ethereum,0,0,0,0,,https://app.feather.zone/
+636,TermFinance Vaults,Yield,TermFinance,,,,1659031.44,Avalanche; Ethereum; Plasma; Arbitrum; Binance; Base,0,0,0,0,,https://www.term.finance
+637,AirPuff,Leveraged Farming,,,,,650973.11,Ethereum; Arbitrum; Mode; K2; zkLink; Mantle,0,0,0,0,,https://www.airpuff.io
+638,Krystal Community Vault,Liquidity Manager,Krystal,,,,289700.45,Base; Arbitrum; Polygon; Hyperliquid L1; Binance; Ethereum,0,0,0,0,,https://krystal.app
+639,Avalon USDaLend,Lending,Avalon Labs,,,,93125.42,IoTeX; Sei; Sonic; Zircuit; Taiko; Corn,0,0,0,0,,https://usdalend.avalonfinance.xyz/
+640,KeelLabs,Liquidity Manager,,,,,17646.31,Robinhood Chain; Binance; Hyperliquid L1; Base; Arbitrum; Ethereum,0,0,0,0,,https://keellabs.app
+641,Grove Finance,Onchain Capital Allocator,,35544,2216133,,1408226691.26,Ethereum; Base; Avalanche; Plume Mainnet; Robinhood Chain,0,0,0,0,,https://data.grove.finance/
+642,Lombard Vaults,Onchain Capital Allocator,Lombard,526,74417,,75108681.73,Ethereum; Base; Binance; Sonic; Corn,0,0,0,0,,https://www.lombard.finance/app/stake/?referrer=ssybnl
+643,Solv Strategies,Onchain Capital Allocator,Solv Protocol,,,,63913356.93,Binance; Avalanche; Ethereum; Berachain; BOB,0,0,0,0,,https://solv.finance
+644,Yearn Curating,Risk Curators,Yearn,4422,135581,,53077576.97,Ethereum; Katana; Base; Arbitrum; Hyperliquid L1,0,0,0,0,,https://yearn.fi/
+645,Mellow Restaking,Liquid Restaking,Mellow Protocol,70216,2100751,,23792266.89,Ethereum; Binance; Lisk; Fraxtal; Monad,0,0,0,0,,https://mellow.finance/
+646,alphagrowth,Risk Curators,,13536,387563,,7166941.07,Base; Unichain; Ethereum; Linea; Monad,0,0,0,0,,https://app.euler.finance/governor/alphagrowth?network=unichain
+647,Ledgity Yield,Yield,,,,,2359325.27,Base; Linea; Arbitrum; Ethereum; Sonic,0,0,0,0,,https://ledgity.finance/
+648,MaxShot,Onchain Capital Allocator,dForce,,,,130677.63,Ethereum; Base; Arbitrum; Plasma; Optimism,0,0,0,0,,https://maxshot.ai/
+649,FWB,Yield,,,,,51888.28,Polygon; Binance; Arbitrum; Base; Ethereum,0,0,0,0,,https://finwb.xyz
+650,Quadrat,Liquidity Manager,,,,,18186.43,Polygon; Ethereum; Optimism; Arbitrum; Binance,0,0,0,0,,
+651,SMARDEX P2P Lending,Lending,SMARDEX Ecosystem,0,0,,6044.52,Ethereum; Polygon; Arbitrum; Binance; Base,0,0,0,0,,https://smardex.io
+652,Lazy Summer Protocol,Yield Aggregator,Summer.fi,0.64,1.07,,1265.64,Arbitrum; Ethereum; Base; Sonic; Hyperliquid L1,0,0,0,0,,
+653,9Summits,Risk Curators,,0.03,0.48,,19964764.37,Ethereum; Avalanche; Base; Unichain,0,0,0,0,,https://9summits.io
+654,Yield Yak Aggregator,Yield Aggregator,Yield Yak,0,3106,8208,14511652.04,Avalanche; Arbitrum; Base; Mantle,0,0,0,0,,https://yieldyak.com
+655,Block Analitica,Risk Curators,,0,0,,9309854.46,Base; Ethereum; Arbitrum; Sonic,0,0,0,0,,https://blockanalitica.com/
+656,Capyfi,Lending,,1064,31371,,7099367.74,Ethereum; Base; LaChain Network; World Chain,0,0,0,0,,https://capyfi.com/
+657,StableHodl,Yield,,,,,6359190.34,Polygon; Ethereum; Binance; HeLa,0,0,0,0,,https://stablehodl.com/
+658,Kinza Finance,Lending,,195,3480.09,,2865372.99,Binance; Op_Bnb; Ethereum; Mantle,0,0,0,0,,https://app.kinza.finance
+659,MORE Vaults,Onchain Capital Allocator,MORE,,,,2290462.36,Base; Ethereum; Arbitrum; Avalanche,0,0,0,0,,https://www.more.markets/
+660,ZeroLend Vaults,Risk Curators,ZeroLend,1066,31411,,1839286.66,Ethereum; Berachain; Linea; Sonic,0,0,0,0,,https://zerolend.xyz/
+661,Everything,Lending,,,,,294817.06,Arbitrum; Ethereum; Binance; Base,0,0,0,0,,https://everything.inc/
+662,Union Protocol,Uncollateralized Lending,,,,,265870.66,Optimism; Ethereum; Base; Arbitrum,0,0,0,0,,https://union.finance
+663,Stabil Finance,Yield Aggregator,,,,,33898.13,Base; Cronos; Arbitrum; Hyperliquid L1,0,0,0,0,,https://stabil.finance
+664,Parrot Defi,Farm,,,,,22441.2,IoTeX; Arbitrum; Polygon; Harmony,0,0,0,0,,
+665,SuperReturn,Onchain Capital Allocator,,,,,22139.06,Soneium; Ethereum; Plume Mainnet; Arbitrum,0,0,0,0,,https://www.superreturn.ai/
+666,Sentora Curator,Risk Curators,Sentora,215786,6273162,,2498464940.56,Ethereum; Ink; Tempo,0,0,0,0,,https://sentora.com/
+667,Galaxy Curation,Risk Curators,,9287,205258,,125193122.92,Arc; Ethereum; Base,0,0,0,0,,https://www.galaxy.com/
+668,Y10K Capital,Risk Curators,,,,,34237461.22,Ethereum; Sei; Monad,0,0,0,0,,https://www.y10k.capital/
+669,Mystic Finance Lending,Lending,Mystic Finance,652,27692,,31486521.39,Flare; Citrea; Plume Mainnet,0,0,0,0,,https://www.mysticfinance.xyz/
+670,Neutral Trade,Onchain Capital Allocator,,413,-38074,,23245445.06,Robinhood Chain; Ethereum; Monad,0,0,0,0,,https://www.neutral.trade/
+671,Fraxlend,Lending,Frax Finance,2924,43664.84,,22131669.52,Ethereum; Fraxtal; Arbitrum,0,0,0,0,,https://frax.com/lend
+672,Bitwise,Risk Curators,,,,,18219498.65,Ethereum; Arc; Base,0,0,0,0,,https://app.morpho.org/curator/bitwise
+673,TAU Labs,Risk Curators,,313,11443,,13149946.57,Ethereum; Base; Plasma,0,0,0,0,,https://www.628labs.xyz/
+674,SharpByte Capital,Risk Curators,,,,,11306890.74,Monad; Ethereum; Fluent,0,0,0,0,,https://www.sharpbyte.xyz/
+675,dTRINITY dLEND,Lending,dTRINITY,,,,938773.42,Ethereum; Sonic; Fraxtal,0,0,0,0,,https://app.dtrinity.org/dlend/lending-borrow/
+676,Trevee Earn,Yield Aggregator,,0,0,,918612.39,Sonic; Ethereum; Plasma,0,0,0,0,,https://rings.money/
+677,Blackwing,Farm,,,,,868420.57,Arbitrum; Binance; Ethereum,0,0,0,0,,https://blackwing.fi/
+678,DeTrade,Risk Curators,,,,,812808.22,Base; Ethereum; Monad,0,0,0,0,,
+679,Turtle Club,Onchain Capital Allocator,,,,,685485.19,Ethereum; Avalanche; Linea,0,0,0,0,,https://app.turtle.xyz/
+680,Apostro,Risk Curators,,290,7979,,208012.16,Ethereum; Base; Binance,0,0,0,0,,https://www.apostro.xyz/
+681,Untangled Vault,Onchain Capital Allocator,Untangled,,,,150105.02,Celo; Polygon; Arbitrum,0,0,0,0,,https://untangled.finance
+682,Invariant Group,Risk Curators,,,,,118579.13,Plasma; Hemi; Ethereum,0,0,0,0,,https://invariant.group/
+683,Cadabra Finance,Yield Aggregator,,,,,91936.86,Sonic; Binance; Arbitrum,0,0,0,0,,
+684,BakerFi,Liquid Staking,,,,,68975.55,Base; Arbitrum; Ethereum,0,0,0,0,,
+685,PearZap,Yield,,,,,33999.97,Binance; Polygon; Fantom,0,0,0,0,,
+686,Relend Network,Risk Curators,,0.2,4.36,,13233.58,Ethereum; Base; Swellchain,0,0,0,0,,
+687,SoneVibe,Lending,,0.03,0.23,11.94,1025.05,Soneium; Binance; Astar,0,0,0,0,,
+688,Nonce Capital,Risk Curators,,,,,595132202.9,Ethereum; Optimism,0,0,0,0,,https://nonce-capital.xyz/
+689,Avalon Superearn,Yield,Avalon Labs,,,,142258109.6,Ethereum; Binance,0,0,0,0,,https://app.avalonfinance.xyz/earn
+690,Frax Ether,Liquid Staking,Frax Finance,56636,247074,,122462653.51,Ethereum; Fraxtal,0,0,0,0,,https://frax.com/
+691,Keyrock,Risk Curators,,6112,91052,,83988202.14,Arc; Ethereum,0,0,0,0,,https://keyrock.com/
+692,Lorenzo sUSD1+,Yield,Lorenzo Protocol,0,2944.82,,79992205.2,Binance; Ethereum,0,0,0,0,,https://lorenzo-protocol.xyz/home
+693,Aegis YUSD,Basis Trading,Aegis,3549,143208,,34359580.53,Ethereum; Binance,0,0,0,0,,https://app.aegis.im
+694,GLIF,Liquid Staking,,3987,112313,,26329512.98,Filecoin; Base,0,0,0,0,,https://glif.io
+695,JUSD Finance,Basis Trading,,,,,24985478.01,Ethereum; Arbitrum,0,0,0,0,,
+696,Telos Consilium,Risk Curators,,690,21315,,16386294.18,Ethereum; Plasma,0,0,0,0,,https://telosc.com/
+697,Morpho Midnight,Lending,Morpho,580,29523.77,,15543037.73,Ethereum; Base,0,0,0,0,,https://app.morpho.org
+698,BounceBit Prime,Basis Trading,,,,,11446167.59,Binance; Ethereum,0,0,0,0,,https://prime.bouncebit.io/
+699,Pangolins,Risk Curators,,,,,9454318.65,Base; Binance,0,0,0,0,,https://pangolins.io/
+700,Moonwell Vaults,Onchain Capital Allocator,Moonwell,519,18637,,8830153.89,Base; Optimism,0,0,0,0,,https://moonwell.fi/vaults
+701,Radpie,Yield,Magpie Ecosystem,0,0,,6995377.05,Arbitrum; Binance,0,0,0,0,,https://www.radiant.magpiexyz.io/stake
+702,DAMM Capital,Risk Curators,,,,,6863214.27,Ethereum; Arbitrum,0,0,0,0,,https://dammcap.finance/
+703,Beets LST,Liquid Staking,Beets,747,19639,,5440378.03,Sonic; Fantom,0,0,0,0,,https://beets.fi
+704,Wildcat Protocol,Uncollateralized Lending,,45501,1362840,,3803981.29,Ethereum; Plasma,0,0,0,0,fees/TVL looks off,https://wildcat.finance
+705,AlphaPing,Risk Curators,,64,2366,,2163482.54,Ethereum; Hyperliquid L1,0,0,0,0,,https://alphaping.ch/
+706,Eris Protocol,Liquid Staking,,,,,1964402.39,Nibiru; Sei,0,0,0,0,,https://www.erisprotocol.com
+707,Nerona,Yield Aggregator,,240,38656,,1288423.35,Fluent; Ethereum,0,0,0,0,,https://app.nerona.xyz//
+708,Hyperbeat USD,Lending,Hyperbeat,416,12771,,1240439.51,Hyperliquid L1; Ethereum,0,0,0,0,,https://app.hyperbeat.org
+709,Ouroboros Capital,Risk Curators,,0,0,,1061215.3,Monad; Ethereum,0,0,0,0,,https://yuzu.money/
+710,722 Capital,Risk Curators,,,,,682343.4,Base; Hyperliquid L1,0,0,0,0,,https://722.capital/
+711,Keyring,Risk Curators,,0,0,,663360.73,Ethereum; Avalanche,0,0,0,0,,https://app.euler.finance/governor/keyring?network=avalanche
+712,Splice Finance,Yield,,,,,476053.98,Blast; Mode,0,0,0,0,,
+713,JPEG Trading,Risk Curators,,,,,461793.26,Ethereum; Base,0,0,0,0,,https://www.jpeg-trading.com/
+714,Felix USDhl,Yield,Felix,0,0,,355144.26,Hyperliquid L1; Ethereum,0,0,0,0,,https://www.usefelix.xyz?ref=4BF702FF
+715,StonkBrokers Smart LP,Liquidity Manager,StonkBrokers,1055,34776,,276234.26,Robinhood Chain; Arbitrum,0,0,0,0,,https://www.stonkbrokers.cash
+716,ReactorFusion,Lending,,,,,271179.97,zkSync Era; Telos,0,0,0,0,,
+717,UniPower,Yield,,,,,256806.77,Ethereum; Polygon,0,0,0,0,,https://unipower.network
+718,FILLiquid,Liquid Staking,,,,,247733.92,Filecoin; Binance,0,0,0,0,,https://dapp.filliquid.io
+719,Credit Coop,Uncollateralized Lending,,,,,204551.26,Ethereum; Base,0,0,0,0,,https://www.creditcoop.xyz/
+720,StratEx,Yield Aggregator,,23,0,,196090.13,Base; Flare,0,0,0,0,,https://www.stratex.finance/
+721,Liquid Driver,Yield,,,,,184977.34,Fantom; Binance,0,0,0,0,,
+722,Rift Finance,Yield,,,,,183212.18,Aurora; Ethereum,0,0,0,0,,
+723,ScrubVault,Basis Trading,Scrub Money,,,,163226.48,Kava; Arbitrum,0,0,0,0,,https://invest.scrub.money/
+724,Arkonix,Onchain Capital Allocator,,,,,156207.7,Ethereum; Arbitrum,0,0,0,0,,https://arkonix.xyz
+725,Ripe Protocol,Lending,,,,,153961.08,Robinhood Chain; Base,0,0,0,0,,https://www.ripe.finance/
+726,B.Protocol Curator,Risk Curators,,515,18638,,131213.5,Ethereum; Base,0,0,0,0,,https://dashboard.bprotocol.org
+727,Ditto Earn,Yield Aggregator,Ditto Network,,,,104169.09,Ethereum; Mezo,0,0,0,0,,https://dittonetwork.io
+728,Qualia,Risk Curators,,,,,87840.53,Hyperliquid L1; Monad,0,0,0,0,,https://kintsu.xyz/blog/introducing-supermon-kintsu-s-automated-yield-engine-built-for-monad
+729,Sonne Finance,Lending,,0.41,189.47,,57127.44,Base; Optimism,0,0,0,0,,https://sonne.finance
+730,Zearn Protocol,Liquid Staking,,,,,57057.32,Bitlayer; ZetaChain,0,0,0,0,,https://zearn.xyz/
+731,ARMSys,Yield,,99.81,734.37,,54355.8,Robinhood Chain; Base,0,0,0,0,,https://armsys.xyz
+732,EXIT10,Yield Aggregator,,,,,43683.63,Ethereum; Arbitrum,0,0,0,0,,
+733,Moonpot,Yield,,,,,43447.07,Binance; Fantom,0,0,0,0,,
+734,Kryptonite,Liquid Staking,,,,,40452.85,Sei; Nibiru,0,0,0,0,,https://app.kryptonite.finance/home
+735,Magic Land,Yield,,,,,36231.24,Arbitrum; IoTeX,0,0,0,0,,
+736,Enclabs,Lending,,,,,31608.96,Sonic; Plasma,0,0,0,0,,https://www.enclabs.finance/
+737,Bao Masterchef V1,Farm,BAO Finance,,,,30191.15,xDai; Ethereum,0,0,0,0,,https://baofinance.io/
+738,Alterscope,Risk Curators,,10,273.81,,28397.67,Base; Ethereum,0,0,0,0,,https://www.alterscope.org/
+739,Mover,Yield,,,,,27703.3,Ethereum; Polygon,0,0,0,0,,
+740,TownSquare Loop Vaults,Leveraged Farming,TownSquare,,,,26627.79,Monad; Base,0,0,0,0,,https://app.townsq.xyz/
+741,AI Hedge,Yield Aggregator,,,,,24650.29,Ethereum; Base,0,0,0,0,,https://aihedge.finance
+742,Peridot,Lending,,,,,20395.5,Monad; Binance,0,0,0,0,,https://peridot.finance/
+743,Avantgarde,Risk Curators,,0,0,,194.56,Base; Ethereum,0,0,0,0,,https://app.morpho.org/ethereum/curator/avantgarde
+744,Xpert,Lending,,0,0,,1.11,Ink; Base,0,0,0,0,,
+745,SSV Network,Staking Pool,,9668,307235,,12580212152.27,Ethereum,0,0,0,0,,https://ssv.network/
+746,Hyperliquid Earn,Lending,Hyperliquid,,,,1442727078.94,Hyperliquid L1,0,0,0,0,,https://app.hyperliquid.xyz/earn
+747,Obol,Staking Pool,,5896,39539,,1004307420.64,Ethereum,0,0,0,0,,https://obol.org/
+748,Kinetiq kHYPE,Liquid Staking,Kinetiq,47510,1741019,,831393578.69,Hyperliquid L1,0,0,0,0,,https://kinetiq.xyz/stake
+749,mETH Protocol,Liquid Staking,,34291,1133985,,563551885.78,Ethereum,0,0,0,0,,https://www.methprotocol.xyz/
+750,Coinbase Wrapped Staked ETH,Liquid Staking,,79970,2435777,,474015528.06,Ethereum,0,0,0,0,,https://www.coinbase.com/price/coinbase-wrapped-staked-eth
+751,ether.fi Liquid,Onchain Capital Allocator,ether.fi,998,86442,,397323061.29,Ethereum,0,0,0,0,,https://www.ether.fi
+752,Cooler Loans,Lending,,3671,53468,,231969547.74,Ethereum,0,0,0,0,,https://app.olympusdao.finance/#/lending/cooler
+753,Fluid Lite,Yield Aggregator,Fluid,4820,142707,,210468131.65,Ethereum,0,0,0,0,,https://www.fluid.io/
+754,Armitage by Wintermute,Risk Curators,,17903,531796,,130915721.62,Ethereum,0,0,0,0,,https://armitage.wintermute.com
+755,Tydro,Lending,,10167,304714,,127735531.28,Ink,0,0,0,0,,https://tydro.com/
+756,Sky Money,Risk Curators,Sky,5701,197900,,111949629.26,Ethereum,0,0,0,0,,https://app.sky.money/?network=ethereum&widget=vaults
+757,Aster USDF,Basis Trading,Aster,,,,111241861.19,Binance,0,0,0,0,,https://www.asterdex.com/en/usdf
+758,stake.link liquid,Liquid Staking,stake.link,347,539715,,87244883.2,Ethereum,0,0,0,0,,https://stake.link/staking-pools
+759,AILayer farm,Farm,,,,,84956052.41,zkLink,0,0,0,0,,https://ailayer.xyz/
+760,Wise Token,Yield,,0.89,1125.99,296,68505318.01,Ethereum,0,0,0,0,,https://app.wisetoken.com/
+761,Aster asBNB,Yield,Aster,,,,63007477.22,Binance,0,0,0,0,,https://www.asterdex.com/en/earn
+762,NEOPIN Staking,Staking Pool,NEOPIN,,,,51148216.25,Klaytn,0,0,0,0,,https://app.neopin.io/staking
+763,Flux Finance,Lending,,7051,145947,,43653596.79,Ethereum,0,0,0,0,,https://fluxfinance.com
+764,3F,Leveraged Farming,,361,4539.49,,42311196.85,Ethereum,0,0,0,0,,https://www.3f.xyz/
+765,sDAI,Yield,,5172,156311,,41144171.95,xDai,0,0,0,0,,
+766,Kinetiq Earn,Yield Aggregator,Kinetiq,2411,-81057,,35585042.0,Hyperliquid L1,0,0,0,0,,https://kinetiq.xyz/stake-hype#kinetiq-earn
+767,Buzz Farming,Farm,,,,,34228420.92,BSquared,0,0,0,0,,https://buzz.bsquared.network/farming
+768,Felix Vaults,Onchain Capital Allocator,Felix,1918,81516,,32828758.45,Hyperliquid L1,0,0,0,0,,https://www.usefelix.xyz?ref=4BF702FF
+769,Plasma Saving Vaults,Onchain Capital Allocator,,3027,103970,,31827696.06,Plasma,0,0,0,0,,https://app.plasma.to/
+770,Flowdesk,Risk Curators,,,,,30846541.0,Ethereum,0,0,0,0,,https://www.flowdesk.co/
+771,Crypto.com Liquid Staking,Liquid Staking,,3318,55919.92,,29536487.29,Cronos,0,0,0,0,,https://crypto.com/staking
+772,Puffer Stake,Liquid Restaking,Puffer Finance,0.06,49408.61,,27390574.76,Ethereum,0,0,0,0,,https://www.puffer.fi/restake
+773,Manta CeDeFi,Basis Trading,,,,,26811743.63,Manta,0,0,0,0,,https://cedefi.manta.network
+774,Meta Pool ETH,Liquid Staking,Meta Pool,288,9361,,25359203.57,Ethereum,0,0,0,0,,https://metapool.app
+775,Gain,Onchain Capital Allocator,KernelDAO,,,,24833601.25,Ethereum,0,0,0,0,,https://kelpdao.xyz/restake/?utm_source=0x798fF1e6D7AFd28c333eE6eBe03125d30ec6eF10
+776,UltraYield Vaults,Onchain Capital Allocator,UltraYield,3047,86859,,23958851.6,Ethereum,0,0,0,0,,https://ultrayield.app/
+777,Waterline,Risk Curators,,,,,23944057.15,Ethereum,0,0,0,0,,https://www.waterline.build
+778,RockSolid Network,Yield,,1265,30757,,23151667.6,Ethereum,0,0,0,0,,https://rocksolid.network/
+779,RNT Lend,Lending,Reental,,,,21396426.78,Polygon,0,0,0,0,,https://app.reental.co/
+780,Hakutora,Risk Curators,,1984,66645,,20460972.95,Ethereum,0,0,0,0,,https://hakutora.xyz
+781,Hyperbeat Earn,Yield Aggregator,Hyperbeat,612,153827,,18873737.41,Hyperliquid L1,0,0,0,0,,https://app.hyperbeat.org
+782,Gamma Research,Risk Curators,,,,,18709255.39,Monad,0,0,0,0,,https://gammaresearch.xyz/
+783,GETH,Liquid Staking,,2323,74569,,18419425.1,Ethereum,0,0,0,0,,https://guarda.com/staking/ethereum-staking/
+784,Infrared Finance,Liquid Staking,,418,15955,,17852571.85,Berachain,0,0,0,0,,https://infrared.finance
+785,Syntetika,Risk Curators,,,,,17472171.87,Base,0,0,0,0,,https://syntetika.io/
+786,NEMO Trading,Risk Curators,,,,,16461447.93,Ethereum,0,0,0,0,,https://nemo.trading/
+787,SuperEarn,Yield,,,,,15921055.58,Klaytn,0,0,0,0,,https://superearn.io/
+788,GrowiHF,Yield,,,,,13625927.21,Hyperliquid L1,0,0,0,0,,https://hf.growi.fi/
+789,Alpaca Finance 2.0,Lending,Alpaca Finance,,,,13122287.32,Binance,0,0,0,0,,
+790,Syntropia,Yield Aggregator,,12000,72540,,13078559.67,Ethereum,0,0,0,0,,https://syntropia.ai/
+791,Hyperbeat LST,Liquid Staking,Hyperbeat,692,20832,,12132148.66,Hyperliquid L1,0,0,0,0,,https://app.hyperbeat.org/staking
+792,Vena Finance,Lending,,151,11236,,9147147.05,Fluent,0,0,0,0,,https://vena.finance
+793,Anthias Labs,Risk Curators,,,,,8826380.83,Base,0,0,0,0,,https://anthias.xyz
+794,Prime Staking,Liquid Staking,,1013,64678,,8355073.9,XDC,0,0,0,0,,https://primestaking.xyz/
+795,Monarq,Risk Curators,,,,,7672341.17,Flare,0,0,0,0,,https://www.monarq-am.com/
+796,InceptionLRT (Isolated Restaking),Liquid Restaking,Inception,,,,6675677.93,Ethereum,0,0,0,0,,
+797,Resolv USR,Basis Trading,Resolv,,,,6098796.05,Ethereum,0,0,0,0,,https://app.resolv.xyz
+798,Avant avBTC,Onchain Capital Allocator,Avant Protocol,348,14097,,5927305.71,Avalanche,0,0,0,0,,https://app.avantprotocol.com/products
+799,Biquid,Liquid Staking,,,,,5706476.6,Bifrost Network,0,0,0,0,,https://biquid.io
+800,ABC Pool,Staking Pool,,,,,5688004.52,Conflux,0,0,0,0,,https://confluxpos.cn
+801,Vectis Finance,Yield,,0,11727,,5122169.28,Ethereum,0,0,0,0,,https://vectis.finance
+802,YeiLend,Lending,Yei Finance,105,3277,,5032099.75,Sei,0,0,0,0,,https://www.yei.finance
+803,PoWH3D,Farm,,,,,4892708.88,Ethereum,0,0,0,0,,
+804,Faiyah Staking,Yield,,,,,4680370.85,Xphere,0,0,0,0,,
+805,Gimo,Liquid Staking,,,,,4476647.74,0G,0,0,0,0,,https://gimofinance.xyz/
+806,Presto,Risk Curators,,,,,4340987.85,Ethereum,0,0,0,0,,https://www.prestolabs.io
+807,Dialectic,Risk Curators,,,,,3999074.58,Ethereum,0,0,0,0,,https://dialectic.com/
+808,ETH Strategy,Onchain Capital Allocator,,,,,3879271.43,Ethereum,0,0,0,0,,https://www.ethstrat.xyz/
+809,1212 Capital,Risk Curators,,,,,3512281.03,Ethereum,0,0,0,0,,https://1212.capital/
+810,lisAster,Yield Aggregator,Lista DAO,0,80126,,3505411.58,Binance,0,0,0,0,,https://lista.org/lis-aster/
+811,Ascend,Liquid Staking,,,,,3419079.88,0G,0,0,0,0,,https://ascend.finance
+812,Longbow,Lending,,,,,3375844.63,Robinhood Chain,0,0,0,0,,https://www.longbow.cash/
+813,Monetrix USDM,Basis Trading,Monetrix,50,21306,,2934491.56,Hyperliquid L1,0,0,0,0,,https://www.monetrix.xyz/
+814,SoSoValue Basis,Basis Trading,SoSoValue,271,-2323,,2928794.06,Base,0,0,0,0,,https://ssi.sosovalue.com/share/MAG7.ssi/0TC050BY?tid=ssi-invite-share-0TC050BY
+815,Fomo3D,Farm,,,,,2839153.08,Ethereum,0,0,0,0,,
+816,REX Staking,Lending,,,,,2420271.02,Telos,0,0,0,0,,https://eosauthority.com/rex
+817,Goldfinch,Uncollateralized Lending,,44.91,2236.47,,2374357.82,Ethereum,0,0,0,0,,https://goldfinch.finance
+818,Verio,Liquid Staking,,0,19775.23,,2270421.31,Story,0,0,0,0,,https://www.verio.network/staking
+819,Venus Flux,Lending,Venus,163,5716.04,,2171321.61,Binance,0,0,0,0,,https://flux.venus.io/lending/56
+820,Blast pre-launch Farm,Farm,Blast L2,,,,2142889.5,Ethereum,0,0,0,0,,https://blast.io/
+821,Flex,Lending,,154,3949,,1962830.68,Ethereum,0,0,0,0,,https://flexmeow.com/
+822,Llama Airforce,Yield,,,,,1950854.16,Ethereum,0,0,0,0,,https://llama.airforce
+823,BAMM,Lending,Frax Finance,,,,1950802.65,Fraxtal,0,0,0,0,,https://bamm.market/
+824,Swell L2 Farm,Farm,Swell,,,,1858971.02,Ethereum,0,0,0,0,,https://www.swellnetwork.io/
+825,Stratis mSTRAX,Liquid Staking,,,,,1817435.54,Stratis,0,0,0,0,,https://staking.masternode.stratisevm.com/stake/?tab=stake
+826,Odyssey Digital AM,Risk Curators,,,,,1797516.86,Ethereum,0,0,0,0,,https://www.odysseydigitalam.com/
+827,Coinmerce Capital,Risk Curators,,,,,1746115.39,Hyperliquid L1,0,0,0,0,,https://coinmerce.capital/en/home
+828,Mt Pelerin,Risk Curators,,,,,1654178.7,Ethereum,0,0,0,0,,https://www.mtpelerin.com/
+829,CRETH2,Liquid Staking,CREAM Finance,,,,1637432.66,Ethereum,0,0,0,0,,https://classic.cream.finance/eth2/
+830,Monetrix mxHYPE,Basis Trading,Monetrix,0,4218.82,,1547077.93,Hyperliquid L1,0,0,0,0,,https://www.monetrix.xyz/
+831,KLAYstation,Liquid Staking,,,,,1526986.5,Klaytn,0,0,0,0,,https://klaystation.io
+832,Rezerve Lending,Lending,Rezerve,,,,1465954.26,Ethereum,0,0,0,0,,https://app.euler.finance/market/rezerve-vaults?network=ethereum
+833,SMARDEX USDN,Basis Trading,SMARDEX Ecosystem,,,9156,1358670.81,Ethereum,0,0,0,0,,https://smardex.io
+834,Kava Earn,Yield Aggregator,Kava Protocol,,,,1336472.91,Kava,0,0,0,0,,https://app.kava.io/home
+835,Kernel,Restaking,KernelDAO,,,,1320806.48,Binance,0,0,0,0,,https://kelpdao.xyz/restake/?utm_source=0x798fF1e6D7AFd28c333eE6eBe03125d30ec6eF10
+836,Kava Liquid,Liquid Staking,,,,,1314184.4,Kava,0,0,0,0,,https://app.kava.io/mint
+837,Architect,Risk Curators,,,,,1260390.09,Base,0,0,0,0,,https://architect.systems/
+838,Mendi Finance,Lending,,37,1531,,1094177.08,Linea,0,0,0,0,,https://malda.xyz/
+839,Convergence Fi,Yield,,,,,1084300.63,Ethereum,0,0,0,0,,
+840,Stake DAO Curator,Risk Curators,Stake DAO,,,,1008005.91,Ethereum,0,0,0,0,,https://lending.stakedao.org/earn
+841,Hub Capital,Risk Curators,Arctide,,,,1006713.12,Ethereum,0,0,0,0,,https://app.lagoon.finance/vault/1/0xca790385506b790554571cbc9da73f0130cdcfd5
+842,CGO Finance,Yield Aggregator,,,,,978300.13,Cronos,0,0,0,0,,
+843,BTCST,Yield,,,,,976960.45,Binance,0,0,0,0,,
+844,Startale Earn,Yield,Startale App,,,,941151.02,Soneium,0,0,0,0,,https://app.startale.com/
+845,Bastion,Lending,,,,,917699.86,Aurora,0,0,0,0,,https://app.bastionprotocol.com/
+846,Lazy,Yield,,,,,907008.54,Ethereum,0,0,0,0,,https://getlazy.xyz
+847,Orai Quant Terminal,Onchain Capital Allocator,,0,0,,775482.15,Arbitrum,0,0,0,0,,https://quant.orai.io/vault
+848,SomniaLend,Lending,,5.1,176.56,,766755.1,Somnia,0,0,0,0,,https://app.somnialend.finance/
+849,Allstake,Restaking,,,,,760220.53,Ethereum,0,0,0,0,,https://allstake.org/
+850,Klayportal,Staking Pool,,,,,729732.0,Klaytn,0,0,0,0,,
+851,Magma Staking,Liquid Staking,,,,,620240.08,Monad,0,0,0,0,,https://www.magmastaking.xyz/
+852,Puffer Vaults,Onchain Capital Allocator,Puffer Finance,0,1033.1,,607359.36,Ethereum,0,0,0,0,,https://app.puffer.fi/vaults
+853,BearnFi,Yield,,,,,596824.94,Binance,0,0,0,0,,https://www.bearn.fi/
+854,Extra Finance Vaults,Onchain Capital Allocator,Extra Finance,,,,590688.07,Base,0,0,0,0,,https://app.extrafi.io/
+855,Muscadine,Risk Curators,,24,892,,581619.79,Base,0,0,0,0,,
+856,Orbit Protocol,Lending,,,,,556080.33,Blast,0,0,0,0,,
+857,Puffer UniFi,Yield,Puffer Finance,,,,555920.32,Ethereum,0,0,0,0,,https://www.puffer.fi/unifi
+858,GOLDSTATION Staking,Staking Pool,GOLDSTATION,,,,526142.41,Klaytn,0,0,0,0,,https://goldstation.io
+859,Terminal Finance Pre-Deposits,Farm,,,,,509948.78,Ethereum,0,0,0,0,,
+860,Rho X LP Vault,Yield,Rho,,,,497870.98,Ethereum,0,0,0,0,,https://www.rho.trading/
+861,Hyward,Yield,,,,,458774.45,Hyperliquid L1,0,0,0,0,,https://www.hyward.xyz
+862,DACM,Risk Curators,,,,,448759.0,Arbitrum,0,0,0,0,,https://dacm.io
+863,Arrowfarm,Liquidity Manager,,749,62245.2,,417190.33,Robinhood Chain,0,0,0,0,,https://www.arrowfarm.io
+864,BOB Fusion,Farm,,,,,392878.67,Ethereum,0,0,0,0,,https://gobob.xyz
+865,HLP0,Yield,,,,,387791.45,Arbitrum,0,0,0,0,,https://www.hlp0.to/
+866,Compound Blue,Lending,,,,,380317.41,Polygon,0,0,0,0,,https://www.compound.blue/
+867,Crossbow Finance,Liquidity Manager,,,,,369916.01,Robinhood Chain,0,0,0,0,,https://www.crossbow.finance/
+868,Angles Stake,Liquid Staking,Angles,,,,369100.03,Sonic,0,0,0,0,,https://angles.fi/stake
+869,ATOMA,Basis Trading,,,,,357399.33,Arbitrum,0,0,0,0,,https://atoma.fi
+870,What The Hook,Liquidity Automation,,1166,57273,,347602.74,Robinhood Chain,0,0,0,0,,https://www.whatthehook.io
+871,Fathom Lending,Lending,Fathom,,,,334668.96,XDC,0,0,0,0,,https://fathom.fi/
+872,Monetrix mxBTC,Basis Trading,Monetrix,0,38,,329046.95,Hyperliquid L1,0,0,0,0,,https://www.monetrix.xyz/
+873,set.wtf,Yield,,,,,320089.6,Ethereum,0,0,0,0,,
+874,Mosh,Liquidity Automation,,417,334413,,314996.21,Robinhood Chain,0,0,0,0,,
+875,SingularV,Risk Curators,,11,230.92,,311574.45,Ethereum,0,0,0,0,,https://app.morpho.org/ethereum/curator/singularv
+876,Zharta Finance,Risk Curators,Zharta Protocol,,,,307897.12,Ethereum,0,0,0,0,,https://www.zharta.io/
+877,Snowball,Yield,,,,,284421.92,Avalanche,0,0,0,0,,https://snowball.network
+878,Augury Finance,Yield,,,,,277621.39,Polygon,0,0,0,0,,
+879,Delta,Liquidity Manager,,,,,264946.92,Robinhood Chain,0,0,0,0,,https://deltaliquidity.app/
+880,Berafarm,Yield,,,,,260678.8,Berachain,0,0,0,0,,https://www.berafarm.com
+881,Alchemist,Yield,,,,,260225.66,Ethereum,0,0,0,0,,https://www.alchemist.wtf
+882,Steroids,Yield,,,,,257242.46,Ethereum,0,0,0,0,,
+883,aPriori,Liquid Staking,,83,4944.83,,252658.76,Monad,0,0,0,0,,https://www.apr.io
+884,Metropolis DLMM Vaults,Liquidity Manager,Metropolis Exchange,,,,252509.24,Sonic,0,0,0,0,,https://metropolis.exchange
+885,TokenPocket,Staking Pool,,,,,240554.54,Ethereum,0,0,0,0,,https://dapp.tokenpocket.pro/StakeVault/#/
+886,Amply Finance,Lending,,,,,235701.45,Cronos zkEVM,0,0,0,0,,https://amply.finance
+887,Lido Impact Staking,Liquid Staking,,,,,221926.47,Ethereum,0,0,0,0,,https://impactstake.com
+888,WEMIX Liquid Staking,Liquid Staking,WEMIX.FI,,,,217128.61,WEMIX,0,0,0,0,,https://wemix.fi/en/liquid-staking
+889,hskhodlium,Liquid Staking,,,,,213288.54,HashKey Chain,0,0,0,0,,https://www.hskhodlium.xyz/
+890,Cat in a Box,Lending,,,,,206004.09,Ethereum,0,0,0,0,,
+891,Unified Labs,Risk Curators,,,,,193721.03,Monad,0,0,0,0,,https://unifiedlabs.io/
+892,Colend Protocol,Lending,,0,600,,189781.03,CORE,0,0,0,0,,https://www.colend.xyz
+893,Cog,Lending,,,,,188742.1,Scroll,0,0,0,0,,
+894,Boar Finance,Yield Aggregator,,,,,184967.16,Mezo,0,0,0,0,,https://boar.finance/
+895,Jaypeggers,Yield,,,,,183021.21,Ethereum,0,0,0,0,,
+896,Theoriq AlphaVault ETH,Onchain Capital Allocator,Theoriq,,,,181556.46,Ethereum,0,0,0,0,,https://theoriq.ai/
+897,WanLend,Lending,,,,,180918.03,Wanchain,0,0,0,0,,https://wanlend.finance/
+898,Flock Credit,Lending,Ravenhood,,,,156084.23,Robinhood Chain,0,0,0,0,,https://www.ravenhood.xyz/flock-credit
+899,Juice Finance,Leveraged Farming,,0,0,,155087.85,Blast,0,0,0,0,,https://juice.finance
+900,Enhanced,Yield,,,,,151952.82,Ethereum,0,0,0,0,,
+901,Cassa,Risk Curators,,,,,148633.81,Ethereum,0,0,0,0,,https://www.cassa.fyi/
+902,Yield Millionaire,Yield,,,,,146765.71,Base,0,0,0,0,,
+903,TownSquare Lending,Lending,TownSquare,,,,145001.88,Monad,0,0,0,0,,https://app.townsq.xyz/
+904,SFT Protocol,Liquid Staking,,,,,140929.15,Filecoin,0,0,0,0,,
+905,Core Earn,Liquid Staking,,,,,135647.34,CORE,0,0,0,0,,https://stake.coredao.org/stcore
+906,Mars Poolin,Yield,,,,,131631.1,Ethereum,0,0,0,0,,https://mars.poolin.fi
+907,SiloStake,Liquid Staking,,,,,126928.97,Sei,0,0,0,0,,
+908,Basic,Lending,,,,,122460.11,IoTeX,0,0,0,0,,
+909,Basalt Vault,Yield,,,,,122235.61,Arbitrum,0,0,0,0,,https://btva.io
+910,Nova NLP,Risk Curators,,,,,119654.2,Hyperliquid L1,0,0,0,0,,https://nova.markets/
+911,Theoriq Gold Vault,Onchain Capital Allocator,Theoriq,,,,119003.32,Ethereum,0,0,0,0,,https://theoriq.ai/
+912,GILDer,Yield,,,,,117258.18,Base,0,0,0,0,,https://gilderfinance.com/
+913,Birch Hill,Risk Curators,,,,,112610.43,Base,0,0,0,0,,https://www.birchhill.io/
+914,Gremlix,Yield Aggregator,,,,,110038.09,Arbitrum,0,0,0,0,,https://gremlix.xyz
+915,Basilisk,Lending,,,,,107454.12,zkSync Era,0,0,0,0,,https://basilisk.org
+916,Sensi,Yield Aggregator,,,,,102442.33,Binance,0,0,0,0,,https://sensi.fi/
+917,deFusion,Liquid Staking,,,,,99632.46,TomoChain,0,0,0,0,,https://www.defusion.xyz/
+918,Snowbl Capital,Onchain Capital Allocator,,,,,96327.15,Base,0,0,0,0,,https://snowbl.capital
+919,Bril Finance,Yield Aggregator,,,,,95933.77,Binance,0,0,0,0,,
+920,UwU Lend,Lending,,,,,93690.63,Ethereum,0,0,0,0,,
+921,StockFi,Lending,,0,2.07,,93272.3,Binance,0,0,0,0,,https://stockfi.net/
+922,Acre,Yield,,,,,90352.31,Ethereum,0,0,0,0,,https://acre.fi
+923,Kvants,Onchain Capital Allocator,,,,,89934.94,Base,0,0,0,0,,https://kvants.ai
+924,Agave,Lending,,,,,87622.0,xDai,0,0,0,0,,
+925,GammaSwap Yield Tokens,Yield,GammaSwap Protocol,,,,86817.53,Base,0,0,0,0,,https://app.gammaswap.com/yield-tokens
+926,Percent Finance,Lending,,,,,81303.23,Ethereum,0,0,0,0,,
+927,LSP.Finance,Staking Pool,,,,,80010.37,Arbitrum,0,0,0,0,,https://lsp.finance
+928,ArbiNYAN,Farm,,,,,74254.38,Arbitrum,0,0,0,0,,
+929,Quasar Vaults,Yield,,,,,67942.59,Ethereum,0,0,0,0,,https://app.quasar.fi
+930,Big Data Protocol,Yield,,,,,67423.92,Ethereum,0,0,0,0,,https://www.bigdataprotocol.com
+931,Listapie,Farm,Magpie Ecosystem,,,,67207.55,Binance,0,0,0,0,,https://www.lista.magpiexyz.io/stake
+932,Puff Penthouse,Farm,,,,,66770.76,Mantle,0,0,0,0,,https://www.methlab.xyz/puffpenthouse?page=stake
+933,Governor DAO,Yield,,,,,66123.31,Ethereum,0,0,0,0,,
+934,Ambit Finance,Lending,,,,,64703.12,Binance,0,0,0,0,,https://ambit.finance
+935,Green Planet,Lending,Planet,,,,61839.4,Binance,0,0,0,0,,https://app.planet.finance/
+936,Liquid Finance,Yield,,,,,61830.7,Arbitrum,0,0,0,0,,
+937,Superfund,Onchain Capital Allocator,Superlend.xyz,124,2177,,59166.26,Base,0,0,0,0,,
+938,Spreads Finance Yield,Yield,Spreads Finance,,,,56947.76,Ethereum,0,0,0,0,,https://spreads.fi/
+939,ShardingDAO,Staking Pool,,,,,56410.69,Ethereum,0,0,0,0,,https://shardingdao.com/
+940,Mystic Finance myPLUME,Liquid Staking,Mystic Finance,,,,55437.55,Plume Mainnet,0,0,0,0,,https://www.mysticfinance.xyz/
+941,Ape Finance,Lending,,,,,52683.11,Ethereum,0,0,0,0,,https://ape.fi
+942,Bluewhale,Yield,,,,,52495.35,Klaytn,0,0,0,0,,https://bwpm.io
+943,Frost Finance,Yield,,,,,51757.78,Avalanche,0,0,0,0,,
+944,EARN,Liquidity Automation,,,,,51725.63,Robinhood Chain,0,0,0,0,,https://earnonhood.com
+945,Neptune LSD,Liquid Staking,,,,,49818.53,Oasys,0,0,0,0,,https://staking.neptune-lsd.com
+946,Hemi Staking,Farm,,,,,49759.16,Hemi,0,0,0,0,,https://app.hemi.xyz/en/stake/dashboard/
+947,Hex Bond,Farm,,,,,48604.95,Pulse,0,0,0,0,,
+948,Zino Finance,Yield Aggregator,,,,,46383.9,Arbitrum,0,0,0,0,,
+949,0xDAO,Yield,,,,,46095.09,Fantom,0,0,0,0,,
+950,Blastoff,Farm,,,,,45621.04,Blast,0,0,0,0,,
+951,Borro,Lending,,,,,45373.87,Robinhood Chain,0,0,0,0,,
+952,Prime Staked ETH,Liquid Restaking,Origin Protocol,,,,45352.97,Ethereum,0,0,0,0,,https://app.primestaked.com/#/restake
+953,QIELend,Lending,,0,0,,44641.38,QIE,0,0,0,0,,https://www.qielend.qie.digital/
+954,Flock Manager,Leveraged Farming,Ravenhood,,,,43838.14,Robinhood Chain,0,0,0,0,,https://www.ravenhood.xyz/flock-manager
+955,Kernel Protocol,Liquid Restaking,,,,,43082.3,Ethereum,0,0,0,0,,https://kernelprotocol.com
+956,Joe Stek,Farm,LFJ,,,,42021.51,Avalanche,0,0,0,0,,https://lfj.gg/avalanche/stek
+957,Credit Guild,Lending,,,,,41510.98,Arbitrum,0,0,0,0,,
+958,CookieBase Farm,Farm,CookieBase,,,,38875.03,Base,0,0,0,0,,
+959,Vaquita Protocol,Yield Aggregator,,,,,38078.44,Base,0,0,0,0,,https://www.vaquita.fi/
+960,Kayen Finance LST,Liquid Staking,Kayen Finance,15,545,,37358.37,Chiliz,0,0,0,0,,https://app.kayen.finance/lst/stake
+961,HedgeFarm,Yield,,,,,36352.27,Avalanche,0,0,0,0,,
+962,Bizantine Labs,Risk Curators,,,,,36336.36,Flare,0,0,0,0,,https://bizantinelabs.xyz/
+963,Tholgar Rings Auto Voter,Yield,Tholgar Protocol,,,,34333.64,Sonic,0,0,0,0,,https://rings.tholgar.xyz/
+964,Hummus Weighted,Yield,Hummus Exchange,,,,31611.3,Metis,0,0,0,0,,
+965,Panda Chef,Farm,BAO Finance,,,,30086.76,Binance,0,0,0,0,,
+966,Catalist,Liquid Staking,,,,,28905.78,Endurance,0,0,0,0,,https://catalist.app
+967,Pods Yield,Yield,Pods,,,,28843.53,Ethereum,0,0,0,0,,https://yield.pods.finance
+968,Scrub Invest,Yield,Scrub Money,,,,28446.86,Kava,0,0,0,0,,https://invest.scrub.money/
+969,Solidex,Yield Aggregator,,,,,28165.62,Fantom,0,0,0,0,,
+970,EA Finance,Liquid Restaking,EA Protocol,,,,27161.5,Binance,0,0,0,0,,https://app.ea.finance/vaults
+971,zLot,Liquid Staking,,,,,26846.31,Ethereum,0,0,0,0,,
+972,Native Lend Curator,Risk Curators,Native,,,,26575.23,Monad,0,0,0,0,,https://native.org
+973,Hyperlock Finance,Yield,,,,,26224.6,Blast,0,0,0,0,,
+974,TickerSpring Vaults,Liquidity Automation,TickerSpring,118,2020.37,,26210.08,Robinhood Chain,0,0,0,0,,https://tickerspring.com
+975,Credit,Lending,,,,,25697.5,World Chain,0,0,0,0,,https://credit.cash/
+976,Bitparty,Farm,,,,,25639.9,Bitlayer,0,0,0,0,,
+977,Cycle Finance,Yield Aggregator,,,,,25517.56,Avalanche,0,0,0,0,,
+978,Gage,Lending,,28,2679.27,,24075.43,Robinhood Chain,0,0,0,0,,https://gage.cash
+979,StakeSteak,Yield,,,,,22020.5,Fantom,0,0,0,0,,
+980,Kava Boost,Farm,Kava Protocol,,,,21516.71,Kava,0,0,0,0,,https://app.kava.io/home
+981,VisionBoard Vault,Onchain Capital Allocator,,,,,19683.75,Hyperliquid L1,0,0,0,0,,https://vault.visionboardfinance.com
+982,ApeBank,Lending,,,,,18285.87,ApeChain,0,0,0,0,,https://lendonape.com/markets
+983,Vicuna Lending,Lending,Vicuna Finance,0,191.0,,17877.72,Sonic,0,0,0,0,,
+984,Copra Finance,Lending,,,,,17828.12,Arbitrum,0,0,0,0,,https://www.copra.finance/
+985,BakeYourStake,Liquid Staking,,,,,17508.77,CookieChain,0,0,0,0,,https://bakeyourstake.xyz
+986,Tesseract,Yield,,,,,16714.86,Polygon,0,0,0,0,,
+987,Hana Finance,Lending,,,,,15713.68,Taiko,0,0,0,0,,
+988,Croblanc,Yield,,,,,15682.72,Cronos,0,0,0,0,,
+989,Bank of Chain,Yield Aggregator,,,,,14967.77,Ethereum,0,0,0,0,,
+990,Zentra Finance,Lending,,0,0,,8798.77,Citrea,0,0,0,0,,https://zentra.finance/
+991,GND Protocol,Yield,,0,0,,5377.34,Arbitrum,0,0,0,0,,
+992,LlamaRisk,Risk Curators,,0,0,,3010.2,Ethereum,0,0,0,0,,https://www.llamarisk.com
+993,Fence Finance,Risk Curators,,0,0,,1245.94,Ethereum,0,0,0,0,,https://fence.finance/
+994,Sharpe Magnum,Yield,Sharpe AI,0,0,0,1198.99,Ethereum,0,0,0,0,,https://www.sharpe.ai
+995,Quiver Protocol,Liquidity Manager,,3.73,131.21,,913.93,Robinhood Chain,0,0,0,0,,https://quiverprotocol.finance
+996,Edel,Lending,,0,0,,863.05,Ethereum,0,0,0,0,,https://www.edel.finance/
+997,Vicuna Leveraged Farming,Leveraged Farming,Vicuna Finance,0,0,,689.29,Sonic,0,0,0,0,,
+998,HedgeHood Stock Yield,Options Vault,HedgeHood,0,90.28,0,154.95,Robinhood Chain,0,0,0,0,,https://hedgehood.app/stockyield
+999,Oter Finance,Lending,,0,0,,130.62,Robinhood Chain,0,0,0,0,,
+1000,M11 Credit,Risk Curators,,7.82,157.94,,0.0,Ethereum,0,0,0,0,,https://www.m11credit.com/
