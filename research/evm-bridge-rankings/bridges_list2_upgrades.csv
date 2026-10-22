@@ -1,0 +1,284 @@
+rank,bridge,type,volume_24h_usd,volume_30d_usd,fees_24h_usd,tvl_usd,chains_total,evm_chains,major_versions,audits,upgrade_milestones,upgrade_events,url
+1,Glitter Finance,Bridge,,,,20.94,3,Ethereum,0,5,1,6,https://www.glitterfinance.org/
+2,Ulysses,Bridge,,,,27413.8,12,Ethereum; Metis; Optimism; Binance; Base; Avalanche; Sonic; Arbitrum; Berachain; Fraxtal; Swellchain; Polygon,1,4,0,5,https://app.maiadao.io/
+3,SunX Bridge,Bridge,,,,23946996.91,4,Ethereum; Binance; Arbitrum,3,1,0,4,https://www.sunx.io/
+4,Multichain,Bridge,,,,42749218.63,54,Binance; Ethereum; Polygon; Arbitrum; Optimism; Avalanche; Fantom; Klaytn; Cronos; Kucoin; Arbitrum Nova; OKExChain; IoTeX; Bittorrent; Fuse; Kava; Metis; xDai; Telos; Celo; Aurora; Kardia; RSK; Hoo; TomoChain; Velas; ThunderCore; Heco; Boba; Astar; CLV; Conflux; Polygon zkEVM; Moonbeam; Moonriver; Cube; Dogechain; Milkomeda; Milkomeda A1; Ronin; Evmos; smartBCH; EthereumPoW; Fusion; Oasis; REI; DFK; GodwokenV1; Harmony; EthereumClassic; OntologyEVM; Syscoin; Shiden; Bitgert,0,4,0,4,
+5,Allbridge Classic,Bridge,6146,84092.64,4.45,1099369.64,13,Ethereum; Binance; Celo; Avalanche; Fantom; Polygon; Aurora; Harmony; Fuse,0,4,0,4,https://app.allbridge.io
+6,Router Protocol,Cross-chain,0,0,,9875.81,11,Aurora; Binance; Polygon; Optimism; Ethereum; Arbitrum; Avalanche; Harmony; Cronos; Kava; Fantom,0,4,0,4,
+7,Equito Finance,Bridge,,,,11.19,3,Ethereum; Binance,0,3,1,4,
+8,CrossCurve,Cross-chain,0,0,,38391.31,20,Taiko; Binance; Base; xDai; Polygon; Ethereum; Arbitrum; Optimism; Avalanche; Manta; Sonic; Metis; Mode; Linea; Fraxtal; Blast; Celo; Kava; Mantle; Fantom,0,3,0,3,https://crosscurve.fi
+9,Spherium,Cross-chain,,,,0.01,13,Binance; Ethereum; Arbitrum; Avalanche; Optimism; Polygon; Fantom; Cronos; Moonriver; Moonbeam; Kucoin; OKExChain; Aurora,0,3,0,3,
+10,Maya Protocol,Cross-chain,,,26802,5662619.76,9,Ethereum; Dash; Arbitrum; Mayachain,0,3,0,3,https://www.mayaprotocol.com
+11,USDT0,Bridge,116685806,2736011816,,3197291212.7,1,Ethereum,0,3,0,3,https://usdt0.to
+12,SKALE Network Bridge,Bridge,,,,8055.48,1,Ethereum,0,3,0,3,https://portal.skale.space/bridge
+13,Stargate V2,Cross-chain,10710095,817747505,18941,77034223.57,24,Ethereum; Arbitrum; Binance; Base; Optimism; Mantle; Soneium; Unichain; Linea; Avalanche; Scroll; Abstract; Polygon; Metis; Hemi; Sonic; Kava; Manta; LightLink; Aurora; xDai; Sei; Swellchain; Stable,1,1,0,2,https://stargate.finance/
+14,Stargate V1,Cross-chain,,,0,9405382.54,13,Ethereum; Arbitrum; Mantle; Avalanche; Binance; Linea; Optimism; Polygon; Base; Fantom; Metis; Kava; Goerli,1,1,0,2,https://stargate.finance/
+15,Hashport,Bridge,,,,1668391.53,12,Ethereum; Avalanche; Binance; Base; Polygon; Optimism; Arbitrum; Moonbeam; Cronos; Aurora; Fantom,0,2,0,2,
+16,Lucid Labs,Bridge,,,,272841.1,6,Ethereum; Arbitrum; Optimism; Avalanche; Base; Celo,0,2,0,2,https://www.lucidlabs.fi
+17,EverRise,Cross-chain,,,,29376.05,5,Binance; Ethereum; Polygon; Avalanche; Fantom,0,2,0,2,https://www.everrise.com
+18,Rubic,DEX Aggregator,686788,25355156,,0,2,Binance; Kava,0,2,0,2,https://app.rubic.exchange/
+19,LayerZero V2,Bridge,261673281,11889410511,23798,15916129360.55,91,Polygon; Ethereum; ApeChain; Base; Arbitrum; Binance; Flare; Plasma; Stable; Citrea; Hyperliquid L1; Abstract; Gensyn; Peaq; Somnia; Hemi; Kava; Fraxtal; Avalanche; 0G; TAC; Sei; Fantom; Optimism; Chiliz; Metis; Goat; zkSync Era; Telos; RSK; Celo; Robinhood Chain; Mantle; Katana; Blast; Cronos; Soneium; Unichain; Berachain; Linea; Ink; Scroll; Vana; Sonic; Conflux; Redbelly; Astar; Mode; Story; CORE; Manta; xDai; XDC; LightLink; Monad; XPLA; Plume Mainnet; Tempo; X Layer; Morph; Swellchain; Taiko; BOB; Canto; World Chain; Op_Bnb; Moonriver; Lisk; MegaETH; Harmony; Degen; Moonbeam; Polygon zkEVM; Zora; Sophon; Ethereal; Etherlink; Codex; KiteAI; TomoChain; Rayls; zkVerify; Irys; Bittensor EVM; Nibiru; Klaytn; Apex Fusion,1,0,0,1,https://layerzero.network/
+20,OpenSea Bridge Aggregator,Aggregator,1061289,76523578,,0,12,Ethereum; Blast; Arbitrum; Base; Berachain; Unichain; Polygon; Optimism; Avalanche; ApeChain; Monad; Robinhood Chain,1,0,0,1,https://opensea.io/
+21,Enosys Bridge,Bridge,,,,512651.24,2,Ethereum; XDC,1,0,0,1,
+22,DZap,DEX Aggregator,42085,2828926,,0,77,ZKsync Lite; Ethereum; Polygon; Manta; Metis; Base; Mode; Arbitrum; Avalanche; Linea; Binance; Fraxtal; Hyperliquid L1; Immutable zkEVM; CORE; Fuse; Bahamut; Cronos; Blast; Soneium; Ink; BSquared; Katana; Zircuit; Boba; Celo; World Chain; Swellchain; Ronin; Mantle; opBNB; XDC; Bitlayer; Hemi; Unichain; Optimism; Telos; Plume Mainnet; BOB; Rootstock; Superposition; Aurora; Gnosis; Polygon zkEVM; Berachain; Scroll; Merlin; ApeChain; Taiko; Fantom; Abstract; Lens; Sonic; PulseChain; Kaia; Data Network; Citrea; Tempo; X Layer; Gravity by Galxe; ZetaChain; Plasma; Flare; Morph; Moonbeam; Sei; Kava; Moonriver; Monad; MegaETH; Stable; Zkfair; Mint; Kroma,0,1,0,1,https://app.dzap.io/
+23,LI.FI Bridge Aggregator,Aggregator,50458907,1376331493,24071,0,63,Immutable zkEVM; Boba; Moonbeam; Fuse; Rootstock; Metis; Fraxtal; Celo; Sei; World Chain; Gravity by Galxe; Taiko; Mantle; Gnosis; X Layer; Lisk; Aurora; Blast; Mode; Binance; Cronos; Fantom; opBNB; Polygon; Avalanche; ZKsync Era; Ethereum; Linea; Scroll; Optimism; Base; Arbitrum; Moonriver; Abstract; ApeChain; Ink; Sonic; Berachain; Unichain; Soneium; Etherlink; Superposition; Lens; XDC; Hyperliquid L1; BOB; Flare; Ronin; Vana; Katana; Kaia; Sophon; Plume Mainnet; Plasma; Hemi; Monad; Stable; Polygon zkEVM; Robinhood Chain,0,1,0,1,https://li.fi/
+24,Symbiosis,Cross-chain,3392448,77156854,5017,7683798.23,58,Ethereum; Binance; Robinhood Chain; Arbitrum; Polygon; Hyperliquid L1; Base; zkSync Era; Merlin; RSK; BSquared; xDai; Boba; Katana; Cronos; Mantle; Quai; Manta; Avalanche; Metis; Scroll; Linea; Sei; Optimism; Berachain; Taiko; Arc; X Layer; Op_Bnb; Soneium; Sonic; Stable; Plasma; Mode; Monad; Tempo; Abstract; Fraxtal; Arbitrum Nova; ApeChain; zkLink; Unichain; Kava; Morph; ZetaChain; CORE; Blast; Telos; Polygon zkEVM; Bahamut; Aurora; Boba_Avax; Gravity; Cronos zkEVM; Goat,0,1,0,1,https://symbiosis.finance
+25,Rango,Aggregator,10504759,372646364,32511,0,45,Terra Classic; Ethereum; Binance; Scroll; Base; Arbitrum; Polygon; Optimism; Linea; Celo; Avalanche; ZKsync Era; Mode; Blast; Fantom; Moonriver; Taiko; Polygon zkEVM; Cronos; Gnosis; Moonbeam; Harmony; Zora; Aurora; Fuse; Boba; Berachain; Sonic; XRPL; Hyperliquid L1; Monad; Unichain; Soneium; Katana; Plasma,0,1,0,1,https://app.rango.exchange
+26,Axelar,Bridge,209146,15148077,37.56,143567237.19,44,Ethereum; Binance; Optimism; Base; Arbitrum; Polygon; Regen; Avalanche; Fantom; Filecoin; Sei; Celo; Mantle; Blast; Moonbeam; Kava; Scroll; Immutable zkEVM; Fraxtal; Aurora; Carbon; XPLA; Evmos; XRPL EVM; Linea,0,1,0,1,https://axelar.network
+27,NerveBridge,Bridge,,,,2632.67,37,Binance; smartBCH; EthereumPoW; Ethereum; Fantom; Polygon; Merlin; IoTeX; Manta; Mode; Pulse; Kucoin; Arbitrum; Cronos; EthereumClassic; Nuls; Harmony; Metis; Optimism; Klaytn; Kava; REI; zkSync Era; EOS EVM; Polygon zkEVM; Linea; Celo; Base; Bitgert; Scroll; ZetaChain; Blast; X Layer; OKExChain; Avalanche,0,1,0,1,https://nerve.network/
+28,Wan Bridge,Bridge,41247,2636232.48,,6685667.13,36,Ethereum; Binance; Arbitrum; Optimism; Polygon; Avalanche; Base; Wanchain; Metis; zkSync Era; Linea; Celo; X Layer; Astar; XDC; Fantom; Op_Bnb; Blast; OKExChain; Moonriver; Moonbeam; Telos; FunctionX; Polygon zkEVM; Bitrock; Energi; Odyssey; Songbird,0,1,0,1,https://bridge.wanchain.org
+29,cBridge,Bridge,215650,8488503,,12918301.83,29,Ethereum; Binance; Polygon; Arbitrum; Optimism; Avalanche; zkSync Era; Linea; Aurora; Scroll; Boba; OKExChain; Metis; Fantom; xDai; Celo; Heco; Polygon zkEVM; Moonriver; Moonbeam; CLV; Conflux; Harmony; Milkomeda; Oasis; REI; Syscoin; Shiden; Astar,0,1,0,1,https://cbridge.celer.network/#/transfer
+30,XY Finance,Cross-chain,0,0,,75.42,25,Cronos; Base; Linea; Scroll; Arbitrum; zkSync Era; Ethereum; ThunderCore; Kucoin; Avalanche; Optimism; Astar; Moonriver; Klaytn; Polygon zkEVM; Mantle; Blast; X Layer; Taiko; OXFUN; Cronos zkEVM; Polygon; WEMIX; Fantom; Binance,0,1,0,1,https://xy.finance
+31,Portal,Bridge,39254774,1198507696,677,1569297375.78,24,Ethereum; Binance; Polygon; Avalanche; Base; Arbitrum; Optimism; Celo; Klaytn; Oasis; Aurora; Fantom; Moonbeam; XPLA,0,1,0,1,https://portalbridge.com
+32,Cashmere,Bridge,31796,1229687,9.42,0,24,Arbitrum; Avalanche; Base; Hyperliquid L1; Linea; Optimism; Polygon; Sei; Sonic; Unichain; World Chain; Ethereum; Binance; Ink; Plasma; X Layer; Berachain; Corn; Flare; Rootstock; Monad,0,1,0,1,https://cashmere.exchange/
+33,0x Bridge Aggregator,Aggregator,33716607,996116063,,0,23,Arbitrum; Polygon; Ethereum; Binance; Plasma; Ink; World Chain; Optimism; Avalanche; Unichain; Mantle; Berachain; Tempo; Scroll; Sonic; Hyperliquid L1; Robinhood Chain; Arc; Linea; Abstract; Base; Monad,0,1,0,1,https://www.0x.org/
+34,Connext,Bridge,0,0,,28442788.81,20,Ethereum; Linea; Arbitrum; Metis; Base; Mode; xDai; Binance; Polygon; Optimism; Moonriver; Fantom; Avalanche; Moonbeam; Fuse; Cronos; Milkomeda; Boba; Evmos; Harmony,0,1,0,1,https://connext.network/
+35,Orderly Bridge,Bridge,,,,24295982.17,20,Ethereum; Binance; Berachain; Arbitrum; Optimism; X Layer; Avalanche; Base; Sei; Polygon; Mantle; Sonic; Abstract; ADI; Story; Morph; Mode; Plume,0,1,0,1,https://orderly.network
+36,BoringDAO,Cross-chain,,,,376665.42,20,Polygon; Ethereum; Avalanche; OKExChain; Binance; Kucoin; Aurora; IoTeX; Optimism; Fantom; Boba; Harmony; xDai; Heco; Oasis; Arbitrum; Metis,0,1,0,1,https://www.boringdao.com/
+37,Interport Finance,Cross-chain,231875,4717479.71,,3613.52,16,Scroll; Ethereum; Linea; Manta; Optimism; Base; Binance; Arbitrum; Avalanche; zkSync Era; Op_Bnb; Polygon; Blast; Fantom; Polygon zkEVM; zkLink,0,1,0,1,https://interport.fi
+38,Allbridge Core,Bridge,296484,14679787,181,0,14,Sonic; Base; Ethereum; Avalanche; Optimism; Unichain; Polygon; Celo; Binance; Arbitrum,0,1,0,1,https://core.allbridge.io
+39,RelayChain,Bridge,,,,1586.88,13,Optimism; Polygon; Ethereum; Arbitrum; Binance; Metis; Avalanche; Cronos; Fantom; Heco; Harmony; IoTeX; Moonriver,0,1,0,1,
+40,SODAX,Bridge,,,,2120578.75,12,Binance; Arbitrum; Ethereum; Base; Optimism; Avalanche; Hyperliquid L1; Klaytn; Polygon; Sonic; LightLink,0,1,0,1,https://www.sodax.com/
+41,Orbit Bridge,Bridge,,,,16499160.13,11,Silicon zkEVM; Binance; WEMIX; Klaytn; Ethereum; Polygon; Celo; Heco; Meta,0,1,0,1,https://bridge.orbitchain.io
+42,Garden,Cross-chain,0,0,0.39,0,11,Arbitrum; Ethereum; Base; Berachain; Hyperliquid L1; Unichain; Monad; Binance; MegaETH; Citrea,0,1,0,1,https://app.garden.finance/
+43,Brotocol,Aggregator,0,0,,0,11,Ethereum; Binance; CORE; Mode; X Layer; BSquared; BOB; AILayer; Merlin,0,1,0,1,https://brotocol.xyz/
+44,Mayan Bridge,Bridge,18550801,562593932,,122303.33,9,Base; Arbitrum; Ethereum; Binance; Optimism; Polygon; Avalanche; Hyperliquid L1; Unichain,0,1,0,1,https://mayan.finance/
+45,Altitude,Cross-chain,,,,43798.67,9,Ethereum; Arbitrum; Avalanche; Optimism; Linea; Polygon; Mantle; Binance; Fantom,0,1,0,1,
+46,pNetwork,Bridge,0,0,,0,9,Binance; Ethereum; Ultra; Arbitrum; Polygon; Telos; xDai,0,1,0,1,https://p.network
+47,PumpBTC,Bridge,,,,28055089.39,8,Binance; Ethereum; Base; Arbitrum; Sei; Mantle; BOB,0,1,0,1,https://pumpbtc.xyz/
+48,21.co,Bridge,,,,4.46,8,Binance,0,1,0,1,
+49,Hop Protocol,Cross-chain,0,309.14,0,3644839.86,7,Ethereum; Optimism; Arbitrum; Polygon; Base; xDai; Arbitrum Nova,0,1,0,1,
+50,C3 Exchange,Cross-chain,,,,54.78,7,Avalanche; Ethereum; Arbitrum; Binance,0,1,0,1,
+51,t3rn Bridge,Bridge,,,,43.07,7,Arbitrum; Binance; Ethereum; Base; Unichain; Optimism; Linea,0,1,0,1,https://www.t3rn.io
+52,Ring Few,Bridge,,,,43933793.14,6,Ethereum; Hyperliquid L1; Binance; Blast; Base; Arbitrum,0,1,0,1,https://ring.exchange/#/earn
+53,deBridge,Bridge,4160691,243860766,9533,2008993.23,6,Ethereum; Binance; Arbitrum; Polygon; Heco; Sei,0,1,0,1,https://app.debridge.com
+54,VenomBridge,Bridge,,,,602797.59,6,Ethereum; Binance; Avalanche; Polygon; Fantom,0,1,0,1,https://venombridge.com
+55,TeleSwap,Bridge,0,911794,2417,469262.09,6,BSquared; BOB; Ethereum; Binance; Polygon,0,1,0,1,https://teleswap.xyz
+56,Dexalot Portfolio,Bridge,,,,5699433.13,5,Avalanche; Arbitrum; Base; Binance; Ethereum,0,1,0,1,https://app.dexalot.com/
+57,PepeTeam Bridge,Bridge,,,,749526.91,5,Ethereum; Binance; Polygon,0,1,0,1,https://bridge.pepe.team
+58,ChainPort,Bridge,,,,723902.98,5,Ethereum; Binance; Polygon; Fantom,0,1,0,1,https://app.chainport.io
+59,MultiBit Protocol,Bridge,,,,113327.15,5,Ethereum; Polygon; BounceBit; Binance,0,1,0,1,https://multibit.exchange/
+60,Rhino.fi,Bridge,4161080,148513411,,1358147.2,3,Polygon; Arbitrum; Ethereum,0,1,0,1,https://rhino.fi
+61,Hyperliquid Bridge,Bridge,81492654,1792222624,,6761445854.05,2,Hyperliquid L1; Arbitrum,0,1,0,1,https://app.hyperliquid.xyz
+62,tBTC,Decentralized BTC,575221,24084010,4463,346462649.71,2,Ethereum,0,1,0,1,https://threshold.network/
+63,Popdex Bridge,Canonical (L1↔L2),,,,74100835.0,2,Arbitrum; Morph,0,1,0,1,https://popdex.xyz/
+64,Proxy,Bridge,,,,21288346.22,2,Polygon; Ethereum,0,1,0,1,
+65,The Tokenized Bitcoin,Bridge,,,,1844705.04,2,Ethereum,0,1,0,1,
+66,AirDAO Bridge,Bridge,,,,1433.34,2,Binance; Ethereum,0,1,0,1,
+67,Across,Cross-chain,189135588,6292404695,4004,17357525.41,1,Ethereum,0,1,0,1,https://across.to
+68,Fuel Bridge,Bridge,0,1285112.11,,8276734.99,1,Ethereum,0,1,0,1,https://app.fuel.network/bridge
+69,Injective Bridge,Bridge,,,,4882418.23,1,Ethereum,0,1,0,1,https://injective.com
+70,KEEP Network,Cross-chain,,,,890460.06,1,Ethereum,0,1,0,1,https://app.threshold.network/
+71,illumineX,Cross-chain,,,,182739.79,1,Sapphire,0,1,0,1,
+72,AlphaSec Bridge,Bridge,,,,10066.4,1,Klaytn,0,1,0,1,https://app.alphasec.trade
+73,SigmaSwap,Bridge,,,,1966.5,1,LUKSO,0,1,0,1,
+74,Portal To Bitcoin,Bridge,,,,0.13,1,Ethereum,0,1,0,1,https://portaltobitcoin.com
+75,ShimmerBridge,Bridge,,,,182246.05,8,Ethereum; Avalanche; Binance; Optimism; Polygon; Arbitrum; Fantom; Base,0,0,1,1,
+76,Archon Bridge,Bridge,,,,9056.47,3,Avalanche; Ethereum; Horizen EON,0,0,1,1,https://bridge.archon.finance/
+77,Mezo Bridge,Bridge,,,,10541610.29,1,Ethereum,0,0,1,1,https://mezo.org
+78,Soheil.fi Bridge Aggregator,Aggregator,337,3197.22,,0,83,zkLighter; XRPL; Bitcoincash; Dash; ALEO; Ethereum; Optimism; Binance; Polygon; Fraxtal; Soneium; Hyperliquid L1; Stable; Mantle; Base; Immutable zkEVM; Berachain; Arbitrum; Celo; Blast; Scroll; Linea; BOB; Avalanche; Arc; Vana; Ronin; Lisk; Somnia; Viction; Fuse; World Chain; Plasma; Hemi; Ink; Boba; Mode; Gnosis; X Layer; 0G; Tempo; Arbitrum Nova; Morph; Robinhood Chain; Metis; Cronos; Rootstock; Monad; Etherlink; opBNB; Katana; Unichain; MegaETH; Sei; Plume Mainnet; Telos; Pharos; Abstract; Lens; ZKsync Era; XDC; Sonic; Flare; ApeChain; Kaia; Gravity by Galxe,0,0,0,0,
+79,Relay,Cross-chain,206001323,6465655857,,0,73,Arbitrum; Blast; BOB; Boba; Binance; Degen; Ethereum; Funki; Linea; Lisk; Mantle; Mint; Mode; Polygon; Rari; Redstone; Scroll; Shape; Xai; Ancient8; Forma; Gnosis; Optimism; Arbitrum Nova; Avalanche; Base; Cyber; Polygon zkEVM; Superposition; World Chain; Zero Network; ZKsync Lite; Katana; Sei; Monad; B3; Robinhood Chain; Hyperliquid L1; Ronin; Somnia; Abstract; ApeChain; Berachain; Celo; Cronos; Doma; Ethereal; Gensyn; Hemi; Ink; zkLighter; MegaETH; Metis; Morph; Mythos; Plasma; Plume; Soneium; Sonic; Stable; Superseed; Tempo; Unichain; Zircuit; Zora; Data Network; X Layer; Arc,0,0,0,0,https://docs.relay.link/
+80,IBC,Bridge,0,107165902,,0,73,Akash; Andromeda; AssetMantle; Bostrom; Canto; Cheqd; Coreum; Cronos POS; Cudos; Decentr; Evmos; Fetch Hub; GravityBridge; HAQQ; Impact Hub; IRISnet; Jackal; Kava; KYVE; MediBloc; Nym; OmniFlix; Passage; Persistence One; Planq; Quasar; Quicksilver; Realio; Regen; Saga; Sentinel; SGE; Shentu; Source; Terra Classic; UX; XPLA; FunctionX; Axelar; Aura Network; Carbon; Sei; Oraichain; Dungeon; Elys; MANTRA; Nibiru; Seda; XION; Ethereum,0,0,0,0,https://www.ibcprotocol.dev
+81,Jumper Bridge Aggregator,Aggregator,21237834,652134404,797,0,65,Arbitrum; Aurora; Avalanche; Base; Binance; ZKsync Era; Ethereum; Fantom; Linea; Manta; Metis; Mode; Optimism; Polygon; Polygon zkEVM; Scroll; Gnosis; Blast; Boba; Celo; Cronos; Fraxtal; Fuse; Mantle; Moonbeam; Moonriver; opBNB; Rootstock; Sei; Gravity by Galxe; Taiko; Abstract; ApeChain; Berachain; Ink; Lisk; Soneium; Sonic; Unichain; Velas; Katana; Hyperliquid L1; Kaia; Plume Mainnet; Monad; BOB; Etherlink; Flare; Hemi; Immutable zkEVM; Lens; Plasma; Robinhood Chain; Ronin; Sophon; Superposition; Stable; Vana; World Chain; XDC; X Layer,0,0,0,0,https://jumper.xyz/
+82,Layerswap,Cross-chain,1533349,70645200,,0,61,Arbitrum; Arbitrum Nova; Base; Blast; Binance; Ethereum; Linea; Mantle; Optimism; Polygon; Scroll; Taiko; ZKsync Era; Polygon zkEVM; Fuse; Gravity by Galxe; opBNB; X Layer; Manta; Gnosis; Avalanche; Mode; Zora; Ronin; Celo; ZetaChain; Xai; Fraxtal; Rollux; Zircuit; Immutable zkEVM; Kaia; BOB; World Chain; Sei; Abstract; Ink; Katana; Lisk; MegaETH; Monad; Morph; Paradex; Plasma; Robinhood Chain; Shape; Soneium; Sonic; Superposition; Unichain; Berachain; Fuel Ignition; Hyperliquid L1; Stable; Tempo; Arc,0,0,0,0,https://layerswap.io/app
+83,Lunar Finance Bridge Aggregator,Aggregator,0,3906.97,0,0,48,opBNB; Hyperliquid L1; Ethereum; Hemi; Berachain; Etherlink; Plasma; Base; Blast; Ink; Rootstock; Mode; Monad; Unichain; Binance; Boba; BOB; X Layer; Lisk; Optimism; Telos; Sei; Gnosis; Polygon; Celo; Avalanche; Cronos; Sonic; Arbitrum; Linea; MegaETH; Metis; ZKsync Era; Gravity by Galxe; Scroll; Abstract; Moonbeam; Mantle,0,0,0,0,https://lunarfinance.io
+84,Meson,Cross-chain,439857,20855054,,689673.05,44,Merlin; BSquared; Ethereum; Binance; Arbitrum; Polygon; Avalanche; Europa; Base; Optimism; Conflux; X Layer; Op_Bnb; Linea; Bitlayer; Scroll; zkSync Era; Cronos; CORE; xDai; Mantle; Blast; Zkfair; Taiko; Ancient8; Aurora; Celo; inEVM; Kava; Manta; Map; Metis; Mode; ZetaChain; zkLink; Moonbeam; BEVM; EOS EVM; Fantom; Moonriver; Polygon zkEVM; BounceBit; Hemi,0,0,0,0,https://meson.fi/home
+85,Confluence,Aggregator,0,51.83,,0,39,Ethereum; Optimism; Binance; Unichain; Polygon; Monad; Sonic; opBNB; Fraxtal; World Chain; Hyperliquid L1; Soneium; Abstract; Mantle; Arc; Base; ApeChain; Arbitrum; Celo; Avalanche; Linea; Berachain; BOB; Blast; Scroll; Plasma; Lisk; Ink; Mode; Morph; Katana; Taiko; Plume Mainnet; Manta; XDC; Gnosis; Cronos; Sei; ZKsync Era,0,0,0,0,
+86,Orbiter Finance,Bridge,0.01,369853.89,,0,38,Arbitrum; Arbitrum Nova; Base; Blast; Linea; Optimism; Polygon; Polygon zkEVM; Scroll; ZKsync Era; Ethereum; Merlin; zkLink Nova; Binance; Mantle; Bitlayer; Taiko; Gravity by Galxe; BOB; X Layer; opBNB; Fuse; Zkfair; ZetaChain; Kaia; Kroma; Fraxtal; Avalanche; Ink; Morph; Celo; World Chain; Soneium; Mode; Unichain; Sonic; Berachain; Hemi,0,0,0,0,https://orbiter.finance
+87,Bitget Wallet X,DEX Aggregator,20680965,426736333,,0,36,Polygon; Binance; Optimism; Base; Manta; Linea; Arbitrum; Scroll; CORE; Merlin; Blast; ZKsync Lite; XRPL; Dogechain; Sonic; Hyperliquid L1; Berachain; Monad; Morph; X Layer; Plasma; Celo; Mantle; opBNB; Fantom; Avalanche; Ethereum; Kaia; Sei; Cronos,0,0,0,0,https://web3.bitget.com/
+88,Swing,DEX Aggregator,0,0,,0,33,Ethereum; Binance; Avalanche; Polygon; Arbitrum; BSquared; Base; Bitlayer; Blast; BOB; CORE; Fantom; Gnosis; Gravity by Galxe; Linea; Manta; Mantle; Metis; Mode; Moonbeam; Morph; Optimism; Scroll; Taiko; World Chain; ZKsync Lite,0,0,0,0,
+89,SOCKET Protocol,Aggregator,23995431,1039409707,103,0,31,Polygon; Base; Optimism; Arbitrum; Ethereum; Aurora; Blast; Avalanche; Binance; Polygon zkEVM; Fantom; Linea; Mantle; Scroll; ZKsync Era; Gnosis; Mode; Sonic; Ink; World Chain; Hyperliquid L1; Berachain; Unichain; Sei; Plume Mainnet; Plasma; MegaETH; Monad; Katana; Robinhood Chain; Arc,0,0,0,0,https://www.socket.tech/
+90,Gas.zip,Aggregator,50.97,1432409.97,,0,30,Hemi; Ink; Abstract; Katana; Ronin; BOB; World Chain; ApeChain; Plume Mainnet; Taiko; Mantle; Berachain; Linea; Sonic; ZKsync Era; Hyperliquid L1; Unichain; Optimism; Arbitrum; Avalanche; Base; Ethereum; Scroll; Polygon; Celo; Kaia; Sophon; Monad; Plasma; MegaETH,0,0,0,0,https://gas.zip
+91,Pheasant Network,Cross-chain,115046,2366875,,0,29,Base; Optimism; Arbitrum; Taiko; Lisk; Binance; Linea; Scroll; ZKsync Era; Polygon zkEVM; Mantle; Polygon; Morph; Avalanche; Celo; Blast; Unichain; Ethereum; Fraxtal; Moonbeam; Mode; Cronos; Gravity by Galxe; MegaETH; Boba; Metis; World Chain; Gnosis; Sei,0,0,0,0,https://pheasant.network/
+92,WheelX.fi Bridge Aggregator,Aggregator,222,26213.46,,0,28,Avalanche; Polygon zkEVM; X Layer; ZetaChain; Ronin; Optimism; Blast; Metis; World Chain; Binance; Sei; Arbitrum Nova; Scroll; Zora; Moonriver; Arbitrum; Base; Polygon; Fantom; Celo; Ethereum; Moonbeam; Unichain; Mantle; Soneium; Ink; Linea,0,0,0,0,https://wheelx.fi/
+93,Hyperlane,Cross-chain,0,1290741,732,72714414.86,27,Binance; Ethereum; Base; Arbitrum; Optimism; Ink; Polygon; Hyperliquid L1; Unichain; Avalanche; Linea; BSquared; Metis; Blast; Mantle; Scroll; Mode; xDai; Zora; Plasma; Celo; Sei; Sonic; Swellchain; Plume; Vana; Mint,0,0,0,0,https://www.hyperlane.xyz/
+94,Blazpay Bridge Aggregator,Aggregator,0,393.18,,0,27,Polygon; Binance; Arbitrum; Base; Optimism; Linea; Blast; Avalanche; Metis; Ethereum; Fantom; Mantle; Scroll; Berachain; opBNB; Hyperliquid L1; Soneium; Abstract; Unichain; Sonic; Hemi; Celo; Ronin; World Chain; ApeChain; Robinhood Chain; Arc,0,0,0,0,https://blazpay.com
+95,NEAR Intents,Bridge,,,11094,215763793.83,26,Ethereum; Binance; Arbitrum; Base; Polygon; xDai; Optimism; Dash; Avalanche; Monad; Berachain; X Layer; ADI; Aurora,0,0,0,0,https://near.com/
+96,Bungee Bridge Aggregator,Aggregator,535291,18961956,121,0,25,Unichain; Berachain; Aurora; Fantom; Sonic; Scroll; Polygon zkEVM; Mantle; Blast; Mode; ZKsync Era; Avalanche; Gnosis; Binance; Polygon; Linea; Optimism; Ethereum; Arbitrum; Base; Katana; Ink; Monad; Hyperliquid L1; MegaETH,0,0,0,0,https://bungee.exchange/
+97,Stableflow,Aggregator,136199,25127873,,0,25,Ethereum; Optimism; Arbitrum; Berachain; Binance; Base; Polygon; Plasma; Avalanche; X Layer; Fraxtal; Ink; Katana; Mantle; Stable; Celo; MegaETH; Flare; Sei,0,0,0,0,https://app.stableflow.ai/
+98,RetroBridge,Cross-chain,0,0,,0,25,Arbitrum; Base; Blast; Binance; Ethereum; Linea; Optimism; Polygon zkEVM; Scroll; Taiko; ZKsync Era; Arbitrum Nova; Avalanche; Mantle; Polygon; zkLink Nova; Bitlayer; Metis; opBNB; Gravity by Galxe; X Layer; Merlin; Mode; Zora; BOB,0,0,0,0,https://retrobridge.io/
+99,Squid,Aggregator,416648,20677618,,0,23,Arbitrum; Avalanche; Base; Blast; Binance; Celo; Ethereum; Fantom; Filecoin; Fraxtal; Gnosis; Immutable zkEVM; Linea; Mantle; Moonbeam; Optimism; Polygon; Scroll; Hyperliquid L1; Berachain; Soneium; Sonic; Kava,0,0,0,0,https://www.squidrouter.com/
+100,Everclear,Cross-chain,0,0,,0.0,22,Linea; Taiko; Polygon; Binance; Avalanche; Arbitrum; Optimism; Base; xDai; Unichain; zkSync Era; Mantle; ApeChain; Scroll; Ink; Berachain; Ronin; Mode; Zircuit; Blast; Sonic; Ethereum,0,0,0,0,
+101,CCIP,Bridge,46888734,1301109691,,1995278180.76,21,Ethereum; Avalanche; Base; Hyperliquid L1; Arbitrum; Ronin; Bittensor EVM; Optimism; Pharos; Binance; BOB; World Chain; 0G; Astar; zkSync Era; Polygon; Linea; HashKey Chain; Sonic; Shibarium,0,0,0,0,https://chain.link/cross-chain
+102,MiniBridge,Cross-chain,0,0,,0,21,Metis; opBNB; zkLink Nova; ZKsync Era; Arbitrum; Base; Blast; Binance; Ethereum; Linea; Optimism; Polygon; Scroll; Taiko; Mantle; X Layer; Polygon zkEVM; Zkfair; Merlin; Telos; Avalanche,0,0,0,0,https://minibridge.chaineye.tools/
+103,Synapse Cross Chain Bridge,Cross-chain,0,0,32.67,9456130.41,19,Ethereum; Avalanche; Blast; Arbitrum; Binance; Polygon; Optimism; Boba; Metis; Base; Klaytn; Fantom; Cronos; Aurora; Harmony; Moonriver; Moonbeam; Canto,0,0,0,0,https://synapseprotocol.com
+104,SoDEX Bridge,Bridge,,,,68259307.58,18,Base; Arbitrum; Ethereum; Binance; Hyperliquid L1; Robinhood Chain; Polygon; Arc; Avalanche,0,0,0,0,https://ssi.sosovalue.com
+105,Gate Swap Bridge Aggregator,Aggregator,11911,438801,,0,18,Linea; ZKsync Era; Ethereum; Arbitrum; Base; Blast; Binance; Avalanche; Berachain; World Chain; ENI; Optimism; GateLayer; Sonic; Polygon; Robinhood Chain; Arc,0,0,0,0,https://web3.gate.com/en/swap
+106,SuperSwap Ink Bridge Aggregator,Aggregator,200,25775.55,,0,18,Plasma; Lisk; Mode; Blast; Optimism; Base; Soneium; Zora; Unichain; Ink; Arbitrum; Monad; Binance; Ethereum; Linea; World Chain; Scroll; Polygon,0,0,0,0,https://superswap.ink/
+107,Circle CCTP,Bridge,522316623,15543160508,9217,0,17,Arbitrum; Avalanche; Base; Ethereum; Optimism; Polygon; Hyperliquid L1; Ink; Linea; Monad; Sonic; Unichain; World Chain; XDC; Codex; Sei; Arc,0,0,0,0,https://www.circle.com/cross-chain-transfer-protocol
+108,LilSwap Bridge Aggregator,DEX Aggregator,19129,288678,6.36,0,17,Ethereum; Arbitrum; Gnosis; Robinhood Chain; Avalanche; Linea; Base; Plasma; Optimism; Sonic; Hyperliquid L1; Polygon; Binance; Ink; Unichain,0,0,0,0,https://app.lilswap.xyz
+109,BIM Aggregator,DEX Aggregator,22761,513733,,0,16,Plasma; Base; Optimism; Gnosis; Ethereum; Binance; Arbitrum; Polygon; Berachain; Hyperliquid L1; Avalanche; Plume Mainnet; Arc; Citrea; Robinhood Chain,0,0,0,0,https://exchange.bim.finance/
+110,Butter Network,Cross-chain,0,83466404.6,,1204810.26,15,Ethereum; Binance; Base; Arbitrum; Polygon; Map; Optimism; Linea; Mantle; Scroll; Klaytn; X Layer; Blast; Merlin,0,0,0,0,https://www.butterswap.io/swap
+111,MeMeBridge,Cross-chain,159,30244.28,,0,15,Arbitrum; Linea; Optimism; ZKsync Era; Ethereum; Scroll; Polygon; Base; zkLink Nova; Blast; Binance; Taiko; Polygon zkEVM; opBNB; X Layer,0,0,0,0,https://memebridge.xyz/
+112,UniversalX,Trading App,0,0,0,0,15,Arbitrum; Avalanche; Base; Blast; Binance; Ethereum; Linea; Manta; Mode; Optimism; Polygon; Merlin; Berachain; Sonic; Conflux,0,0,0,0,https://universalx.app
+113,BunnyFi,Bridge,0,0,,0,14,Arbitrum; Ethereum; Linea; Scroll; ZKsync Era; Optimism; Base; Blast; zkLink Nova; X Layer; Binance; Polygon zkEVM; Bitlayer; Taiko,0,0,0,0,
+114,TeleSwap TON,Aggregator,0,0,,0,14,Ethereum; Base; Binance; Taraxa; Avalanche; Arbitrum; Polygon,0,0,0,0,
+115,Helixbox,Cross-chain,0,0,,0,13,Arbitrum; Darwinia; Optimism; Linea; Scroll; Gnosis; Binance; Polygon; Base; Moonbeam; Avalanche; Mantle; Morph,0,0,0,0,https://helix.box/
+116,Firefly Labs,Cross-chain,0,0,,0,13,Arbitrum; Base; Binance; Optimism; Ethereum; Ink; Soneium; Polygon; Unichain; Kaia; Linea; Sonic; Monad,0,0,0,0,https://fireflylabs.app/
+117,SolvBTC,Bridge,,,85967,518306183.74,12,Binance; Ethereum; Base; Arbitrum; X Layer; Mantle; Polygon; Merlin; Avalanche; BOB,0,0,0,0,https://app.solv.finance/solvbtc
+118,LCX Liberty DEX Bridge Aggregator,Aggregator,838,66288.49,,0,12,Ethereum; Arbitrum; Optimism; Base; Robinhood Chain; Avalanche; Polygon; Binance; Monad; Hyperliquid L1; Unichain; Arc,0,0,0,0,https://dex.lcx.com
+119,zkBridge,Cross-chain,419,5308.61,,0,12,Arbitrum; Base; Binance; Ethereum; Linea; Mantle; opBNB; Optimism; Polygon; Scroll; Bitlayer; BounceBit,0,0,0,0,
+120,Novaswap Crosschain,Aggregator,0,0,,0,12,Hyperliquid L1; Base; Plasma; Arbitrum; Hemi; Polygon; Ethereum; Stable,0,0,0,0,
+121,CometBridge,Cross-chain,0,0,,0,11,Arbitrum; Binance; ZKsync Era; Optimism; zkLink Nova; Blast; X Layer; Base; Linea; Ethereum; Scroll,0,0,0,0,
+122,Euclid Protocol,Cross-chain,,,,47544.34,10,Polygon; Arbitrum; Ethereum; Base; Binance; Hyperliquid L1; Monad; 0G; Optimism; Somnia,0,0,0,0,https://euclidprotocol.io/
+123,Gensuki Bridge Aggregator,Aggregator,0,414.92,,0,10,Polygon; Binance; Base; Ethereum; Arbitrum; Sei; Robinhood Chain; ApeChain; Abstract,0,0,0,0,
+124,Allbridge Next,Aggregator,0,1350058,,0,10,Ethereum; Arbitrum; Binance; Polygon; Base; X Layer,0,0,0,0,https://next.allbridge.io/
+125,Messina Bridge,Cross-chain,,,,828.2,9,Avalanche; Ethereum; Base; Binance; Cronos; Arbitrum; Optimism; Polygon,0,0,0,0,https://messina.one
+126,Aori,Cross-chain,143163,5994772,65.68,0,9,Arbitrum; Base; Binance; Ethereum; Monad; Optimism; Stable; MegaETH; Plasma,0,0,0,0,https://www.aori.io/
+127,Unit,Bridge,,,25403,974977908.7,8,Ethereum; Plasma; Monad; Base; Avalanche,0,0,0,0,https://hyperunit.xyz/deposit
+128,Meter Passport,Bridge,,,,743461.28,8,Ethereum; Binance; Theta; Moonriver; Avalanche; Moonbeam; Meter; Polygon,0,0,0,0,https://passport.meter.io
+129,NEAR Bridge,Canonical (L1↔L2),,,,141437775.97,7,Ethereum; Binance; Polygon; Arbitrum; Base,0,0,0,0,https://near.org/
+130,APX Bridge,Bridge,,,,70640410.0,7,Binance; Ethereum; Arbitrum; Manta; Op_Bnb; zkSync Era; Base,0,0,0,0,https://www.asterdex.com/en/referral/c6eF10
+131,CORE Bridge,Canonical (L1↔L2),,,,957738.97,7,Avalanche; Optimism; Ethereum; Binance; Base; Polygon; Arbitrum,0,0,0,0,https://bridge.coredao.org/bridge
+132,SWFT,Bridge,,,,1602.26,7,Ethereum; Binance; Polygon; Kava; OKExChain; Fantom; Heco,0,0,0,0,https://defi.swft.pro
+133,Rosen Bridge,Bridge,,,,1239265.64,6,Ethereum; Binance,0,0,0,0,https://rosen.tech
+134,Octus Bridge,Bridge,,,,0.56,6,Avalanche; Polygon; Binance; Everscale; Ethereum; Fantom,0,0,0,0,
+135,Hyperbridge,Cross-chain,457696,2870846.47,,0,6,Base; Arbitrum; Binance; Polygon; Ethereum; Optimism,0,0,0,0,https://hyperbridge.network/
+136,Fuse Bridge,Canonical (L1↔L2),2939,89716.4,,0,6,Arbitrum; Binance; Ethereum; Optimism; Polygon; Fuse,0,0,0,0,https://console.fuse.io/bridge
+137,Cherum Bridge Aggregator,Aggregator,0,920.47,,0,6,Arbitrum; Optimism; Base; Polygon; Ethereum; Binance,0,0,0,0,https://cherum.io
+138,HyperDex Bridge Aggregator,Aggregator,0,154932.76,,0,6,Ethereum; Arbitrum; Arc; Base; Robinhood Chain,0,0,0,0,
+139,XSwap,Cross-chain,0,0,,0,6,Arbitrum; Avalanche; Base; Ethereum; Optimism; Polygon,0,0,0,0,https://xswap.link/
+140,TRAIN Protocol,Cross-chain,0,0,,0,6,Arbitrum; Base; Optimism; Ethereum; ZKsync Era; Linea,0,0,0,0,https://app.train.tech/
+141,Aster Bridge,Bridge,,,,488937785.88,5,Binance; Ethereum; Arbitrum; Scroll,0,0,0,0,https://www.asterdex.com
+142,edgeX Bridge,Bridge,,,,59947042.53,5,Arbitrum; Ethereum; Arc; edgeX L1; Binance,0,0,0,0,https://pro.edgex.exchange
+143,Reya Bridge,Canonical (L1↔L2),,,,2957987.3,5,Ethereum; Arbitrum; Optimism; Base; Polygon,0,0,0,0,https://app.reya.xyz
+144,STRATO Bridge,Bridge,,,,1299404.31,5,Ethereum; Base; Strato; Robinhood Chain; Linea,0,0,0,0,https://strato.nexus/
+145,Counterstake,Cross-chain,,,,445451.38,5,Ethereum; Binance; Polygon; Kava,0,0,0,0,https://counterstake.org
+146,CrossChain Bridge,Cross-chain,,,,64491.53,5,Ethereum; Polygon; Binance; Avalanche; Fantom,0,0,0,0,https://app.crosschainbridge.org/
+147,DotOracle,Bridge,,,,40090.23,5,Ethereum; Binance; Avalanche; Moonbeam; OKExChain,0,0,0,0,
+148,WavesBridge,Bridge,,,,17105.97,5,Ethereum; Binance; UNIT0,0,0,0,0,https://wavesbridge.io/
+149,CrowdSwap,Dexs,0,0,,16408.97,5,Polygon; Binance; Arbitrum; zkSync Era; Ethereum,0,0,0,0,https://app.crowdswap.org/swap
+150,Merlins Seal,Bridge,,,,431955284.4,4,Ethereum; Arbitrum; Zkfair,0,0,0,0,https://merlinchain.io/bridge/staking
+151,ioTube,Bridge,,,,3245229.24,4,IoTeX; Polygon; Binance; Ethereum,0,0,0,0,https://iotube.org
+152,1sec,Bridge,0,0,,2802892.68,4,Ethereum; Base; Arbitrum,0,0,0,0,https://1sec.to/
+153,BabyDoge Bridge,Bridge,0,0,0,559906.27,4,Binance; Base,0,0,0,0,https://bridge.babydoge.com/
+154,Nomad,Bridge,,,,372409.32,4,Ethereum; Moonbeam; Milkomeda; Evmos,0,0,0,0,https://nomad.xyz
+155,HeLa Bridge,Bridge,,,,29037.12,4,HeLa; Polygon; Ethereum; Binance,0,0,0,0,
+156,Catalyst,Cross-chain,,,,12802.83,4,Base; Blast; Optimism; Arbitrum,0,0,0,0,https://catalyst.exchange
+157,atomiq exchange,Cross-chain,,,,49.38,4,Citrea; Botanix,0,0,0,0,https://app.atomiq.exchange/
+158,Bridge LZ,Bridge,,,,30.17,4,Linea; Base; Ethereum; Optimism,0,0,0,0,
+159,Agglayer,Canonical (L1↔L2),192020,3625172,,0,4,Ethereum; Polygon zkEVM; X Layer; Katana,0,0,0,0,https://agglayer.dev/
+160,Optimism Bridge,Canonical (L1↔L2),6440603,392770433,,838089329.38,3,Ethereum; Base; PGN,0,0,0,0,https://app.optimism.io/bridge/deposit
+161,RSK Bridge,Canonical (L1↔L2),,,,100362666.92,3,Ethereum; RSK,0,0,0,0,https://rootstock.io/
+162,Wrapped,Bridge,,,,23806370.98,3,Celo; Ethereum,0,0,0,0,https://wrapped.com
+163,Alephium Bridge,Bridge,,,,229045.67,3,Ethereum; Binance,0,0,0,0,
+164,Alcor Bridge,Bridge,,,,93778.02,3,Ethereum; Binance; Polygon,0,0,0,0,https://alcor.exchange
+165,Gasp,Cross-chain,,,,30888.57,3,Ethereum; Base; Arbitrum,0,0,0,0,https://www.gasp.xyz
+166,Composable Finance,Cross-chain,,,,16660.37,3,Ethereum; Arbitrum; Polygon,0,0,0,0,
+167,PowerFlow,Bridge,,,,1644.54,3,Ethereum; Titan,0,0,0,0,
+168,Axelar Cross Chain,Bridge,0,0,,0,3,Binance; Ethereum; Arbitrum,0,0,0,0,https://axelar.network
+169,Lighter Bridge,Bridge,19438271,616231315,,611567993.33,2,Ethereum; Arbitrum,0,0,0,0,https://app.lighter.xyz
+170,FAssets,Bridge,,,,199330655.2,2,Flare,0,0,0,0,https://fassets.au.cc/
+171,Avalanche Core Bridge,Canonical (L1↔L2),42049,38518023,,139723320.81,2,Ethereum,0,0,0,0,https://core.app/bridge/
+172,Circle Gateway,Cross-chain,49158892,1036164727,391,70409174.79,2,Ethereum; Arc,0,0,0,0,https://www.circle.com/gateway
+173,StandX Bridge,Canonical (L1↔L2),,,,14266608.28,2,Binance,0,0,0,0,https://standx.com/referral?code=defillama
+174,Echo Bridge,Bridge,,,,10632853.93,2,BSquared,0,0,0,0,https://www.echo-protocol.xyz
+175,Gravity Bridge,Bridge,,,,8053276.83,2,GravityBridge; Ethereum,0,0,0,0,https://www.gravitybridge.net
+176,Sovryn Bridge,Canonical (L1↔L2),,,,2789018.72,2,Binance; Ethereum,0,0,0,0,https://alpha.sovryn.app
+177,Rainbow Bridge,Bridge,0,4390727.95,,202267.26,2,Ethereum,0,0,0,0,https://rainbowbridge.app/transfer
+178,Citrea Bridge,Bridge,0,0,,105710.28,2,Ethereum,0,0,0,0,https://citrea.xyz/bridge
+179,CookieChain Hyperlane Bridge,Bridge,,,,60857.18,2,CookieChain,0,0,0,0,https://hyperlane.cookiechain.wtf
+180,Elysium Bridge,Bridge,,,,23176.67,2,Polygon; Ethereum,0,0,0,0,https://bridge.elysiumchain.tech
+181,Wswap Bridge,Bridge,,,,18907.93,2,Ethereum; Binance,0,0,0,0,https://bridge.w-chain.com/
+182,QIE Bridge,Bridge,,,,13925.0,2,Ethereum; Binance,0,0,0,0,https://www.bridge.qie.digital/bridge
+183,Vara Bridge,Bridge,,,,208.97,2,Vara; Ethereum,0,0,0,0,https://bridge.vara.network/?network=mainnet
+184,Ellipse Bridge,Bridge,,,0,28.37,2,Robinhood Chain; Binance,0,0,0,0,
+185,jBTC,Bridge,,,,0.14,2,Ethereum,0,0,0,0,
+186,BridgeM,Bridge,,,,0.0,2,Manta; Ethereum,0,0,0,0,
+187,Snowbridge,Canonical (L1↔L2),55263,3595555.33,,0,2,Ethereum,0,0,0,0,https://app.snowbridge.network/
+188,Movement Bridge,Bridge,0,80935.56,,0,2,Ethereum,0,0,0,0,https://bridge.movementnetwork.xyz/
+189,Rootstock Token Bridge,Canonical (L1↔L2),0,0,,0,2,Rootstock; Ethereum,0,0,0,0,https://dapp.tokenbridge.rootstock.io/
+190,oooo,Cross-chain,0,0,,0,2,Bitlayer; Rootstock,0,0,0,0,
+191,Ditto Bridge,Aggregator,0,39.62,,0,2,Arbitrum; Base,0,0,0,0,https://app.dittonetwork.io
+192,Arbitrum Bridge,Canonical (L1↔L2),2423608,221004562,,3360671135.24,1,Ethereum,0,0,0,0,https://portal.arbitrum.io/bridge
+193,Base Bridge,Canonical (L1↔L2),1089452,127263689,,2926050424.02,1,Ethereum,0,0,0,0,https://docs.base.org/base-chain/network-information/bridges-mainnet
+194,Polygon Bridge,Chain,20526816,457971860,,2662948559.0,1,Ethereum,0,0,0,0,https://polygon.technology/
+195,Robinhood Chain Bridge,Canonical (L1↔L2),199972,213095110,,642119952.86,1,Ethereum,0,0,0,0,https://robinhood.com/us/en/chain/
+196,World Chain,Canonical (L1↔L2),,,,471695069.61,1,Ethereum,0,0,0,0,https://world.org/
+197,Starknet Bridge,Canonical (L1↔L2),46300,21870485,,298187340.29,1,Ethereum,0,0,0,0,https://starkgate.starknet.io
+198,xDAI Stake Bridge,Canonical (L1↔L2),364898,31377942,,259421244.84,1,Ethereum,0,0,0,0,https://www.gnosis.io/
+199,Linea Bridge,Canonical (L1↔L2),,,,243361090.81,1,Ethereum,0,0,0,0,https://bridge.linea.build
+200,Mantle Bridge,Canonical (L1↔L2),245842,34773050.03,,115821450.5,1,Ethereum,0,0,0,0,https://app.mantle.xyz/bridge
+201,zkSync Era txBridge,Canonical (L1↔L2),4549980,27679064,,111512836.15,1,Ethereum,0,0,0,0,
+202,AO Bridge,Canonical (L1↔L2),,,,92352380.02,1,Ethereum,0,0,0,0,https://ao.arweave.net/
+203,Sonic Gateway,Canonical (L1↔L2),,,,75493516.37,1,Ethereum,0,0,0,0,https://gateway.soniclabs.com/ethereum/sonic/s
+204,Ink Bridge,Canonical (L1↔L2),,,,55432236.78,1,Ethereum,0,0,0,0,https://inkonchain.com/bridge
+205,PulseChain Bridge,Canonical (L1↔L2),,,,46234817.1,1,Ethereum,0,0,0,0,https://bridge.pulsechain.com
+206,Polygon zkEVM Bridge,Canonical (L1↔L2),0,0,,45215021.34,1,Ethereum,0,0,0,0,https://portal.polygon.technology/bridge
+207,Blast Bridge,Canonical (L1↔L2),,,,44883544.91,1,Ethereum,0,0,0,0,https://blast.io/en/bridge
+208,TxFlow Bridge,Bridge,,,,34909750.03,1,Arbitrum,0,0,0,0,https://txflow.com/
+209,Grvt Bridge,Bridge,,,,33663449.86,1,Ethereum,0,0,0,0,https://grvt.io
+210,Scroll Bridge,Canonical (L1↔L2),,,,32956958.37,1,Ethereum,0,0,0,0,https://portal.scroll.io/bridge
+211,Metis Bridge,Canonical (L1↔L2),,,,32191784.02,1,Ethereum,0,0,0,0,https://bridge.metis.io/home
+212,SuiBridge,Canonical (L1↔L2),708807.45,13833978.71,,26581856.77,1,Ethereum,0,0,0,0,https://bridge.sui.io
+213,Paradex Bridge,Bridge,,,,26119511.14,1,Ethereum,0,0,0,0,https://app.paradex.trade/r/defillama
+214,Manta Pacific,Canonical (L1↔L2),12130.72,2157319.1,,23543180.68,1,Ethereum,0,0,0,0,https://pacific-bridge.manta.network
+215,Cronos zkEVM Bridge,Canonical (L1↔L2),,,,20390900.85,1,Ethereum,0,0,0,0,https://zkevm.cronos.org/
+216,Morph Bridge,Bridge,,,,14765083.65,1,Ethereum,0,0,0,0,https://bridge.morphl2.io/
+217,SX Rollup Bridge,Canonical (L1↔L2),,,,11912151.61,1,Ethereum,0,0,0,0,https://sx.bet/wallet/bridge
+218,Taiko Bridge,Canonical (L1↔L2),,,,11031917.86,1,Ethereum,0,0,0,0,https://bridge.taiko.xyz/
+219,Arbitrum Nova Bridge,Canonical (L1↔L2),,,,10889733.55,1,Ethereum,0,0,0,0,https://portal.arbitrum.io/bridge?l2ChainId=42170
+220,Gravity by Galxe,Canonical (L1↔L2),,,,9609790.34,1,Ethereum,0,0,0,0,https://gravity.xyz/
+221,Endurance Bridge,Bridge,,,,7589310.06,1,Endurance,0,0,0,0,https://endurance-bridge.fusionist.io/
+222,ADI Bridge,Canonical (L1↔L2),,,,5993125.97,1,Ethereum,0,0,0,0,https://bridge.adifoundation.ai/
+223,Lisk Bridge,Canonical (L1↔L2),,,,5489945.08,1,Ethereum,0,0,0,0,https://lisk.com
+224,Sophon Bridge,Canonical (L1↔L2),,,,5462205.01,1,Ethereum,0,0,0,0,
+225,Eclipse Bridge,Canonical (L1↔L2),0,0,,5090543.11,1,Ethereum,0,0,0,0,https://www.eclipse.xyz
+226,Zora Bridge,Canonical (L1↔L2),,,,5088103.19,1,Ethereum,0,0,0,0,https://zora.co/
+227,Mode Bridge,Canonical (L1↔L2),88431.47,172345.96,,5074380.66,1,Ethereum,0,0,0,0,https://app.mode.network
+228,MegaETH Bridge,Canonical (L1↔L2),,,,4662938.38,1,Ethereum,0,0,0,0,https://www.megaeth.com/
+229,Zircuit,Canonical (L1↔L2),2549.11,173940.54,,4630068.41,1,Ethereum,0,0,0,0,https://www.zircuit.com/
+230,Hibachi Bridge,Canonical (L1↔L2),,,,4292802.95,1,Arbitrum,0,0,0,0,https://hibachi.xyz/
+231,Sorare Bridge,Canonical (L1↔L2),,,,4232717.73,1,Ethereum,0,0,0,0,https://sorare.com/
+232,Ronin Bridge,Canonical (L1↔L2),,,,3876872.23,1,Ethereum,0,0,0,0,https://app.roninchain.com/bridge
+233,Unichain Bridge,Canonical (L1↔L2),,,,3022142.66,1,Ethereum,0,0,0,0,https://www.unichain.org
+234,Boba Bridge,Canonical (L1↔L2),,,,2856703.96,1,Ethereum,0,0,0,0,https://gateway.boba.network
+235,BOB Bridge,Bridge,,,,2624218.6,1,Ethereum,0,0,0,0,https://www.gobob.xyz
+236,Degen Bridge,Canonical (L1↔L2),,,,1821967.53,1,Base,0,0,0,0,https://bridge.degen.tips
+237,BabelFish,Bridge,,,,1225963.1,1,RSK,0,0,0,0,https://babelfish.money
+238,Shape Bridge,Canonical (L1↔L2),,,,1028607.94,1,Ethereum,0,0,0,0,https://shape.network/bridge
+239,Hemi,Canonical (L1↔L2),,,,1024244.43,1,Ethereum,0,0,0,0,https://hemi.xyz/
+240,Conduit Bridge,Bridge,,,,860505.78,1,Ethereum,0,0,0,0,https://www.conduit.xyz/
+241,Keeta Bridge,Canonical (L1↔L2),,,,823834.4,1,Base,0,0,0,0,https://keeta.com/
+242,Sanko Bridge,Canonical (L1↔L2),,,,784644.55,1,Arbitrum,0,0,0,0,https://sanko.xyz/
+243,Zero Network,Canonical (L1↔L2),,,,547512.3,1,Ethereum,0,0,0,0,https://zero.network/
+244,Lens Chain,Canonical (L1↔L2),,,,507683.63,1,Ethereum,0,0,0,0,https://lens.xyz
+245,Echelon Initia Bridge,Canonical (L1↔L2),,,,467770.19,1,Initia,0,0,0,0,https://echelon.market/
+246,ApeChain Bridge,Bridge,,,,456448.04,1,Ethereum,0,0,0,0,https://apechain.com/portal#bridge
+247,Soon,Chain,0,0,,438534.59,1,Ethereum,0,0,0,0,https://soo.network/
+248,XO Bridge,Bridge,,,,365884.95,1,Base,0,0,0,0,https://xo.market
+249,Swellchain Bridge,Canonical (L1↔L2),,,,341799.83,1,Ethereum,0,0,0,0,
+250,Inertia Bridge,Canonical (L1↔L2),,,,337455.69,1,Initia,0,0,0,0,https://inrt.fi/
+251,Orderly Chain,Canonical (L1↔L2),,,,258942.54,1,Ethereum,0,0,0,0,https://orderly.network/
+252,Pepu Bridge,Bridge,,,,238926.07,1,Ethereum,0,0,0,0,https://pepubridge.com/
+253,RISE Bridge,Bridge,,,,187184.26,1,Ethereum,0,0,0,0,https://risechain.com/
+254,Treasure Bridge,Canonical (L1↔L2),,,,148678.14,1,Ethereum,0,0,0,0,https://treasure.lol
+255,Soneium Bridge,Canonical (L1↔L2),,,,142048.04,1,Ethereum,0,0,0,0,https://superbridge.app/soneium
+256,RWA Perp Bridge,Bridge,,,,125306.51,1,X Layer,0,0,0,0,https://www.rwaperp.xyz/
+257,Redstone,Canonical (L1↔L2),,,,66703.46,1,Ethereum,0,0,0,0,https://redstone.xyz/
+258,BitSwap,Cross-chain,,,,66698.27,1,Ethereum,0,0,0,0,https://bitswap.site
+259,XAI Bridge,Canonical (L1↔L2),,,,57027.67,1,Arbitrum,0,0,0,0,https://xai.games/
+260,ZKcandy Bridge,Canonical (L1↔L2),,,,43913.8,1,Ethereum,0,0,0,0,https://zkcandy.io/
+261,Appchain Bridge,Canonical (L1↔L2),,,,42827.74,1,Ethereum,0,0,0,0,https://appchain.xyz/
+262,zkSync Lite Bridge,Canonical (L1↔L2),,,,31166.56,1,Ethereum,0,0,0,0,https://lite.zksync.io/
+263,ENIBridge,Canonical (L1↔L2),,,,11468.04,1,Ethereum,0,0,0,0,
+264,Aeva Bridge,Bridge,,,,439.45,1,Robinhood Chain,0,0,0,0,https://aevachain.app/bridge
+265,PowPeg Fast Mode,Bridge,0,828009,,239.89,1,RSK,0,0,0,0,https://powpeg.rootstock.io
+266,bb84,Canonical (L1↔L2),,,,52.84,1,Ethereum,0,0,0,0,https://bb84.com
+267,OpenZK,Canonical (L1↔L2),,,,24.33,1,Ethereum,0,0,0,0,https://www.openzk.net
+268,CENNZnet Bridge,Bridge,,,,21.43,1,Ethereum,0,0,0,0,
+269,Dango Bridge,Bridge,,,,19.93,1,Ethereum,0,0,0,0,
+270,Moonchain Bridge,Canonical (L1↔L2),,,,5.91,1,Arbitrum,0,0,0,0,
+271,Zkfair,Canonical (L1↔L2),,,,4.87,1,Ethereum,0,0,0,0,
+272,Ad-Astra Bridge,Bridge,,,,4.63,1,Ethereum,0,0,0,0,https://ad-astra.multiversx.com/
+273,Mint Bridge,Canonical (L1↔L2),0,0,,1.5,1,Ethereum,0,0,0,0,
+274,Rocket Bridge,Bridge,,,,1.1,1,Arbitrum,0,0,0,0,https://beta.rocketfi.io/
+275,Wrapped BNB,Bridge,,,,0.68,1,Binance,0,0,0,0,https://www.kava.io
+276,RSS3 Bridge,Canonical (L1↔L2),,,,0.01,1,Ethereum,0,0,0,0,https://explorer.rss3.io/bridge
+277,Eventum Bridge,Canonical (L1↔L2),,,,0.0,1,Arbitrum,0,0,0,0,https://evedex.com/en-US/
+278,Rari Chain,Canonical (L1↔L2),,,,0.0,1,Arbitrum,0,0,0,0,https://rarichain.org/
+279,Supra Bridge,Canonical (L1↔L2),,,,0.0,1,Ethereum,0,0,0,0,https://supra.com/
+280,Lago Bridge,Bridge,,,,0.0,1,Ethereum,0,0,0,0,
+281,Asset Chain Bridge,Canonical (L1↔L2),31.87,22095.6,,0,1,Asset Chain,0,0,0,0,https://bridge.assetchain.org/
+282,FastBTC,Bridge,0,0,,0,1,Rootstock,0,0,0,0,https://sovryn.com/
+283,Kaspa Bridge,Canonical (L1↔L2),0,0,,0,1,Binance,0,0,0,0,https://www.kaspabridge.com/
