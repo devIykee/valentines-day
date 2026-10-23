@@ -1,0 +1,354 @@
+rank,protocol,category,volume_24h_usd,volume_30d_usd,fees_24h_usd,open_interest_usd,tvl_usd,chains_total,evm_chains,major_versions,audits,upgrade_milestones,upgrade_events,url
+1,Gains Network,Derivatives,,,7510,1674072,8083577.31,5,Arbitrum; Base; Polygon; ApeChain; MegaETH,0,1,5,6,https://gains.trade/
+2,Predy V5,Derivatives,,,0,,12149.6,1,Arbitrum,4,0,1,5,
+3,Derive V1,Options,,,,,134318.03,3,Ethereum; Arbitrum; Optimism,2,1,2,5,https://derive.xyz
+4,Predy V2,Derivatives,,,,,12313.29,1,Arbitrum,2,1,2,5,
+5,Buffer Finance,Options,,,,,108.8,2,Arbitrum; Polygon,0,1,4,5,
+6,Premia V2,Options,,,,,217485.68,5,Arbitrum; Optimism; Ethereum; Binance; Fantom,1,3,0,4,https://premia.finance/
+7,Y2K V1,Derivatives,,,0,,40778.02,1,Arbitrum,1,3,0,4,
+8,Thetanuts Finance,Options,,,,,230545.71,14,Ethereum; Base; Robinhood Chain; Hyperliquid L1; Binance; Arbitrum; Avalanche; Fantom; Polygon; Boba; Aurora; Cronos; Polygon zkEVM; inEVM,0,1,3,4,https://thetanuts.finance
+9,IPOR Derivatives,Derivatives,,,,,493474.61,3,Arbitrum; Ethereum; Base,0,1,3,4,https://app.ipor.io/fusion?f=D0V4X4doim7oC8cTQZzAZXBOkbwaf
+10,Deri V4,Options,,,,,7704480.22,12,Linea; Binance; zkSync Era; Arbitrum; Base; Blast; Taiko; Sonic; Manta; Scroll; Polygon zkEVM,3,0,0,3,https://deri.io/#/trade/options
+11,Synthetix V3,Derivatives,,,,,0.42,3,Base; Ethereum; Arbitrum,3,0,0,3,https://synthetix.io
+12,Cap Finance V4,Derivatives,,,0,,11094.98,2,Arbitrum; Base,3,0,0,3,
+13,YFX V4,Derivatives,,,,,2278.38,2,Arbitrum; Base,3,0,0,3,https://www.yfx.com
+14,Synthetix V4,Derivatives,,,134,325205,922690.07,1,Ethereum,3,0,0,3,https://synthetix.io
+15,Pika V4,Derivatives,,,0,5077,86781.32,1,Optimism,3,0,0,3,
+16,Alchemix V3,Synthetics,,,-3828,,39274269.12,4,Ethereum; Optimism; Base; Arbitrum,2,1,0,3,https://alchemix.fi/
+17,SynFutures V1,Derivatives,,,,,111085.81,4,Polygon; Binance; Ethereum; Arbitrum,2,1,0,3,https://www.synfutures.com/
+18,SynFutures V3,Derivatives,,,5678,1098478,2814249.09,2,Base; Blast,2,1,0,3,https://trade.synfutures.com/#/trade
+19,dYdX V3,Derivatives,,,,,11643002.79,1,Ethereum,2,1,0,3,https://dydx.trade
+20,Equation V1,Derivatives,,,,,18.93,1,Arbitrum,2,1,0,3,
+21,SynFutures V2,Derivatives,,,,,0.0,1,Polygon,2,1,0,3,https://trade.synfutures.com/#/trade
+22,SparkDEX Perps,Derivatives,,,115,221163,0,1,Flare,2,1,0,3,https://sparkdex.ai/
+23,Derive V2,Derivatives,,,,,295137.31,7,Optimism; Ethereum; Base; Arbitrum; Hyperliquid L1; Mode; Blast,2,0,1,3,https://app.derive.xyz
+24,Derive V3 Options,Options,,,7838,1971212754,180447755.12,1,Ethereum,2,0,1,3,https://app.derive.xyz
+25,Alchemix V2,Synthetics,,,0,,82276.49,4,Ethereum; Optimism; Arbitrum; Fantom,1,1,1,3,https://alchemix.fi/
+26,SOFA.org,Options,,,22.69,,1247151.78,4,Ethereum; Arbitrum; Binance; Polygon,0,3,0,3,https://www.sofa.org
+27,MYX Finance,Derivatives,,,0,50,102953.11,4,Linea; Binance; Arbitrum; Op_Bnb,0,3,0,3,https://app.myx.finance
+28,Voltz,Derivatives,,,,,230690.84,3,Ethereum; Arbitrum; Avalanche,0,3,0,3,
+29,Tigris,Derivatives,,,,,1016.26,2,Polygon; Arbitrum,0,3,0,3,
+30,Level Perps,Derivatives,,,,,359.71,2,Binance; Arbitrum,0,3,0,3,
+31,Bounce.Tech,Derivatives,,,239,994544,637461.39,1,Hyperliquid L1,0,3,0,3,https://bounce.tech/
+32,Ithaca Protocol,Options,,,,,14764.97,1,Arbitrum,0,3,0,3,https://app.ithacaprotocol.io
+33,Wasabi Perps,Derivatives,,,,,575595.78,5,Base; Blast; Ethereum; Berachain,0,2,1,3,https://app.wasabi.xyz
+34,MetalSwap,Derivatives,,,,,7497.98,5,Linea; Ethereum; Optimism; Binance; Polygon,0,1,2,3,https://app.metalswap.finance/
+35,Javsphere,Derivatives,,,0,,51195.99,3,Base; DeFiChain EVM; DefiChain,0,1,2,3,https://javsphere.com/
+36,SpaceDex,Derivatives,,,,,1335.68,2,Arbitrum; Binance,0,1,2,3,
+37,Bumper Finance,Options,,,,,210.81,1,Ethereum,0,1,2,3,
+38,Opyn Squeeth,Derivatives,,,,,593601.28,1,Ethereum,0,0,3,3,https://squeeth.opyn.co
+39,Premia V3,Options,,,,,557361.04,1,Arbitrum,2,0,0,2,https://premia.finance
+40,Cap Finance v1-v3,Derivatives,,,,,203763.25,1,Arbitrum,2,0,0,2,
+41,Predy V3.2,Derivatives,,,,,24115.45,1,Arbitrum,2,0,0,2,
+42,Equation V2,Derivatives,,,,,0.88,1,Arbitrum,2,0,0,2,
+43,Predy V3,Derivatives,,,,,0.0,1,Arbitrum,2,0,0,2,
+44,Derive V3 Perps,Derivatives,,,2204,74390458,0,1,Derive V3,2,0,0,2,https://app.derive.xyz
+45,Contango V2,Derivatives,,,21.93,0,7358151.41,10,Ethereum; Base; Arbitrum; Optimism; Avalanche; xDai; Polygon; Binance; Scroll; Linea,1,1,0,2,https://contango.xyz
+46,Prodigy.Fi V2,Options,,,,,68892.19,4,Ethereum; Base; Hyperliquid L1; Berachain,1,1,0,2,https://prodigy.fi/
+47,Panoptic V1,Options,,,,,4972.99,3,Ethereum; Unichain; Base,1,1,0,2,https://app.panoptic.xyz
+48,Panoptic V1.1,Options,,,,,1213.68,3,Base; Unichain; Ethereum,1,1,0,2,https://app.panoptic.xyz
+49,Panoptic V2,Options,,,53.13,,1367254.17,2,Ethereum; Robinhood Chain,1,1,0,2,https://app.panoptic.xyz
+50,RFX Exchange V2,Derivatives,,,,,498.37,2,zkSync Era; Sonic,1,1,0,2,https://rfx.exchange/
+51,Y2K V2,Derivatives,,,0,,2938.04,1,Arbitrum,1,1,0,2,
+52,Metavault.Trade,Derivatives,,,,,0.01,1,Polygon,1,1,0,2,
+53,CVI Finance,Synthetics,,,,,118039.6,3,Polygon; Ethereum; Arbitrum,0,2,0,2,https://cvi.finance/
+54,Likwid,Derivatives,,,,,13450.23,3,Binance; Base; Ethereum,0,2,0,2,https://likwid.fi
+55,Hegic,Options,,,30.99,,9200005.07,2,Arbitrum; Ethereum,0,2,0,2,https://www.hegic.co
+56,CompliFi,Derivatives,,,,,37340.2,2,Ethereum; Polygon,0,2,0,2,
+57,Gambit Trade,Derivatives,,,0,,3008.91,2,zkSync Era; Arbitrum,0,2,0,2,
+58,HertzFlow,Derivatives,,,88.69,107805,6978673.09,1,Binance,0,2,0,2,https://www.hertzflow.xyz/
+59,Strat Perps,Derivatives,,,,,1205778.4,1,Strat,0,2,0,2,https://app.strat.trade
+60,PHAME Protocol,Derivatives,,,54.33,,405182.96,1,Pulse,0,2,0,2,https://dapp.phame.io
+61,Scientix,Synthetics,,,,,367478.54,1,Binance,0,2,0,2,https://scientix.finance
+62,Pika,Derivatives,,,0,,298324.03,1,Optimism,0,2,0,2,
+63,Cyclo,Derivatives,,,,,164701.64,1,Flare,0,2,0,2,https://cyclo.finance
+64,Uniwhale,Derivatives,,,,,9364.18,1,Binance,0,2,0,2,https://www.uniwhale.co
+65,K-BIT,Derivatives,,,0,,481.94,1,Klaytn,0,2,0,2,
+66,DPEX,Derivatives,,,,,147.3,1,Polygon,0,2,0,2,
+67,Rollup Finance vAMM,Derivatives,,,,,0.0,1,zkSync Era,0,2,0,2,
+68,AlphaX,Derivatives,,,,,3210677.44,4,Binance; Ethereum; Arbitrum,0,1,1,2,https://alphax.com/
+69,Domination Finance,Derivatives,,,0,,97234.08,4,Base; Polygon; Ethereum; Boba,0,1,1,2,https://domination.finance
+70,Narwhal Finance,Derivatives,,,,,1267.89,3,Arbitrum; Monad; Binance,0,1,1,2,https://narwhal.finance
+71,GMX V1 EVM,Derivatives,,,,,3215343.8,2,Avalanche; Arbitrum,0,1,1,2,https://gmx.io/
+72,GoodEntry,Derivatives,,,,,37835.46,1,Arbitrum,0,1,1,2,
+73,BLEX,Derivatives,,,,,17136.82,1,Arbitrum,0,1,1,2,https://blex.io
+74,Denaria vAMM,Derivatives,,,,,187.91,1,Linea,0,1,1,2,https://denaria.finance
+75,PairEx,Derivatives,,,,,90.85,1,Arbitrum,0,1,1,2,
+76,Mirakle Defi,Derivatives,,,,,0.02,1,Fuse,0,1,1,2,https://mirakle.io
+77,LogX V2,Derivatives,,,,,40.96,19,Sonic; Base; Abstract; Arbitrum; Manta; Optimism; Mode; Scroll; Polygon; ApeChain; Taiko; BOB; Sei; Mantle; Kroma; Linea; Rari; Mint; Blast,1,0,0,1,https://logx.network/
+78,LogX V1,Derivatives,,,,,1207.5,8,Telos; Mode; Linea; Mantle; Fuse; Kroma; Manta; zkLink,1,0,0,1,https://logx.network/
+79,Fufuture V2,Options,,,,,7432.5,5,Binance; Base; Conflux; Op_Bnb,1,0,0,1,https://www.fufuture.io
+80,Fufuture Contract,Derivatives,,,,,1.06,5,Base; ENI; X Layer; Binance; Conflux,1,0,0,1,https://www.fufuture.io
+81,Cega V1,Options,,,,,308145.95,3,Ethereum; Arbitrum,1,0,0,1,
+82,Contango V1,Derivatives,,,,,286393.05,2,Arbitrum; Ethereum,1,0,0,1,https://contango.xyz/
+83,Cega V2,Options,,,,,109379.01,2,Arbitrum; Ethereum,1,0,0,1,
+84,Fufuture V1,Derivatives,,,,,17236.73,2,Binance; Arbitrum,1,0,0,1,https://www.fufuture.io
+85,Morphex V2,Derivatives,,,,,5.46,2,Binance; Fantom,1,0,0,1,
+86,Rysk V1,Options,,,,,193377.8,1,Arbitrum,1,0,0,1,https://app.rysk.finance
+87,Synthswap Perps,Derivatives,,,,,603.45,1,Base,1,0,0,1,
+88,Covo V2,Derivatives,,,,,494.33,1,Polygon,1,0,0,1,
+89,PancakeSwap Options,Options,,,,,103.16,1,Arbitrum,1,0,0,1,
+90,Kyan Blue Perps,Derivatives,,,,,46.24,1,Arbitrum,1,0,0,1,https://app.kyan.blue/perps
+91,Covo V1,Derivatives,,,,,1.0,1,Polygon,1,0,0,1,
+92,Morphex V1 Perps,Derivatives,,,,,0.0,1,Fantom,1,0,0,1,
+93,Satori Perp,Derivatives,,,,,10020.87,14,Linea; Story; Ethereum; Binance; zkSync Era; Base; Arbitrum; Zircuit; Scroll; Polygon zkEVM; X Layer; Plume; Plume Mainnet,0,1,0,1,
+94,Aboard Exchange,Derivatives,,,,,123.08,8,Arbitrum; Avalanche; zkSync Era; Base; Scroll; Manta; Mantle; Polygon zkEVM,0,1,0,1,
+95,ApeX Pro,Derivatives,,,,,1343311.19,7,Ethereum; Polygon; Arbitrum; Binance; Avalanche; Optimism; Mantle,0,1,0,1,https://www.apex.exchange/
+96,Vest Markets,Derivatives,,,37,89431543,365097.01,7,Arbitrum; Ethereum; Binance; Base; Optimism; Polygon; zkSync Era,0,1,0,1,https://alpha.vestmarkets.com
+97,KiloEx,Derivatives,,,29.93,489974,1350562.42,6,Binance; Op_Bnb; Base; Manta; Taiko; BSquared,0,1,0,1,https://app.kiloex.io/#/trade
+98,Jarvis Network,Derivatives,,,,,82650.98,6,Polygon; Binance; Avalanche; xDai; Arbitrum; Optimism,0,1,0,1,https://jarvis.money/
+99,Defx,Derivatives,,,,,15969.32,6,Ethereum; Base; Polygon; Arbitrum; Binance,0,1,0,1,
+100,Amped Finance,Derivatives,,,,,132.33,6,Sonic; Base; LightLink; Binance; Berachain; Superseed,0,1,0,1,https://amped.finance/
+101,MUX Perps,Derivatives,,,170,212408,9644349.66,5,Arbitrum; Avalanche; Binance; Optimism; Fantom,0,1,0,1,https://mux.network/
+102,Antimatter,Options,,,,,13775.02,5,Avalanche; Ethereum; Binance; Arbitrum; Kava,0,1,0,1,https://antimatter.finance
+103,D8X,Derivatives,,,0,,6169.23,5,Berachain; Arbitrum; X Layer; Polygon zkEVM; Base,0,1,0,1,https://d8x.exchange/
+104,GMX EVM,Derivatives,,,57387,59563644,211457006.84,4,Arbitrum; Avalanche; MegaETH; Botanix,0,1,0,1,https://gmx.io
+105,Aevo Perps,Derivatives,,,,11520374,14856928.07,4,Ethereum; Arbitrum; Base; Optimism,0,1,0,1,https://app.aevo.xyz/r/defillama
+106,Deri Protocol,Options,,,,,310036.59,4,Binance; Arbitrum; zkSync Era; Polygon,0,1,0,1,https://deri.io/
+107,MUFEX,Derivatives,,,,,276413.93,4,Binance; Polygon; Arbitrum; Mantle,0,1,0,1,
+108,Opium,Options,,,,,75772.14,4,Ethereum; Polygon; Arbitrum; Binance,0,1,0,1,https://app.opium.finance/
+109,JOJO,Derivatives,,,0,,25211.07,4,Base; Arbitrum; Binance; zkSync Era,0,1,0,1,https://app.jojo.exchange/trade
+110,Levana Perps,Derivatives,,,,,15467.9,4,Sei,0,1,0,1,https://www.levana.finance
+111,Primex Finance,Derivatives,0,0,,,12130.76,4,Polygon; Arbitrum; Ethereum; Base,0,1,0,1,https://primex.finance
+112,Stryke SSOV,Options,,,,,6269.77,4,Arbitrum; Ethereum; Binance; Avalanche,0,1,0,1,https://www.stryke.xyz/en
+113,HoldStation DeFutures,Derivatives,,,0,,0.42,4,World Chain; zkSync Era; Berachain; Binance,0,1,0,1,https://holdstation.exchange
+114,Outcome Finance,Synthetics,,,,,1187729.1,3,Ethereum; Polygon; Boba,0,1,0,1,
+115,Opyn Gamma,Options,,,,,1011674.67,3,Ethereum; Avalanche; Polygon,0,1,0,1,https://www.opyn.co/
+116,Siren,Options,,,,,459409.23,3,Ethereum; Polygon; Arbitrum,0,1,0,1,
+117,Pods Finance,Options,,,,,389131.49,3,Polygon; Ethereum; Arbitrum,0,1,0,1,
+118,FinNexus,Options,,,,,232033.87,3,Ethereum; Binance; Wanchain,0,1,0,1,
+119,Tristero Margin,Derivatives,,,,11126,98911.52,3,Ethereum; Arbitrum; Base,0,1,0,1,https://www.tristero.com/
+120,SIR,Derivatives,,,,,90272.12,3,Ethereum; MegaETH; Hyperliquid L1,0,1,0,1,https://www.sir.trading
+121,Electra,Derivatives,,,,,81879.61,3,Binance; Ethereum,0,1,0,1,https://electra.trade/
+122,GammaSwap Open Interest,Options,,,,,47916.99,3,Arbitrum; Base; Ethereum,0,1,0,1,https://app.gammaswap.com/
+123,KTX Perps,Derivatives,,,,,41560.0,3,Binance; Mantle; Arbitrum,0,1,0,1,
+124,Jasper Vault,Options,,,,,40563.46,3,Arbitrum; Bitlayer; Base,0,1,0,1,https://www.jaspervault.io/
+125,FWX Derivatives,Derivatives,,,,,600.86,3,Base; Binance; Avalanche,0,1,0,1,https://fwx.finance/
+126,FutureSwap,Derivatives,,,0,,12.72,3,Arbitrum; Ethereum; Avalanche,0,1,0,1,
+127,TurboFlow Perps,Derivatives,,,,,6688213.87,2,Binance,0,1,0,1,https://www.tf.xyz/
+128,Hakka Finance,Derivatives,,,,,5286482.11,2,Ethereum; Binance,0,1,0,1,https://hakka.finance/
+129,Strike Finance Perpetuals,Derivatives,,,2065,1127009,2128675.88,2,Ethereum,0,1,0,1,https://www.strikefinance.org/
+130,ELFi Protocol,Derivatives,,,,,1549708.92,2,Base; Arbitrum,0,1,0,1,
+131,RollX,Derivatives,,,,,451951.31,2,Base; Bitlayer,0,1,0,1,https://rollx.trade/
+132,Perpetual Protocol,Derivatives,,,0,,435321.65,2,Ethereum; Optimism,0,1,0,1,
+133,Hypersurface,Options,,,,,365735.32,2,Hyperliquid L1; Base,0,1,0,1,https://app.hypersurface.io
+134,TYMIO,Options,,,,,210999.05,2,Arbitrum; Ethereum,0,1,0,1,https://tymio.com/
+135,Doubler,Derivatives,,,,,154124.78,2,Arbitrum; Manta,0,1,0,1,https://doubler.pro/#/home
+136,Float,Derivatives,,,,,143449.95,2,Polygon; Avalanche,0,1,0,1,
+137,Zomma Protocol,Options,,,,,79907.0,2,zkSync Era; Arbitrum,0,1,0,1,https://zomma.pro
+138,PARE,Interest Rate Derivatives,,,,,77742.96,2,Robinhood Chain; Ethereum,0,1,0,1,https://parestocks.com
+139,Oddz,Options,,,,,59177.86,2,Avalanche; Binance,0,1,0,1,https://www.oddz.fi/
+140,Rumpel Labs,Synthetics,,,,,49770.68,2,Ethereum; Hyperliquid L1,0,1,0,1,
+141,El Dorado Exchange,Derivatives,,,,,39728.15,2,Binance; Arbitrum,0,1,0,1,
+142,Duet Protocol,Synthetics,,,,,38303.67,2,Arbitrum; Binance,0,1,0,1,
+143,Onchain Trade,Derivatives,,,,,31638.82,2,zkSync Era; Base,0,1,0,1,
+144,TsunamiX,Derivatives,,,,,19218.46,2,Mantle,0,1,0,1,
+145,Cyberperp,Derivatives,,,0,,9555.37,2,IOTA EVM,0,1,0,1,
+146,FXDX,Derivatives,,,,,3732.06,2,Base; Optimism,0,1,0,1,https://fxdx.exchange
+147,DeltaTheta,Options,,,,,1826.02,2,Binance; Polygon,0,1,0,1,
+148,POISON FINANCE,Synthetics,,,,,568.31,2,Binance; Arbitrum,0,1,0,1,https://poison.finance/
+149,NEX,Derivatives,,,,,154.15,2,Optimism; Aurora,0,1,0,1,
+150,DTX Derivatives,Derivatives,,,,,45.58,2,Blast; Taiko,0,1,0,1,
+151,PRINT3R,Derivatives,,,,,9.82,2,Mode; Base,0,1,0,1,
+152,Veranta,Derivatives,,,29984,80762248,11976350.53,1,Base,0,1,0,1,https://www.veranta.xyz/
+153,Reya Perps,Derivatives,,,771,1256972,9378657.13,1,Reya Network,0,1,0,1,https://app.reya.xyz
+154,Ostium,Derivatives,,,914,8579762,3577295.64,1,Arbitrum,0,1,0,1,https://www.ostium.io/
+155,LeverUp,Derivatives,,,873,35840,2373664.41,1,Monad,0,1,0,1,https://app.leverup.xyz
+156,Ethereal DEX,Derivatives,,,,,1613341.0,1,Ethereal,0,1,0,1,https://app.ethereal.trade/
+157,Ribbon Earn,Options,,,,,1040711.01,1,Ethereum,0,1,0,1,https://www.ribbon.finance/
+158,DerivaDEX,Derivatives,,,,,633959.96,1,Ethereum,0,1,0,1,http://derivadex.com
+159,Monday Trade Perps,Derivatives,,,0,0,579837.37,1,Monad,0,1,0,1,https://app.monday.trade/
+160,Wrap Protocol,Synthetics,,,,,556308.44,1,Ethereum,0,1,0,1,
+161,Euphoria Finance,Derivatives,,,,,187452.12,1,MegaETH,0,1,0,1,https://euphoria.finance
+162,Drake Exchange,Derivatives,,,112,1280,177779.17,1,Monad,0,1,0,1,https://drake.exchange/
+163,Mycelium Perpetual Pools,Derivatives,,,,,159163.87,1,Arbitrum,0,1,0,1,
+164,Keep3r Network,Derivatives,,,,,153268.58,1,Ethereum,0,1,0,1,https://keep3r.network
+165,Ideamarket,Derivatives,,,,,143442.31,1,Arbitrum,0,1,0,1,https://ideamarket.io
+166,Particle LAMM,Derivatives,,,,,135603.59,1,Blast,0,1,0,1,
+167,Yam Finance,Synthetics,,,,,117596.53,1,Ethereum,0,1,0,1,
+168,InfinityPools,Derivatives,0,112,,,116098.49,1,Base,0,1,0,1,https://infinitypools.finance/
+169,Lien,Options,,,,,88446.07,1,Ethereum,0,1,0,1,https://lien.finance/
+170,Atomic Green,Derivatives,,,,,84459.09,1,Arbitrum,0,1,0,1,https://atomic.green
+171,YieldFlow-YTrade,Derivatives,,,,,55469.71,1,Arbitrum,0,1,0,1,https://yieldflow.com
+172,Stobix,Derivatives,,,,,51952.32,1,Base,0,1,0,1,https://stobix.com
+173,Mobius Finance,Synthetics,,,,,39788.37,1,Polygon,0,1,0,1,
+174,Margin Zero,Options,,,,,37185.34,1,Sonic,0,1,0,1,https://www.marginzero.xyz/
+175,Derivio,Derivatives,,,,,33961.15,1,zkSync Era,0,1,0,1,https://derivio.xyz
+176,BaseVol,Options,,,,,33786.72,1,Base,0,1,0,1,
+177,Zeno Exchange,Derivatives,,,,,30042.77,1,Metis,0,1,0,1,
+178,Bullbit PERP DEX,Derivatives,,,566,23202710,27693.22,1,Base,0,1,0,1,http://bullbit.ai/
+179,Tea-REX,Derivatives,,,,,22666.14,1,Sei,0,1,0,1,
+180,Xena Finance,Derivatives,0,0,0,,19380.32,1,Base,0,1,0,1,
+181,Vanilla,Derivatives,,,,,17411.94,1,Ethereum,0,1,0,1,
+182,Forge SX Ovens,Synthetics,,,,,15212.93,1,Arbitrum,0,1,0,1,
+183,Auctus,Options,,,,,14652.28,1,Ethereum,0,1,0,1,https://auctus.org/
+184,Smilee Finance Arbitrum,Options,,,,,12835.45,1,Arbitrum,0,1,0,1,https://smilee.finance/
+185,Lemma,Derivatives,,,,,9365.64,1,Optimism,0,1,0,1,
+186,Whiteheart,Options,,,,,7410.49,1,Ethereum,0,1,0,1,
+187,Symmetry Trade,Derivatives,,,,,6794.26,1,Scroll,0,1,0,1,
+188,Ryze.Fi,Derivatives,,,,,6352.18,1,Arbitrum,0,1,0,1,
+189,QIAN,Synthetics,,,,,5495.31,1,Ethereum,0,1,0,1,
+190,ZeroLiquid,Synthetics,,,,,5063.67,1,Ethereum,0,1,0,1,
+191,Linear Finance,Derivatives,,,,,4860.03,1,Binance,0,1,0,1,
+192,Doppi Finance,Options,,,,,4783.54,1,Binance,0,1,0,1,https://doppi.finance
+193,GammaSwap Classic,Derivatives,,,,,4615.65,1,Arbitrum,0,1,0,1,https://app.gammaswap.com/
+194,Rollie Finance,Derivatives,,,,,4082.94,1,Scroll,0,1,0,1,
+195,Increment Protocol,Derivatives,,,,,2521.57,1,zkSync Era,0,1,0,1,
+196,Erasure,Derivatives,,,,,2058.34,1,Ethereum,0,1,0,1,https://numer.ai/
+197,Voodoo Trade Base,Derivatives,0,0,0,,1691.49,1,Base,0,1,0,1,https://voodoo.trade
+198,Chromatic Protocol,Derivatives,,,,,1003.41,1,Arbitrum,0,1,0,1,https://www.chromatic.finance
+199,NLX Protocol,Derivatives,0,0,,,872.15,1,CORE,0,1,0,1,
+200,ZKX,Derivatives,,,,,754.34,1,Ethereum,0,1,0,1,
+201,YFX,Derivatives,0,0,0,,368.82,1,Arbitrum,0,1,0,1,https://www.yfx.com
+202,Openworld Perps,Derivatives,,,,,356.25,1,Arbitrum,0,1,0,1,
+203,DAMX,Derivatives,,,,,348.86,1,Fantom,0,1,0,1,
+204,LemonX,Derivatives,,,,,127.09,1,CORE,0,1,0,1,
+205,DELTAFi,Synthetics,,,,,76.69,1,WEMIX,0,1,0,1,
+206,Ostrich,Derivatives,,,,,11.28,1,Arbitrum,0,1,0,1,
+207,Voodoo Trade Fantom,Derivatives,,,,,10.43,1,Fantom,0,1,0,1,https://voodoo.trade
+208,SynthEx,Synthetics,,,,,6.05,1,Arbitrum,0,1,0,1,
+209,Argano,Synthetics,,,,,4.1,1,Polygon,0,1,0,1,
+210,Sharwa.Finance,Derivatives,,,,,3.31,1,Arbitrum,0,1,0,1,https://sharwa.finance/
+211,Hubble Exchange,Derivatives,,,,,2.23,1,Avalanche,0,1,0,1,
+212,Flex Perpetuals,Derivatives,,,,,0.31,1,Base,0,1,0,1,https://flex.trade
+213,SoneFi Perp,Derivatives,,,,,0.0,1,Soneium,0,1,0,1,
+214,SYMMIO,Derivatives,,,20.04,254700,1976008.83,9,Base; Arbitrum; Berachain; Binance; Mantle; Sonic; Mode; IOTA EVM,0,0,1,1,https://www.symm.io/
+215,Swych Perpetual,Derivatives,,,,,180011.78,1,Binance,0,0,1,1,
+216,Lynx,Derivatives,,,13.87,,176855.68,18,Sonic; Boba; Arbitrum; Base; Ethereum; Fantom; Celo; Sei; Binance; Zircuit; Mode; Fuse; Polygon; Flare; Linea; Mantle; Optimism; Goat,0,0,0,0,https://app.lynx.finance/
+217,RubyDex,Derivatives,,,,,24.11,10,Ethereum; Optimism; Arbitrum; Binance; zkSync Era; Polygon; Mantle; Avalanche; Linea; Manta,0,0,0,0,
+218,UniDex Perp,Derivatives,,,,,27952.07,9,Optimism; zkSync Era; Arbitrum; Base; Binance; Boba; Metis; Fantom; Evmos,0,0,0,0,
+219,Vertex Perps,Derivatives,,,,,49.98,7,Arbitrum; Mantle; Sei; Base; Sonic; Abstract; Avalanche,0,0,0,0,
+220,Everstrike,Derivatives,,,,1396,42.13,6,Base; Ethereum; Arbitrum; Binance; Optimism; Polygon,0,0,0,0,
+221,AZverse Perps,Derivatives,,,20338,,52030471.55,5,Arbitrum; Binance; Ethereum; Berachain,0,0,0,0,
+222,Apex Omni,Derivatives,,,10579,76424011,30100310.64,5,Ethereum; Arbitrum; Base; Binance; Mantle,0,0,0,0,https://omni.apex.exchange
+223,Stryke CLAMM,Options,,,0,,179667.92,5,Arbitrum; Sonic; Base; Blast; Mantle,0,0,0,0,https://www.stryke.xyz/en
+224,RabbitX,Derivatives,,,,,1900.38,5,Ethereum; Blast; Sonic; Base; Arbitrum,0,0,0,0,
+225,Mummy Finance,Derivatives,,,,,56120.84,4,Optimism; Arbitrum; Fantom; Base,0,0,0,0,https://www.mummy.finance
+226,Dexodus Finance,Derivatives,,,,,1.27,4,Base; Cronos; Ethereum; Binance,0,0,0,0,
+227,Extended Perps,Derivatives,,,28629,94643292,114228868.18,3,Arc; Ethereum,0,0,0,0,https://app.extended.exchange
+228,Metronome Synth,Synthetics,,,8891,,10465753.03,3,Ethereum; Optimism; Base,0,0,0,0,https://metronome.io/
+229,Fulcrom Perps,Derivatives,,,2142,,9528531.54,3,Cronos; zkSync Era; Cronos zkEVM,0,0,0,0,https://fulcrom.finance
+230,BMX Classic Perps,Derivatives,,,,,113233.2,3,Base; Sonic; Mode,0,0,0,0,https://www.bmx.trade/
+231,Rubin Trade,Derivatives,,,,3088,81440.92,3,Arbitrum; Polygon; Ethereum,0,0,0,0,https://rubin.trade
+232,Numoen,Derivatives,,,,,28220.36,3,Arbitrum; Polygon; Celo,0,0,0,0,
+233,HMX,Derivatives,,,,,14737.21,3,Polygon; Arbitrum; Blast,0,0,0,0,https://hmx.org/arbitrum
+234,Velar Perps,Derivatives,,,,,14275.35,3,BOB; Mezo,0,0,0,0,https://perpdex.velar.com/trades
+235,prePO,Derivatives,,,,,12305.44,3,Arbitrum; Blast; Base,0,0,0,0,
+236,zkEra Finance,Derivatives,,,,,9000.38,3,zkSync Era; Telos; Metis,0,0,0,0,
+237,Moonlander,Derivatives,,,180,46384,10940692.73,2,Cronos; Cronos zkEVM,0,0,0,0,https://moonlander.trade/
+238,Evedex,Derivatives,,,,,3683118.5,2,Arbitrum; Eventum,0,0,0,0,https://invite.evedex.com
+239,BMX Freestyle,Derivatives,,,,,1296319.26,2,Base; Mode,0,0,0,0,https://www.bmx.trade
+240,Unbound,Derivatives,,,,,51337.79,2,Ethereum; Polygon,0,0,0,0,
+241,Pingu Exchange,Derivatives,,,,,22495.85,2,Arbitrum; Monad,0,0,0,0,
+242,Crafting Finance,Synthetics,,,,,21097.43,2,Aurora; Ethereum,0,0,0,0,https://crafting.finance
+243,Flux Exchange,Derivatives,,,,,19515.64,2,zkSync Era; Fantom,0,0,0,0,
+244,SOBAX,Derivatives,,,,,2634.83,2,Polygon; ZetaChain,0,0,0,0,
+245,Meridian Trade,Derivatives,,,,,225.8,2,Base; Meter,0,0,0,0,https://www.meridianfinance.net
+246,Vega Protocol,Derivatives,,,,,132.52,2,Ethereum; Arbitrum,0,0,0,0,
+247,BlueSpade,Derivatives,,,,,71.99,2,Cronos; Polygon,0,0,0,0,
+248,Lif3 Trade,Derivatives,,,,,6.89,2,Binance; Fantom,0,0,0,0,
+249,Moby,Options,,,,,0.04,2,Arbitrum; Berachain,0,0,0,0,
+250,foxify,Derivatives,,,83,,0.04,2,Arbitrum; Sonic,0,0,0,0,https://www.foxify.trade/
+251,AZEX,Derivatives,,,,,0.0,2,Berachain; Unichain,0,0,0,0,
+252,Paradex Perps,Derivatives,,,375,5755277,0,2,Ethereum,0,0,0,0,https://app.paradex.trade/r/defillama
+253,Hyperliquid HLP,Derivatives,,,22353,,176979165.18,1,Hyperliquid L1,0,0,0,0,https://app.hyperliquid.xyz
+254,Lighter Robinhood Perps,Derivatives,,,87325,196412599,114327222.08,1,Robinhood Chain,0,0,0,0,https://robinhoodchain.lighter.xyz/trade/LIT
+255,Arcus Perps,Derivatives,,,74120,114775841,63326128.76,1,Robinhood Chain,0,0,0,0,https://arcus.xyz/
+256,Papertrade,Derivatives,,,455439,,33197935.29,1,Hyperliquid L1,0,0,0,0,https://papertrade.xyz
+257,RISEx,Derivatives,,,,41970509,20935486.74,1,RISE,0,0,0,0,https://www.rise.trade/en
+258,Antarctic,Derivatives,,,124843,332927096,8674581.19,1,Arbitrum,0,0,0,0,https://www.antarctic.exchange/
+259,Boros,Interest Rate Derivatives,,,1130,133591067,7447093.55,1,Arbitrum,0,0,0,0,https://boros.pendle.finance/markets
+260,Perpl,Derivatives,,,3898,1572368,3296419.35,1,Monad,0,0,0,0,https://perpl.xyz/
+261,Meridian Perps,Derivatives,,,39.82,360860,2797611.94,1,Robinhood Chain,0,0,0,0,https://app.meridian.xyz/
+262,Usual ETH0,Synthetics,,,,,2217839.76,1,Ethereum,0,0,0,0,https://usual.money
+263,Katana Perps,Derivatives,,,11202,615003,1389208.03,1,Katana,0,0,0,0,https://perps.katana.network/
+264,Hypercall,Options,,,,2888134,942712.27,1,Hyperliquid L1,0,0,0,0,https://hypercall.xyz/
+265,Arcus pTokens,Derivatives,,,,,696944.74,1,Robinhood Chain,0,0,0,0,https://arcus.xyz/
+266,Rho X,Interest Rate Derivatives,,,,13660077,575108.94,1,Ethereum,0,0,0,0,https://x.rho.trading/
+267,Opyn Convexity,Options,,,,,564823.76,1,Ethereum,0,0,0,0,https://www.opyn.co
+268,Flamix,Derivatives,,,,,425432.16,1,Flare,0,0,0,0,https://app.flamix.trade/
+269,Navigator,Derivatives,,,,,360948.68,1,Sonic,0,0,0,0,https://www.navigator.exchange/
+270,Gambit Financial,Derivatives,,,,,231307.41,1,Binance,0,0,0,0,https://gambit.financial
+271,Sai,Derivatives,,,937,92672,224481.62,1,Nibiru,0,0,0,0,https://sai.fun/
+272,Nova Perps,Derivatives,,,293,,209050.1,1,Arbitrum,0,0,0,0,https://nova.markets
+273,Ace.Pro,Options,,,,,205774.3,1,Hyperliquid L1,0,0,0,0,https://ace.pro
+274,CallPut,Options,,,308,,178695.43,1,Base,0,0,0,0,https://callput.app
+275,Twindex,Options,,,,,132288.88,1,Binance,0,0,0,0,
+276,Mycelium Perpetual Swaps,Derivatives,,,,,115858.42,1,Arbitrum,0,0,0,0,
+277,ThetaCash,Synthetics,,,,,112496.65,1,Theta,0,0,0,0,https://tbill.io
+278,10KDex,Derivatives,,,,,89412.53,1,Scroll,0,0,0,0,
+279,Jetbit,Derivatives,,,1193,2043360,68154.22,1,Binance,0,0,0,0,
+280,Alpaca Perpetual Futures Exchange,Derivatives,,,,,53106.0,1,Binance,0,0,0,0,
+281,Bloom Trading,Derivatives,,,,,28748.31,1,Blast,0,0,0,0,
+282,Equity,Derivatives,,,,,25395.62,1,Fantom,0,0,0,0,https://equity.equalizer.exchange
+283,Mog,Derivatives,,,0,0,22957.23,1,Robinhood Chain,0,0,0,0,https://app.mog.xyz/
+284,YLD,Derivatives,,,,,20569.71,1,Ethereum,0,0,0,0,https://yldfi.co/
+285,Superp,Derivatives,,,,,20459.89,1,Binance,0,0,0,0,
+286,SwapBased Perp,Derivatives,,,,,17344.99,1,Base,0,0,0,0,https://perps.swapbased.finance
+287,KRAV,Derivatives,,,,,17314.57,1,Base,0,0,0,0,https://www.rave.trade/
+288,Minerva,Derivatives,,,,,10549.44,1,Optimism,0,0,0,0,
+289,Alkimiya,Derivatives,,,,,9977.55,1,Base,0,0,0,0,
+290,Realperp,Derivatives,,,,,9318.62,1,Manta,0,0,0,0,
+291,ImmortalX,Derivatives,,,,,6707.83,1,Celo,0,0,0,0,https://www.immortalx.io/
+292,Jetstream,Derivatives,,,,,5730.19,1,Arbitrum,0,0,0,0,
+293,2xSwap,Derivatives,,,,,5239.8,1,Ethereum,0,0,0,0,https://2xswap.com
+294,Golden Finance,Derivatives,,,,,4603.21,1,ZetaChain,0,0,0,0,
+295,Racks,Derivatives,,,0,,4366.25,1,Hyperliquid L1,0,0,0,0,
+296,Volta Markets,Derivatives,0,0,0,,2374.41,1,CORE,0,0,0,0,
+297,DIP Exchange,Derivatives,,,,,2216.72,1,Base,0,0,0,0,
+298,waveX,Derivatives,,,,,2132.72,1,Soneium,0,0,0,0,https://wavex.fi
+299,Stochastic Finance,Options,,,0,,2062.72,1,Base,0,0,0,0,
+300,GPLX,Derivatives,,,,,1792.69,1,Pulse,0,0,0,0,
+301,Citrex Markets,Derivatives,,,,,1740.98,1,Sei,0,0,0,0,
+302,Kalata,Synthetics,,,,,1731.05,1,Binance,0,0,0,0,
+303,Quantillon Protocol,Synthetics,,,,,1584.23,1,Base,0,0,0,0,
+304,Pegasus Finance,Derivatives,,,,,1472.84,1,Optimism,0,0,0,0,https://www.pegasusfinance.xyz
+305,Phission Finance,Derivatives,,,,,1338.28,1,Ethereum,0,0,0,0,
+306,ModeMax Perps,Derivatives,,,,,1083.95,1,Mode,0,0,0,0,
+307,Corex Markets,Derivatives,,,0,,1057.07,1,CORE,0,0,0,0,https://corex.markets/
+308,Mu Exchange,Derivatives,,,,,977.1,1,xDai,0,0,0,0,
+309,Unlimited Network,Derivatives,,,,,772.49,1,Arbitrum,0,0,0,0,
+310,Arcanum,Derivatives,,,,,767.63,1,Arbitrum,0,0,0,0,
+311,Stip Flip,Synthetics,,,,,713.31,1,EthereumClassic,0,0,0,0,
+312,Loxodrome Perp,Derivatives,,,,,694.88,1,IoTeX,0,0,0,0,
+313,Koo.xyz,Derivatives,,,,,677.01,1,Arbitrum,0,0,0,0,https://app.koo.xyz/
+314,Challenge4Trading Perp,Derivatives,,,0,10,603.05,1,Arbitrum,0,0,0,0,https://www.challenge4trading.com/
+315,Apollon,Synthetics,,,,,601.58,1,Sei,0,0,0,0,
+316,Nether.Fi,Derivatives,,,,,527.95,1,Base,0,0,0,0,
+317,Perpstreet,Derivatives,,,,,519.63,1,Hemi,0,0,0,0,https://perpstreet.xyz/
+318,SpaceWhale,Derivatives,0,0,0,,346.64,1,Arbitrum,0,0,0,0,https://spacewhale.ai
+319,Klondike Finance,Synthetics,,,,,235.4,1,Ethereum,0,0,0,0,
+320,YYEX,Derivatives,,,,,128.92,1,Bitlayer,0,0,0,0,
+321,OmniDex Perpetuals,Derivatives,,,,,125.49,1,Telos,0,0,0,0,
+322,Rollup Finance Stake,Derivatives,,,,,117.19,1,zkSync Era,0,0,0,0,
+323,BorB,Derivatives,,,,,103.11,1,Binance,0,0,0,0,
+324,Cleave,Options,,,,,96.81,1,Ethereum,0,0,0,0,
+325,Hits4fun,Options,,,,,86.65,1,Base,0,0,0,0,
+326,Tethys Perpetual,Derivatives,,,,,52.66,1,Metis,0,0,0,0,
+327,VS Trade,Derivatives,,,,,51.91,1,Robinhood Chain,0,0,0,0,
+328,Convertibles,Options,,,,,51.01,1,Ethereum,0,0,0,0,https://www.convertibles.io/
+329,PerpsFunds,Derivatives,,,0,,18.91,1,Robinhood Chain,0,0,0,0,https://perpsfunds.fun/
+330,handle.fi Perps,Derivatives,,,,,8.31,1,Arbitrum,0,0,0,0,
+331,EL Perps,Derivatives,,,0,,7.46,1,Robinhood Chain,0,0,0,0,
+332,Mjolnir Exchange,Derivatives,,,,,6.33,1,Hemi,0,0,0,0,
+333,OBSDN,Derivatives,,,0,0,6.05,1,Monad,0,0,0,0,
+334,BayMax,Derivatives,,,,,3.26,1,Avalanche,0,0,0,0,
+335,Wikicious,Derivatives,,,,,3.2,1,Arbitrum,0,0,0,0,https://wikicious.io
+336,Peaky Finance,Derivatives,,,,,0.78,1,Binance,0,0,0,0,
+337,Cranium Exchange,Derivatives,,,,,0.13,1,Fantom,0,0,0,0,
+338,BSX Exchange,Derivatives,,,,,0.0,1,Base,0,0,0,0,
+339,Allspark,Derivatives,,,,,0.0,1,zkLink,0,0,0,0,
+340,IVX Protocol,Options,,,,,0.0,1,Berachain,0,0,0,0,
+341,Hyperliquid Perps,Derivatives,,,3502643,7688396285,0,1,Hyperliquid L1,0,0,0,0,https://app.hyperliquid.xyz
+342,Nado Perps,Derivatives,,,70741,41242927,0,1,Ink,0,0,0,0,https://app.nado.xyz
+343,PopDEX Perps,Derivatives,,,27023,72150871,0,1,Morph Tachyon,0,0,0,0,https://popdex.xyz/
+344,Primit Perps,Derivatives,,,12473,,0,1,Avalanche,0,0,0,0,https://primit.io/
+345,SoDEX Perps,Derivatives,,,8713,155621192,0,1,ValueChain,0,0,0,0,https://ssi.sosovalue.com/share/MAG7.ssi/0TC050BY?tid=ssi-invite-share-0TC050BY
+346,Orderly Perps,Derivatives,,,3107,33307831,0,1,Orderly Network,0,0,0,0,https://orderly.network
+347,Aark Digital,Derivatives,,,586,,0,1,Arbitrum,0,0,0,0,https://app.aark.digital/
+348,Carbon.inc,Derivatives,,,20,1441432,0,1,Base,0,0,0,0,https://carbon.inc/
+349,Denaria GMX,Derivatives,,,12.46,39069,0,1,Arbitrum,0,0,0,0,https://denaria.finance
+350,GDEX Perps,Derivatives,1925,821653,0.96,,0,1,Hyperliquid L1,0,0,0,0,https://gdex.pro/
+351,Variational,Derivatives,,,,966912359,0,1,Arbitrum,0,0,0,0,https://omni.variational.io
+352,Aevo Options,Options,,,,16513019,0,1,Ethereum,0,0,0,0,https://app.aevo.xyz/r/defillama
+353,Gate Perp,Derivatives,,,,10633169,0,1,GateLayer,0,0,0,0,https://www.gatedex.com

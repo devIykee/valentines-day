@@ -1,0 +1,1001 @@
+rank,protocol,category,volume_24h_usd,volume_30d_usd,fees_24h_usd,open_interest_usd,tvl_usd,chains_total,evm_chains,major_versions,audits,upgrade_milestones,upgrade_events,url
+1,Uniswap V3,Dexs,966619562,33714513206,930216,,1640060248.31,44,Ethereum; Base; Arbitrum; Robinhood Chain; Binance; X Layer; Polygon; Arc; Optimism; Plasma; Unichain; Ink; Avalanche; Celo; xDai; Monad; RSK; World Chain; 0G; Etherlink; Boba; zkSync Era; Mantle; Filecoin; Sei; XDC; Telos; BOB; Hemi; Lens; Linea; Scroll; Redbelly; Blast; Taiko; Sonic; Lisk; MegaETH; Goat; Manta; Tempo; LightLink; Nibiru; Saga,3,3,5,11,https://app.uniswap.org/
+2,Uniswap V4,Dexs,861295704,33996100484,1068210,,1515767975.3,19,Ethereum; Binance; Robinhood Chain; Base; Arbitrum; Monad; Tempo; Polygon; Unichain; X Layer; Ink; Arc; Soneium; Optimism; Avalanche; World Chain; MegaETH; Blast; Zora,3,2,0,5,https://app.uniswap.org/
+3,PancakeSwap AMM V3,Dexs,512066086,15441430204,225033,,745246848.03,11,Binance; Ethereum; Base; Arbitrum; Robinhood Chain; Monad; zkSync Era; Linea; Op_Bnb; Polygon zkEVM,2,0,0,2,https://pancakeswap.finance/swap
+4,Aero Slipstream,Dexs,321780779,253403827,224576,,83037374.35,7,Base; Ethereum; Robinhood Chain; Arc; Optimism; Arbitrum; Ink,2,0,0,2,https://aero.xyz/
+5,PancakeSwap Infinity,Dexs,290521328,6725079486,35984,,81377021.24,2,Binance; Base,1,0,0,1,https://pancakeswap.finance/
+6,Aerodrome Slipstream,Dexs,198819486,15306479792,79138,,134482282.0,1,Base,2,0,0,2,https://aerodrome.finance/
+7,Metric V1,Dexs,161758732,3603558693,,,17404283.26,10,Robinhood Chain; Binance; Ethereum; Base; Polygon; Arbitrum; Hyperliquid L1; Avalanche; Monad; MegaETH,1,0,0,1,https://www.metric.xyz/
+8,Hyperliquid Spot Orderbook,Dexs,138169381,3859973404,110617,,142929273.11,1,Hyperliquid L1,0,0,0,0,https://app.hyperliquid.xyz
+9,Fluid DEX,Dexs,113167047,3913586834,7254,,231430359.8,5,Ethereum; Arbitrum; Plasma; Base; Polygon,0,0,0,0,https://www.fluid.io/
+10,FermiSwap,Dexs,47652993,1421505947,,,5267904.23,1,Ethereum,0,0,0,0, 
+11,Curve DEX,Dexs,46175625,2515793823,27723,,1186095318.32,32,Ethereum; Fraxtal; Monad; Etherlink; Base; Arbitrum; Polygon; Plasma; Avalanche; xDai; Optimism; Fantom; Unichain; X Layer; Robinhood Chain; Binance; Celo; Sonic; Hyperliquid L1; Kava; XDC; Aurora; Plume Mainnet; TAC; Taiko; Stable; Ink; Moonbeam; Mantle; Corn; Arc; Harmony,0,1,2,3,https://curve.finance
+12,Fables,Dexs,38542647,2259606261,54401,,25817096.78,1,Robinhood Chain,0,0,0,0,https://www.fables.fi/
+13,THORChain DEX,Dexs,37681754,2503788108,54576,,65066171.56,13,Ethereum; Binance; Avalanche; Base,0,1,0,1,https://thorchain.org/
+14,Project X,Dexs,34399104,1439212274,31132,,35479333.88,1,Hyperliquid L1,0,0,0,0,https://www.prjx.com
+15,Pharaoh V3,Dexs,32411030,1585933273,20466,,29426850.69,1,Avalanche,2,0,0,2,https://www.phar.gg/
+16,Ramses CL V2,Dexs,30386000,1681637987,18806,,9972520.57,4,Hyperliquid L1; Robinhood Chain; Polygon; Arbitrum,1,0,0,1,https://ramses.xyz
+17,Chainflip AMM,Dexs,25227574,667864741,83198,,12127657.32,2,Ethereum,0,3,0,3,https://chainflip.io
+18,Pharaoh DLMM,Dexs,22493443,1377237589,10830,,9162999.09,1,Avalanche,0,0,0,0,https://www.phar.gg/
+19,PancakeSwap AMM,Dexs,22444072,1151131561,56104,,1567045288.53,11,Binance; Ethereum; Base; Arbitrum; zkSync Era; Robinhood Chain; Op_Bnb; Linea; Monad; Polygon zkEVM,1,1,0,2,https://pancakeswap.finance/
+20,DODO AMM,Dexs,20798871,494883579,5550,,13816376.84,15,Binance; Ethereum; Polygon; Avalanche; Arbitrum; Base; Aurora; Manta; Zircuit; Scroll; Optimism; Linea; Hemi; HashKey Chain; Mantle,0,1,0,1,https://dodoex.io/
+21,Dexalot DEX,Dexs,20323298,1384848547,,,2182849.46,5,Dexalot; Arbitrum; Avalanche; Binance; Base,0,1,0,1,https://app.dexalot.com/
+22,Ekubo,Dexs,18911979,823703640,8555,,30032214.9,3,Ethereum; Robinhood Chain,0,1,0,1,https://ekubo.org/
+23,Native Swap,Dexs,16505922,747293832,,,3241.61,9,Binance; Ethereum; Polygon; Arbitrum; Mantle; Avalanche; ZetaChain; Manta; zkLink,0,0,0,0,https://native.org
+24,Hanji Protocol,Dexs,15163526,447961191,1513,,1115483.83,3,Etherlink; Base; Monad,0,0,0,0,https://hanji.io
+25,nest CL,Dexs,14999344,417154338,20039,,28168450.15,1,Hyperliquid L1,0,1,0,1,https://app.usenest.xyz/
+26,Uniswap V2,Dexs,13714486,629421942,41147,,935648776.84,16,Ethereum; Base; Polygon; Robinhood Chain; Arbitrum; Binance; X Layer; Arc; Optimism; Monad; Avalanche; Tempo; Unichain; Zora; Ink; Celo,3,3,0,6,https://app.uniswap.org/
+27,Lighter Spot,Dexs,12324719,478411384,2001,,0,2,Robinhood Chain,0,0,0,0,https://app.lighter.xyz
+28,WOOFi Swap,Dexs,11212742,306021572,0,,3475352.68,16,Arbitrum; Optimism; Avalanche; Binance; Polygon; Hyperliquid L1; Base; Monad; zkSync Era; Linea; Sonic; Mantle; Berachain; Ethereum; Polygon zkEVM; Fantom,0,1,0,1,https://woofi.com
+29,Saphyre V3,Dexs,8712693,264115276,15351,,15856186.46,1,Sei,2,1,0,3,https://saphyre.xyz/
+30,SushiSwap V3,Dexs,8266763,217555206,7479,,42368077.95,31,Ethereum; Katana; Robinhood Chain; Base; Arbitrum; Polygon; Hemi; RSK; Filecoin; Optimism; Binance; Avalanche; Scroll; xDai; Europa; Linea; Arbitrum Nova; Sonic; Metis; Arc; CORE; Blast; Fantom; ZetaChain; Kava; Fuse; Bittorrent; Moonbeam; Moonriver; Polygon zkEVM; ThunderCore,2,0,0,2,https://sushi.com/
+31,ElfomoFi,Dexs,7970133,428312923,1223,,1783374.5,2,Base; Binance,0,0,0,0,https://elfomo.fi/
+32,BaiBai,Dexs,7499338,74007442,,,165969.95,1,Base,0,0,0,0,https://www.baibai.cx
+33,Ring Swap,Dexs,7156518,284750706,21462,,163.87,6,Base; Blast; Binance; Arbitrum; Hyperliquid L1; Ethereum,0,1,0,1,https://ring.exchange/#/swap
+34,up v3,Dexs,6058141,451695879,11994,,4792334.72,1,Robinhood Chain,2,0,0,2,https://up33.xyz/
+35,Solidly V3,Dexs,5987992,91838861,6.09,,146344.61,6,Base; Optimism; Arbitrum; Sonic; Ethereum; Fantom,2,0,1,3,https://solidly.com
+36,Rialto Prop AMM,Dexs,5585717,140239685,,,0,1,Robinhood Chain,0,0,0,0,https://rialto.xyz/swap
+37,Joe V2.1,Dexs,5298509,100467532,2907,,3923788.04,4,Avalanche; Arbitrum; Binance; Ethereum,1,1,0,2,https://lfj.gg/arbitrum/trade
+38,Maverick V2,Dexs,5271985,147370571,216,,1120802.33,6,Ethereum; Base; zkSync Era; Arbitrum; Binance; Scroll,1,0,0,1,https://www.mav.xyz
+39,Tempest,Dexs,5248834,42789458,,,0,1,Ethereum,0,0,0,0,
+40,Kaliber,Dexs,5182727,41811865,,,0,11,Base; Optimism; Ethereum; Linea; X Layer; Ink; Avalanche; Arbitrum; Binance; Robinhood Chain,0,0,0,0,
+41,Aerodrome V1,Dexs,5032003,321059430,17070,,82932499.42,1,Base,2,0,0,2,https://aerodrome.finance/
+42,Alandale V3,Dexs,4859248,227699132,1120,,896955.53,1,Robinhood Chain,2,0,0,2,https://alandale.xyz
+43,Aster Spot,Dexs,4452258,149485809,,,0,2,Binance,0,0,0,0,https://www.asterdex.com
+44,LiquidCore,Dexs,4388294,159044047,634,,327407.42,2,Hyperliquid L1; Robinhood Chain,0,0,0,0,https://liqd.ag
+45,1inch Aqua,Dexs,4316520,3315327427,986,,0,14,Sonic; Avalanche; Base; Arbitrum; Linea; ZKsync Era; Optimism; Gnosis; Unichain; Polygon; Ethereum; Robinhood Chain; Binance; Arc,0,0,0,0,https://1inch.com/aqua
+46,Topaz CL,Dexs,4287387,337861302,1725,,940989.4,5,Binance; Robinhood Chain; Arc; Base; Ethereum,0,1,0,1,https://www.topazdex.com
+47,Kipseli,Dexs,4020881,43076096,,,1391739.12,3,Base; Binance; Robinhood Chain,0,0,0,0,
+48,Tokenlon AMM,Dexs,3920522,178416048,6040,,116456.02,1,Ethereum,0,1,0,1,https://tokenlon.im
+49,Blackhole CLMM,Dexs,3424538,182451394,1657,,2030129.98,1,Avalanche,0,0,0,0,https://blackhole.xyz/
+50,Velodrome V3,Dexs,3245133,550462861,1476,,13594024.86,10,Optimism; Ink; Fraxtal; Soneium; Celo; Unichain; Lisk; Mode; Swellchain; Superseed,2,1,0,3,https://velodrome.finance/
+51,Lunarbase,Dexs,3095205,77110010,791,,118441.93,3,Binance; Base; Monad,0,0,0,0,https://lunarbase.gg/
+52,Quickswap Dex,Dexs,2685365,275341900,8056,,49073226.14,2,Polygon; Base,1,1,2,4,https://quickswap.exchange/
+53,Aero Basic,Dexs,2409789,1654371.96,20977,,47653876.53,7,Base; Optimism; Robinhood Chain; Ethereum; Arbitrum; Arc; Ink,2,0,0,2,https://aero.xyz/
+54,Balancer V3,Dexs,2236033,83552091,884,,18293045.98,9,Ethereum; Monad; Base; Arbitrum; Hyperliquid L1; Optimism; xDai; Avalanche; Plasma,2,0,0,2,https://balancer.fi/
+55,Camelot V3,Dexs,2150143,110105895,787,,4335790.35,12,Arbitrum; ApeChain; Plume Mainnet; Reya Network; Xai; EDU Chain; Rari; Corn; DuckChain; Superposition; WINR; Gravity,2,0,0,2,https://camelot.exchange/
+56,GIGA V3,Dexs,2042843,157515125,1753,,870706.08,1,Robinhood Chain,2,0,0,2,https://gigadex.fi
+57,Quickswap V3,Dexs,2002690,101446512,847,,16286151.3,8,Immutable zkEVM; Polygon; Manta; X Layer; Dogechain; Polygon zkEVM; Astar zkEVM; Soneium,2,0,0,2,https://quickswap.exchange/
+58,Angstrom,Dexs,1949459,552711060,128,,5872260.76,1,Ethereum,0,0,0,0,https://angstrom.xyz/
+59,BulbaSwap V3,Dexs,1874884,16145417,534,,8683210.81,1,Morph,2,0,0,2,https://bulbaswap.io
+60,HyperSwap V3,Dexs,1771057,85250423,4512,,10351064.97,1,Hyperliquid L1,2,0,0,2,https://app.hyperswap.exchange/#/swap?referral=defillama
+61,Joe V2.2,Dexs,1680588,91286422,1145,,2091062.16,3,Avalanche; Arbitrum; Monad,1,1,0,2,https://lfj.gg/arbitrum/trade
+62,BDEX V3,Dexs,1595427,55846993,4850,,31235381.53,1,BOT Chain,2,0,0,2,https://dex.botchain.ai/
+63,SparkDEX V4,Dexs,1581511,71365493,1088,,15686274.66,1,Flare,3,0,0,3,https://sparkdex.ai/home
+64,SoDEX Spot,Dexs,1575059,46561109,54,,0,1,ValueChain,0,0,0,0,https://ssi.sosovalue.com/share/MAG7.ssi/0TC050BY?tid=ssi-invite-share-0TC050BY
+65,W-DEX,Dexs,1415056,17582963,7974,,890597.77,1,Polygon,0,0,0,0,https://w-dex.ai/
+66,Arcus Spot,Dexs,1236504,83627383,,,0,1,Robinhood Chain,0,0,0,0,https://arcus.xyz/
+67,Quickswap V4,Dexs,1215463,45721816,330,,3436169.33,6,Base; Somnia; Polygon; Soneium; X Layer,3,0,0,3,https://dapp.quickswap.exchange/
+68,GMX AMM,Dexs,1168901,47137810,,,0,5,Arbitrum; Avalanche; Botanix; MegaETH,0,0,0,0,https://gmx.io
+69,PulseX V1,Dexs,1120623,68309050,3250,,29069382.87,1,Pulse,1,0,0,1,https://app.pulsex.com/
+70,bopAMM,Dexs,1105164,14617876,,,0,1,Ethereum,0,0,0,0,https://bebop.xyz/
+71,THENA INTEGRAL,Dexs,1083324,44066469,1227,,2436740.28,1,Binance,0,0,0,0,https://www.thena.fi
+72,Enosys AMM V3,Dexs,1027892,47129506,2889,,5860341.94,2,Flare; Songbird,2,0,0,2,https://enosys.global/products/dexV3
+73,Archery V3,Dexs,999206,22388769,230,,620427.97,1,Arc,2,0,0,2,
+74,Textile FX,Dexs,982231,47038198,,,1815136.65,5,Celo; Ethereum; Binance; Polygon; Base,0,0,0,0,https://app.textilecredit.com
+75,Kittenswap Algebra,Dexs,956385,107908090,591,,1996131.37,2,Hyperliquid L1; Robinhood Chain,0,0,0,0,https://kittenswap.finance
+76,PulseX V2,Dexs,954729,64265416,2769,,13488770.28,1,Pulse,1,0,0,1,https://app.pulsex.com/
+77,Fluxion Network,Dexs,898679,80399799,2695,,7204038.18,1,Mantle,0,1,0,1,https://app.fluxion.network/
+78,CommunityV3,Dexs,884615,6075339,13633,,6547140.26,1,Ethereum,0,0,0,0,
+79,Nomiswap,Dexs,879618,31237669,58.6,,1392831.12,1,Binance,0,1,0,1,https://nomiswap.io
+80,SparkDEX V3.1,Dexs,814786,42583551,56,,5490987.24,1,Flare,2,0,0,2,https://sparkdex.ai/home
+81,VVS Standard,Dexs,734465,48268646,2202,,88804907.57,1,Cronos,0,1,0,1,https://vvs.finance
+82,PancakeSwap StableSwap,Dexs,725328,6436696,95.88,,3750880.85,3,Binance; Arbitrum; Ethereum,1,0,0,1,https://pancakeswap.finance/swap
+83,Balancer V2,Dexs,719839,91745020,1350,,17650853.11,9,Ethereum; Polygon; Arbitrum; Base; xDai; Avalanche; Mode; Fraxtal; Polygon zkEVM,2,1,0,3,https://balancer.fi/
+84,XSwap V3,Dexs,696303,17950158,154,,355651.17,1,XDC,2,0,0,2,https://app.xspswap.finance
+85,Shadow Exchange CLMM,Dexs,694400,29276901,1208,,1736770.32,1,Sonic,0,0,0,0,https://www.shadow.so
+86,Hybra V4,Dexs,658873,39672266,447,,630990.33,1,Hyperliquid L1,3,0,0,3,https://www.hybra.finance?code=GRYN2U
+87,VVS Flawless,Dexs,638461,32434626,2560,,3220693.79,1,Cronos,0,0,0,0,https://vvs.finance/liquidity
+88,Pangolin V3,Dexs,579043,23730078,42.01,,248877.69,2,Avalanche; Monad,2,0,0,2,https://app.pangolin.exchange/
+89,STONX,Dexs,559462,35636743,1061,,873333.38,1,Robinhood Chain,0,2,0,2,https://ekubo.org
+90,Zia,Dexs,544495,14360345,1675,,1964900.01,1,0G,0,0,0,0,https://zia.finance/
+91,SushiSwap,Dexs,542247,26689118,1624,,38041779.09,39,Ethereum; Polygon; Arbitrum; Base; Boba; xDai; Binance; Celo; Arbitrum Nova; Avalanche; Fantom; Fuse; Scroll; Optimism; Katana; OKExChain; Filecoin; Linea; CORE; RSK; Hemi; Blast; Bittorrent; Telos; Europa; Arc; Sonic; ZetaChain; Metis; Kava; HAQQ; Palm; Moonriver; Harmony; Heco; Boba_Bnb; Moonbeam; Polygon zkEVM; ThunderCore,1,1,0,2,https://sushi.com/
+92,Kumbaya,Dexs,525110,12048624,1768,,1968393.15,1,MegaETH,0,0,0,0,https://www.kumbaya.xyz/
+93,AllBlue V3,Dexs,490129,20679167,273,,607500.94,1,Avalanche,2,2,0,4,https://allbluedex.io
+94,Crystal Exchange DEX,Dexs,471362,7061831,23.58,,25282.64,1,Monad,0,0,0,0,https://crystal.exchange/
+95,Supernova CL,Dexs,454097,15698978,283,,725378.94,1,Ethereum,0,0,0,0,https://supernova.xyz/
+96,Agni Finance,Dexs,413844,25577933,873,,16365259.44,1,Mantle,0,0,0,0,https://agni.finance/
+97,Doma DEX V3,Dexs,404331,118352670,124,,636363.97,1,Doma,2,1,0,3,https://app.doma.xyz/swap
+98,Raphael Exchange CL,Dexs,397273,8497466,226,,214848.18,1,Robinhood Chain,0,0,0,0,https://www.raphael.exchange/
+99,Maverick V1,Dexs,394786,9891993,55.08,,1006856.72,4,zkSync Era; Binance; Ethereum; Base,1,1,0,2,https://www.mav.xyz
+100,Alien Base V2,Dexs,383159,9353521,75.83,,285255.61,1,Base,1,0,0,1,https://alienbase.xyz/
+101,Kodiak V3,Dexs,352838,21211399,500,,12535536.55,1,Berachain,2,1,0,3,https://app.kodiak.finance
+102,PotatoSwap V2,Dexs,336969,15956816,841,,6914926.55,1,X Layer,1,0,0,1,https://potatoswap.finance
+103,up v2,Dexs,313932,8615882,942,,883671.99,1,Robinhood Chain,1,0,0,1,https://up33.xyz/
+104,Kuru CLOB,Dexs,312483,747853560,62.74,,692559.39,1,Monad,0,1,0,1,https://www.kuru.io/
+105,Merchant Moe Liquidity Book,Dexs,308127,7005338,127,,11963793.53,1,Mantle,0,0,0,0,https://merchantmoe.com/
+106,Everdex,Dexs,302143,193683.96,304,,1439056.71,1,Bifrost Network,0,0,0,0,https://www.everdex.app/
+107,dreamDEX,Dexs,298530,10768434,,,1662841.76,1,Somnia,0,1,0,1,https://dreamdex.io
+108,Nado Spot,Dexs,276287,11992974,60,,51109440.67,1,Ink,0,0,0,0,https://app.nado.xyz?join=sP6or8A
+109,PancakeSwap X,Dexs,264282,22673875,,,0,5,Binance; Arbitrum; Ethereum; Base; Robinhood Chain,1,0,0,1,https://pancakeswap.finance/
+110,Velodrome V2,Dexs,261768,13997609,418,,6352436.44,11,Optimism; Ink; BOB; Mode; Fraxtal; Lisk; Soneium; Celo; Unichain; Superseed; Swellchain,2,1,1,4,https://velodrome.finance/
+111,LFJ POE,Dexs,236175,12777972,140,,64253.14,1,Monad,0,0,0,0,https://lfj.gg/
+112,Ryze Protocol,Dexs,229635,6489683,62.6,,502636.34,1,Base,0,1,0,1,https://www.ryze.pro/
+113,Honeypop DEX,Dexs,228257,7135995,191,,911921.19,1,Scroll,0,0,0,0,https://honeypop.app
+114,Mento V3,Dexs,226861,10446994,84.63,,4175577.66,2,Monad; Celo,2,2,0,4,https://app.mento.org
+115,Orvex,Dexs,218975,28663861,65.7,,113798.13,1,Robinhood Chain,0,1,0,1,https://orvex.fi/
+116,SwapHood V3,Dexs,197280,7987567,53.02,,22387.74,1,Robinhood Chain,2,0,0,2,https://www.swaphood.finance/#/
+117,HyperSwap V2,Dexs,193259,21167261,579,,6325212.74,1,Hyperliquid L1,1,0,0,1,https://app.hyperswap.exchange/#/swap?referral=defillama
+118,Metropolis DLMM,Dexs,185495,11398452,182,,119767.04,1,Sonic,0,0,0,0,https://metropolis.exchange
+119,Frax Swap,Dexs,181442,14500349,251,,10279584.88,10,Fraxtal; Ethereum; Binance; Avalanche; Polygon; Optimism; Arbitrum; Fantom; Dogechain; Moonbeam,0,0,0,0,https://frax.com/swap
+120,PulseX StableSwap,Dexs,162785,11957269,65,,505752.35,1,Pulse,1,0,0,1,https://app.pulsex.com/
+121,SyncSwap,Dexs,162191,8373304,281,,8414085.04,4,zkSync Era; Linea; Scroll; Sophon,0,0,0,0,https://syncswap.xyz/
+122,Katana DEX,Dexs,150507,13099039,451,,9124145.04,1,Ronin,0,0,0,0,https://app.roninchain.com/swap#/swap
+123,THENA FUSION,Dexs,136080,5443889,447,,706115.05,1,Binance,0,0,0,0,https://www.thena.fi
+124,OkieSwap V3,Dexs,125317,2025943,18.34,,49884.45,1,X Layer,2,0,0,2,https://okiedokie.fun/
+125,Nabla Finance,Dexs,125302,4754191,15,,46193.31,5,Arbitrum; Base; Monad; Berachain; Hyperliquid L1,0,1,0,1,
+126,Joe DEX,Dexs,124379,14153121,373,,10111942.36,4,Avalanche; Monad; Arbitrum; Binance,0,1,0,1,https://lfj.gg/avalanche
+127,Etherex CL,Dexs,114713,4445897,132,,792795.64,1,Linea,0,1,0,1,https://etherex.finance/
+128,Fulcrom AMM,Dexs,113475,7166546,,,0,3,Cronos; ZKsync Era; Cronos zkEVM,0,0,0,0,https://fulcrom.finance
+129,Trisolaris,Dexs,112495,7725005,,,2211881.07,1,Aurora,0,0,0,0,https://www.trisolaris.io/#/swap
+130,DLMM KING Pools,Dexs,111233,5623631,60.99,,238967.24,4,Robinhood Chain; Base; MegaETH; Ethereum,0,0,0,0,https://dlmmking.com/
+131,Satsuma,Dexs,105689,1581082,333,,490927.54,1,Citrea,0,0,0,0,https://www.satsuma.exchange/
+132,DragonSwap V3 Kaia,Dexs,100686,10535385,150,,1889269.06,1,Klaytn,2,0,0,2,https://dgswap.io
+133,Canonic,Dexs,99839,2909207,21.69,,54024.3,1,MegaETH,0,0,0,0,https://canonic.trade
+134,SwapX Algebra,Dexs,92116,6535291,232,,330914.34,1,Sonic,0,3,0,3,https://swapx.fi/
+135,Swapr V3,Dexs,87459,3199568,69,,366646.99,1,xDai,2,0,0,2,
+136,Nerve,Dexs,87422,579494,17.49,,893871.92,1,Binance,0,0,0,0,
+137,Ramses Legacy V2,Dexs,86358,1688795,626,,1904150.04,4,Robinhood Chain; Hyperliquid L1; Polygon; Arbitrum,1,0,0,1,https://ramses.xyz
+138,Ellipsis Finance,Dexs,82633,675070.2,,,805215.64,1,Binance,0,1,0,1,
+139,Alcor Exchange,Dexs,81626,2052315,,,663602.88,4,Telos,0,1,0,1,https://alcor.exchange
+140,Biswap V2,Dexs,81596,4459827,164,,5498176.61,1,Binance,1,1,0,2,https://biswap.org/
+141,PHUX,Dexs,76514,3960198,75.22,,754938.57,1,Pulse,0,1,0,1,https://phux.io
+142,Bancor V2.1,Dexs,74827,6258668,182,,9600993.75,1,Ethereum,1,1,2,4,https://app.bancor.network/
+143,Beets DEX,Dexs,70101,3230738,120,,1479998.76,3,Sonic; Fantom; Optimism,0,0,0,0,https://beets.fi
+144,Raindex,Dexs,69371,2676050.84,,,181728.15,9,Base; Robinhood Chain; Binance; Polygon; Ethereum; Arbitrum; Linea; Flare; Matchain,0,0,0,0,https://rainlang.xyz/
+145,Lynex V2,Dexs,69298,2166328,57,,421794.76,1,Linea,1,0,0,1,https://app.lynex.fi/
+146,Treble Spot,Dexs,68964,454253,10.8,,130058.32,1,Base,0,0,0,0,https://trebleswap.com
+147,Unchain X,Dexs,66972,3176007,226,,1321167.81,1,Binance,0,1,0,1,https://unchainx.io
+148,Camelot V2,Dexs,66636,5185306,201,,6702121.88,9,Arbitrum; ApeChain; Xai; Reya Network; EDU Chain; DuckChain; Rari; Superposition; Gravity,1,1,0,2,https://camelot.exchange/
+149,NetSwap,Dexs,62906,2363838,188,,1117550.15,1,Metis,0,1,0,1,https://netswap.io/#/home
+150,Kyo Finance,Dexs,59141,1995364,63.52,,791190.0,1,Soneium,0,0,0,0,https://www.kyo.finance
+151,ApeSwap AMM,Dexs,57270,2321887,114,,9082571.91,5,Binance; Polygon; Arbitrum; Telos; Ethereum,0,1,0,1,https://www.ape.bond/
+152,Katana DEX V3,Dexs,55678,6552110,199,,1567386.84,1,Ronin,2,0,0,2,https://app.roninchain.com/swap#/swap
+153,ShibaSwap V1,Dexs,54946,10861431,262,,5857616.11,2,Ethereum; Shibarium,1,1,0,2,https://shibaswap.com
+154,Aborean CL,Dexs,53870,8510169,149,,162578.16,1,Abstract,0,0,0,0,https://aborean.finance
+155,DOOAR V2,Dexs,53333,3256027,,,5262214.79,2,Binance,1,0,0,1,https://beta.dooar.com/swap
+156,Tempo Stablecoin Dex,Dexs,52167,6056051,,,16762198.6,1,Tempo,0,0,0,0,https://tempo.xyz/
+157,2THICK,Dexs,50776,3187243,505,,44583.38,3,Sonic; Base; Fantom,0,0,0,0,https://eliteness.network/thick
+158,Pangolin V2,Dexs,50736,5142298,153,,1868904.04,4,Avalanche; Flare; Songbird,1,0,0,1,https://app.pangolin.exchange/
+159,Ramses DLMM,Dexs,48458,4887987,106,,374809.86,1,Robinhood Chain,0,1,0,1,https://ramses.xyz
+160,GIGA V2,Dexs,46932,7226469,42.36,,165251.45,1,Robinhood Chain,1,0,0,1,https://gigadex.fi
+161,SwitchX,Dexs,45398,4277263,,,45624.5,1,Pulse,0,2,0,2,https://www.switchx.fi/
+162,Rubicon,Dexs,44476,1211909,24.09,,266227.54,4,Optimism; Base; Ethereum; Arbitrum,0,1,6,7,https://app.rubicon.finance/swap
+163,MachineX CL,Dexs,44036,2031433,429,,742249.65,1,Peaq,0,0,0,0,https://www.machinex.xyz/
+164,Forest V1,Dexs,43520,327394,130,,27556.43,1,Binance,1,0,0,1,https://forest.inc/
+165,Balancer V1,Dexs,42769,3518574,84.75,,5587573.22,1,Ethereum,2,1,0,3,https://balancer.fi/
+166,Ambient,Dexs,41145,2851101,105,,2092449.98,7,Scroll; Ethereum; Blast; Plume Mainnet; Canto; Swellchain; Plume,0,0,0,0,https://ambient.finance/
+167,Astroport,Dexs,40864,6166047,34,,2975090.0,5,Sei,0,1,0,1,https://astroport.fi
+168,EGAS swap,Dexs,39981,1129649,,,31328.02,1,ENI,0,0,0,0,https://xplan.eniac.network/egas
+169,XFlows,Dexs,38889,832199,19.42,,1268576.72,1,Wanchain,0,0,0,0,https://xflows.wanchain.org
+170,ZealousSwap,Dexs,36540,1081837,110,,408418.78,2,Kasplex,0,1,0,1,https://app.zealousswap.com/swap
+171,Blackhole AMM,Dexs,35026,2664635,152,,1418139.8,1,Avalanche,0,0,0,0,https://blackhole.xyz/
+172,BabySwap,Dexs,34749,1634861,104,,1520284.68,1,Binance,0,1,0,1,
+173,SakuraSwap CLMM,Dexs,34172,13821562,60.04,,459580.61,3,Abstract; Zero Network; Redstone,0,0,0,0,https://sakuraswap.com/
+174,Dswap,Dexs,33529,894113,97.35,,1146751.9,1,ENI,0,0,0,0,https://daoaas.io/swap
+175,Ultrasolid V3,Dexs,33208,2313025,40.17,,178629.45,1,Hyperliquid L1,2,0,0,2,https://app.ultrasolid.xyz
+176,Beets DEX V3,Dexs,32442,1961279,111,,891284.79,1,Sonic,2,0,0,2,https://beets.fi
+177,BrownFi V3,Dexs,32373,3838600,22.55,,197317.94,5,Berachain; Robinhood Chain; Hyperliquid L1; Linea; Arbitrum,2,0,0,2,https://brownfi.io/
+178,Ferro,Dexs,31851,958319,12.75,,829746.52,1,Cronos,0,1,0,1,https://ferroprotocol.com
+179,Hybra V3,Dexs,31370,2981126,24.41,,215500.26,2,Hyperliquid L1; Robinhood Chain,2,0,0,2,https://www.hybra.finance?code=GRYN2U
+180,Thruster V2,Dexs,30101,28053.27,90.16,,1910769.41,1,Blast,1,0,0,1,
+181,BDEX V2,Dexs,28927,1429223,86.84,,843979.63,1,BOT Chain,1,0,0,1,https://dex.botchain.ai/
+182,Treble V2,Dexs,26677,456339,10.53,,291244.28,1,Base,1,0,0,1,https://trebleswap.com
+183,Goo Exchange CLMM,Dexs,26640,1396292,494,,190342.23,1,Robinhood Chain,0,0,0,0,https://goo.exchange
+184,Hercules V3,Dexs,26192,1156331,68,,90865.82,1,Metis,2,0,0,2,
+185,Bush,Dexs,25145,192350.95,5.48,,35082.56,1,Robinhood Chain,0,0,0,0,
+186,Wombat Exchange,Dexs,24121,1413886,4.54,,1041776.77,10,Binance; Arbitrum; Avalanche; Optimism; Base; Ethereum; Scroll; Monad; Hyperliquid L1; Polygon,0,3,1,4,https://www.wombat.exchange/
+187,Capricorn,Dexs,23858,2609524,156,,487075.95,1,Monad,0,0,0,0,https://www.capricorn.exchange/
+188,Mimo V2,Dexs,20003,452911,60.45,,396586.19,1,IoTeX,1,0,0,1,https://mimo.exchange
+189,Defi Swap,Dexs,19715,8474118,59,,1039981.52,1,Ethereum,0,1,0,1,https://crypto.com/defi/swap
+190,Uniswap V1,Dexs,18380,2447538,54.68,,3790064.0,1,Ethereum,3,3,0,6,https://app.uniswap.org/
+191,FanX Protocol,Dexs,18266,599903,56.5,,415233.43,1,Chiliz,0,0,0,0,https://app.fanx.xyz
+192,Kayen Finance V3,Dexs,17972,446499,55.88,,1071732.63,1,Chiliz,2,0,0,2,https://app.kayen.finance
+193,Pharaoh V3 Legacy,Dexs,17406,1341373,122,,1807730.06,1,Avalanche,2,0,0,2,https://www.phar.gg/
+194,BabyDogeSwap,Dexs,17335,606017,52.24,,1995890.05,1,Binance,0,2,0,2,https://swap.babydoge.com/
+195,Dinosaur Eggs,Dexs,17053,1614427,50.67,,779115.48,1,Binance,0,1,0,1,
+196,Gate Swap Spot,Dexs,16375,1205861,696,,3087205.17,1,GateLayer,0,0,0,0,https://web3.gate.com/en/swap
+197,OkieSwap Stableswap,Dexs,16003,487133,1.56,,12489.08,1,X Layer,1,0,0,1,https://okiedokie.fun/
+198,Ouro DEX V3,Dexs,15824,271632,138,,118851.09,1,Robinhood Chain,2,0,0,2,
+199,Carbon Defi,Dexs,14778,1346658,56.1,,1181267.74,5,Ethereum; Sei; Celo; TAC,0,1,0,1,https://app.carbondefi.xyz/
+200,Ramses CL,Dexs,14545,845678,3.09,,124960.12,1,Arbitrum,0,0,0,0,https://www.ramses.xyz/
+201,Hyperlynx V3,Dexs,14415,385414,29,,32393.36,1,Hyperliquid L1,2,0,0,2,https://hyperlynx.fi/
+202,BrownFi CLAMM,Dexs,14005,740514,13.86,,702835.33,1,Hemi,1,0,0,1,https://brownfi.io/
+203,FluxFlow V3,Dexs,13824,1779774,40.52,,271184.29,1,Fluent,2,0,0,2,https://fluxflow.fi
+204,Bond,Dexs,13804,2433349,24.29,,343186.96,1,0G,0,0,0,0,https://bond.xyz/
+205,Aborean AMM,Dexs,12859,1714502,8.87,,109101.02,1,Abstract,0,1,0,1,https://aborean.finance
+206,Voltage V4,Dexs,12197,605685,2.24,,263932.2,1,Fuse,3,0,0,3,https://app.voltage.finance/
+207,Consensus Liquidity DEX,Dexs,12098,1261469,36.28,,747033.24,1,Klaytn,0,0,0,0,https://swapscanner.io/swap?from=0x02cbe46fb8a1f579254a9b485788f2d86cad51aa&to=0x0000000000000000000000000000000000000000
+208,THENA V1,Dexs,12043,545984,24,,1593135.01,2,Binance; Op_Bnb,0,0,0,0,https://thena.fi/
+209,KlaySwap V1,Dexs,11835,1441229,,,3412365.41,1,Klaytn,1,1,0,2,https://klayswap.com/dashboard
+210,SquadSwap Dynamo,Dexs,11074,700115,33.2,,283911.26,1,Binance,1,1,0,2,https://squadswap.com/
+211,PotatoSwap V3,Dexs,10690,2257098,21.07,,140592.73,1,X Layer,2,0,0,2,https://potatoswap.finance
+212,Derive V3 Spot,Dexs,10593,957434,17.51,,0,1,Derive V3,2,0,0,2,https://app.derive.xyz
+213,WAGMI,Dexs,10590,2264685,17.95,,260635.95,9,Sonic; Metis; Kava; zkSync Era; IOTA EVM; Ethereum; Base; zkLink; Fantom,0,0,0,0,https://wagmi.com/
+214,Umbrae,Dexs,10587,1106432,34.36,,74808.82,2,Robinhood Chain; Base,0,3,0,3,https://umbrae.io
+215,Swappi,Dexs,10569,1267030,26.24,,1895549.47,1,Conflux,0,1,0,1,https://app.swappi.io
+216,AuroraSwap,Dexs,10442,576160,,,159704.33,1,Aurora,0,0,0,0,
+217,Velodrome V1,Dexs,10423,455926,4.79,,305612.64,1,Optimism,2,1,0,3,https://velodrome.finance/
+218,Asset Chain Swap,Dexs,10233,52380.8,31.14,,147166.58,1,Asset Chain,0,0,0,0,https://swap.assetchain.org
+219,0Swap,Dexs,10222,342930,0,,17246.4,1,Robinhood Chain,0,0,0,0,https://www.0swap.exchange
+220,Sonex,Dexs,10121,676960,1.88,,66040.54,1,Soneium,0,0,0,0,https://sonex.so
+221,Shido Dex V2,Dexs,10117,306958,44.3,,128241.83,1,Shido,1,1,0,2,https://shido.io/
+222,Valantis STEX,Dexs,9955,3233229,0.23,,3197261.1,1,Hyperliquid L1,0,1,0,1,https://www.valantis.xyz
+223,Scale,Dexs,9801,465764,33.1,,214354.21,1,Base,0,0,0,0,https://scale.farm
+224,Tigris Mezo V3,Dexs,9630,2453730,11.39,,5344270.2,1,Mezo,2,0,0,2,https://mezo.org/explore/pools
+225,Synthra Core,Dexs,9595,1694820,96.19,,0,2,Robinhood Chain; Arc,0,0,0,0,https://app.synthra.org
+226,HARD Swap,Dexs,9456,532986,0,,208899.01,1,Kava,0,0,0,0,https://swap.hard.fun/
+227,Stabull Finance,Dexs,9127,264622.89,13.69,,17869.02,3,Polygon; Base; Ethereum,0,1,0,1,https://stabull.finance
+228,Bancor V3,Dexs,9119,1943922,61.45,,15558421.22,1,Ethereum,2,1,2,5,https://app.bancor.network/
+229,zkSwap V2,Dexs,9053,615095,18.1,,514491.67,3,zkSync Era; Sonic; Monad,1,3,0,4,
+230,Synthra V3,Dexs,8916,1618350,88.92,,66655.06,2,Arc; Robinhood Chain,2,0,0,2,https://app.synthra.org
+231,Cypher V4,Dexs,8519,5319402,,,364888.84,1,Ethereum,3,0,0,3,https://cyphereth.com/
+232,Tethys AMM,Dexs,8465,321845,,,188839.8,1,Metis,0,1,0,1,
+233,Thruster V3,Dexs,8334,2389473,12.49,,2201275.47,1,Blast,2,0,0,2,
+234,Sovryn Dex,Dexs,8009,842570,,,7982915.23,2,RSK; BOB,0,1,0,1,https://www.sovryn.app/
+235,SpookySwap V3,Dexs,8002,325900,4.76,,102302.15,3,Sonic; Fantom; Bittorrent,2,0,0,2,https://spooky.fi
+236,MojitoSwap,Dexs,7817,46764.99,23,,342165.24,1,Kucoin,0,1,0,1,https://www.mojitoswap.finance
+237,Shadow Exchange Legacy,Dexs,7653,637588,130,,1345880.83,1,Sonic,0,0,0,0,https://www.shadow.so/
+238,Koi Finance AMM,Dexs,6461,422719,18.94,,1218649.53,1,zkSync Era,0,0,0,0,https://dapp.koi.finance
+239,BaseX,Dexs,6269,354811,2.05,,32544.02,1,Base,0,0,0,0,
+240,Pharaoh CL,Dexs,6183,152165,7.25,,4023625.65,1,Avalanche,0,0,0,0,https://www.phar.gg/
+241,BEX,Dexs,6161,652408,18.47,,761238.75,1,Berachain,0,0,0,0,https://hub.berachain.com/swap/
+242,Ubeswap V2,Dexs,5939,339845,,,804041.29,1,Celo,1,1,0,2,https://ubeswap.org
+243,BTR,Dexs,5834,151418,3.68,,32539.48,1,Monad,0,0,0,0,https://btr.markets
+244,DefiBox,Dexs,5784,304508,,,496252.66,3,Binance,0,2,0,2,https://defibox.io
+245,Infusion,Dexs,5712,167910,17.15,,86604.2,1,Base,0,1,0,1,
+246,Zyberswap V3,Dexs,5573,172659,0.04,,40386.32,2,Arbitrum; Optimism,2,0,0,2,
+247,Blasterswap V2,Dexs,5441,112068,16.27,,368211.14,1,Blast,1,1,0,2,https://blasterswap.com/
+248,GT3,Dexs,5322,121602,26.31,,495058.8,1,Polygon,0,0,0,0,https://dapp.gt3.finance/
+249,SakuraSwap AMM,Dexs,5078,665349,15.23,,1904796.04,2,Abstract; Zero Network,0,0,0,0,https://sakuraswap.com/
+250,Revoswap,Dexs,5055,62044,,,51363.44,1,X Layer,0,0,0,0,
+251,Etherex Legacy,Dexs,4865,122882,228,,322757.48,1,Linea,0,1,0,1,https://etherex.finance/
+252,Unitflow Finance V3,Dexs,4673,25436,2.15,,9224.45,1,Arc,2,0,0,2,
+253,Clutch Anvil AMM,Dexs,4168,160814.91,491,,0,4,Ethereum; ApeChain; Base; Robinhood Chain,0,0,0,0,https://anvil.clutch.market
+254,DeltaSwap,Dexs,4097,192403,,,262001.88,3,Arbitrum; Base; Ethereum,0,1,0,1,https://gammaswap.com
+255,Lithos,Dexs,3980,351065,9.86,,66901.38,1,Plasma,0,1,0,1,https://lithos.to/
+256,HorizonDEX,Dexs,3844,9113.91,0.01,,66857.13,2,Linea; Base,0,3,0,3,https://horizondex.io
+257,WanSwap Dex,Dexs,3460,138995,,,980925.32,1,Wanchain,0,1,0,1,https://wanswap.finance/
+258,ApertureSwap,Dexs,3359,60484,1.76,,46111.32,1,Manta,0,1,0,1,
+259,Puzzle Ranges,Dexs,3243,142488,12.76,,30926.09,2,Robinhood Chain; Ethereum,0,0,0,0,
+260,Honeyswap,Dexs,3205,188515,9.63,,681592.5,2,xDai; Polygon,0,0,0,0,https://honeyswap.org/
+261,Equalizer Exchange,Dexs,3083,169205,287,,258907.72,2,Sonic; Fantom,0,0,0,0,https://equalizer.exchange
+262,Swapr V2,Dexs,3043,159318,9.13,,331697.0,3,xDai; Arbitrum; Ethereum,1,1,0,2,https://swapr.eth.link/#/swap
+263,ArcherSwap,Dexs,2896,76766,8.69,,42116.97,1,CORE,0,1,0,1,https://archerswap.finance
+264,SyncSwap V3,Dexs,2896,132442,5.56,,0,3,Linea; Sophon; ZKsync Era,2,0,0,2,https://syncswap.xyz/
+265,Ubeswap V3,Dexs,2628,127918,0.48,,38274.64,1,Celo,2,0,0,2,https://ubeswap.org
+266,Monday Trade Spot,Dexs,2570,686466,2.53,,96844.02,1,Monad,0,1,0,1,https://app.monday.trade/
+267,BaseSwap V2,Dexs,2552,95917,6.39,,625190.6,1,Base,1,0,0,1,
+268,Kava Swap,Dexs,2544,186338,,,168557.86,1,Kava,0,0,0,0,https://app.kava.io/swap/pools
+269,WinnieSwap,Dexs,2493,142697,0.25,,57544.55,1,Berachain,0,0,0,0,https://winnieswap.com
+270,Kittenswap CL,Dexs,2461,169013,15.19,,704941.52,1,Hyperliquid L1,0,0,0,0,https://kittenswap.finance
+271,Clober V2,Dexs,2425,2435819,0.22,,12833.39,3,Base; Monad; zkSync Era,1,1,0,2,https://app.clober.io/
+272,MachineX Legacy,Dexs,2354,118675,1.21,,55067.37,1,Peaq,0,0,0,0,https://www.machinex.xyz/
+273,WardenSwap,Dexs,2306,46211,,,287051.47,1,Binance,0,1,0,1,https://www.wardenswap.com
+274,Somnia Exchange,Dexs,2215,146405,6.64,,64695.71,1,Somnia,0,0,0,0,https://somnia.exchange/
+275,Nuri CL,Dexs,2169,108991,6.55,,111392.69,1,Scroll,0,0,0,0,
+276,Platypus Finance,Dexs,2138,285231,,,26284.64,1,Avalanche,0,3,0,3,
+277,E3,Dexs,2121,76993,0.06,,8964.0,3,Base; Fantom; Arbitrum,0,0,0,0,https://eliteness.network/e3
+278,SMARDEX AMM,Dexs,2095,863934,1.5,,140293.28,5,Ethereum; Arbitrum; Binance; Base; Polygon,0,1,0,1,https://smardex.io
+279,Dfyn Network,Dexs,2090,167240,6.27,,378769.03,3,Polygon; Fantom; OKExChain,0,0,0,0,
+280,Verse,Dexs,2062,83892,6.19,,280534.52,2,Ethereum; smartBCH,0,1,0,1,https://verse.bitcoin.com
+281,BulbaSwap V2,Dexs,1923,69834,6.73,,248202.02,1,Morph,1,0,0,1,https://bulbaswap.io
+282,Arena DEX,Dexs,1878,286256,5.64,,1839474.5,1,Avalanche,0,0,0,0,https://arena.social/
+283,Lunya DEX,Dexs,1858,56207,0.93,,14767.95,1,Arc,0,0,0,0,
+284,KLEX Finance,Dexs,1761,234385,,,177133.02,1,Klaytn,0,1,0,1,
+285,DyorSwap AMM,Dexs,1648,309242,4.95,,2357408.29,14,X Layer; Blast; Stable; Ink; Plasma; Unichain; Arc; Soneium; Mode; Sonic; Merlin; BOB; ZetaChain; Degen,0,0,0,0,https://dyorswap.finance/?chainId=34443
+286,WannaSwap,Dexs,1621,162563,,,120363.2,1,Aurora,0,1,0,1,
+287,Merchant Moe DEX,Dexs,1597,122575,4.79,,279050.23,1,Mantle,0,1,0,1,https://merchantmoe.com/
+288,Maia CL,Dexs,1591,49149,0.75,,27062.6,1,Metis,1,0,0,1,https://uni.maiadao.io/#/swap
+289,Solidly V2,Dexs,1570,29275.84,0.76,,62100.26,1,Ethereum,1,1,0,2,https://solidly.com
+290,Rooster Protocol V2,Dexs,1557,132803,1.44,,40774.2,1,Plume Mainnet,1,0,0,1,https://www.rooster.trade/
+291,Baryon Network,Dexs,1512,2641.49,,,27522.94,4,Binance; TomoChain; Bitkub; Ancient8,0,1,0,1,https://www.baryon.network
+292,Calamari,Dexs,1483,386214,1.97,,132709.72,1,Ink,0,1,0,1, 
+293,XSwap V2,Dexs,1468,69860,4.41,,77511.08,1,XDC,1,2,0,3,https://app.xspswap.finance
+294,RadioShack,Dexs,1446,89360,4.34,,490847.94,8,Binance; Avalanche; Polygon; Ethereum; Cronos; Optimism; Fantom; Dogechain,0,1,0,1,
+295,Thirdfy,Dexs,1440,31902,6.63,,12173.57,1,Base,0,1,0,1,https://thirdfy.com/
+296,WinerySwap,Dexs,1438,46558,,,94666.95,1,Binance,0,0,0,0,
+297,KnightSwap Finance,Dexs,1424,47377,,,571049.36,2,Binance; Fantom,0,1,0,1,https://knightswap.financial
+298,MooniSwap,Dexs,1399,72754,4.2,,512823.95,1,Ethereum,0,3,0,3,
+299,Kublerx,Dexs,1374,66814.99,0.86,,673436.82,1,Bitkub,0,0,0,0,https://kublerx.com
+300,Hydradex V3,Dexs,1213,4036.2,6.97,,23351.1,2,Hydra Chain,2,0,0,2,https://hydradex.org/#/swap
+301,Retro,Dexs,1211,34411,0.39,,18234.96,1,Polygon,0,1,0,1,https://retro.finance/
+302,BitBlocks Finance V3,Dexs,1144,18892,0.57,,0,1,Binance,2,0,0,2,https://bitblocks.finance
+303,Titano Swych,Dexs,1066,39897,2.67,,698931.03,1,Binance,0,1,0,1,
+304,Thick,Dexs,1035,32278,2.84,,25488.61,4,Base; Fantom; Arbitrum; Sonic,0,0,0,0,https://eliteness.network/thick
+305,Supernova AMM,Dexs,1032,142531,0.87,,141777.93,1,Ethereum,0,0,0,0,https://supernova.xyz/
+306,Virtus Protocol CL,Dexs,999,83789.4,6,,47174.79,1,Base,0,0,0,0,https://virtus-protocol.com
+307,Sailor,Dexs,992,7220.6,2.98,,17774.36,1,Sei,0,1,0,1,
+308,H2 Finance V2,Dexs,953,96722,,,286572.26,1,Cronos zkEVM,1,0,0,1,https://h2.finance
+309,Swop,Dexs,948,60632,4.03,,361195.44,2,UNIT0,0,2,0,2,https://swop.fi
+310,Alita Finance,Dexs,937,42056,,,191912.45,1,Binance,0,1,0,1,
+311,Ebisus Bay DEX,Dexs,925,74974,2.78,,0,2,Cronos zkEVM; Cronos,0,0,0,0,
+312,Cone,Dexs,884,22193.4,,,21314.63,1,Binance,0,0,0,0,
+313,AmpleSwap,Dexs,880,3719.93,2.64,,17800.14,3,Binance; DSC; ALV,0,1,0,1,https://ampleswap.com
+314,Wswap,Dexs,857,16613.59,2.57,,106938.83,3,W Chain; Ethereum; Binance,0,0,0,0,https://app.w-swap.com/#/
+315,WigoSwap,Dexs,843,122430,1.46,,99241.37,1,Fantom,0,1,0,1,
+316,SwapBased AMM,Dexs,820,55237,2.46,,73649.74,1,Base,0,0,0,0,https://swapbased.finance
+317,MinMax Finance,Dexs,805,22075.07,0.48,,108920.2,1,IoTeX,0,0,0,0,
+318,Upheaval V3,Dexs,803,44545,0.75,,408500.49,1,Hyperliquid L1,2,0,0,2,https://upheaval.fi
+319,DackieSwap V3,Dexs,789,28324,1.22,,28442.91,11,Base; X Layer; Arbitrum; Mode; World Chain; Optimism; Blast; Linea; inEVM; Unichain; Ethereum,2,1,0,3,https://dackieswap.xyz
+320,Ramses Legacy,Dexs,765,11706.62,1.39,,86801.52,1,Arbitrum,0,0,0,0,https://www.ramses.xyz/
+321,Arctide DEX,Dexs,753,177432,18.27,,52411.57,1,Arc,0,0,0,0,https://arctide.app/
+322,SpookySwap V2,Dexs,746,415641,0.88,,1084167.91,4,Fantom; Bittorrent; Sonic; Horizen EON,1,1,0,2,https://spooky.fi/#/
+323,Saphyre V2,Dexs,736,101644,2.21,,341913.63,1,Sei,1,2,0,3,https://saphyre.xyz/
+324,SwapBased Concentrated Liquidity,Dexs,722,39503,1.13,,50328.56,1,Base,0,0,0,0,https://swapbased.finance/#/swap
+325,Joe V2,Dexs,712,88115,0.15,,182628.34,3,Avalanche; Arbitrum; Binance,1,1,0,2,https://lfj.gg/avalanche/trade
+326,Skate AMM,Dexs,706,33265,0.35,,28341.78,15,Binance; Robinhood Chain; Arbitrum; Ethereum; Base; Hyperliquid L1; Monad; Tempo; MegaETH; Mantle; Plume Mainnet; 0G,0,0,0,0,https://amm.skatechain.org/swap
+327,RobinSwap V3,Dexs,702,90300,0.68,,9409.24,1,Robinhood Chain,2,0,0,2,https://www.robinswap.finance
+328,Topaz AMM,Dexs,689,52550,8.76,,0,5,Binance; Ethereum; Arc; Base; Robinhood Chain,0,1,0,1,https://www.topazdex.com
+329,EchoDEX V3,Dexs,679,27689.99,1.54,,37188.7,1,Linea,2,1,0,3,
+330,KIM Exchange V3,Dexs,633,123701,1.53,,125975.15,2,Mode; Base,2,1,0,3,https://kim.exchange
+331,Zebra V2,Dexs,619,36836,1.82,,56360.37,1,Scroll,1,1,0,2,
+332,NOXA DEX V3,Dexs,615,31352,1.75,,33639.16,10,MegaETH; Hyperliquid L1; Katana; Plasma; Monad; Berachain; Sonic; Somnia; 0G; Stable,2,0,0,2,https://fun.noxa.eth.limo/
+333,9mm V3,Dexs,607,14509720,2.17,,163498.16,3,Base; Pulse; Sonic,2,0,0,2,https://dex.9mm.pro/
+334,Swapsicle V2,Dexs,593,4339.82,,,5418.14,3,Mantle; Telos; Taiko,1,0,0,1,
+335,Blue Planet,Dexs,571,33588,1.43,,160288.26,1,Binance,0,0,0,0,https://app.planet.finance/
+336,Koi Finance CL,Dexs,544,24127.33,2.49,,12777.64,1,zkSync Era,0,0,0,0,https://dapp.koi.finance
+337,JetSwap,Dexs,538,31258,1.62,,361455.24,3,Binance; Polygon; Fantom,0,2,0,2,
+338,Kokonut Swap,Dexs,538,81684.34,,,89657.95,3,Klaytn; Base; Polygon zkEVM,0,1,0,1,https://kokonutswap.finance
+339,Turbo,Dexs,528,930850,0.3,,1113.4,1,Hyperliquid L1,0,0,0,0,https://turbotrade.app
+340,Meshswap,Dexs,526,43054,,,252259.0,1,Polygon,0,0,0,0,https://meshswap.fi
+341,Raphael Exchange AMM,Dexs,520,105215,1.56,,84564.54,1,Robinhood Chain,0,0,0,0,https://www.raphael.exchange/
+342,OkieSwap V2,Dexs,513,3592.86,1.28,,26833.51,1,X Layer,1,0,0,1,https://okiedokie.fun/
+343,AutoShark,Dexs,503,21866,1.52,,158657.96,1,Binance,0,0,0,0,
+344,DefiChain DEX,Dexs,499,343757.1,,,1250265.48,1,DefiChain,0,1,0,1,https://defichain.com/dex
+345,EulerSwap,Dexs,482,52448.55,0.01,,0,4,Ethereum; Unichain; Binance; Monad,0,0,0,0,https://app.euler.finance/swap
+346,MuesliSwap,Dexs,476,21367.38,,,120353.45,2,Milkomeda,0,1,0,1,https://muesliswap.com
+347,KaspaCom Dex,Dexs,466,32918,4.64,,85358.87,2,Kasplex,0,1,0,1,https://defi.kaspa.com/swap
+348,Zyberswap AMM,Dexs,458,16919.41,1.15,,35572.59,1,Arbitrum,0,1,0,1,
+349,Ellipse DEX,Dexs,448,247026.98,4.76,,0,1,Arc,0,0,0,0,
+350,Metropolis AMM,Dexs,447,35822,1.34,,40911.93,1,Sonic,0,0,0,0,https://metropolis.exchange
+351,Quainance DEX,Dexs,439,80207,1.32,,110771.25,1,Quai,0,0,0,0,https://www.quainance.com/
+352,SolidLizard Dex,Dexs,431,19475,1.12,,30140.78,1,Arbitrum,0,0,0,0,https://solidlizard.finance/
+353,Kittenswap AMM,Dexs,422,98568,1.26,,788410.77,1,Hyperliquid L1,0,0,0,0,https://kittenswap.finance
+354,Elk,Dexs,409,20494,1.23,,174553.02,31,Binance; Avalanche; Kucoin; xDai; Polygon; Arbitrum; Fantom; Ethereum; Optimism; Fuse; Bittorrent; Cronos; Base; RSK; Linea; IoTeX; Q Protocol; Telos; Kava; Metis; Wanchain; OKExChain; Astar; Heco; Harmony; Moonriver; Hoo; Neon; Velas; Bitgert,0,1,0,1,https://elk.finance
+355,Taiko Swap,Dexs,409,7041.48,1.23,,22198.59,1,Taiko,0,0,0,0,https://swap.taiko.xyz/
+356,Chronos V1,Dexs,402,18562.1,1.09,,73273.61,1,Arbitrum,1,1,0,2,
+357,HyperJump,Dexs,399,17456,,,250999.81,3,Binance; Fantom; Metis,0,1,0,1,
+358,DefiPlaza,Dexs,395,7510,1.93,,15471.2,2,Ethereum,0,1,0,1,https://defiplaza.net/
+359,OolongSwap,Dexs,382,50173,1.14,,327268.87,1,Boba,0,1,0,1,https://oolongswap.com/#/
+360,Melegaswap,Dexs,372,27524,1.11,,120242.51,1,Binance,0,0,0,0,https://www.melega.finance/
+361,ShibaSwap V2,Dexs,370,21602,1.35,,66584.36,2,Ethereum; Shibarium,1,1,0,2,https://shibaswap.com
+362,Ilyris,Dexs,356,20831.96,0.04,,244.74,1,Robinhood Chain,0,0,0,0,
+363,Gravity Finance,Dexs,353,17538.76,0.88,,101357.94,1,Polygon,0,2,0,2,https://gravityfinance.io/
+364,Capybara Dexs,Dexs,317,86640.21,2.7,,120293.87,1,Klaytn,0,0,0,0,
+365,KyotoSwap,Dexs,304,16520.56,0.91,,31751.84,1,Binance,0,0,0,0,
+366,VaporDex V1,Dexs,302,73717,,,303336.46,3,Avalanche; Telos; ApeChain,1,0,0,1,https://app.vapordex.io/swap
+367,Dystopia,Dexs,281,22855.79,,,22660.78,1,Polygon,0,0,0,0,
+368,Kodiak V2,Dexs,277,30570,0.83,,280031.14,1,Berachain,1,1,0,2,https://app.kodiak.finance
+369,Pharaoh Legacy,Dexs,258,77145,0.77,,227386.96,1,Avalanche,0,0,0,0,https://www.phar.gg/
+370,Aequinox,Dexs,257,5625.19,,,632906.46,1,Binance,0,0,0,0,
+371,Hypertrade V3,Dexs,239,1018770,0.36,,2212.61,1,Hyperliquid L1,2,1,0,3,https://ht.xyz
+372,AllBlue V2,Dexs,238,40137,0.8,,97420.78,1,Avalanche,1,2,0,3,https://allbluedex.io
+373,9mm V2,Dexs,234,12272.25,,,42118.7,3,Pulse; Base; Sonic,1,0,0,1,https://dex.9mm.pro/
+374,SupSwap V3,Dexs,227,35286.02,0.13,,24473.06,1,Mode,2,1,0,3,https://supswap.xyz
+375,Arbitrum Exchange V2,Dexs,208,12730,0.62,,15811.16,1,Arbitrum,1,1,0,2,
+376,Gravis Finance,Dexs,203,8059,0.51,,37758.13,3,Binance; Polygon; Heco,0,1,0,1,
+377,PadSwap,Dexs,203,7323.11,,,108053.78,3,Binance; Moonriver; Moonbeam,0,2,0,2,
+378,Yaka V3,Dexs,197,14894,0.56,,3740.98,1,Sei,2,0,0,2,
+379,Complus Network,Dexs,193,8561.98,0.58,,65191.88,4,Avalanche; Binance; Polygon; Heco,0,0,0,0,
+380,VinuSwap,Dexs,192,2264.35,,,7086.46,1,VinuChain,0,0,0,0,https://vinuchain.vinuswap.org/
+381,Nile Legacy,Dexs,177,246386,0.04,,349356.86,1,Linea,0,0,0,0,
+382,Nearpad,Dexs,173,19630,,,59905.75,1,Aurora,0,0,0,0,
+383,SpinUp DEX,Dexs,162,15853,0.49,,102088.99,1,Hyperliquid L1,0,0,0,0,https://www.spinup.zone/dex/swap
+384,HakuSwap,Dexs,156,15638.89,,,29297.48,1,Avalanche,0,1,0,1,
+385,Swapsicle V1,Dexs,155,12969.66,0.47,,19457.99,8,Avalanche; Telos; Arbitrum; Binance; Polygon; Optimism; Fantom; Ethereum,1,1,0,2,
+386,SquadSwap V2,Dexs,155,274.9,0.46,,11596.45,6,Base; Blast; Binance; Optimism; Polygon; Arbitrum,1,1,0,2,https://squadswap.com/
+387,Motoswap AMM,Dexs,151,3830370.04,1.68,,51997.4,1,Ethereum,0,0,0,0,https://motoswap.org/
+388,World Markets Spot,Dexs,148,649481,0.22,,661185.87,1,MegaETH,0,0,0,0,
+389,SwapX V2,Dexs,147,57688,0.31,,56412.67,1,Sonic,1,2,0,3,https://swapx.fi/
+390,Nile CL,Dexs,146,47162,0.04,,345379.51,1,Linea,0,0,0,0,
+391,Scribe V4,Dexs,143,7980.5,0.59,,4093.81,1,Scroll,3,0,0,3,https://scribe.exchange
+392,ZKBase,Dexs,137,5967.25,,,32882.13,2,zkSync Era; Zkfair,0,0,0,0,
+393,PinkSwap,Dexs,133,2570.5,,,538045.43,1,Binance,0,0,0,0,
+394,DTX Dex V3,Dexs,132,893.41,0.39,,1965.27,1,Taiko,2,0,0,2,
+395,Macaron AMM,Dexs,132,1132.19,,,44757.58,1,Bitlayer,0,0,0,0,https://www.macaron.xyz
+396,DragonSwap V2 Kaia,Dexs,131,97603,0.33,,62553.78,1,Klaytn,1,0,0,1,https://dgswap.io
+397,SpiritSwap AMM,Dexs,130,61336.31,0.39,,404599.39,1,Fantom,0,1,0,1,https://www.spiritswap.finance/chain/ftm/swap
+398,Enosys AMM V2,Dexs,125,57584.48,0.37,,141509.22,2,Flare; Songbird,1,0,0,1,https://enosys.global/products/dex
+399,SwapHood V2,Dexs,119,8000.85,2.37,,9597.51,1,Robinhood Chain,1,0,0,1,https://www.swaphood.finance/#/
+400,Helios V3,Dexs,117,15803.25,0.16,,981.86,1,RISE,2,0,0,2,https://app.helios.trade
+401,Goblins AMM,Dexs,113,6861.29,,,10207.07,3,Binance; Base; smartBCH,0,0,0,0,
+402,Rooster Protocol V1,Dexs,109,11457.14,0.1,,52278.87,1,Plume Mainnet,1,1,0,2,https://www.rooster.trade/
+403,PhotonSwap Finance,Dexs,108,9339.18,,,106048.05,3,Cronos; Kava; Evmos,0,0,0,0,https://photonswap.finance
+404,Pearl V1,Dexs,101,30388.28,0.09,,106149.24,1,Polygon,1,0,0,1,https://www.pearl.exchange
+405,YieldFields,Dexs,100,1371.92,,,15420.8,1,Binance,0,1,0,1,
+406,Crodex,Dexs,98.76,9599.56,0.3,,107914.62,1,Cronos,0,1,0,1,https://swap.crodex.app
+407,Lista DEX,Dexs,98.23,0,0.01,,32982358.54,2,Binance; Ethereum,0,0,0,0,https://lista.org/swap
+408,Sheriff V3,Dexs,91.96,42168.04,0.09,,8532.35,1,Robinhood Chain,2,0,0,2,https://app.sheriff.exchange/
+409,Butter.xyz,Dexs,86.5,7691.72,0.19,,24713.61,1,Mantle,0,1,0,1,
+410,Somnex DEX,Dexs,83,5354,0.41,,21031.26,1,Somnia,0,0,0,0,https://somnex.xyz/
+411,Energiswap,Dexs,82,9477.77,,,41833.84,1,Energi,0,0,0,0,https://app.energiswap.exchange/#/swap
+412,FVM Exchange,Dexs,81,7889.55,0.11,,11119.47,1,Fantom,2,0,0,2,
+413,MorFi,Dexs,78.22,4258.05,0.08,,10141.1,1,Morph,0,0,0,0,
+414,VanillaSwap V2,Dexs,74.71,419.3,0.22,,114341.36,1,DeFiChain EVM,1,0,0,1,
+415,IcecreamSwap V2,Dexs,73.85,4417.57,,,24054.26,14,CORE; BOB; Blast; XDC; Bitgert; Base; Telos; Scroll; LightLink; Taiko; Fuse; ShimmerEVM; Dogechain; Neon,1,0,0,1,https://icecreamswap.com/
+416,Gliquid,Dexs,71.09,8080.07,0.14,,23450.39,1,Hyperliquid L1,0,1,0,1,
+417,Nami,Dexs,67.37,83.84,0.09,,613.14,3,Base; Ethereum; Robinhood Chain,0,2,0,2,https://nami.fi/
+418,MagicSea LB,Dexs,67.32,6096505,0.08,,130069.48,1,IOTA EVM,0,0,0,0,https://app.magicsea.finance/swap
+419,Blasterswap V3,Dexs,66.75,40395.53,0.03,,16976.75,1,Blast,2,0,0,2,https://blasterswap.com
+420,KIM Exchange V2,Dexs,66.08,21763.31,0.2,,87603.93,2,Mode; Base,2,1,0,3,https://kim.exchange
+421,SwapMode V2,Dexs,65.49,14214.9,0.19,,42264.77,1,Mode,1,2,0,3,
+422,Hercules V2,Dexs,65,2958.12,0.22,,16040.04,1,Metis,1,0,0,1,
+423,Cometh,Dexs,61.26,25431.94,0.3,,39281.77,1,Polygon,0,0,0,0,https://www.cometh.io/
+424,PurpsExchange,Dexs,58.73,3759.63,0.18,,1121.1,1,Monad,0,1,0,1,http://app.purps.xyz
+425,DerpDEX,Dexs,56.48,1137.01,0.35,,23224.34,3,zkSync Era; Op_Bnb; Base,0,1,0,1,
+426,firefly,Dexs,54.3,1915.42,0.16,,78816.13,1,Manta,0,1,0,1,https://fireflydex.io
+427,Voltage AMM,Dexs,52.77,7701.27,,,68848.01,1,Fuse,1,0,0,1,https://app.voltage.finance/
+428,zkSwap V3,Dexs,50.01,14786,0.1,,47002.78,3,zkSync Era; Sonic; Monad,2,0,0,2,
+429,LuaSwap,Dexs,48.87,5204.88,,,149396.45,2,Ethereum; TomoChain,0,1,0,1,
+430,Axial,Dexs,45,9102,0.45,,8977.76,1,Avalanche,0,0,0,0,https://www.axial.exchange
+431,Rayls Swap,Dexs,44,2260.54,0.15,,6842.62,1,Rayls,0,0,0,0,https://swap.rayls.com/swap
+432,Velocimeter V4,Dexs,42.26,2459.22,,,9181.38,1,IOTA EVM,3,1,0,4,
+433,Sphynx,Dexs,40.11,3192.9,,,30372.59,4,Binance; Cronos; Bitgert; Loop,0,0,0,0,
+434,VaporDex V2,Dexs,39.67,134722.98,0.12,,22921.7,3,Avalanche; Telos; ApeChain,1,0,0,1,https://app.vapordex.io/swap
+435,H2 Finance V3,Dexs,36,22073,,,19188.27,1,Cronos zkEVM,2,0,0,2,https://h2.finance
+436,Bean Exchange,Dexs,35.12,28047.09,0.06,,3985.8,1,Monad,0,1,0,1,
+437,RobinSwap V2,Dexs,32.49,10542.4,0.08,,748.77,1,Robinhood Chain,1,0,0,1,https://www.robinswap.finance
+438,SilverSwap,Dexs,32,3817,0.03,,6790.12,2,Sonic; Nibiru,0,0,0,0,https://silverswap.io
+439,Mobius Money,Dexs,31,2913.61,0.31,,347920.76,1,Celo,0,0,0,0,
+440,Hybra V2,Dexs,30.32,1784.6,0.08,,5129.48,2,Hyperliquid L1; Robinhood Chain,2,0,0,2,https://www.hybra.finance?code=GRYN2U
+441,Yaka V2,Dexs,29,31915.3,0.05,,9531.17,1,Sei,1,1,0,2,
+442,Lynex V1,Dexs,27.49,10771.6,0.07,,125796.48,1,Linea,1,0,0,1,https://app.lynex.fi
+443,EmpireDEX,Dexs,27.45,1501.49,0.08,,2826901.33,9,Binance; Cronos; Ethereum; xDai; Avalanche; Fantom; Polygon; Kava; Empire,0,0,0,0,
+444,SmartDEX,Dexs,26.97,1471.15,,,8173.91,1,Polygon,0,0,0,0,
+445,EddyFinance AMM,Dexs,25.23,2659.43,0.08,,77765.92,1,ZetaChain,0,0,0,0,
+446,Sheriff V2,Dexs,24.87,1173.1,0.13,,2673.71,1,Robinhood Chain,1,0,0,1,https://app.sheriff.exchange/
+447,HX Finance,Dexs,24.34,2423.08,0.07,,9090.18,1,Hyperliquid L1,0,0,0,0,
+448,Rabbit Swap,Dexs,23.83,4931.73,0.23,,46541.55,1,TomoChain,0,0,0,0,https://rabbitswap.xyz
+449,Levinswap,Dexs,22,6251.98,,,80660.28,1,xDai,0,0,0,0,
+450,Equilibre,Dexs,21.83,21912.78,0.06,,0,1,Kava,0,0,0,0,
+451,SparkDEX V3,Dexs,21.48,1184.34,0.01,,3506.44,1,Flare,2,0,0,2,https://sparkdex.ai/home
+452,EchoDEX V2,Dexs,20.44,1600.52,0.06,,39422.11,1,Linea,1,0,0,1,
+453,ArthSwap V3,Dexs,19.39,180.53,0.02,,2737.62,2,Astar; Astar zkEVM,2,0,0,2,https://app.arthswap.org
+454,Zebra V1,Dexs,17.39,907.74,0.05,,4441.97,1,Scroll,1,1,0,2,
+455,Fenix Standard Pools,Dexs,16.24,20284.86,0.02,,4230.14,1,Blast,0,0,0,0,https://www.fenixfinance.io
+456,Solidly,Dexs,15.22,4102.97,,,21363.62,1,Fantom,0,1,0,1,https://solidly.exchange/
+457,Pandora,Dexs,14.87,3773.74,0.04,,8890.13,1,Binance,0,1,0,1,
+458,DAO Swap,Dexs,14.33,2477.86,,,45732.42,1,Binance,0,0,0,0,
+459,Alphix,Dexs,14.08,18463.72,0.09,,6757.14,2,Base; Arbitrum,0,0,0,0,
+460,BurrBear,Dexs,12.67,1201.63,0.04,,33012.67,1,Berachain,0,1,0,1,https://app.burrbear.io/
+461,WhaleSwap,Dexs,11.84,414.9,,,1807.26,7,Binance; Avalanche; Polygon; Fantom; Arbitrum; Optimism; Kava,0,1,0,1,
+462,FusionX V2,Dexs,11.62,1379.53,0.03,,16970.24,1,Mantle,1,0,0,1,https://fusionx.finance
+463,VanillaSwap V3,Dexs,11.33,31.96,0.03,,2905.8,1,DeFiChain EVM,2,0,0,2,
+464,ProtoFi,Dexs,11.2,2353.97,,,13595.65,1,Fantom,0,1,0,1,
+465,Story Hunt,Dexs,9.58,1484.43,,,28888.18,1,Story,0,0,0,0,https://app.storyhunt.xyz/
+466,Omni Exchange V2,Dexs,8.97,279.84,0.03,,1621.06,7,Base; Arbitrum; Sonic; Avalanche; Binance; Optimism; Plasma,1,0,0,1,
+467,NOXA DEX V2,Dexs,8.95,607.3,0.03,,67074.71,11,Abstract; Hyperliquid L1; Monad; Berachain; Plasma; 0G; MegaETH; Stable; Somnia; Sonic; Katana,1,0,0,1,https://fun.noxa.eth.limo/
+468,Embr Finance,Dexs,8.88,12895.15,0.02,,8213.23,1,Avalanche,0,0,0,0,
+469,cytoswap,Dexs,8.43,341.52,,,180.58,1,HeLa,0,0,0,0,https://cytoswap.com/
+470,JAINE,Dexs,8.33,1499.34,0.03,,3236.61,1,0G,0,0,0,0,https://jaine.app/
+471,Catnip,Dexs,7.75,4886.64,0.02,,23217.61,1,Robinhood Chain,0,0,0,0,https://catnipexchange.com/
+472,Morpheus,Dexs,7.21,355.85,0.02,,2821.2,1,Robinhood Chain,0,0,0,0,
+473,Saddle Finance,Dexs,5.62,514.29,0,,958296.42,7,Ethereum; Arbitrum; Optimism; Aurora; Fantom; Evmos; Kava,0,3,0,3,
+474,Archly V2,Dexs,5.55,136.24,,,1046.29,22,Telos; Base; Fantom; Arbitrum Nova; Arbitrum; Binance; Zora; Optimism; Kava; Ethereum; Fraxtal; Polygon; Cronos; Metis; Blast; Sonic; Mantle; Avalanche; Mode; Filecoin; zkSync Era; Neon,1,0,0,1,https://archly.fi
+475,Polaris Finance,Dexs,5.38,492.2,0.02,,7356.11,2,Aurora; Telos,0,0,0,0,https://polarisfinance.io
+476,Morpheus Swap,Dexs,5.36,2787.83,,,2550.53,1,Fantom,0,1,0,1,
+477,Cleopatra Legacy,Dexs,5.28,620.41,0.01,,2238.17,1,Mantle,0,0,0,0,
+478,Koyo Finance,Dexs,4.9,64.95,,,1149.87,1,Boba,0,0,0,0,
+479,Gin Finance,Dexs,4.48,904.85,0.01,,8138.68,1,Boba,0,1,0,1,
+480,Somnex V3,Dexs,4.21,1709.39,0.02,,9298.7,1,Somnia,2,0,0,2,https://somnex.xyz/
+481,HyperBrick,Dexs,4.05,250.38,0,,41687.1,1,Hyperliquid L1,0,0,0,0,https://hyperbrick.xyz
+482,PiperX V3,Dexs,3.92,29.67,0.01,,68962.22,1,Story,2,0,0,2,https://app.piperx.xyz/
+483,Canary,Dexs,3.86,742.72,,,23638.26,2,Avalanche; Scroll,0,0,0,0,https://canary.exchange
+484,Stable Swap V3,Dexs,3.69,2601.93,0.01,,1379505.88,1,Stable,2,0,0,2,https://swap.stable.xyz/
+485,SoulSwap,Dexs,3.37,142.09,,,3697.41,2,Fantom; Avalanche,0,0,0,0,
+486,Hashlock Markets,Dexs,3.29,10.79,0,,0,5,Robinhood Chain; Ethereum; Base,0,2,0,2,https://hashlock.markets
+487,Pangea Swap,Dexs,3.17,3737.11,,,6315.67,1,Klaytn,0,1,0,1,https://pangeaswap.com
+488,LeonicornSwap,Dexs,3.1,115.59,,,2548.77,1,Binance,0,1,0,1,
+489,ChampagneSwap,Dexs,2.87,91.1,,,816.77,1,Binance,0,0,0,0,
+490,SquadSwap Thanos,Dexs,2.76,394.24,0,,531.06,2,Binance; Base,1,1,0,2,https://squadswap.com/
+491,ZipSwap,Dexs,2.51,95.8,,,83554.89,2,Optimism; Arbitrum,0,0,0,0,
+492,MantisSwap,Dexs,2.2,260.18,,,14035.99,3,Mode; Polygon; Polygon zkEVM,0,1,0,1,https://mantissa.finance
+493,Yoshi Exchange,Dexs,2.03,91.93,,,6740.56,3,Binance; Fantom; Ethereum,0,1,0,1,
+494,Unicly,Dexs,1.95,124174.15,,,476078.74,1,Ethereum,0,1,0,1,
+495,Kaleido Swap,Dexs,1.85,294.11,,,525.87,1,Arc,0,0,0,0,https://kaleidofi.xyz
+496,BladeSwap AMM,Dexs,1.8,34001,,,188093.7,1,Blast,0,0,0,0,https://bladeswap.xyz
+497,Cypher V2,Dexs,1.77,132.8,,,1894.4,1,Ethereum,1,0,0,1,https://cyphereth.com/
+498,3xcalibur,Dexs,1.64,132.06,,,3199.82,1,Arbitrum,0,1,0,1,
+499,BitBlocks Finance V2,Dexs,1.63,99.17,0,,1476.42,1,Binance,1,0,0,1,https://bitblocks.finance
+500,Tempo Fee AMM,Dexs,1.54,76.22,0,,45443.98,1,Tempo,0,0,0,0,https://tempo.xyz/
+501,BXH,Dexs,1.42,8.23,,,43202.34,5,OKExChain; Avalanche; Binance; Ethereum; Heco,0,0,0,0,
+502,Tomb Swap,Dexs,1.29,1175.68,,,42226.73,1,Fantom,0,0,0,0,
+503,Darkness,Dexs,1.24,4350.57,,,7249.45,1,Cronos,0,1,0,1,
+504,Spartan,Dexs,1.22,901.65,,,8370.9,1,Binance,0,3,0,3,https://spartanprotocol.org
+505,SwapMode V3,Dexs,1.21,263.07,0,,2137.81,1,Mode,2,0,0,2,
+506,Loxodrome AMM,Dexs,0.7,109.11,0,,10940.94,1,IoTeX,0,0,0,0,
+507,Omni Exchange V3,Dexs,0.67,0.46,0,,8179.92,7,Base; Binance; Plasma; Sonic; Avalanche; Optimism; Arbitrum,2,0,0,2,
+508,Apex DeFi,Dexs,0.58,794.21,0,,9375.1,3,Avalanche; Base; Ethereum,0,1,0,1,https://apexdefi.xyz
+509,CryptoSwap,Dexs,0.56,9.35,,,2372.64,1,Binance,0,0,0,0,
+510,SparkDEX V2,Dexs,0.43,114.08,0,,3246.69,1,Flare,2,0,0,2,https://sparkdex.ai/home
+511,MM Finance Arbitrum,Dexs,0.33,243.12,,,2121.16,1,Arbitrum,0,0,0,0,
+512,DackieSwap V2,Dexs,0.3,381.98,0,,26353.03,11,Base; X Layer; Blast; Optimism; Mode; Arbitrum; World Chain; Linea; Unichain; inEVM; Ethereum,1,0,0,1,https://dackieswap.xyz
+513,Keller Finance V3,Dexs,0.13,5.31,0,,327.19,1,Scroll,2,0,0,2,
+514,Kinetix AMM V3,Dexs,0.11,8.94,0,,178936.69,2,Kava; Base,2,0,0,2,
+515,QIEDex,Dexs,0.1,2257.3,0,,7347.4,1,QIE,0,0,0,0,https://www.dex.qie.digital/#/stake
+516,SupSwap V2,Dexs,0.06,98.92,0,,712.98,1,Mode,1,1,0,2,https://supswap.xyz
+517,Ocelex V2,Dexs,0.01,2.75,0,,27146.44,1,Zircuit,1,0,0,1,
+518,Tristero Darkpool,Dexs,0,69627.3,13.32,,0,6,Ethereum; Optimism; Avalanche; Polygon; Base; Arbitrum,0,1,0,1,https://www.tristero.com/
+519,Balanced Exchange,Dexs,0,334.54,0,,1984077.12,11,Avalanche; Arbitrum; Binance; Base; Optimism,0,2,0,2,https://app.balanced.network/trade
+520,HiveSwap V3,Dexs,0,4.4,,,1016824.37,1,Map,2,0,0,2,
+521,Clipper,Dexs,0,0.02,0,,777021.24,8,Ethereum; Base; Optimism; Arbitrum; Polygon; Mantle; Moonbeam; Polygon zkEVM,0,1,0,1,https://clipper.exchange
+522,AutoRange,Dexs,0,61493.72,0,,608847.5,6,Arbitrum; Ethereum; Base; Celo; Robinhood Chain; Avalanche,0,0,0,0,https://autorange.xyz/
+523,Swaap Maker V2,Dexs,0,39858185,,,454454.53,11,Arbitrum; Binance; Base; Polygon; Optimism; Ethereum; Mode; Scroll; Linea; Mantle; Monad,1,3,0,4,https://www.swaap.finance
+524,Basin Exchange,Dexs,0,36648,,,363648.33,2,Arbitrum; Ethereum,0,1,0,1,https://basin.exchange
+525,LuigiSwap,Dexs,0,0,,,335263.83,2,Op_Bnb; Scroll,0,0,0,0,
+526,Bunni V2,Dexs,0,0,0,,215325.38,5,Ethereum; Base; Unichain; Arbitrum; Binance,1,1,0,2,https://bunni.xyz/
+527,Molten V3,Dexs,0,33.01,0,,210700.25,1,CORE,2,1,0,3,https://molten.finance/
+528,DataDex,Dexs,0,247.43,0,,196208.04,1,Vana,0,0,0,0,https://www.datadex.com/
+529,KrokoSwap V3,Dexs,0,2268029.86,0,,153312.21,1,Kasplex,2,0,0,2,https://krokoswap.io/
+530,ChimpX AI DEX,Dexs,0,66.83,0,,136609.61,2,Boba; Linea,0,0,0,0,https://chimpx.ai/
+531,Hermes V1,Dexs,0,0,,,136445.67,1,Metis,1,0,2,3,https://hermes.maiadao.io/
+532,Swaap Maker V1,Dexs,0,1392.57,0,,107350.49,1,Polygon,1,1,0,2,https://www.swaap.finance
+533,ShapeSwap V3,Dexs,0,71547,0,,100903.59,1,Shape,2,0,0,2,https://shapeswap.xyz/
+534,FusionX V3,Dexs,0,0,0,,89559.65,1,Mantle,2,0,0,2,https://fusionx.finance
+535,AlienFi,Dexs,0,54.61,0,,75009.59,1,Arbitrum,0,0,0,0,
+536,ShapeSwap V2,Dexs,0,10040.48,0,,71391.09,1,Shape,1,0,0,1,https://shapeswap.xyz/
+537,CarbonSwap,Dexs,0,8,,,69012.11,1,EnergyWeb,0,0,0,0,https://carbonswap.exchange/#/swap
+538,Junoswap.trade CLMM,Dexs,0,41.92,0,,66585.07,2,Bitkub; JBC,0,0,0,0,https://junoswap.trade/swap
+539,HunnySwap,Dexs,0,17088.17,,,57732.99,1,Avalanche,0,1,0,1,
+540,PegaSys V3,Dexs,0,50.97,,,49048.56,1,Rollux,2,0,0,2,
+541,UltronSwap,Dexs,0,3252.68,,,45870.74,1,Ultron,0,0,0,0,https://ultronswap.com
+542,FrothSwap,Dexs,0,0,0,,40525.51,1,Robinhood Chain,0,0,0,0,https://froth.meme/
+543,Symmetric,Dexs,0,24.54,0,,37942.67,6,xDai; Celo; Taiko; Telos; Etherlink; Meter,0,1,0,1,
+544,Sobal,Dexs,0,306.47,0,,31932.65,2,Base; Neon,0,0,0,0,
+545,BenSwap,Dexs,0,0,,,31701.8,2,smartBCH; Binance,0,1,0,1,https://benswap.cash
+546,BitGenie AMM,Dexs,0,9814.89,0,,31684.69,1,Merlin,0,0,0,0,
+547,Deepstate,Dexs,0,4004057.3,0,,31656.8,1,Robinhood Chain,0,0,0,0,https://deepstate.sh/
+548,Holdstation Swap,Dexs,0,254.51,0,,17447.22,2,zkSync Era; Berachain,0,0,0,0,https://holdstation.exchange/
+549,FeeFree,Dexs,0,0,0,,16959.49,3,Zora; Scroll; Base,0,0,0,0,
+550,Throne V3,Dexs,0,0,,,16406.8,1,Base,2,1,0,3,
+551,PiperX V2,Dexs,0,0.01,0,,15310.44,1,Story,1,0,0,1,https://app.piperx.xyz/
+552,IcecreamSwap V3,Dexs,0,0,,,8956.05,1,CORE,2,0,0,2,https://icecreamswap.com
+553,Meridian Swap,Dexs,0,418.64,0,,7641.11,1,Telos,0,0,0,0,https://www.meridianfinance.net/
+554,zkSwap StableSwap,Dexs,0,9043,0,,7272.51,1,zkSync Era,1,0,0,1,
+555,Fenix Concentrated Liquidity,Dexs,0,18.95,0,,7056.32,1,Blast,0,0,0,0,https://www.fenixfinance.io
+556,Integral,Dexs,0,0,0,,6704.21,2,Arbitrum; Ethereum,0,1,0,1,https://integral.link/
+557,MM Stableswap Polygon,Dexs,0,13.2,0,,6419.32,1,Polygon,0,0,0,0,
+558,Nuri Legacy,Dexs,0,439.77,0,,6295.97,1,Scroll,0,0,0,0,
+559,BrownFi V2,Dexs,0,0,0,,6043.88,7,Linea; Berachain; Hyperliquid L1; Base; Monad; Arbitrum; Binance,1,2,0,3,https://brownfi.io/
+560,Mondrian Swap,Dexs,0,143,0,,3609.33,1,Abstract,0,0,0,0,
+561,Archly V1,Dexs,0,0,0,,3582.73,9,Arbitrum Nova; Telos; Base; Binance; Polygon; Arbitrum; Optimism; Kava; Fantom,1,0,0,1,https://archly.fi
+562,Elix.fi,Dexs,0,0,0,,3475.09,1,Somnia,0,0,0,0,https://www.elix.fi/
+563,Snap V3,Dexs,0,313.61,0,,3068.98,1,TAC,2,0,0,2,https://www.snap.club/
+564,Sonic Market OrderBook,Dexs,0,0,,,2610.8,1,Sonic,0,0,0,0,https://www.sonic.market
+565,SMBSwap V2,Dexs,0,1.72,0,,2506.5,1,Binance,1,0,0,1,
+566,ParitySwap V2,Dexs,0,1337.19,0,,2188.73,1,Robinhood Chain,1,0,0,1,https://app.parityswap.io
+567,Sonicxswap,Dexs,0,0,0,,2016.01,1,Sonic,0,1,0,1,https://sonicxswap.com/
+568,Intrinsic,Dexs,0,2.24,0,,1895.68,1,RSK,0,0,0,0,https://intrinsic.finance
+569,ZyberSwap Stableswap,Dexs,0,948.7,0,,1660.61,1,Arbitrum,0,0,0,0,
+570,Subzero ZSwap,Dexs,0,1.43,0,,1551.8,1,Avalanche,0,0,0,0,
+571,SquadSwap V3,Dexs,0,0,0,,1303.84,6,Binance; Base; Blast; Arbitrum; Optimism; Polygon,2,1,0,3,https://squadswap.com/
+572,Velocore V2,Dexs,0,0,,,1277.27,3,Telos; Linea; zkSync Era,1,0,0,1,
+573,Wasabee,Dexs,0,0,0,,1219.1,1,Berachain,0,0,0,0,
+574,Moai V3,Dexs,0,4.92,,,1161.37,1,XRPL EVM,2,0,0,2,
+575,WarpGate,Dexs,0,0,,,1157.64,1,Immutable zkEVM,0,0,0,0,
+576,Horiza,Dexs,0,0,0,,1096.64,1,Arbitrum,0,0,0,0,
+577,HiveSwap V2,Dexs,0,5.73,,,1080.73,1,Map,1,0,0,1,
+578,AuraSwap,Dexs,0,0,,,973.76,1,Polygon,0,0,0,0,
+579,CrescentSwap,Dexs,0,0.48,,,929.79,2,Arbitrum; Base,0,1,0,1,
+580,Voltage V3,Dexs,0,0,0,,909.31,1,Fuse,2,0,0,2,https://app.voltage.finance/
+581,LineHub V3,Dexs,0,0,0,,896.79,1,Linea,2,0,0,2,
+582,WingSwap,Dexs,0,12.81,,,847.96,1,Fantom,0,1,0,1,
+583,OctoSwap CL,Dexs,0,0,0,,839.08,1,Monad,0,1,0,1,https://octo.exchange/
+584,Stable Swap V2,Dexs,0,0,0,,757.98,1,Stable,1,0,0,1,https://swap.stable.xyz/
+585,Omnidrome,Dexs,0,0,0,,697.19,1,ZetaChain,0,0,0,0,
+586,Arbitrum Exchange V3,Dexs,0,0,0,,691.42,1,Arbitrum,2,0,0,2,
+587,SailFish Finance,Dexs,0,0,0,,550.86,1,EDU Chain,0,0,0,0,https://sailfish.finance
+588,Althea DEX,Dexs,0,6.97,,,505.19,1,Althea,0,0,0,0,https://althea.link/swap
+589,Hummus AMM,Dexs,0,0,,,503.69,1,Metis,0,0,0,0,
+590,Standard Protocol Mode,Dexs,0,0,,,410.52,2,Mode; Blast,0,0,0,0,
+591,MistSwap,Dexs,0,0,,,345.04,1,smartBCH,0,1,0,1,
+592,Keller Finance V2,Dexs,0,0,0,,344.01,1,Scroll,1,0,0,1,
+593,Juiceswap,Dexs,0,0,0,,327.52,1,Citrea,0,1,0,1,https://bapp.juiceswap.com/
+594,Surfswap Classic,Dexs,0,0,,,320.78,1,Kava,0,1,0,1,
+595,dexSWAP,Dexs,0,0,0,,305.58,1,Arbitrum,0,0,0,0,https://dexfi.com/
+596,SuperSwap V3,Dexs,0,0,0,,300.01,1,Optimism,2,0,0,2,
+597,Chronos V2,Dexs,0,170,,,268.36,1,Arbitrum,1,0,0,1,
+598,AethonSwap,Dexs,0,0,0,,230.28,1,Monad,0,1,0,1,
+599,LineHub V2,Dexs,0,0,0,,227.39,1,Linea,1,0,0,1,
+600,Monocerus,Dexs,0,0,0,,205.83,2,Avalanche; Manta,0,0,0,0,
+601,Swyrl CL,Dexs,0,0,,,200.81,1,Monad,0,0,0,0,
+602,Viridian Exchange,Dexs,0,0,0,,191.95,1,CORE,0,1,0,1,
+603,Kiltr,Dexs,0,6.87,0,,173.13,1,Robinhood Chain,0,0,0,0,
+604,XTrade,Dexs,0,0,0,,168.52,1,X Layer,0,0,0,0,
+605,DiviSwap,Dexs,0,70.53,,,160.04,1,Chiliz,0,0,0,0,https://diviswap.io/swap
+606,Ginseng Swap,Dexs,0,7075.79,0,,154.75,1,Conflux,0,1,0,1,
+607,OctoSwap Classic,Dexs,0,0,0,,148.21,1,Monad,0,1,0,1,https://octo.exchange/
+608,Pinot V3,Dexs,0,0,0,,134.77,1,Monad,2,0,0,2,
+609,Kinetix AMM V2,Dexs,0,0,0,,132.48,2,Kava; Base,1,0,0,1,
+610,Upheaval V2,Dexs,0,0,0,,117.67,1,Hyperliquid L1,1,0,0,1,https://upheaval.fi
+611,Pandora Swap,Dexs,0,0,0,,108.76,1,Astar,0,1,0,1,
+612,SummitX Finance,Dexs,0,0,,,84.25,1,Camp,0,0,0,0,https://summitx.finance/
+613,WarpX V3,Dexs,0,0,0,,62.15,1,MegaETH,2,0,0,2,
+614,ParitySwap V3,Dexs,0,138.1,0,,61.96,1,Robinhood Chain,2,0,0,2,https://app.parityswap.io
+615,Hyperlynx V2,Dexs,0,6.67,0,,61.42,1,Hyperliquid L1,1,0,0,1,https://hyperlynx.fi/
+616,Hoodit,Dexs,0,143.67,0,,54.83,1,Robinhood Chain,0,0,0,0,https://hoodit.xyz
+617,Spartacus Exchange,Dexs,0,0,,,49.48,1,Fantom,0,0,0,0,
+618,Nexapia,Dexs,0,0,0,,42.23,1,Flare,0,0,0,0,
+619,Virtus Protocol AMM,Dexs,0,0,0,,39.98,1,Base,0,0,0,0,https://virtus-protocol.com
+620,KOLSwap,Dexs,0,0,0,,38.77,2,Robinhood Chain; Binance,0,0,0,0,https://kolmarket.ai
+621,TanukiX,Dexs,0,0,0,,37.0,1,Taiko,0,0,0,0,
+622,Moai V2,Dexs,0,0,,,33.34,1,XRPL EVM,1,0,0,1,
+623,ABcDeFX,Dexs,0,0,0,,30.62,5,Kucoin; Fantom; Kava,0,0,0,0,https://abcdefx.eliteness.network
+624,Xfai,Dexs,0,2,0,,26.3,1,Linea,0,1,0,1,
+625,CurrentX V2,Dexs,0,0,0,,25.0,1,MegaETH,1,0,0,1,https://currentx.app/
+626,Ouro DEX V2,Dexs,0,0,0,,17.65,1,Robinhood Chain,1,0,0,1,
+627,Velox DEX,Dexs,0,0,0,,6.21,1,Base,0,0,0,0,
+628,CurrentX V3,Dexs,0,0,0,,5.0,1,MegaETH,2,0,0,2,https://currentx.app/
+629,Megaswap,Dexs,0,0,0,,2.4,1,MegaETH,0,0,0,0,
+630,Parity DEX CL,Dexs,0,841.67,0,,2.22,1,Monad,0,0,0,0,https://app.parity.exchange/
+631,WarpX V2,Dexs,0,0,0,,0.83,1,MegaETH,1,0,0,1,
+632,Swyrl Legacy,Dexs,0,0,,,0.26,1,Monad,0,0,0,0,
+633,Latch Protocol,Dexs,0,0.76,0,,0.25,2,Base; Robinhood Chain,0,0,0,0,
+634,DeepCore,Dexs,0,0.25,0,,0.24,4,Robinhood Chain; Hyperliquid L1; Binance; Base,0,0,0,0,
+635,Openlaunch,Dexs,0,0,0,,0.22,1,Stable,0,0,0,0,https://openlaunchfi.xyz
+636,TideSwap DEX,Dexs,0,0,0,,0.07,1,Ink,0,0,0,0,https://www.tideswap.app/
+637,SuperSwap V2,Dexs,0,0,0,,0.01,1,Optimism,1,0,0,1,
+638,Parity DEX,Dexs,0,0,0,,0.0,1,Monad,0,0,0,0,https://app.parity.exchange/
+639,Ocelex V1,Dexs,0,0,0,,0.0,1,Zircuit,1,0,0,1,
+640,Hydrex Integral,Dexs,,,1597,,4108566.9,1,Base,0,1,0,1,https://www.hydrex.fi?anchorRef=0x798fF1e6D7AFd28c333eE6eBe03125d30ec6eF10
+641,Infinex Spot,Dexs,,,671,,0,7,Ethereum; Base; Polygon; Arbitrum; Binance; Optimism,0,0,0,0,https://infinex.xyz/
+642,Ethervista,Dexs,,,4,,563887.91,1,Ethereum,0,0,0,0,https://ethervista.app
+643,Velo Finance,Dexs,,,1.49,,72173.36,1,Binance,0,0,0,0,https://velofinance.io
+644,GDEX Spot,Dexs,,,0.42,,0,5,Base; Ethereum; Arbitrum; Robinhood Chain,0,0,0,0,https://gdex.pro/
+645,Cleopatra CL,Dexs,,,0.05,,12253.13,1,Mantle,0,0,0,0,
+646,Mercurifi Trade,Dexs,,,0.04,,0,1,Arc,0,0,0,0,https://launch.mercuri.finance/
+647,RocketSwap Anubis,Dexs,,,,,335266649.45,1,Anubis,0,0,0,0,
+648,IDEX V1,Dexs,,,,,37666727.38,1,Ethereum,0,2,0,2,
+649,FstSwap,Dexs,,,,,9760083.94,1,Binance,0,1,0,1,
+650,Icarus CL,Dexs,,,,,8031824.71,1,RISE,0,0,0,0,https://icarus.finance
+651,MerlinSwap,Dexs,,0,,,6568036.95,1,Merlin,0,0,0,0,https://merlinswap.org
+652,BSCSwap,Dexs,,,,,5673495.47,1,Binance,0,0,0,0,
+653,Blueshift,Dexs,,,,,4554896.25,5,BOB; Kava; Polygon; Milkomeda; Milkomeda A1,0,1,0,1,https://blueshift.fi/
+654,Diamond Finance,Dexs,,,,,3530764.11,1,Bitkub,0,0,0,0,
+655,GlowSwap,Dexs,,,,,2449845.26,1,BSquared,0,0,0,0,https://glowswap.io
+656,SATO,Dexs,,,,,2248110.1,1,Ethereum,0,0,0,0,https://sat0.org/
+657,BakerySwap,Dexs,,,,,2215386.62,1,Binance,0,1,0,1,
+658,SingularX,Dexs,,,,,2059034.58,1,Ethereum,0,0,0,0,
+659,WEMIX Concentrated Range Deposit,Dexs,,,,,1921838.34,1,WEMIX,0,0,0,0,https://wemix.fi
+660,iZiSwap,Dexs,,0,,,1623253.43,32,zkSync Era; Scroll; ZetaChain; Manta; Binance; Base; Linea; Taiko; BOB; Mantle; Zkfair; Hemi; X Layer; Mode; IoTeX; Ultron; zkLink; Plume Mainnet; Blast; Aurora; OntologyEVM; Arbitrum; CORE; Morph; Meter; Kava; Polygon; Monad; Cronos; Ethereum; Kroma; Gravity,0,2,0,2,https://izumi.finance/trade/swap
+661,KaoyaSwap,Dexs,,,,,1620582.46,1,Binance,0,0,0,0,
+662,IDEX Classic,Dexs,,,,,1583920.99,3,Ethereum; Polygon; Binance,0,2,0,2,
+663,TokenStore,Dexs,,,,,1523771.16,1,Ethereum,0,0,0,0,
+664,MDEX,Dexs,,11546,,,1412389.19,3,Binance; Bittorrent; Heco,0,3,0,3,https://mdex.com/
+665,MCDEX,Dexs,,,,,1341780.4,3,Ethereum; Binance; Arbitrum,0,1,0,1,https://mux.network/
+666,Beam Swap,Dexs,,,,,1316696.99,1,Beam,0,0,0,0,https://swap.onbeam.com/
+667,MM Finance Cronos,Dexs,,,,,1302281.03,1,Cronos,0,1,0,1,
+668,Switcheo Finance,Dexs,,,,,1228490.96,1,Ethereum,0,0,0,0,
+669,FaroSwap,Dexs,,,,,1197978.29,1,Pharos,0,0,0,0,https://faroswap.xyz/
+670,Depth,Dexs,,,,,1196524.94,2,Binance; Heco,0,0,0,0,
+671,Kromatika,Dexs,,,0,,1171931.72,4,Optimism; Ethereum; Arbitrum; Polygon,0,1,0,1,https://app.kromatika.finance/limitorder#/pool
+672,KyberSwap Classic,Dexs,,,,,1048133.69,15,Ethereum; Polygon; Avalanche; Binance; Optimism; zkSync Era; Bittorrent; Scroll; Linea; Arbitrum; Cronos; Fantom; Oasis; Aurora; Velas,0,1,0,1,https://kyberswap.com/#/swap
+673,Alien Base V3,Dexs,,,,,1003148.35,1,Base,2,0,0,2,https://alienbase.xyz
+674,Liberty Swap,Dexs,,,,,926821.0,1,Pulse,0,0,0,0,https://libertyswap.finance/
+675,BlazeSwap,Dexs,,,,,894643.22,2,Flare; Songbird,0,1,0,1,https://blazeswap.xyz/
+676,SpaceFi zkSync,Dexs,,,,,854432.44,1,zkSync Era,0,1,0,1,https://spacefi.io
+677,Ra Exchange,Dexs,,,,,818393.63,1,Fraxtal,0,0,0,0,
+678,InkySwap,Dexs,,,,,807811.8,1,Ink,0,0,0,0,https://inkyswap.com/
+679,WEMIX Full Range Deposit,Dexs,,,,,697738.81,1,WEMIX,0,1,0,1,https://wemix.fi
+680,GIBXSwap,Dexs,,,,,667303.68,1,Binance,0,1,0,1,
+681,CherrySwap,Dexs,,,,,639266.96,1,OKExChain,0,3,0,3,
+682,lpETH,Dexs,,,,,616341.63,1,Ethereum,1,1,0,2,
+683,OTSea,Dexs,,,,,571492.64,3,Ethereum; Base; Blast,0,2,0,2,
+684,ArthSwap V2,Dexs,,,,,497780.68,1,Astar,1,1,0,2,https://app.arthswap.org/#/swap
+685,RocketSwap Base,Dexs,,,,,488498.64,1,Base,0,0,0,0,https://app.rocketswap.cc/exchange/swap
+686,PICWE,Dexs,,,,,487416.51,3,Binance; Base; Arbitrum,0,1,0,1,https://www.picwe.org/en
+687,ValueDefi,Dexs,,,,,481854.66,1,Binance,0,1,0,1,
+688,Hydrex Omni,Dexs,,,,,446556.17,1,Base,0,1,0,1,https://www.hydrex.fi?anchorRef=0x798fF1e6D7AFd28c333eE6eBe03125d30ec6eF10
+689,Phos Swap,Dexs,,,,,440425.82,1,Xphere,0,0,0,0,https://phos.land
+690,Narwhalswap,Dexs,,,,,431753.4,1,Binance,0,0,0,0,
+691,GRXswap,Dexs,,,,,430764.24,1,GRX Chain,0,0,0,0,
+692,v60,Dexs,,,,,427846.4,1,Prom,0,0,0,0,https://v60.io/
+693,SheepDex,Dexs,,,,,422970.32,1,Binance,0,0,0,0,
+694,Gyroscope Protocol,Dexs,,,0,,422320.44,10,Sonic; Optimism; Polygon; xDai; Arbitrum; Base; Ethereum; Avalanche; Sei; Polygon zkEVM,0,1,0,1,https://app.gyro.finance/
+695,JustMoney,Dexs,,,,,418112.23,5,Binance; Polygon; Bittorrent; Ethereum,0,0,0,0,https://about.just.money
+696,CronaSwap,Dexs,,,,,409914.78,1,Cronos,0,0,0,0,https://app.cronaswap.org
+697,KSwap Finance,Dexs,,,,,407298.91,1,OKExChain,0,1,0,1,
+698,Biswap V3,Dexs,,,,,403750.27,4,Binance; Base; Arbitrum; Ethereum,2,0,0,2,https://biswap.org/pool
+699,Krown DEX,Dexs,,,,,398141.87,1,Krown Network,0,0,0,0,https://krowndex.com/
+700,JulSwap,Dexs,,,,,395773.83,1,Binance,0,0,0,0,https://julswap.com/#/swap
+701,Convergence,Dexs,,,,,394171.7,2,Ethereum; Moonbeam,0,1,0,1,
+702,AbstraDEX,Dexs,,,,,388186.41,7,X Layer; Morph; Cronos zkEVM; ZetaChain; Zkfair; Cyber; Blast,0,0,0,0,
+703,9inch V2,Dexs,,,,,382492.17,2,Pulse; Ethereum,1,0,0,1,https://app.9inch.io/?chain=pulsechain
+704,Pala,Dexs,,,,,360792.41,1,Klaytn,0,0,0,0,
+705,Definix,Dexs,,,,,360155.49,2,Binance; Klaytn,0,1,0,1,https://definix.com/en
+706,JSwap,Dexs,,,,,355145.06,1,OKExChain,0,2,0,2,
+707,Ebisus Bay,Dexs,,,,,350340.08,2,Cronos; Cronos zkEVM,0,0,0,0,https://app.ebisusbay.com/
+708,White Whale Dex,Dexs,,,,,349479.83,8,Sei,0,0,1,1,https://app.whitewhale.money/
+709,nest AMM,Dexs,,,,,339515.05,1,Hyperliquid L1,0,1,0,1,https://app.usenest.xyz/
+710,savmSwap,Dexs,,,,,337755.03,2,Prom; SatoshiVM,0,0,0,0,
+711,Ponder Finance,Dexs,,,,,336674.32,1,Bitkub,0,0,0,0,https://ponder.finance
+712,UdonSwap,Dexs,,,,,328859.67,1,Bitkub,0,0,0,0,https://www.udonswap.io/
+713,DDEX,Dexs,,,,,317632.04,1,Ethereum,0,1,0,1,https://ddex.io/
+714,xSigma,Dexs,,,,,317002.65,1,Ethereum,0,0,0,0,
+715,Swerve,Dexs,,,,,304618.66,1,Ethereum,0,1,0,1,
+716,Orion Pools,Dexs,,,,,301834.32,4,Binance; Ethereum; Polygon; Fantom,0,1,0,1,
+717,Coinswap Space,Dexs,,,,,286063.68,1,Binance,0,1,0,1,
+718,YouSwap,Dexs,,,,,281993.59,3,Ethereum; Binance; Heco,0,1,0,1,
+719,PantherSwap,Dexs,,,,,278575.15,1,Binance,0,1,0,1,
+720,LFGSwap EthereumPoW,Dexs,,,,,272239.04,1,EthereumPoW,0,0,0,0,
+721,TanX.fi,Dexs,,,,,269921.48,7,Ethereum; Arbitrum; Linea; Mode; Polygon; Scroll; Optimism,0,0,0,0,https://www.tanx.fi
+722,Paraluni Dex,Dexs,,,,,267952.26,1,Binance,0,0,1,1,https://paraluni.org
+723,Smoothy,Dexs,,,,,267879.76,2,Binance; Ethereum,0,2,0,2,https://smoothy.finance/
+724,Arbswap AMM,Dexs,,,,,256686.37,2,Arbitrum Nova; Arbitrum,0,0,0,0,https://arbswap.io/
+725,KoffeeSwap,Dexs,,,,,248841.19,1,Kucoin,0,0,0,0,https://koffeeswap.exchange/#/swap
+726,PureSwap,Dexs,,,,,247667.69,1,Binance,0,0,0,0,
+727,ElectroSwap V3,Dexs,,,,,239348.79,1,Electroneum,2,0,0,2,https://app.electroswap.io/swap
+728,Newswap,Dexs,,,,,236202.94,1,Newton,0,0,0,0,https://app.newswap.org/
+729,Intercroneswap,Dexs,,,,,216426.9,3,Binance; Bittorrent,0,0,0,0,http://www.intercroneswap.com
+730,Gaming DEX,Dexs,,,,,212068.18,4,Oasys; Hyperliquid L1; MegaETH; DeFiVerse,0,0,0,0,https://www.gaming-dex.com
+731,Sera,Dexs,,,,,199163.76,1,Ethereum,0,1,0,1,https://sera.cx
+732,Vessel Finance,Dexs,,,,,188720.04,1,Scroll,0,0,0,0,
+733,BurgerSwap,Dexs,,,,,188386.19,1,Binance,0,0,0,0,
+734,bitCow,Dexs,,,,,182218.97,1,Bitlayer,0,0,0,0,https://bitcow.xyz
+735,Abyss DEX,Dexs,,,,,178663.02,1,Robinhood Chain,0,0,0,0,
+736,LeetSwap,Dexs,,,,,172778.98,8,Base; Op_Bnb; Manta; Linea; Shibarium; Scroll; Polygon zkEVM; Canto,0,0,0,0,
+737,SquadSwap WOW,Dexs,,,,,171237.04,1,Binance,1,1,0,2,https://squadswap.com/
+738,SpartaDex,Dexs,,,,,169574.9,2,Arbitrum; Linea,0,1,0,1,
+739,DeFive,Dexs,,,,,164834.39,1,Sonic,0,0,0,0,https://defive.com/swap
+740,Comet Swap V3,Dexs,,,,,161006.3,1,Astar,2,0,0,2,https://www.cometswap.app
+741,Shido Dex V3,Dexs,,,,,154682.02,1,Shido,2,1,0,3,https://shido.io/
+742,GullNetwork AMM,Dexs,,,,,154238.49,1,Manta,0,0,0,0,https://www.gullnetwork.com
+743,Xave Finance,Dexs,,,,,148489.8,3,Polygon; Avalanche; Ethereum,0,1,0,1,https://xave.co
+744,ThetaSwap,Dexs,,,,,147938.2,1,Theta,0,0,0,0,https://thetaswap.org/swap
+745,SharkSwap DEX,Dexs,,,,,143531.84,1,Base,0,0,0,0,
+746,Varen,Dexs,,,,,140348.72,1,Ethereum,0,1,0,1,
+747,KuSwap,Dexs,,,,,137403.35,1,Kucoin,0,0,0,0,https://kuswap.finance
+748,Muffin,Dexs,,,,,130180.76,1,Ethereum,0,1,0,1,https://muffin.fi/
+749,9inch V3,Dexs,,,,,128631.46,1,Pulse,2,0,0,2,https://v3.9inch.io/?chain=pulse
+750,KyberSwap Elastic,Dexs,,,,,127927.55,11,Linea; Scroll; Arbitrum; Optimism; Polygon; Ethereum; Binance; Base; Avalanche; Fantom; Cronos,0,1,0,1,https://kyberswap.com/#/swap
+751,Bridgers,Dexs,,,,,125179.3,16,Base; Linea; Ethereum; zkSync Era; Binance; Polygon; Arbitrum; Optimism; Avalanche; Fantom; OKExChain,0,1,0,1,https://bridgers.ai/
+752,Velocore V1,Dexs,,,,,124286.44,1,zkSync Era,1,0,0,1,
+753,Shell Protocol,Dexs,,,,,124149.93,1,Arbitrum,0,0,1,1,https://www.shellprotocol.io/
+754,Niob Finance,Dexs,,,,,118468.48,1,Binance,0,0,0,0,https://niob.finance/
+755,ChickenSwap,Dexs,,,,,118125.63,1,Ethereum,0,0,0,0,
+756,Atlantis DEX,Dexs,,,,,117837.89,1,Monad,0,1,0,1,https://atlantisdex.xyz/
+757,Rose,Dexs,,,,,117737.32,1,Aurora,0,0,0,0,
+758,HOPE Swap,Dexs,,,,,113902.97,1,Ethereum,0,1,0,1,
+759,Tigris Mezo V2,Dexs,,,,,113387.03,1,Mezo,1,0,0,1,https://mezo.org/explore/pools
+760,Themis DEX,Dexs,,,,,112561.95,1,Filecoin,0,1,0,1,
+761,Astrovault,Dexs,,,,,110470.14,3,Nibiru,0,0,0,0,https://astrovault.io
+762,MonoSwap V3,Dexs,,,,,110152.92,1,Blast,2,0,0,2,
+763,Naka Dex,Dexs,,,,,109290.77,1,Naka,0,0,0,0,https://nakachain.xyz/swap
+764,PandaSwap,Dexs,,,,,105772.28,1,Binance,0,0,0,0,
+765,MiniSwap,Dexs,,,,,102402.69,1,Ethereum,0,0,0,0,
+766,SwingHook,Dexs,,,,,102203.66,1,Ethereum,0,0,0,0,https://swinghook.eth.limo
+767,IXS,Dexs,,,,,101804.43,3,Ethereum; Base; Polygon,0,1,0,1,https://www.ixs.finance/
+768,Laminar,Dexs,,,,,101454.69,1,Hyperliquid L1,0,1,0,1,https://laminar.xyz
+769,Crow Finance,Dexs,,,,,101300.02,1,Cronos,0,1,0,1,
+770,OpenLeverage,Dexs,,,,,99382.48,4,Binance; Ethereum; Kucoin; Arbitrum,0,2,0,2,https://openleverage.finance
+771,Polycat Dex,Dexs,,,,,97379.96,1,Polygon,0,2,0,2,
+772,YuzuSwap,Dexs,,,,,96478.48,1,Oasis,0,1,0,1,
+773,Dyson Finance,Dexs,,,,,93964.04,3,Linea; Blast; Polygon zkEVM,0,2,0,2,https://dyson.finance/
+774,Binary Swap,Dexs,,,,,89083.97,1,Op_Bnb,0,0,0,0,
+775,GemKeeper,Dexs,,,,,88388.37,1,Oasis,0,1,0,1,
+776,TidalDex,Dexs,,,,,87368.38,1,Binance,0,0,0,0,https://TidalDex.com
+777,SquidSwap,Dexs,,,,,87080.4,1,Ink,0,0,0,0,
+778,BunnySwap,Dexs,,,,,86687.58,1,Base,0,0,0,0,https://www.friend.tech/
+779,Dungeon DEX,Dexs,,,,,85349.33,1,Dungeon,0,0,0,0,https://dex.dungeongames.io/dungeon/pools
+780,Mimo V3,Dexs,,,,,84725.66,1,IoTeX,2,0,0,2,https://mimo.exchange
+781,DFX V2,Dexs,,,,,84452.88,3,Ethereum; Polygon; Arbitrum,1,1,0,2,
+782,ButterSwap,Dexs,,,,,84367.5,2,Binance; Heco,0,1,0,1,
+783,Zencha Finance,Dexs,,,,,83485.46,1,Boba,0,0,0,0,
+784,VoltSwap,Dexs,,4501,,,82409.17,2,Theta; Meter,0,0,0,0,https://voltswap.finance
+785,W3swap,Dexs,,,,,80152.56,2,Binance; Pego,0,0,0,0,
+786,SnowSwap,Dexs,,,,,79414.05,2,Polygon; Ethereum,0,1,0,1,
+787,SumSwap,Dexs,,,,,79395.89,1,Ethereum,0,1,0,1,
+788,CreamSwap,Dexs,,,,,77311.64,1,Ethereum,0,1,0,1,https://app.cream.finance/swap
+789,Bunicorn,Dexs,,,,,76696.73,1,Binance,0,2,0,2,
+790,Yellow,Dexs,,,,,73060.93,4,Polygon; Linea; Ethereum; Scroll,0,1,0,1,https://www.yellow.org
+791,PepeTeam DEX,Dexs,,0,,,71460.75,4,Binance; Ethereum; Polygon,0,0,0,0,https://dex.pepe.team/
+792,Gridex,Dexs,,,,,69874.76,5,Arbitrum; Linea; Polygon; Base; Optimism,0,1,2,3,
+793,OKCSwap,Dexs,,,,,69084.76,1,OKExChain,0,1,0,1,https://www.okx.com/
+794,ZAMM,Dexs,,,,,69052.88,1,Ethereum,0,0,0,0,
+795,Algebra DEX,Dexs,,,,,68615.32,1,Polygon,0,1,0,1,https://algebra.finance/
+796,Pepu V3,Dexs,,,,,68021.91,1,Pepu,2,0,0,2,https://pepeunchained.com/
+797,SoneFi AMM,Dexs,,,,,67496.08,1,Soneium,0,1,0,1,
+798,ManXSwap,Dexs,,,,,66474.22,1,Manta,0,0,0,0,
+799,OreoSwap,Dexs,,,,,65793.68,1,Arbitrum,0,0,0,0,https://oreoswap.finance/
+800,VoltSwap V2,Dexs,,13684,,,64593.43,2,Meter; Base,1,0,0,1,https://voltswap.finance
+801,LatteSwap,Dexs,,,,,62566.79,1,Binance,0,3,0,3,
+802,Pls2e,Dexs,,,,,60824.73,1,Binance,0,1,0,1,
+803,KaiaSwap,Dexs,,,,,59818.05,1,Klaytn,0,0,0,0,https://kaiaswap.org/home
+804,Primitive,Dexs,,,,,59229.38,1,Ethereum,0,1,0,1,
+805,PacificSwap V2,Dexs,,,,,58941.05,1,Manta,1,0,0,1,
+806,Thorn Protocol,Dexs,,,,,58734.67,1,Sapphire,0,0,0,0,
+807,Rho Protocol,Dexs,,,,,57745.04,1,Arbitrum,0,1,0,1,https://www.rho.trading/
+808,MochiSwap,Dexs,,,,,57451.28,2,Binance; Harmony,0,0,0,0,
+809,BESCSWAP DEX,Dexs,,,,,57282.18,1,BESC Hyperchain,0,0,0,0,https://bescswap.com/
+810,CUBISwap,Dexs,,,,,56766.31,1,Op_Bnb,0,0,0,0,
+811,MemeDex,Dexs,,,,,54815.69,1,Conflux,0,0,0,0,
+812,DFS V2,Dexs,,,,,54363.6,1,X Layer,1,0,0,1,
+813,RskSwap,Dexs,,,,,53943.97,1,RSK,0,0,0,0,
+814,PyreSwap,Dexs,,,,,53898.41,3,Binance; Avalanche; Fantom,0,0,0,0,https://pyreswap.finance/
+815,RCPswap,Dexs,,,,,52701.35,1,Arbitrum Nova,0,0,0,0,
+816,Skydrome,Dexs,,,,,50914.86,1,Scroll,0,0,0,0,https://skydrome.finance/
+817,Lydia,Dexs,,,,,50665.68,1,Avalanche,0,1,0,1,https://www.lydia.finance/
+818,Sideswap,Dexs,,,,,50400.46,1,Zkfair,0,0,0,0,
+819,GOLDSTATION DEX V3,Dexs,,,,,50244.97,1,Avalanche,2,0,0,2,https://goldstation.io
+820,Balancer CoW AMM,Dexs,,,,,49442.41,4,xDai; Ethereum; Arbitrum; Base,2,0,0,2,https://balancer.fi
+821,Fathom AMM,Dexs,,,,,49370.03,1,XDC,0,0,0,0,https://fathom.fi/
+822,AkitaSwap,Dexs,,,,,49353.8,1,Blast,0,0,0,0,
+823,ManaSwap,Dexs,,,,,47835.34,1,Hyperliquid L1,0,0,0,0,
+824,Andromeada,Dexs,,,,,47830.28,1,Base,0,0,0,0,
+825,KwikSwap,Dexs,,,,,47340.92,4,Ethereum; Binance; Polygon; Shiden,0,0,0,0,
+826,CobraSwap,Dexs,,,,,46762.25,1,Binance,0,0,0,0,
+827,SakePerp,Dexs,,,,,46655.72,2,Ethereum; Binance,0,2,0,2,
+828,Busta Exchange,Dexs,,,,,46508.21,1,Binance,0,0,0,0,
+829,CGX Finance,Dexs,,,,,46099.02,1,Cronos,0,0,0,0,
+830,Eklipse Finance,Dexs,,,,,45674.7,1,Klaytn,0,0,0,0,
+831,MIM Swap,Dexs,,,,,45282.27,5,Arbitrum; Blast; Nibiru; Kava; Ethereum,0,0,0,0,https://app.abracadabra.money/#/mim-swap
+832,Dnax,Dexs,,,,,45109.16,1,Binance,0,0,0,0,https://dnax.us/
+833,AnchorSwap,Dexs,,,,,44598.23,1,Binance,0,1,0,1,
+834,Qom X,Dexs,,,,,44559.59,1,Binance,0,0,0,0,https://qomx.io/
+835,eZKalibur,Dexs,,,,,44402.61,1,zkSync Era,0,1,0,1,
+836,ShibaNova,Dexs,,,,,44375.86,1,Binance,0,0,0,0,
+837,OneSwap,Dexs,,,,,43915.17,4,Ethereum; Binance; CSC,0,1,0,1,https://www.oneswap.net
+838,veSync,Dexs,,,,,43588.79,1,zkSync Era,0,0,0,0,
+839,Ritsu Protocol,Dexs,,,,,43497.63,1,Taiko,0,0,0,0,
+840,Bored Candy City,Dexs,,,,,43494.19,1,Cronos,0,2,0,2,https://new.candycity.finance/
+841,WOWswap,Dexs,,,,,43373.13,8,Binance; Polygon; Avalanche; IoTeX; Kava; Heco; Metis; Ethereum,0,1,0,1,https://wowswap.io
+842,HebeSwap,Dexs,,,,,42876.37,1,EthereumClassic,0,0,0,0,https://hebeswap.com
+843,ClaimSwap V1,Dexs,,,,,42144.52,1,Klaytn,1,1,0,2,
+844,MetaCoin Swap,Dexs,,,,,41577.29,1,Binance,0,1,0,1,https://metacoinswap.io/
+845,BambooDeFi,Dexs,,,,,40729.07,4,Ethereum; Binance; Polygon; Velas,0,2,0,2,
+846,SpaceFi Scroll,Dexs,,,,,40272.74,1,Scroll,0,0,0,0,https://spacefi.io
+847,XPress Protocol,Dexs,,,,,40092.64,1,Sonic,0,0,0,0,https://xpressprotocol.com
+848,GASSSS,Dexs,,,,,39219.58,1,Stable,0,0,0,0,https://gassss.xyz
+849,SaitaSwap,Dexs,,,,,38776.11,2,Binance; Ethereum,0,0,0,0,
+850,Foodcourt,Dexs,,,,,38187.0,2,Binance; REIchain,0,1,0,1,https://reix.foodcourt.finance
+851,StarSwap,Dexs,,,,,37875.07,1,Astar,0,0,0,0,
+852,PunkSwap,Dexs,,,,,37854.25,3,Scroll; Shibarium; Op_Bnb,0,0,0,0,
+853,Roguex,Dexs,,,,,37789.56,1,Blast,0,1,0,1,https://roguex.ai/
+854,0.exchange,Dexs,,,,,36646.66,3,Avalanche; Binance; Polygon,0,0,0,0,
+855,Ionex,Dexs,,,,,36564.2,1,Plasma,0,1,0,1,https://ionex.trade
+856,Kagla Finance,Dexs,,,,,36077.64,1,Astar,0,0,0,0,https://kagla.finance
+857,ETCswap V3,Dexs,,,,,35847.5,1,EthereumClassic,2,1,0,3,https://v3.etcswap.org/
+858,Clober Liquidity Vault,Dexs,,,,,35810.71,2,Monad; Base,1,1,0,2,https://app.clober.io/
+859,Defi Kingdoms,Dexs,,,,,35595.53,2,Klaytn; Harmony,0,1,0,1,https://www.defikingdoms.com
+860,Poolside,Dexs,,,,,35419.18,4,Base; Ethereum; Avalanche; Arbitrum,0,1,0,1,https://www.poolside.party
+861,TAKOSWAP,Dexs,,,,,35284.81,1,OpenGPU,0,0,0,0,
+862,SwanSwap,Dexs,,,,,33949.28,1,Shape,0,0,0,0,
+863,Loopring,Dexs,,,,,33875.64,3,Ethereum; Taiko; Base,0,1,0,1,
+864,SwapFish,Dexs,,,,,33579.42,2,Arbitrum; Binance,0,1,0,1,https://swapfish.fi/
+865,CafeSwap,Dexs,,,,,33279.03,2,Polygon; Binance,0,1,0,1,
+866,Daytona Finance,Dexs,,,,,32659.59,1,Pulse,0,0,0,0,https://www.daytona.finance
+867,Starmaker,Dexs,,,,,32541.03,2,zkSync Era; Mantle,0,0,0,0,
+868,Zuit Swap,Dexs,,,,,32249.7,1,Zircuit,0,0,0,0,
+869,Burve,Dexs,,,,,32035.99,1,Berachain,0,2,0,2,https://www.burve.fi/pools/
+870,GOLDSTATION DEX,Dexs,,,,,31751.95,1,Klaytn,0,0,0,0,https://goldstation.io
+871,ElectroSwap V2,Dexs,,,,,31481.53,1,Electroneum,1,0,0,1,https://app.electroswap.io/swap
+872,Telos Swap,Dexs,,,,,31341.53,1,Telos,0,0,0,0,https://www.tswaps.com
+873,DFX V3,Dexs,,,,,30449.91,3,Ethereum; Polygon; Arbitrum,2,0,0,2,
+874,Woken Exchange,Dexs,,,,,30247.73,2,Arbitrum; Binance,0,0,0,0,https://woken.exchange
+875,EmiSwap,Dexs,,,,,30212.4,7,Polygon; Ethereum; Astar; Kucoin; Avalanche; Aurora; Shiden,0,2,0,2,
+876,BladeSwap CL,Dexs,,,,,30000.7,1,Blast,0,0,0,0,https://bladeswap.xyz
+877,TaoFi,Dexs,,,,,29641.14,1,Bittensor EVM,0,0,0,0,https://www.taofi.com/swap
+878,Magician MV,Dexs,,,,,29022.52,1,Polygon,0,1,0,1,https://magicianmv.com/#/swap
+879,Globiance,Dexs,,,,,28994.17,1,XDC,0,1,0,1,
+880,DinoSwap,Dexs,,,,,28873.42,1,Polygon,0,1,0,1,https://dinoswap.exchange
+881,MM Finance Polygon,Dexs,,,,,28030.47,1,Polygon,0,1,0,1,
+882,CoFiX,Dexs,,,,,27230.83,1,Ethereum,0,1,0,1,
+883,Veplus,Dexs,,,,,26974.93,1,Binance,0,1,0,1,
+884,PinSwap,Dexs,,,,,26703.09,1,IoTeX,0,0,0,0,
+885,Kona V2,Dexs,,,,,26207.91,1,Abstract,1,0,0,1,https://kona.surf/
+886,Velocimeter V2,Dexs,,,,,25947.27,4,Base; Pulse; Mantle; Canto,2,0,0,2,
+887,UniWswap AMM,Dexs,,,,,25800.33,1,EthereumPoW,0,2,0,2,
+888,Yapeswap,Dexs,,,,,24857.27,1,Ethereum,0,0,0,0,
+889,StraxSwap,Dexs,,,,,24125.87,1,Stratis,0,0,0,0,https://straxswap.com/#/
+890,MagicSea AMM,Dexs,,,,,24093.08,2,IOTA EVM; ShimmerEVM,0,0,0,0,https://app.magicsea.finance/swap
+891,OrbitalSwap,Dexs,,,,,23997.32,1,Binance,0,1,0,1,
+892,Value Liquid,Dexs,,,,,23701.72,1,Ethereum,0,1,0,1,
+893,InkSwap,Dexs,,,,,23691.71,1,Ink,0,0,0,0,
+894,PowerSwap,Dexs,,,,,23408.13,1,EthereumPoW,0,0,0,0,
+895,RobiniaSwap,Dexs,,,,,23255.78,1,Binance,0,1,0,1,
+896,Swarm Markets,Dexs,,,,,23099.76,2,Ethereum; Polygon,0,1,0,1,https://swarm.com/
+897,Pulsar Swap,Dexs,,,,,22816.23,3,Ethereum; Mantle; Arbitrum,0,2,0,2,
+898,Lif3 Swap,Dexs,,,,,22649.44,3,Polygon; Binance; Tombchain,0,0,0,0,
+899,DuneSwap,Dexs,,,,,22570.07,1,Oasis,0,0,0,0,
+900,MSwap,Dexs,,,,,22485.23,1,Matchain,0,0,0,0,
+901,KokomoSwap,Dexs,,,,,22191.02,1,Binance,0,1,0,1,
+902,Secta Finance V2,Dexs,,,,,22065.74,1,Linea,1,0,0,1,
+903,Atlantis,Dexs,,,,,22051.04,1,Sonic,0,1,0,1,https://www.atlantisprotocol.so/swap
+904,Baguette,Dexs,,,,,22044.78,1,Avalanche,0,0,0,0,
+905,DuckyDeFi,Dexs,,,,,21835.47,1,Cronos,0,1,0,1,
+906,Solunea,Dexs,,,,,21508.74,2,zkSync Era; Arbitrum,0,0,0,0,
+907,Elektrik,Dexs,,,,,21462.33,1,LightLink,0,0,0,0,
+908,MacaronSwap,Dexs,,,,,21260.46,2,Binance; Polygon,0,1,0,1,https://macaronswap.finance
+909,OpenXswap,Dexs,,,,,21169.87,1,Optimism,0,0,0,0,
+910,CyborgSwap,Dexs,,,,,21075.35,1,Cronos,0,2,0,2,
+911,Onsen Swap,Dexs,,,,,20988.86,1,zkSync Era,0,0,0,0,
+912,Gas404Swap,Dexs,,,,,20985.82,1,Binance,0,1,0,1,
+913,Jellyverse,Dexs,,,,,20173.46,1,Sei,0,1,0,1,
+914,GoatSwap V2,Dexs,,,,,19862.41,1,Goat,1,1,0,2,https://goatswap.fi/
+915,SwapperChan,Dexs,,,,,19786.96,1,Boba,0,0,0,0,
+916,Alien Base Area51,Dexs,,,,,19693.8,1,Base,1,0,0,1,https://alienbase.xyz
+917,SashimiSwap,Dexs,,,,,19182.96,3,Binance; Ethereum; Heco,0,1,0,1,https://sashimi.cool/home/swap
+918,Linkswap,Dexs,,,,,19141.83,1,zkLink,0,0,0,0,
+919,Swipe,Dexs,,,,,18630.97,2,Binance; Ethereum,0,1,0,1,
+920,Kona Stableswap,Dexs,,,,,18330.58,1,Abstract,1,0,0,1,https://kona.surf/
+921,Twofold,Dexs,,,,,18279.04,1,Robinhood Chain,0,0,0,0,https://twofold.fi
+922,Alium Swap,Dexs,,,,,18025.37,1,Binance,0,6,0,6,
+923,TrenchDEX V2,Dexs,,,,,17870.06,1,Pulse,1,0,0,1,
+924,BeGlobal Finance,Dexs,,,,,17665.55,1,Binance,0,0,0,0,
+925,PacificSwap V3,Dexs,,,,,17587.24,1,Manta,2,0,0,2,
+926,WoodSwap,Dexs,,,,,17269.91,1,RSK,0,0,0,0,https://woodswap.org
+927,KlaySwap V3,Dexs,,,,,17120.36,1,Klaytn,2,0,0,2,https://klayswap.com/dashboard
+928,PoWSwap,Dexs,,,,,16998.94,1,EthereumPoW,0,0,0,0,
+929,Alandale V2,Dexs,,,,,16828.77,1,Robinhood Chain,1,0,0,1,https://alandale.xyz
+930,ClaimSwap V2,Dexs,,,,,16647.88,1,Klaytn,1,0,0,1,
+931,CrowdSwap,Dexs,,,,,16516.17,5,Polygon; Binance; Arbitrum; zkSync Era; Ethereum,0,0,0,0,https://app.crowdswap.org/swap
+932,VirBiCoin DEX,Dexs,,,,,16480.88,1,VirBiCoin,0,0,0,0,https://virbicoin.com/
+933,Voltage StableSwap,Dexs,,,,,15273.03,1,Fuse,1,0,0,1,https://app.voltage.finance/#/home
+934,GaloSwap,Dexs,,,,,15097.31,1,zkSync Era,0,1,0,1,
+935,PassDEX,Dexs,,,,,14641.91,3,Soneium; Hemi; Unichain,0,0,0,0,
+936,Vooi V1,Dexs,,,,,14540.57,1,Linea,0,0,0,0,https://vooi.io
+937,Mobius Exchange,Dexs,,,,,14445.04,1,Mantle,0,1,0,1,https://mobius.exchange/
+938,Amaterasu Finance,Dexs,,,,,14231.1,1,Aurora,0,0,0,0,
+939,Capybara AMM,Dexs,,,,,13950.24,1,Klaytn,0,0,0,0,
+940,Poolshark,Dexs,,,,,13837.98,4,Mode; Scroll; Arbitrum; inEVM,0,1,0,1,https://www.poolshark.fi/
+941,Blueprint,Dexs,,,,,13823.47,1,Ethereum,0,1,0,1,
+942,Synthswap V2,Dexs,,,,,13623.97,1,Base,1,1,0,2,
+943,reddex,Dexs,,4094.07,,,13598.8,3,Redbelly; Binance; Ethereum,0,0,0,0,https://reddex.io
+944,Catex,Dexs,,,0,,13571.87,2,Unichain; Polygon,0,1,1,2,https://app.catex.fi/
+945,XRiSE33 Network,Dexs,,,,,13565.47,1,XRPL EVM,0,0,0,0,https://xrise33.com
+946,UCS Finance,Dexs,,,,,13559.67,1,Unichain,0,0,0,0,
+947,hyperswap on Areum Network,Dexs,,,,,13404.66,1,Areon Network,0,0,0,0,https://hyperswap.pro/en/swap
+948,Panko Finance,Dexs,,,,,13151.53,1,Taiko,0,0,0,0,
+949,Tokan Exchange,Dexs,,,,,12478.62,1,Scroll,0,0,0,0,
+950,IguanaDEX V3,Dexs,,,,,12382.05,1,Etherlink,2,0,0,2,
+951,NEOPIN Pool,Dexs,,,,,12228.57,3,Klaytn; Ethereum; Polygon,0,3,0,3,https://app.neopin.io/swap
+952,Unitflow Finance V2,Dexs,,,,,11805.12,1,Arc,1,0,0,1,
+953,KEWL EXCHANGE,Dexs,,,,,11709.94,6,Chiliz; Arbitrum; Binance; Avalanche; Sonic; Base,0,0,0,0,
+954,FWX DEX,Dexs,,,0,,11553.59,2,Base; Avalanche,0,0,0,0,https://app.fwx.finance/10143
+955,Deli Swap,Dexs,,,,,11480.96,1,Base,0,0,0,0,https://deliswap.com/
+956,Burve Protocol,Dexs,,,,,11344.82,3,Binance; Base; Arbitrum,0,2,0,2,https://app.burve.io/
+957,VulcanDex,Dexs,,,,,11314.63,1,Polygon,0,0,0,0,https://vulcanforged.com/
+958,CavalRe,Dexs,,,,,11120.91,1,Avalanche,0,2,0,2,https://beta.caval.re
+959,MonoX,Dexs,,,,,11059.55,2,Polygon; Ethereum,0,4,0,4,https://monox.finance/
+960,Qilin,Dexs,,,,,11054.97,1,Ethereum,0,1,0,1,
+961,BAO Swap,Dexs,,,,,11026.13,1,xDai,0,0,0,0,
+962,Shibance,Dexs,,,,,10982.91,2,Binance; Kucoin,0,0,0,0,https://shibance.com
+963,Icarus V2,Dexs,,,,,10952.41,1,RISE,1,0,0,1,https://icarus.finance
+964,Bomb Finance,Dexs,,,,,10474.09,1,Fantom,0,0,0,0,https://mclb.org/fBomb
+965,MM Finance Arbitrum V3,Dexs,,,,,10139.87,1,Arbitrum,2,0,0,2,
+966,PaintSwap on Fantom,Dexs,,,,,9872.5,1,Fantom,0,1,0,1,https://paintswap.finance
+967,Metavault V3,Dexs,,,,,9851.81,2,Linea; Scroll,2,0,0,2,
+968,YetiSwap,Dexs,,,,,9557.64,1,Avalanche,0,0,0,0,https://www.yetiswap.app/
+969,Sterling Finance,Dexs,,,,,9551.16,1,Arbitrum,0,0,0,0,
+970,SoliSnek Finance,Dexs,,,,,9483.15,1,Avalanche,0,0,0,0,
+971,PolkaEx,Dexs,,,,,9465.23,5,Astar; Binance; Ethereum; Shiden; Polygon,0,1,0,1,
+972,TenderSwap,Dexs,,,,,9148.74,2,Arbitrum; Ethereum,1,1,0,2,
+973,WoofSwap GateLayer,Dexs,,,,,9106.24,1,GateLayer,0,0,0,0,https://www.woofswap.finance
+974,JaceSwap,Dexs,,,,,8807.78,1,X Layer,0,0,0,0,
+975,Soswap,Dexs,,,,,8490.66,1,Base,0,0,0,0,https://soswap.rai.finance
+976,TiFi,Dexs,,,,,8471.72,1,Binance,0,1,0,1,https://tifi.net/
+977,GoSwap,Dexs,,,,,8369.74,1,GoChain,0,0,0,0,
+978,Glacier Exchange V2,Dexs,,,,,8242.3,1,Avalanche,1,0,0,1,
+979,WoofSwap Shibarium,Dexs,,,,,8226.79,1,Shibarium,0,0,0,0,https://www.woofswap.finance
+980,Scroll Swap,Dexs,,,,,8215.97,1,Scroll,0,0,0,0,
+981,Secta Finance V3,Dexs,,,,,8194.49,1,Linea,2,0,0,2,
+982,EticaHub,Dexs,,,,,8119.2,1,Etica,0,0,0,0,https://eticahub.com/swap
+983,Standard Protocol Shiden,Dexs,,,,,8116.59,3,Metis; Ethereum; Shiden,0,0,0,0,
+984,ThorusFi,Dexs,,,,,7996.83,2,Avalanche; Moonbeam,0,1,0,1,
+985,DDDX,Dexs,,,,,7882.58,1,Binance,0,1,0,1,
+986,HurricaneSwap,Dexs,,,,,7809.15,1,Avalanche,0,1,0,1,
+987,Dino.Exchange,Dexs,,,,,7572.02,1,Binance,0,0,0,0,
+988,Mercurity,Dexs,,,,,7492.85,1,Ethereum,0,1,0,1,
+989,Dracula Finance,Dexs,,,,,7437.37,1,zkSync Era,0,1,0,1,
+990,RBX,Dexs,,,,,7433.22,2,Binance; Ethereum,0,1,0,1,https://rbxdefi.com
+991,ETCMC DEX,Dexs,,,,,7310.15,1,EthereumClassic,0,1,0,1,https://swap.etcmc.xyz/#/swap
+992,MyTrade,Dexs,,,,,7275.8,2,Polygon; Moonbeam,0,1,0,1,https://www.mytrade.org
+993,Sirius Finance,Dexs,,,,,7247.87,1,Astar,0,1,0,1,
+994,Coffee Dex,Dexs,,,,,7222.37,2,Arbitrum; Scroll,0,0,0,0,
+995,OpenEX,Dexs,,,,,7219.12,1,CORE,0,0,0,0,
+996,Alligator,Dexs,,,,,7013.78,1,Avalanche,0,0,0,0,
+997,BlastDEX,Dexs,,,,,6954.08,1,Blast,0,0,0,0,
+998,Waka Finance,Dexs,,,,,6924.29,1,Fantom,0,1,0,1,
+999,HopSwap,Dexs,,,,,6919.8,1,Cronos,0,0,0,0,
+1000,Momodrome,Dexs,,,,,6768.44,1,Morph,0,0,0,0,
