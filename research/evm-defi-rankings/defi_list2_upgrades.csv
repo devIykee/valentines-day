@@ -1,0 +1,1001 @@
+rank,protocol,category,fees_24h_usd,fees_30d_usd,volume_24h_usd,open_interest_usd,tvl_usd,chains_total,evm_chains,major_versions,audits,upgrade_milestones,upgrade_events,data_check,url
+1,Uniswap V3,Dexs,720168,31193851,715785749,,1617497733.12,44,Ethereum; Base; Arbitrum; Robinhood Chain; Binance; X Layer; Polygon; Arc; Optimism; Plasma; Unichain; Ink; Avalanche; Celo; xDai; Monad; RSK; World Chain; 0G; Etherlink; Boba; zkSync Era; Mantle; Filecoin; Sei; XDC; Telos; Nibiru; BOB; Hemi; Linea; Scroll; Redbelly; Blast; Taiko; Sonic; Lisk; Goat; MegaETH; Manta; Tempo; LightLink; Saga; Lens,3,2,5,10,False,https://app.uniswap.org/
+2,Toros,Yield,43.95,11041.95,,,5270234.65,6,Arbitrum; Base; Optimism; Ethereum; Polygon; Hyperliquid L1,1,1,8,10,False,https://toros.finance
+3,Bifrost Liquid Staking,Liquid Staking,257,8182,,,12337623.6,4,Ethereum; Manta; Astar,0,9,0,9,False,https://app.bifrost.io/?channelId=17
+4,Overtime,Prediction Market,73952,452968,378973,,1355322.71,6,Arbitrum; Base; Optimism; Polygon; Ethereum; Binance,0,8,0,8,False,https://www.overtimemarkets.xyz
+5,DexFi Aggregator,Yield Aggregator,270,18886,,,2550156.43,8,Robinhood Chain; Base; Ethereum; Arbitrum; Binance; Arc; Avalanche; Sonic,0,0,8,8,False,https://dexfi.com/
+6,Silo V1,Lending,70.93,3244.51,,,852903.76,5,Arbitrum; Ethereum; Optimism; Base; Sonic,2,3,2,7,False,https://app.silo.finance
+7,Chamber Vaults,Indexes,988,50460.01,,,24753886.6,7,Base; Optimism; Polygon; Arbitrum; Hyperliquid L1; Ethereum; Plasma,1,1,5,7,False,https://chamberfi.com/
+8,Peapods Finance,Yield,1.75,16458.98,,,1525576.42,6,Ethereum; Base; Sonic; Arbitrum; Berachain; Mode,0,1,6,7,False,https://peapods.finance
+9,Rubicon,Dexs,23.63,1189.34,38349,,263837.83,4,Optimism; Base; Ethereum; Arbitrum,0,1,6,7,False,https://app.rubicon.finance/swap
+10,Olympus DAO,Reserve Currency,4225,134463,,,0,1,Ethereum,0,1,6,7,False,https://olympusdao.finance/
+11,Uniswap V1,Dexs,64.21,7224.95,21421,,3726848.33,1,Ethereum,3,3,0,6,False,https://app.uniswap.org/
+12,Aave V2,Lending,4976,162426,,,105275959.37,3,Ethereum; Polygon; Avalanche,3,1,2,6,False,https://aave.com
+13,Frankencoin,CDP,364,39154,,,59485109.01,1,Ethereum,0,6,0,6,False,https://frankencoin.com
+14,Superform,Yield Aggregator,1122,42405,,,16330537.45,10,Ethereum; Base; Arbitrum; Polygon; Optimism; Blast; Linea; Binance; Avalanche; Fantom,0,3,3,6,False,https://app.superform.xyz
+15,Sommelier,Onchain Capital Allocator,13.78,252.53,,,939948.73,3,Ethereum; Arbitrum; Optimism,0,2,4,6,False,https://somm.finance/
+16,Gains Network,Derivatives,5881,447548,,1627879,7077362.92,5,Arbitrum; Base; Polygon; ApeChain; MegaETH,0,1,5,6,False,https://gains.trade/
+17,PoolTogether V5,Yield Lottery,407,10669,,,2153642.36,7,Optimism; Ethereum; Base; World Chain; xDai; Arbitrum; Scroll,4,1,0,5,False,https://pooltogether.com/
+18,Uniswap V4,Dexs,861870,60266953,678219419,,1447772233.61,19,Ethereum; Binance; Robinhood Chain; Base; Arbitrum; Monad; Tempo; Polygon; Unichain; X Layer; Ink; Arc; Soneium; Optimism; Avalanche; World Chain; MegaETH; Blast; Zora,3,2,0,5,False,https://app.uniswap.org/
+19,Bancor V3,Dexs,440,15068,42795,,15226101.19,1,Ethereum,2,1,2,5,False,https://app.bancor.network/
+20,Aave V3,Lending,1126426,36566790,,,16703392497.73,21,Ethereum; Base; Arbitrum; Plasma; Monad; Avalanche; Binance; Polygon; X Layer; Mantle; xDai; Optimism; MegaETH; Linea; Sonic; Celo; Scroll; zkSync Era; Metis; Soneium; Fantom,3,1,0,4,False,https://aave.com
+21,Uniswap V2,Dexs,30216,1912051,10050810,,960446069.3,16,Ethereum; Base; Polygon; Robinhood Chain; Arbitrum; Binance; X Layer; Arc; Optimism; Monad; Avalanche; Tempo; Unichain; Zora; Ink; Celo,3,1,0,4,False,https://app.uniswap.org/
+22,Aave V4,Lending,38242,1071373,,,705981851.95,4,Ethereum; Arc; Avalanche; Base,3,1,0,4,False,https://aave.com
+23,UNCX Network V2,Token Locker,2.03,5000.19,,,140100711.36,9,Ethereum; Binance; Base; Polygon; Arbitrum; Avalanche; Robinhood Chain; Optimism; xDai,2,2,0,4,False,https://uncx.network/
+24,Mento V3,Dexs,101,4537.8,292508,,4159646.78,2,Monad; Celo,2,2,0,4,False,https://app.mento.org
+25,AllBlue V3,Dexs,233,11094,401121,,587657.16,1,Avalanche,2,2,0,4,False,https://allbluedex.io
+26,Velodrome V2,Dexs,252,115871,201962,,5717483.81,11,Optimism; Ink; BOB; Mode; Fraxtal; Lisk; Soneium; Celo; Unichain; Superseed; Swellchain,2,1,1,4,False,https://velodrome.finance/
+27,zkSwap V2,Dexs,22.93,1201.99,11317,,505163.63,3,zkSync Era; Sonic; Monad,1,3,0,4,False,
+28,Quickswap Dex,Dexs,9478,799805,3159213,,48816952.54,2,Polygon; Base,1,1,2,4,False,https://quickswap.exchange/
+29,Bancor V2.1,Dexs,541,16548,204906,,9265264.65,1,Ethereum,1,1,2,4,False,https://app.bancor.network/
+30,Veda,Onchain Capital Allocator,166406,5078697,,,1804368048.98,13,Ink; Ethereum; Optimism; Monad; Hyperliquid L1; Plasma; Arbitrum; Base; Berachain; Sonic; Binance; BOB; Scroll,0,4,0,4,False,https://veda.tech
+31,Allbridge Classic,Bridge,2,154.88,30978,,1086945.15,13,Ethereum; Binance; Celo; Avalanche; Fantom; Polygon; Aurora; Harmony; Fuse,0,4,0,4,False,https://app.allbridge.io
+32,MEV-X Homelander,Liquidity Automation,1904,52981,3737189,,0,6,Base; Flare; Soneium; Somnia; Polygon; Robinhood Chain,0,4,0,4,False,https://mev-x.com
+33,Rocket Pool,Liquid Staking,12344,1982391,,,1154802788.47,1,Ethereum,0,4,0,4,False,https://rocketpool.net
+34,Circuit,CDP,5.1,153.0,,,191893.26,1,Chia,0,4,0,4,False,https://circuitdao.com
+35,Wombat Exchange,Dexs,6.51,182.1,34262,,1055022.87,10,Binance; Arbitrum; Avalanche; Optimism; Base; Ethereum; Scroll; Monad; Hyperliquid L1; Polygon,0,3,1,4,False,https://www.wombat.exchange/
+36,Ensuro,Insurance,1844,17315.76,,,2258665.54,2,Ethereum; Polygon,0,2,2,4,False,https://ensuro.co
+37,Convex Finance,Yield,94288,2454550,,,573070690.6,4,Ethereum; Fraxtal; Arbitrum; Polygon,0,1,3,4,False,https://www.convexfinance.com/
+38,Quickswap V4,Dexs,692,17134,1725866,,3373573.69,6,Base; Somnia; Polygon; Soneium; X Layer,3,0,0,3,False,https://dapp.quickswap.exchange/
+39,SparkDEX V4,Dexs,678,34647,1613474,,15424671.46,1,Flare,3,0,0,3,False,https://sparkdex.ai/home
+40,Synthetix V4,Derivatives,93,4317,,337608,920543.14,1,Ethereum,3,0,0,3,False,https://synthetix.io
+41,Hybra V4,Dexs,255,22659,427435,,565115.62,1,Hyperliquid L1,3,0,0,3,False,https://www.hybra.finance?code=GRYN2U
+42,Voltage V4,Dexs,2.36,660.95,1562,,264461.4,1,Fuse,3,0,0,3,False,https://app.voltage.finance/
+43,Scribe V4,Dexs,3.44,32.09,998,,4070.59,1,Scroll,3,0,0,3,False,https://scribe.exchange
+44,DackieSwap V3,Dexs,2.16,74.51,2487,,27971.16,11,Base; X Layer; Arbitrum; Mode; World Chain; Optimism; Blast; Linea; inEVM; Unichain; Ethereum,2,1,0,3,False,https://dackieswap.xyz
+45,Compound V3,Lending,69279,2560060,,,1378739330.56,10,Ethereum; Arbitrum; Base; Optimism; Polygon; Mantle; Unichain; Linea; Scroll; Ronin,2,1,0,3,False,https://www.compound.xyz/
+46,Velodrome V3,Dexs,1527,255511,3615589,,13366186.35,10,Optimism; Ink; Fraxtal; Soneium; Celo; Unichain; Lisk; Mode; Swellchain; Superseed,2,1,0,3,False,https://velodrome.finance/
+47,Balancer V2,Dexs,649,103956,411772,,17314836.13,9,Ethereum; Polygon; Arbitrum; Base; xDai; Avalanche; Mode; Fraxtal; Polygon zkEVM,2,1,0,3,False,https://balancer.fi/
+48,Silo V3,Lending,71.35,2450.23,,,718984.17,6,Avalanche; XDC; Ethereum; Arbitrum; Sonic; MegaETH,2,1,0,3,False,https://app.silo.finance
+49,Parallel Protocol V3,CDP,175,3349.25,,,908815.75,5,Hyperliquid L1; Ethereum; Base; Avalanche; Sonic,2,1,0,3,False,https://parallel.best/
+50,Alchemix V3,Synthetics,5375,155906.13,,,39121654.23,4,Ethereum; Optimism; Base; Arbitrum,2,1,0,3,False,https://alchemix.fi/
+51,Silo V2,Lending,43,5526.57,,,5588340.86,4,Sonic; Avalanche; Ethereum; Arbitrum,2,1,0,3,False,https://app.silo.finance
+52,Gondi V3,NFT Lending,15157,444140,,,2912413.83,3,Ethereum; Hyperliquid L1; Robinhood Chain,2,1,0,3,True,https://www.gondi.xyz
+53,StakeWise V3,Liquid Staking,19459,835107,,,899552780.35,2,Ethereum; xDai,2,1,0,3,False,https://stakewise.io/
+54,SynFutures V3,Derivatives,2516,221042,,1103755,2380828.64,2,Base; Blast,2,1,0,3,False,https://trade.synfutures.com/#/trade
+55,KIM Exchange V3,Dexs,8.13,200.11,4920,,124138.69,2,Mode; Base,2,1,0,3,False,https://kim.exchange
+56,KIM Exchange V2,Dexs,3.98,62.02,1323,,86680.85,2,Mode; Base,2,1,0,3,False,https://kim.exchange
+57,Compound V2,Lending,4438,118253,,,102276077.4,1,Ethereum,2,1,0,3,False,https://www.compound.xyz/
+58,Saphyre V3,Dexs,19071,547669,10735181,,15163042.27,1,Sei,2,1,0,3,False,https://saphyre.xyz/
+59,Kodiak V3,Dexs,858,36448,803089,,12379411.27,1,Berachain,2,1,0,3,False,https://app.kodiak.finance
+60,Balancer V1,Dexs,130,6151.71,76730,,5312676.81,1,Ethereum,2,1,0,3,False,https://balancer.fi/
+61,Doma DEX V3,Dexs,87.25,32888.25,334077,,639125.95,1,Doma,2,1,0,3,False,https://app.doma.xyz/swap
+62,Velodrome V1,Dexs,4.7,200.25,10206,,299943.8,1,Optimism,2,1,0,3,False,https://velodrome.finance/
+63,EchoDEX V3,Dexs,3.34,63.55,1341,,36880.03,1,Linea,2,1,0,3,False,
+64,SupSwap V3,Dexs,0.65,17.12,1250,,24073.58,1,Mode,2,1,0,3,False,https://supswap.xyz
+65,Hypertrade V3,Dexs,0.21,1134.8,135,,2163.47,1,Hyperliquid L1,2,1,0,3,False,https://ht.xyz
+66,SparkDEX Perps,Derivatives,415,10255,,231914,0,1,Flare,2,1,0,3,False,https://sparkdex.ai/
+67,Solidly V3,Dexs,1.29,100.89,892289,,149284.93,6,Base; Optimism; Arbitrum; Sonic; Ethereum; Fantom,2,0,1,3,False,https://solidly.com
+68,Derive V3 Options,Options,8905,256131,1459336,1951177312,177248830.38,1,Ethereum,2,0,1,3,False,https://app.derive.xyz
+69,Arrakis Modular,Liquidity Manager,20294,421768,,,58962198.5,6,Ethereum; Base; Arbitrum; Plasma; Binance; Robinhood Chain,1,2,0,3,False,https://arrakis.finance/
+70,BendDAO Lending V1,NFT Lending,1077,34456,,,495798.84,1,Ethereum,1,2,0,3,False,https://www.benddao.xyz
+71,Saphyre V2,Dexs,23,311.34,7672,,317299.56,1,Sei,1,2,0,3,False,https://saphyre.xyz/
+72,AllBlue V2,Dexs,1.4,130.61,414,,96071.17,1,Avalanche,1,2,0,3,False,https://allbluedex.io
+73,XSwap V2,Dexs,5.86,211.15,1981,,73718.76,1,XDC,1,2,0,3,False,https://app.xspswap.finance
+74,SwapX V2,Dexs,0.22,74.32,152,,52642.6,1,Sonic,1,2,0,3,False,https://swapx.fi/
+75,SwapMode V2,Dexs,3,43.47,1004,,42429.63,1,Mode,1,2,0,3,False,
+76,BendDAO Lending V2,NFT Lending,504,10177.01,,,0,1,Ethereum,1,2,0,3,False,https://www.benddao.xyz
+77,Liquity V2,CDP,5655,191715,,,94202843.62,1,Ethereum,1,1,1,3,False,https://www.liquity.org/
+78,Curve LlamaLend V2,Lending,3051,86459,,,43103733.06,2,Ethereum; Optimism,1,0,2,3,False,https://www.curve.finance/lend/ethereum/markets/
+79,vfat.io,Yield Aggregator,2534,93509,,,32861856.84,38,Base; Ethereum; Robinhood Chain; Hyperliquid L1; Arbitrum; Monad; Binance; Optimism; Avalanche; Polygon; Arc; Ink; Unichain; Sonic; Hemi; Linea; Cronos; Celo; Plasma; Berachain; Katana; World Chain; Mantle; Peaq; Pulse; MegaETH; Soneium; Fraxtal; Lisk; Scroll; Etherlink; Mode; BOT Chain; Tempo; Telos; MetalL2; ZetaChain; Fantom,0,3,0,3,False,https://vfat.io/yield
+80,Maya Protocol,Cross Chain Bridge,17322,323915,20514161,,5671121.79,9,Ethereum; Dash; Arbitrum; Mayachain,0,3,0,3,False,https://www.mayaprotocol.com
+81,SoSoValue Indexes,Indexes,20588,1672836,,,101468630.14,8,Ethereum; Hyperliquid L1; Binance,0,3,0,3,False,https://ssi.sosovalue.com/share/MAG7.ssi/0TC050BY?tid=ssi-invite-share-0TC050BY
+82,Folks Finance xChain,Lending,145,20684,,,3878700.51,8,Avalanche; Polygon; Monad; Ethereum; Arbitrum; Base; Sei; Binance,0,3,0,3,False,https://xapp.folks.finance
+83,Stader,Liquid Staking,23960,430023,,,210293588.23,6,Ethereum; Fantom; Binance,0,3,0,3,False,https://staderlabs.com
+84,SOFA.org,Options,52.98,4091.18,6532,,1252534.78,4,Ethereum; Arbitrum; Binance; Polygon,0,3,0,3,False,https://www.sofa.org
+85,Yuzu Money,Yield,17457,558615,,,77218497.14,3,Plasma; Monad; Ethereum,0,3,0,3,False,https://app.yuzu.money
+86,infiniFi,Yield,14040,326301,,,69233000.53,3,Ethereum; Monad; Base,0,3,0,3,False,https://infinifi.xyz
+87,T3tris Finance,Onchain Capital Allocator,2.17,-18872.02,,,13375691.03,2,Arbitrum; Robinhood Chain,0,3,0,3,False,https://t3tris.finance/
+88,Chainflip AMM,Dexs,48043,2107344,15571218,,11528809.43,2,Ethereum,0,3,0,3,False,https://chainflip.io
+89,Umbrae,Dexs,20.88,3655.35,6059,,64835.18,2,Base; Robinhood Chain,0,3,0,3,False,https://umbrae.io
+90,Bitway Earn,Basis Trading,8766,361729,,,36455023.66,1,Binance,0,3,0,3,False,https://bitway.com/
+91,Bounce.Tech,Derivatives,184,23847,,821830,570163.61,1,Hyperliquid L1,0,3,0,3,False,https://bounce.tech/
+92,MooniSwap,Dexs,9.02,211.17,3005,,514735.21,1,Ethereum,0,3,0,3,False,
+93,Ammalgam DLEX,Lending,5.19,918.54,3391,,333200.63,1,Ethereum,0,3,0,3,False,https://ammalgam.xyz/
+94,SwapX Algebra,Dexs,376,16294,125479,,313439.83,1,Sonic,0,3,0,3,False,https://swapx.fi/
+95,Curve DEX,Dexs,6110,3210687,7145538,,1171702011.73,32,Ethereum; Fraxtal; Monad; Etherlink; Base; Arbitrum; Polygon; Plasma; Avalanche; xDai; Optimism; Fantom; Unichain; X Layer; Robinhood Chain; Binance; Celo; Sonic; Hyperliquid L1; Kava; XDC; Aurora; Plume Mainnet; TAC; Taiko; Ink; Stable; Moonbeam; Mantle; Corn; Arc; Harmony,0,1,2,3,False,https://curve.finance
+96,Polymarket International,Prediction Market,1729407,31096351,129570752,401245984,375455984.14,1,Polygon,0,0,3,3,False,https://polymarket.com
+97,SushiSwap V3,Dexs,9201,256639,8286694,,41678215.82,31,Ethereum; Katana; Robinhood Chain; Base; Arbitrum; Polygon; Hemi; RSK; Filecoin; Optimism; Binance; Scroll; xDai; Avalanche; Europa; Linea; Arbitrum Nova; Sonic; Metis; Arc; CORE; Blast; Fantom; ZetaChain; Kava; Fuse; Bittorrent; Moonbeam; Moonriver; Polygon zkEVM; ThunderCore,2,0,0,2,False,https://sushi.com/
+98,Camelot V3,Dexs,841,57812,1985799,,4236481.15,12,Arbitrum; ApeChain; Plume Mainnet; Reya Network; Xai; EDU Chain; Rari; Corn; DuckChain; Superposition; WINR; Gravity,2,0,0,2,False,https://camelot.exchange/
+99,PancakeSwap AMM V3,Dexs,252656,8412103,636677296,,742450969.13,11,Binance; Ethereum; Base; Arbitrum; Robinhood Chain; Monad; zkSync Era; Linea; Op_Bnb; Polygon zkEVM,2,0,0,2,False,https://pancakeswap.finance/swap
+100,NOXA DEX V3,Dexs,1.65,94.85,605,,33078.03,10,MegaETH; Hyperliquid L1; Katana; Plasma; Monad; Berachain; Sonic; Somnia; 0G; Stable,2,0,0,2,False,https://fun.noxa.eth.limo/
+101,Balancer V3,Dexs,2545,50186,1612483,,17807772.85,9,Ethereum; Monad; Base; Arbitrum; Hyperliquid L1; Optimism; xDai; Avalanche; Plasma,2,0,0,2,False,https://balancer.fi/
+102,Quickswap V3,Dexs,1912,57824,1877856,,16226317.13,8,Immutable zkEVM; Polygon; Manta; X Layer; Dogechain; Polygon zkEVM; Astar zkEVM; Soneium,2,0,0,2,False,https://quickswap.exchange/
+103,Aero Slipstream,Dexs,138141,514849,288328758,,93037216.89,7,Base; Ethereum; Robinhood Chain; Arc; Optimism; Arbitrum; Ink,2,0,0,2,False,https://aero.xyz/
+104,Aero Basic,Dexs,9276,49761.02,1706901,,55350956.47,7,Base; Optimism; Robinhood Chain; Ink; Ethereum; Arbitrum; Arc,2,0,0,2,False,https://aero.xyz/
+105,Aera V3,Onchain Capital Allocator,15215,411053,,,196471994.11,5,Base; Morph; Ethereum; Arbitrum; Optimism,2,0,0,2,False,https://www.aera.finance
+106,BrownFi V3,Dexs,61.32,2543.06,68229,,192839.19,5,Berachain; Robinhood Chain; Hyperliquid L1; Linea; Arbitrum,2,0,0,2,False,https://brownfi.io/
+107,9mm V3,Dexs,2.54,39376.69,581,,368950.37,3,Base; Pulse; Sonic,2,0,0,2,False,https://dex.9mm.pro/
+108,SpookySwap V3,Dexs,8.07,368.18,9727,,98455.21,3,Sonic; Fantom; Bittorrent,2,0,0,2,False,https://spooky.fi
+109,zkSwap V3,Dexs,0.3,36.83,151,,46112.11,3,zkSync Era; Sonic; Monad,2,0,0,2,False,
+110,SyncSwap V3,Dexs,7.76,209.12,4014,,0,3,Linea; Sophon; ZKsync Era,2,0,0,2,False,https://syncswap.xyz/
+111,Enosys AMM V3,Dexs,2362,111640,873772,,5718269.16,2,Flare; Songbird,2,0,0,2,False,https://enosys.global/products/dexV3
+112,Pangolin V3,Dexs,26.01,1955.22,189674,,246744.37,2,Avalanche; Monad,2,0,0,2,False,https://app.pangolin.exchange/
+113,Hybra V3,Dexs,14.64,1709.94,19057,,201372.08,2,Hyperliquid L1; Robinhood Chain,2,0,0,2,False,https://www.hybra.finance?code=GRYN2U
+114,Synthra V3,Dexs,55.03,15082.44,5522,,56657.44,2,Arc; Robinhood Chain,2,0,0,2,False,https://app.synthra.org
+115,Zyberswap V3,Dexs,0.06,2.66,20093,,39969.73,2,Arbitrum; Optimism,2,0,0,2,False,
+116,Hybra V2,Dexs,0.05,3.16,21.73,,5080.35,2,Hyperliquid L1; Robinhood Chain,2,0,0,2,False,https://www.hybra.finance?code=GRYN2U
+117,ArthSwap V3,Dexs,0.03,0.47,11.48,,2625.6,2,Astar; Astar zkEVM,2,0,0,2,False,https://app.arthswap.org
+118,Hydradex V3,Dexs,1.67,33.27,379,,73.15,2,Hydra Chain,2,0,0,2,False,https://hydradex.org/#/swap
+119,Aerodrome Slipstream,Dexs,68433,8779512,140947596,,112436052.06,1,Base,2,0,0,2,False,https://aerodrome.finance/
+120,Aerodrome V1,Dexs,15418,1594507,4126062,,70745408.84,1,Base,2,0,0,2,False,https://aerodrome.finance/
+121,BDEX V3,Dexs,4689,168540,1536733,,31147426.19,1,BOT Chain,2,0,0,2,False,https://dex.botchain.ai/
+122,Pharaoh V3,Dexs,15296,1140428,23005350,,28930842.45,1,Avalanche,2,0,0,2,False,https://www.phar.gg/
+123,HyperSwap V3,Dexs,3425,155186,1328171,,10039974.66,1,Hyperliquid L1,2,0,0,2,False,https://app.hyperswap.exchange/#/swap?referral=defillama
+124,BulbaSwap V3,Dexs,209,7312.63,468682,,8612218.35,1,Morph,2,0,0,2,False,https://bulbaswap.io
+125,SparkDEX V3.1,Dexs,53,5680,902837,,5437435.4,1,Flare,2,0,0,2,False,https://sparkdex.ai/home
+126,Tigris Mezo V3,Dexs,131,4579.34,48904,,5347424.44,1,Mezo,2,0,0,2,False,https://mezo.org/explore/pools
+127,up v3,Dexs,7825,756700,7074075,,4519542.54,1,Robinhood Chain,2,0,0,2,False,https://up33.xyz/
+128,Thruster V3,Dexs,13.96,3409.94,12209,,2130777.38,1,Blast,2,0,0,2,False,
+129,DragonSwap V3 Kaia,Dexs,195,12174,122813,,1885297.16,1,Klaytn,2,0,0,2,False,https://dgswap.io
+130,Pharaoh V3 Legacy,Dexs,316,14419.88,35676,,1639285.32,1,Avalanche,2,0,0,2,False,https://www.phar.gg/
+131,Katana DEX V3,Dexs,258,20828,66011,,1506905.04,1,Ronin,2,0,0,2,False,https://app.roninchain.com/swap#/swap
+132,Stable Swap V3,Dexs,0.08,7.97,121,,1037815.46,1,Stable,2,0,0,2,False,https://swap.stable.xyz/
+133,Kayen Finance V3,Dexs,55.7,1414.78,18569,,1032618.91,1,Chiliz,2,0,0,2,False,https://app.kayen.finance
+134,Alandale V3,Dexs,665,67274,2234663,,918858.17,1,Robinhood Chain,2,0,0,2,False,https://alandale.xyz
+135,Beets DEX V3,Dexs,111,3327,32442,,859095.76,1,Sonic,2,0,0,2,False,https://beets.fi
+136,GIGA V3,Dexs,753,58025,1087574,,849850.44,1,Robinhood Chain,2,0,0,2,False,https://gigadex.fi
+137,FluxFlow V3,Dexs,2165,7657.51,722164,,832459.29,1,Fluent,2,0,0,2,False,https://fluxflow.fi
+138,Archery V3,Dexs,97.85,5297.78,371268,,616448.03,1,Arc,2,0,0,2,False,
+139,Upheaval V3,Dexs,0.49,32.47,472,,402498.79,1,Hyperliquid L1,2,0,0,2,False,https://upheaval.fi
+140,Swapr V3,Dexs,87,1392.38,136217,,361104.88,1,xDai,2,0,0,2,False,
+141,XSwap V3,Dexs,212,3773.28,1672575,,339571.76,1,XDC,2,0,0,2,False,https://app.xspswap.finance
+142,Ultrasolid V3,Dexs,29.61,2251.17,22799,,171118.48,1,Hyperliquid L1,2,0,0,2,False,https://app.ultrasolid.xyz
+143,KrokoSwap V3,Dexs,0.02,993.08,31,,148682.39,1,Kasplex,2,0,0,2,False,https://krokoswap.io/
+144,PotatoSwap V3,Dexs,4.07,1972.73,31032,,138135.22,1,X Layer,2,0,0,2,False,https://potatoswap.finance
+145,Ouro DEX V3,Dexs,184,2588.18,20622,,116252.95,1,Robinhood Chain,2,0,0,2,False,
+146,Hercules V3,Dexs,97,2941,35081,,86539.24,1,Metis,2,0,0,2,False,
+147,PiperX V3,Dexs,0.03,0.13,45.78,,69385.92,1,Story,2,0,0,2,False,https://app.piperx.xyz/
+148,OkieSwap V3,Dexs,9.42,516.51,77573,,49091.62,1,X Layer,2,0,0,2,False,https://okiedokie.fun/
+149,Ubeswap V3,Dexs,0.59,30.26,3134,,37140.53,1,Celo,2,0,0,2,False,https://ubeswap.org
+150,Hyperlynx V3,Dexs,25,936.68,11623,,32074.1,1,Hyperliquid L1,2,0,0,2,False,https://hyperlynx.fi/
+151,SwapHood V3,Dexs,33.19,1864.25,130847,,22392.87,1,Robinhood Chain,2,0,0,2,False,https://www.swaphood.finance/#/
+152,Blasterswap V3,Dexs,0.04,19.41,87.3,,16597.55,1,Blast,2,0,0,2,False,https://blasterswap.com
+153,FVM Exchange,Dexs,0.11,19.07,38,,10913.02,1,Fantom,2,0,0,2,False,
+154,Somnex V3,Dexs,0.04,6.26,7.43,,9306.1,1,Somnia,2,0,0,2,False,https://somnex.xyz/
+155,Unitflow Finance V3,Dexs,0.99,21.38,1567,,9138.45,1,Arc,2,0,0,2,False,
+156,RobinSwap V3,Dexs,1.48,154.38,2132,,9002.3,1,Robinhood Chain,2,0,0,2,False,https://www.robinswap.finance
+157,Sheriff V3,Dexs,0.07,43.21,52.22,,8434.12,1,Robinhood Chain,2,0,0,2,False,https://app.sheriff.exchange/
+158,SparkDEX V3,Dexs,0.01,0.58,29.36,,3477.5,1,Flare,2,0,0,2,False,https://sparkdex.ai/home
+159,Yaka V3,Dexs,1.05,42.45,364,,3286.35,1,Sei,2,0,0,2,False,
+160,SparkDEX V2,Dexs,0.13,0.42,42.19,,3214.8,1,Flare,2,0,0,2,False,https://sparkdex.ai/home
+161,VanillaSwap V3,Dexs,0.34,0.47,113,,2569.5,1,DeFiChain EVM,2,0,0,2,False,
+162,Helios V3,Dexs,0.33,10.72,203,,2229.22,1,RISE,2,0,0,2,False,https://app.helios.trade
+163,SwapMode V3,Dexs,0.01,0,42.01,,2112.16,1,Mode,2,0,0,2,False,
+164,DTX Dex V3,Dexs,0.09,2.37,31.13,,1940.21,1,Taiko,2,0,0,2,False,
+165,BitBlocks Finance V3,Dexs,0.13,10.18,262,,546.39,1,Binance,2,0,0,2,False,https://bitblocks.finance
+166,SX Bet V3,Prediction Market,15990,106464,8979553,1852206,0,1,SX Rollup,2,0,0,2,False,https://sx.bet
+167,Derive V3 Perps,Derivatives,1689,54918,,73049217,0,1,Derive V3,2,0,0,2,False,https://app.derive.xyz
+168,Derive V3 Spot,Dexs,11.55,2274.93,6509,,0,1,Derive V3,2,0,0,2,False,https://app.derive.xyz
+169,LayerZero V2,Bridge,17273,302765,119620985,,16750971989.59,91,Polygon; Ethereum; ApeChain; Arbitrum; Base; Binance; Flare; Plasma; Stable; Citrea; Hyperliquid L1; Abstract; Gensyn; Peaq; Somnia; Hemi; Kava; Fraxtal; Avalanche; 0G; TAC; Sei; Fantom; zkSync Era; Chiliz; Metis; Optimism; Goat; Telos; Celo; RSK; Robinhood Chain; Mantle; Katana; Blast; Linea; Cronos; Unichain; Soneium; Berachain; Ink; Vana; Scroll; Sonic; Conflux; Redbelly; Astar; Plume Mainnet; Mode; CORE; Story; Manta; xDai; XDC; LightLink; Monad; Tempo; X Layer; Morph; Swellchain; Taiko; BOB; Canto; World Chain; Op_Bnb; Moonriver; Lisk; MegaETH; Harmony; Degen; Moonbeam; Polygon zkEVM; Zora; Sophon; Ethereal; Etherlink; Codex; KiteAI; TomoChain; Rayls; Apex Fusion; Irys; zkVerify; Bittensor EVM; Nibiru; Klaytn,1,1,0,2,False,https://layerzero.network/
+170,SushiSwap,Dexs,1535,70421,512941,,37259088.11,39,Ethereum; Polygon; Arbitrum; Base; Boba; xDai; Binance; Celo; Arbitrum Nova; Avalanche; Fantom; Fuse; Scroll; Optimism; Katana; OKExChain; Filecoin; Linea; CORE; RSK; Hemi; Blast; Bittorrent; Telos; Europa; Arc; Sonic; ZetaChain; Metis; Kava; HAQQ; Palm; Moonriver; Harmony; Heco; Boba_Bnb; Moonbeam; Polygon zkEVM; ThunderCore,1,1,0,2,False,https://sushi.com/
+171,Stargate V2,Cross Chain Bridge,2067,386827,4019915,,75907753.36,24,Ethereum; Arbitrum; Binance; Base; Optimism; Mantle; Linea; Unichain; Soneium; Avalanche; Scroll; Abstract; Polygon; Hemi; Sonic; Kava; Manta; LightLink; Aurora; xDai; Sei; Metis; Swellchain; Stable,1,1,0,2,False,https://stargate.finance/
+172,Euler V2,Lending,55321,1689727,,,281720566.67,16,Monad; Ethereum; Base; BOB; Avalanche; Unichain; Plasma; Hyperliquid L1; Arbitrum; Binance; Linea; Sonic; Berachain; TAC; Swellchain; Mantle,1,1,0,2,False,https://www.euler.finance
+173,Pendle V2,Yield,6342,426910,122230305,,1063413830.87,14,Ethereum; Monad; Arbitrum; X Layer; Hyperliquid L1; Binance; Plasma; Base; Sonic; Robinhood Chain; Mantle; Avalanche; Berachain; Optimism,1,1,0,2,False,https://pendle.finance/
+174,Ajna V2,Lending,0.01,109.31,,,44789.94,14,Ethereum; Arbitrum; Base; Optimism; Polygon; Avalanche; Hemi; Filecoin; Blast; Binance; xDai; Linea; Mode; Rari,1,1,0,2,False,https://www.ajna.finance/
+175,PancakeSwap AMM,Dexs,53840,2727715,21564632,,1559088606.76,11,Binance; Ethereum; Base; Arbitrum; zkSync Era; Robinhood Chain; Op_Bnb; Linea; Monad; Polygon zkEVM,1,1,0,2,False,https://pancakeswap.finance/
+176,Charm Finance V2,Liquidity Manager,69.64,3702,,,1688710.54,11,Berachain; Ethereum; Katana; Arbitrum; Base; Polygon; Optimism; Blast; Scroll; Linea; Boba,1,1,0,2,False,https://alpha.charm.fi/vaults
+177,Camelot V2,Dexs,189,12973,62579,,6540098.8,9,Arbitrum; ApeChain; Xai; Reya Network; EDU Chain; DuckChain; Rari; Superposition; Gravity,1,1,0,2,False,https://camelot.exchange/
+178,Swapsicle V1,Dexs,0.53,32.02,177,,19150.43,8,Avalanche; Telos; Arbitrum; Binance; Polygon; Optimism; Fantom; Ethereum,1,1,0,2,False,
+179,SquadSwap V2,Dexs,0.07,1.26,21.95,,11087.13,6,Base; Blast; Binance; Optimism; Polygon; Arbitrum,1,1,0,2,False,https://squadswap.com/
+180,Arcadia V2,Liquidity Manager,1504,48768,,,6113116.2,4,Base; Optimism; Robinhood Chain; Unichain,1,1,0,2,False,https://arcadia.finance
+181,Joe V2.1,Dexs,196,54542,299887,,3867285.07,4,Avalanche; Arbitrum; Binance; Ethereum,1,1,0,2,False,https://lfj.gg/arbitrum/trade
+182,SpookySwap V2,Dexs,1.25,796.56,535,,1050911.14,4,Fantom; Bittorrent; Sonic; Horizen EON,1,1,0,2,False,https://spooky.fi/#/
+183,Maverick V1,Dexs,39.26,1307.94,186689,,998219.8,4,zkSync Era; Binance; Ethereum; Base,1,1,0,2,False,https://www.mav.xyz
+184,Radiant V2,Lending,0.49,2689.86,,,523289.84,4,Ethereum; Arbitrum; Base; Binance,1,1,0,2,False,https://radiant.capital/#/markets
+185,Joe V2.2,Dexs,569,55122,377214,,2287748.4,3,Avalanche; Arbitrum; Monad,1,1,0,2,False,https://lfj.gg/arbitrum/trade
+186,Parallel Protocol V2,CDP,1420,42587,,,490944.73,3,Ethereum; Polygon; Fantom,1,1,0,2,False,https://mimo.capital
+187,Swapr V2,Dexs,11.61,458.85,3867,,328874.63,3,xDai; Arbitrum; Ethereum,1,1,0,2,False,https://swapr.eth.link/#/swap
+188,Joe V2,Dexs,0.43,36.77,1972,,180243.02,3,Avalanche; Arbitrum; Binance,1,1,0,2,False,https://lfj.gg/avalanche/trade
+189,Clober V2,Dexs,0.12,234.46,841,,12706.75,3,Base; Monad; zkSync Era,1,1,0,2,False,https://app.clober.io/
+190,ShibaSwap V1,Dexs,203,31931,69075,,5718645.15,2,Ethereum; Shibarium,1,1,0,2,False,https://shibaswap.com
+191,Panoptic V2,Options,17.1,3796.17,629,,1375783.39,2,Ethereum; Robinhood Chain,1,1,0,2,False,https://app.panoptic.xyz
+192,ShibaSwap V2,Dexs,1.32,61.71,415,,65109.67,2,Ethereum; Shibarium,1,1,0,2,False,https://shibaswap.com
+193,SquadSwap Thanos,Dexs,0.09,0.55,30.67,,529.23,2,Binance; Base,1,1,0,2,False,https://squadswap.com/
+194,Biswap V2,Dexs,184,8560,91005,,5442893.17,1,Binance,1,1,0,2,False,https://biswap.org/
+195,Seamless V1,Lending,2.76,208.65,,,536124.12,1,Base,1,1,0,2,False,
+196,Blasterswap V2,Dexs,7.12,348.88,2406,,350943.35,1,Blast,1,1,0,2,False,https://blasterswap.com/
+197,AllBlue Stable,Yield,31.74,1552.33,,,350013.75,1,Avalanche,1,1,0,2,False,https://allbluedex.io
+198,SquadSwap Dynamo,Dexs,42.05,1890.01,14019,,279352.26,1,Binance,1,1,0,2,False,https://squadswap.com/
+199,Kodiak V2,Dexs,1.45,89.05,483,,253843.96,1,Berachain,1,1,0,2,False,https://app.kodiak.finance
+200,Shido Dex V2,Dexs,17.34,1881.88,2670,,129282.0,1,Shido,1,1,0,2,False,https://shido.io/
+201,Chronos V1,Dexs,0.97,33.88,324,,72344.17,1,Arbitrum,1,1,0,2,False,
+202,Solidly V2,Dexs,1.01,22.39,1399,,61135.94,1,Ethereum,1,1,0,2,False,https://solidly.com
+203,Zebra V2,Dexs,3.28,89.59,1121,,55730.65,1,Scroll,1,1,0,2,False,
+204,Rooster Protocol V1,Dexs,0.09,16.32,32.39,,52040.09,1,Plume Mainnet,1,1,0,2,False,https://www.rooster.trade/
+205,Arbitrum Exchange V2,Dexs,0.57,32.34,191,,15459.66,1,Arbitrum,1,1,0,2,False,
+206,Yaka V2,Dexs,0.19,17.53,317,,8110.84,1,Sei,1,1,0,2,False,
+207,Zebra V1,Dexs,0.14,2.69,44.95,,4397.9,1,Scroll,1,1,0,2,False,
+208,SupSwap V2,Dexs,0.01,0.16,5.32,,703.91,1,Mode,1,1,0,2,False,https://supswap.xyz
+209,Spectra V2,Yield,6.52,6987.04,38206,,10038127.92,13,Flare; Ethereum; Base; Katana; Sonic; Avalanche; Binance; Hyperliquid L1; Hemi; Arbitrum; Optimism; Monad,1,0,1,2,False,https://app.spectra.finance/fixed-rate
+210,Gamma,Liquidity Manager,1601,48220,,,2910895.03,36,Ethereum; Binance; Polygon; Arbitrum; xDai; Linea; Base; Optimism; Metis; Unichain; Zircuit; Sonic; BOB; Mantle; Scroll; Manta; Immutable zkEVM; Blast; Rollux; IOTA EVM; Avalanche; Celo; Berachain; Taiko; World Chain; Hemi; ApeChain; RSK; CORE; Mode; X Layer; Fantom; Op_Bnb; Polygon zkEVM; Moonbeam; Kava,0,2,0,2,False,https://www.gamma.xyz
+211,Avalon Finance,Lending,444,94503.08,,,1244022.66,22,IoTeX; Binance; Bitlayer; Merlin; Pharos; Arbitrum; Klaytn; BOB; Sonic; Base; Plume Mainnet; Goat; Ethereum; Taiko; CORE; Mode; Sei; BSquared; Scroll; ZetaChain; Corn; DuckChain,0,2,0,2,False,https://www.avalonfinance.xyz
+212,Napier,Yield,12,33.79,,,106502.13,13,Ethereum; Robinhood Chain; Base; Sonic; Arbitrum; Hyperliquid L1; Polygon; Fraxtal; Optimism; Mantle; Avalanche; Plume; Binance,0,2,0,2,False,https://app.napier.finance/
+213,Dolomite,Lending,48187,1486877,,,208202722.95,7,Ethereum; Arbitrum; Berachain; Mantle; X Layer; Botanix; Polygon zkEVM,0,2,0,2,False,https://dolomite.io
+214,Concrete,Onchain Capital Allocator,16702,1712945,,,1266097499.38,5,Ethereum; Stable; Arbitrum; Berachain; Katana,0,2,0,2,False,https://app.concrete.xyz
+215,Plume Vaults,RWA,36775,1013791,,,229650219.94,5,Ethereum; Plume Mainnet; Binance; Avalanche,0,2,0,2,False,https://app.plume.org/vaults
+216,OpenEden TBILL,RWA,2407,72162,,,0,5,Ethereum; Arbitrum; Binance,0,2,0,2,False,https://portal.openeden.com
+217,Railgun,Privacy,5879,359738,,,110212656.27,4,Ethereum; Arbitrum; Binance; Polygon,0,2,0,2,False,https://railgun.org
+218,Moonwell Lending,Lending,3492,126933,,,9750789.51,4,Base; Ethereum; Optimism; Moonbeam,0,2,0,2,False,https://moonwell.fi
+219,Origin Ether,Liquid Staking,6638,215466,,,56279230.63,3,Ethereum; Base; Plume Mainnet,0,2,0,2,False,https://www.originprotocol.com/oeth
+220,Index Coop,Indexes,554,30983,,,13803893.08,3,Ethereum; Arbitrum; Base,0,2,0,2,False,https://www.indexcoop.com/
+221,JetSwap,Dexs,4.07,89.58,1359,,360500.9,3,Binance; Polygon; Fantom,0,2,0,2,False,
+222,Kasu,Uncollateralized Lending,3146,92241,,,25853.39,3,Base; XDC; Plume Mainnet,0,2,0,2,False,https://kasu.finance/
+223,Nami,Dexs,0.04,0.21,85.99,,606.56,3,Base; Ethereum; Robinhood Chain,0,2,0,2,False,https://nami.fi/
+224,Makina,Onchain Capital Allocator,5621,228750.01,,,41027599.84,2,Ethereum; Base,0,2,0,2,False,https://app.makina.finance/
+225,Hegic,Options,3010,-23293.84,3010,,9024785.59,2,Arbitrum; Ethereum,0,2,0,2,False,https://www.hegic.co
+226,Swop,Dexs,13,231.26,2664,,369043.88,2,UNIT0,0,2,0,2,False,https://swop.fi
+227,Curvance,Lending,5433,386442,,,131301256.17,1,Monad,0,2,0,2,False,https://app.curvance.com
+228,NodeDAO,Liquid Staking,1960,63746,,,34025288.98,1,Ethereum,0,2,0,2,False,https://www.nodedao.com
+229,HertzFlow,Derivatives,67.56,5920.28,,104575,6981623.86,1,Binance,0,2,0,2,False,https://www.hertzflow.xyz/
+230,Origin Dollar,Yield Aggregator,1084,33401,,,6068393.44,1,Ethereum,0,2,0,2,False,https://www.originprotocol.com/ousd
+231,Kinetiq Launch,Liquid Staking,340,10543,,,5659532.38,1,Hyperliquid L1,0,2,0,2,False,https://kinetiq.xyz/launch
+232,OPINION,Prediction Market,397,40395,6983362,3035232,3034494.62,1,Binance,0,2,0,2,False,https://app.opinion.trade
+233,BabyDogeSwap,Dexs,89.74,1727.03,30017,,1990503.1,1,Binance,0,2,0,2,False,https://swap.babydoge.com/
+234,PredictStreet,Prediction Market,229,768268.04,10029,,1956543.5,1,ADI,0,2,0,2,False,https://adipredictstreet.com/
+235,STONX,Dexs,760,35377,222133,,881479.59,1,Robinhood Chain,0,2,0,2,False,https://ekubo.org
+236,Titan Locker,Token Locker,59,2654,,,127879.37,1,Robinhood Chain,0,2,0,2,False,
+237,Gravity Finance,Dexs,20.14,61.49,8187,,87550.68,1,Polygon,0,2,0,2,False,https://gravityfinance.io/
+238,HOPR,Privacy,18.61,1311.68,,,0,1,xDai,0,2,0,2,False,https://hoprnet.org
+239,Fusion by IPOR,Onchain Capital Allocator,9035,293303,,,82217649.3,12,Base; Ethereum; Arbitrum; Katana; Unichain; Avalanche; Plasma; Hyperliquid L1; Monad; Ink; Robinhood Chain; Flare,0,1,1,2,False,https://app.ipor.io/fusion
+240,Yearn Finance,Yield Aggregator,17716,653037,,,154214362.15,7,Ethereum; Katana; Base; Optimism; Polygon; Arbitrum; Fantom,0,1,1,2,False,https://yearn.fi/
+241,Unitas USDu,Basis Trading,14560,460881,,,52240458.75,2,Binance,0,1,1,2,False,https://app.unitas.so
+242,Benqi Staked Avax,Liquid Staking,21033,1081392,,,212086491.26,1,Avalanche,0,1,1,2,False,https://app.benqi.fi/savax
+243,Inverse Finance FiRM,CDP,9235,276393,,,33138971.86,1,Ethereum,0,1,1,2,False,https://inverse.finance
+244,Re7 Labs,Risk Curators,3447,95432,,,58938988.86,17,World Chain; Ethereum; Avalanche; Optimism; Plume Mainnet; Base; Linea; Binance; Sonic; Unichain; TAC; BOB; Berachain; Arc; Polygon; Plasma,0,0,2,2,False,https://www.re7labs.xyz
+245,Surf Liquid,Yield,0.12,4.32,,,193634.03,4,Base; Ethereum; Polygon; Arbitrum,0,0,2,2,False,https://surfliquid.com/
+246,SushiSwap Agg,DEX Aggregator,2311,221487,1006630,,0,14,Optimism; Base; Polygon; Ethereum; Katana; Arbitrum; Mantle; Moonbeam; Polygon zkEVM; Linea; ZKsync Era; Hemi; Gnosis; Binance,1,0,0,1,False,https://sushi.com
+247,DackieSwap V2,Dexs,0.01,1.13,0.67,,25817.72,11,Base; X Layer; Blast; Optimism; Mode; Arbitrum; World Chain; Linea; Unichain; inEVM; Ethereum,1,0,0,1,False,https://dackieswap.xyz
+248,NOXA Fun,Launchpad,7751,525958,,,3590772.78,7,Robinhood Chain; Arc; Monad; Merlin; MegaETH; Stable; Intuition,1,0,0,1,False,https://fun.noxa.eth.limo/
+249,Omni Exchange V2,Dexs,0.03,0.88,10.6,,1612.19,7,Base; Arbitrum; Sonic; Avalanche; Binance; Optimism; Plasma,1,0,0,1,False,
+250,Maverick V2,Dexs,118,6011,2972524,,1051353.53,6,Ethereum; Base; zkSync Era; Arbitrum; Binance; Scroll,1,0,0,1,False,https://www.mav.xyz
+251,Ramses CL V2,Dexs,17576,999813,21633497,,11105122.36,4,Robinhood Chain; Hyperliquid L1; Polygon; Arbitrum,1,0,0,1,False,https://ramses.xyz
+252,Pangolin V2,Dexs,125,14836.06,41615,,1831927.23,4,Avalanche; Flare; Songbird,1,0,0,1,False,https://app.pangolin.exchange/
+253,Ramses Legacy V2,Dexs,1485,59272,99745,,1443456.67,4,Hyperliquid L1; Robinhood Chain; Polygon; Arbitrum,1,0,0,1,False,https://ramses.xyz
+254,GoPlus Locker V2,Token Locker,0.01,4452.29,,,399894.42,4,Base; Binance; Ethereum; Arbitrum,1,0,0,1,False,https://gopluslabs.io
+255,Arrakis V2,Liquidity Manager,0.97,354.64,,,169513.41,4,Ethereum; Polygon; Arbitrum; Optimism,1,0,0,1,False,https://arrakis.finance/
+256,PancakeSwap StableSwap,Dexs,14.56,1109.19,129876,,3700895.11,3,Binance; Arbitrum; Ethereum,1,0,0,1,False,https://pancakeswap.finance/swap
+257,PancakeSwap Infinity,Dexs,24104,1039888,163435972,,80333472.91,2,Binance; Base,1,0,0,1,False,https://pancakeswap.finance/
+258,Enosys AMM V2,Dexs,4.11,161.45,1372,,139795.86,2,Flare; Songbird,1,0,0,1,False,https://enosys.global/products/dex
+259,Sushi Launchpad,Launchpad,57,1388.6,,,0,2,Robinhood Chain; Arc,1,0,0,1,False,https://sushi.com/
+260,RealT RMM Marketplace V2,Lending,1665,96921,,,29060280.69,1,xDai,1,0,0,1,False,
+261,PulseX V1,Dexs,2956,193147,1019167,,28001232.66,1,Pulse,1,0,0,1,False,https://app.pulsex.com/
+262,PulseX V2,Dexs,2366,182360,815819,,12998796.53,1,Pulse,1,0,0,1,False,https://app.pulsex.com/
+263,Enosys Loans,CDP,1520,65412,,,7479447.77,1,Flare,1,0,0,1,False,https://enosys.global/products/loans
+264,PotatoSwap V2,Dexs,852,38397,340295,,6776405.43,1,X Layer,1,0,0,1,False,https://potatoswap.finance
+265,HyperSwap V2,Dexs,364,63178.03,124787,,6115391.82,1,Hyperliquid L1,1,0,0,1,False,https://app.hyperswap.exchange/#/swap?referral=defillama
+266,Thruster V2,Dexs,0.68,172.93,228,,1862875.31,1,Blast,1,0,0,1,False,
+267,up v2,Dexs,349,24038,116047,,887254.94,1,Robinhood Chain,1,0,0,1,False,https://up33.xyz/
+268,BDEX V2,Dexs,94.71,4151.85,32095,,840591.23,1,BOT Chain,1,0,0,1,False,https://dex.botchain.ai/
+269,BrownFi CLAMM,Dexs,27.38,509.97,47888,,685727.63,1,Hemi,1,0,0,1,False,https://brownfi.io/
+270,BaseSwap V2,Dexs,5.07,242.63,2027,,612496.17,1,Base,1,0,0,1,False,
+271,PulseX StableSwap,Dexs,70,4769,173916,,500125.73,1,Pulse,1,0,0,1,False,https://app.pulsex.com/
+272,Lynex V2,Dexs,94,2515,70419,,415625.39,1,Linea,1,0,0,1,False,https://app.lynex.fi/
+273,Mimo V2,Dexs,27.32,1305.85,9122,,381904.92,1,IoTeX,1,0,0,1,False,https://mimo.exchange
+274,Treble V2,Dexs,6.52,2059.97,21922,,286458.64,1,Base,1,0,0,1,False,https://trebleswap.com
+275,Alien Base V2,Dexs,73.75,3043.96,358930,,279896.95,1,Base,1,0,0,1,False,https://alienbase.xyz/
+276,BulbaSwap V2,Dexs,7.97,234.16,2313,,243988.17,1,Morph,1,0,0,1,False,https://bulbaswap.io
+277,GIGA V2,Dexs,59.99,5099.99,13622,,164830.17,1,Robinhood Chain,1,0,0,1,False,https://gigadex.fi
+278,Lynex V1,Dexs,0.13,16.07,79.72,,124341.28,1,Linea,1,0,0,1,False,https://app.lynex.fi
+279,Nad.fun V1,Launchpad,726,122599,12782,,107631.29,1,Monad,1,0,0,1,False,https://nad.fun/
+280,VanillaSwap V2,Dexs,4.74,6,1579,,106207.89,1,DeFiChain EVM,1,0,0,1,False,
+281,Pearl V1,Dexs,0.27,12.18,786,,105109.53,1,Polygon,1,0,0,1,False,https://www.pearl.exchange
+282,DragonSwap V2 Kaia,Dexs,2.74,321.87,874,,80289.72,1,Klaytn,1,0,0,1,False,https://dgswap.io
+283,LIFT V2,Launchpad,0.62,5775.47,,,53462.59,1,Arc,1,0,0,1,False,
+284,Lybra V2,CDP,0.4,10.29,,,47838.7,1,Ethereum,1,0,0,1,False,
+285,Rooster Protocol V2,Dexs,0.7,101.46,713,,39962.92,1,Plume Mainnet,1,0,0,1,False,https://www.rooster.trade/
+286,EchoDEX V2,Dexs,0.22,4.83,72.01,,38848.6,1,Linea,1,0,0,1,False,
+287,Forest V1,Dexs,270,2377.49,85017,,30165.43,1,Binance,1,0,0,1,False,https://forest.inc/
+288,Maia CL,Dexs,0.7,25.08,610,,26355.3,1,Metis,1,0,0,1,False,https://uni.maiadao.io/#/swap
+289,FusionX V2,Dexs,0.06,3.29,25.55,,16305.75,1,Mantle,1,0,0,1,False,https://fusionx.finance
+290,Hercules V2,Dexs,0.3,10.86,81,,15066.85,1,Metis,1,0,0,1,False,
+291,OkieSwap Stableswap,Dexs,1.35,43.78,13863,,12786.81,1,X Layer,1,0,0,1,False,https://okiedokie.fun/
+292,SwapHood V2,Dexs,4.89,162.98,244,,9124.41,1,Robinhood Chain,1,0,0,1,False,https://www.swaphood.finance/#/
+293,LIFT V1,Launchpad,0.02,1317.64,,,8901.48,1,Arc,1,0,0,1,False,
+294,zkSwap StableSwap,Dexs,0.01,0.88,147,,7272.69,1,zkSync Era,1,0,0,1,False,
+295,Sheriff V2,Dexs,0.17,5.58,34.32,,2653.83,1,Robinhood Chain,1,0,0,1,False,https://app.sheriff.exchange/
+296,BitBlocks Finance V2,Dexs,0.01,0.23,2.82,,1470.62,1,Binance,1,0,0,1,False,https://bitblocks.finance
+297,RobinSwap V2,Dexs,0.04,23.65,14.16,,748.12,1,Robinhood Chain,1,0,0,1,False,https://www.robinswap.finance
+298,Pons V2,Launchpad,236923,23326162,3917750,,0,1,Robinhood Chain,1,0,0,1,False,https://www.ponsfamily.com/launchpad
+299,PancakeSwap Prediction,Prediction Market,16781,263790,559164,,0,1,Binance,1,0,0,1,False,https://pancakeswap.finance/prediction
+300,Pons V1,Launchpad,11113,794165,,,0,1,Robinhood Chain,1,0,0,1,False,https://www.ponsfamily.com/launchpad
+301,Symbiosis,Cross Chain Bridge,2669,135564,1036341,,7652119.08,58,Ethereum; Binance; Robinhood Chain; Arbitrum; Polygon; Base; Hyperliquid L1; zkSync Era; xDai; BSquared; Boba; RSK; Merlin; Cronos; Katana; Mantle; Quai; Cronos zkEVM; Manta; Linea; Metis; Scroll; Avalanche; Optimism; Arc; Taiko; Berachain; Op_Bnb; X Layer; Sei; Soneium; Sonic; Stable; Plasma; Abstract; Monad; Mode; Tempo; Fraxtal; Arbitrum Nova; ApeChain; zkLink; Kava; Unichain; Goat; Morph; ZetaChain; CORE; Blast; Telos; Polygon zkEVM; Bahamut; Aurora; Boba_Avax; Gravity,0,1,0,1,False,https://symbiosis.finance
+302,Morpho Blue,Lending,771912,22627796,,,11197242189.31,45,Ethereum; Base; Robinhood Chain; Arc; Monad; Hyperliquid L1; Arbitrum; Morph; Pharos; Tempo; Flare; World Chain; Katana; Stable; Citrea; Optimism; Etherlink; Polygon; Sei; Plume Mainnet; Unichain; MegaETH; XDC; Celo; TAC; Klaytn; Abstract; Soneium; Lisk; Hemi; Avalanche; Fraxtal; Sonic; RISE; Binance; Scroll; 0G; Ink; Mode; Corn; Zircuit; Bitlayer; xDai; Botanix; Linea,0,1,0,1,False,https://app.morpho.org
+303,Steer Protocol,Liquidity Manager,159,25088,,,17975605.56,45,Binance; Base; Katana; Flare; Ethereum; Bittensor EVM; Polygon; Nibiru; Manta; Linea; Robinhood Chain; Avalanche; Metis; Mode; Arbitrum; Hyperliquid L1; Sonic; Zircuit; Optimism; Sei; Celo; Scroll; Blast; Berachain; RSK; X Layer; Mantle; Telos; Fantom; Filecoin; zkLink; Unichain; ApeChain; Taiko; Evmos; ThunderCore; Kava; Polygon zkEVM; Astar; Moonbeam; ZetaChain; Hemi; Saga; Ronin; Soneium,0,1,0,1,False,https://app.steer.finance
+304,LI.FI Bridge Aggregator,Bridge Aggregator,25344,979310,35644883,,0,45,opBNB; Gnosis; Avalanche; Fantom; Blast; Fraxtal; Fuse; Scroll; Polygon zkEVM; Mantle; Boba; Linea; Aurora; Ethereum; Mode; Gravity by Galxe; Celo; Polygon; ZKsync Era; Metis; Optimism; Base; Binance; Arbitrum; Cronos; Moonriver; Moonbeam; Taiko; Lisk; Abstract; ApeChain; Sonic; Ink; Berachain; Unichain; Soneium; Swellchain; Superposition; Katana; Plume Mainnet; Hemi; Monad; Evmos; Rootstock; Robinhood Chain,0,1,0,1,False,https://li.fi/
+305,Axelar,Bridge,18.13,3095.7,436793,,142120119.2,44,Ethereum; Binance; Optimism; Base; Arbitrum; Polygon; Avalanche; Regen; Fantom; Filecoin; Sei; Celo; Mantle; Moonbeam; Kava; Scroll; Immutable zkEVM; Fraxtal; Aurora; Carbon; Evmos; Linea; XRPL EVM; Blast,0,1,0,1,False,https://axelar.network
+306,Beefy,Yield Aggregator,803,101327,,,105822988.32,42,Ethereum; Base; Arbitrum; Binance; Monad; Fraxtal; Optimism; Polygon; Robinhood Chain; Avalanche; Plasma; Hyperliquid L1; Metis; Sonic; Linea; MegaETH; Arc; zkSync Era; Sei; xDai; Berachain; Mantle; Lisk; Cronos; RSK; Fuse; Heco; Manta; Fantom; Polygon zkEVM; Moonbeam; Moonriver; Kava; Saga; Canto; Mode; Celo; Oasis; re.al; Scroll; Aurora; Harmony,0,1,0,1,False,https://beefy.com
+307,LI.FI DEX Aggregator,DEX Aggregator,14675,555268,15256321,,0,37,Aurora; Fantom; Metis; Hemi; Fuse; Gravity by Galxe; Fraxtal; Boba; Lisk; Mantle; Celo; ApeChain; Katana; Scroll; Gnosis; ZKsync Era; Mode; Ink; Blast; Sonic; Abstract; Linea; Berachain; Cronos; Plume Mainnet; Unichain; Avalanche; Soneium; Polygon; Optimism; Monad; opBNB; Ethereum; Arbitrum; Binance; Base; Robinhood Chain,0,1,0,1,False,https://li.fi/
+308,Elk,Dexs,0.85,58.39,295,,172615.18,31,Binance; Avalanche; Kucoin; xDai; Polygon; Arbitrum; Fantom; Ethereum; Optimism; Fuse; Bittorrent; Cronos; Base; RSK; Linea; IoTeX; Kava; Q Protocol; Telos; Metis; Wanchain; OKExChain; Astar; Heco; Harmony; Moonriver; Hoo; Neon; Velas; Bitgert,0,1,0,1,False,https://elk.finance
+309,Rango,Bridge Aggregator,19066,1264683,2790647,,0,25,Celo; Arbitrum; Polygon; Blast; Avalanche; Gnosis; X Layer; Optimism; Linea; ZKsync Era; Mode; Scroll; Fantom; Boba; Taiko; Moonriver; Zora; Aurora; Moonbeam; Binance; Base; Ethereum; Metis; Cronos,0,1,0,1,False,https://app.rango.exchange
+310,Portal,Bridge,312,16664,1621930,,1507919190.6,24,Ethereum; Binance; Polygon; Avalanche; Base; Arbitrum; Optimism; Celo; Klaytn; Oasis; Aurora; Fantom; Moonbeam,0,1,0,1,False,https://portalbridge.com
+311,EISEN Finance,DEX Aggregator,0.39,137.5,107535,,0,24,Blast; Mode; Mantle; Scroll; Linea; CORE; Taiko; Base; Zircuit; Berachain; Soneium; Hemi; Rootstock; Binance; Arbitrum; Hyperliquid L1; Abstract; Plume Mainnet; Katana; Bitlayer; Cronos; Monad; MegaETH,0,1,0,1,False,https://app.eisenfinance.com
+312,Lagoon,Onchain Capital Allocator,2189,104537,,,160522718.59,23,Ethereum; Arbitrum; Base; Binance; Avalanche; Hyperliquid L1; Plasma; TAC; Hemi; Linea; Rayls; Monad; Robinhood Chain; Optimism; Katana; Sonic; Mantle; Arc; Berachain; Polygon; Unichain; World Chain; Flare,0,1,0,1,False,https://lagoon.finance
+313,KyberSwap Aggregator,DEX Aggregator,5766,380358.84,79174324,,0,20,Ethereum; Arbitrum; Optimism; ZKsync Era; Polygon; Base; Binance; Linea; Scroll; Avalanche; Fantom; Berachain; Sonic; Unichain; Hyperliquid L1; Plasma; Etherlink; Monad; MegaETH; Robinhood Chain,0,1,0,1,False,https://kyberswap.com/#/swap
+314,Garden,Cross Chain Bridge,5.44,591.03,2808,,0,18,Ethereum; Arbitrum; Base; Berachain; Unichain; Hyperliquid L1; Binance; Corn; Monad; Botanix; Citrea; MegaETH,0,1,0,1,False,https://app.garden.finance/
+315,Reservoir Protocol,CDP,19029,536560,,,68986969.05,17,Monad; Pharos; Plasma; Ethereum; World Chain; Berachain; Binance; Arbitrum; Base; Optimism; Mantle; Hyperliquid L1; Katana; Tempo; Sei; Plume Mainnet,0,1,0,1,False,https://app.reservoir.xyz
+316,Upshift,Onchain Capital Allocator,41748,2004084,,,395131792.87,15,Ethereum; Flare; Monad; Hyperliquid L1; Fluent; Base; Citrea; Avalanche; Plasma; Binance; Mezo; Ink,0,1,0,1,False,https://app.upshift.finance
+317,DODO AMM,Dexs,4965,175456,18480683,,13684159.37,15,Binance; Ethereum; Polygon; Avalanche; Arbitrum; Base; Aurora; Manta; Zircuit; Scroll; Optimism; Linea; Hemi; HashKey Chain; Mantle,0,1,0,1,False,https://dodoex.io/
+318,Allbridge Core,Bridge,2.16,11615.98,2595,,0,14,Sonic; Base; Ethereum; Avalanche; Optimism; Unichain; Polygon; Celo; Binance; Arbitrum,0,1,0,1,False,https://core.allbridge.io
+319,Renzo,Liquid Restaking,53,185700.1,,,106886970.33,13,Ethereum; Linea; Arbitrum; Zircuit; Mode; Base; Optimism; Blast; Fraxtal; Binance; Monad; Sei,0,1,0,1,False,https://app.renzoprotocol.com/restake
+320,THORChain DEX,Dexs,36087,3526815,34059902,,64115785.44,13,Ethereum; Binance; Avalanche; Base,0,1,0,1,False,https://thorchain.org/
+321,Sumer.money,Lending,18.26,606.32,,,793124.28,13,Berachain; Meter; Goat; Base; Arbitrum; CORE; Binance; Ethereum; Monad; Hemi; Bitlayer; zkLink; BSquared,0,1,0,1,False,
+322,BIM Yield,Yield Aggregator,37.74,5273.88,,,33639.26,12,Base; Polygon; Optimism; Plasma; Binance; Sonic; Fraxtal; Hyperliquid L1; Arbitrum; Avalanche; xDai; Ethereum,0,1,0,1,False,https://exchange.bim.finance/
+323,KPK,Risk Curators,6894,190916,,,219545387.57,11,Ethereum; xDai; Base; Arbitrum; Robinhood Chain; Binance; Arc; Optimism; Polygon; Avalanche,0,1,0,1,False,https://kpk.io/
+324,Gearbox,Lending,128,5144,,,23066475.36,11,Ethereum; Etherlink; Monad; Plasma; Hemi; Arbitrum; Optimism; Somnia; Sonic; Lisk; Binance,0,1,0,1,False,https://gearbox.finance/
+325,ZeroLend Lending,Lending,27.89,13392.47,,,1302860.03,11,zkSync Era; Blast; Manta; Abstract; Linea; X Layer; Hemi; Base; Zircuit; Ethereum; Corn,0,1,0,1,False,https://zerolend.xyz/
+326,Ondo Yield Assets,RWA,228841,6517091,,,0,11,Ethereum; Polygon; Mantle; Arbitrum; Sei,0,1,0,1,False,https://ondo.finance
+327,Mayan DEX Aggregator,DEX Aggregator,7374,548348,,,0,11,Ethereum; Arbitrum; Avalanche; Binance; Polygon; Base; Optimism; Monad; Hyperliquid L1,0,1,0,1,False,https://mayan.finance/
+328,Definitive,DEX Aggregator,7152,361888,,,0,11,Ethereum; Base; Optimism; Polygon; Binance; Arbitrum; Avalanche; Robinhood Chain; Ink; Arc,0,1,0,1,False,https://app.definitive.fi
+329,Stake DAO Yield,Yield,160,92745,,,146706109.44,10,Ethereum; Base; Fraxtal; Arbitrum; Optimism; Polygon; Avalanche; Sonic; Linea; xDai,0,1,0,1,False,https://stakedao.org/
+330,TermMax,Lending,1.83,94.47,,,708072.49,9,Ethereum; Berachain; Binance; Robinhood Chain; X Layer; Arbitrum; Base; Hyperliquid L1; BSquared,0,1,0,1,False,https://ts.finance/termmax/
+331,Midas RWA,RWA,0.86,1776102.74,,,0,9,Base; Optimism; Ethereum; Plume Mainnet; Plasma; Monad; Katana; XRPL EVM; Robinhood Chain,0,1,0,1,False,https://midas.app
+332,Spark Liquidity Layer,Onchain Capital Allocator,373166,12541526,,,2729129602.77,8,Ethereum; Base; Arbitrum; Optimism; Unichain; Avalanche; Robinhood Chain; X Layer,0,1,0,1,False,https://spark.finance/
+333,Venus Core Pool,Lending,31132,1257197,,,1218191347.82,8,Binance; Ethereum; Arbitrum; zkSync Era; Base; Unichain; Optimism; Op_Bnb,0,1,0,1,False,https://app.venus.io/#/core-pool
+334,Tornado Cash,Privacy,4096,555238,,,813624096.68,8,Ethereum; Binance; Arbitrum; xDai; Avalanche; Polygon; Optimism; EthereumClassic,0,1,0,1,False,https://tornadocash.eth.limo/
+335,Ankr,Liquid Staking,1298,122486,,,26172169.14,8,Ethereum; Binance; Avalanche; Fantom; xDai,0,1,0,1,False,https://www.ankr.com/
+336,Abracadabra Spell,CDP,0.05,3541.85,,,4698731.48,8,Ethereum; Arbitrum; Binance; Avalanche; Blast; Fantom; Kava; Optimism,0,1,0,1,False,https://abracadabra.money/
+337,Accountable,Uncollateralized Lending,64584,2048963,,,2151648.11,8,Monad; Arbitrum; Robinhood Chain; Ethereum; Pharos; Citrea; Base; Binance,0,1,0,1,True,https://accountable.capital/
+338,RadioShack,Dexs,3.84,256.54,1306,,590032.96,8,Binance; Polygon; Avalanche; Ethereum; Cronos; Optimism; Fantom; Dogechain,0,1,0,1,False,
+339,Vest Markets,Derivatives,37,29599.29,,88257084,229552.35,7,Ethereum; Arbitrum; Binance; Base; Optimism; Polygon; zkSync Era,0,1,0,1,False,https://alpha.vestmarkets.com
+340,Spiko,RWA,19215,11182320,,,0,7,Polygon; Ethereum; Arbitrum; Base; Etherlink,0,1,0,1,False,https://www.spiko.io/
+341,ether.fi Stake,Liquid Staking,273652,9940352,,,4519580437.83,6,Ethereum; Base; Arbitrum; Optimism; Scroll; Berachain,0,1,0,1,False,https://www.ether.fi
+342,AUTOfinance,Yield,4799,95785,,,38937916.93,6,Ethereum; Base; Arbitrum; Sonic; Plasma; Monad,0,1,0,1,False,https://www.auto.finance
+343,deBridge,Bridge,14083,450904,4792816,,1902896.2,6,Ethereum; Binance; Arbitrum; Polygon; Heco; Sei,0,1,0,1,False,https://app.debridge.com
+344,KiloEx,Derivatives,24.16,1378.76,,493877,1349887.95,6,Binance; Op_Bnb; Base; Manta; Taiko; BSquared,0,1,0,1,False,https://app.kiloex.io/#/trade
+345,Segment Finance,Lending,28.64,2400.84,,,394993.44,6,BOB; Binance; BSquared; Op_Bnb; CORE; RSK,0,1,0,1,False,https://segment.finance
+346,TeleSwap,Bridge,1940,70233,2313700,,382455.73,6,Binance; Polygon; BSquared; BOB; Ethereum,0,1,0,1,False,https://teleswap.xyz
+347,Azuro,Prediction Market,116,-356859,573,,156462.35,6,Polygon; Linea; Arbitrum; xDai; Base; Chiliz,0,1,0,1,False,https://azuro.org
+348,Ring Swap,Dexs,24042,850559,8011261,,161.93,6,Base; Blast; Binance; Arbitrum; Hyperliquid L1; Ethereum,0,1,0,1,False,https://ring.exchange/#/swap
+349,Centrifuge Protocol,RWA,10580,2436437,,,0,6,Ethereum; Avalanche; Plume Mainnet; Base; Monad; Pharos,0,1,0,1,False,https://centrifuge.io
+350,Tristero Darkpool,Dexs,13.32,27385.62,,,0,6,Ethereum; Optimism; Avalanche; Polygon; Base; Arbitrum,0,1,0,1,False,https://www.tristero.com/
+351,Lido,Liquid Staking,1933785,51047730,,,22920195543.71,5,Ethereum; Moonriver; Moonbeam,0,1,0,1,False,https://lido.fi/
+352,Fluid Lending,Lending,90502,3065097,,,659237108.13,5,Ethereum; Arbitrum; Plasma; Base; Polygon,0,1,0,1,False,https://www.fluid.io/
+353,Ember,RWA,19295,646902,,,96371336.16,5,Ethereum; Base; Pharos; Monad,0,1,0,1,False,https://ember.so/
+354,Vesper,Yield Aggregator,608,3327.78,,,86182335.64,5,Ethereum; Base; Optimism; Polygon; Avalanche,0,1,0,1,False,https://vesper.finance/
+355,MUX Perps,Derivatives,309,6714.42,,168057,9546308.31,5,Arbitrum; Avalanche; Binance; Optimism; Fantom,0,1,0,1,False,https://mux.network/
+356,ApeSwap AMM,Dexs,98.78,4423.12,49495,,9016550.01,5,Binance; Polygon; Arbitrum; Telos; Ethereum,0,1,0,1,False,https://www.ape.bond/
+357,Wing Finance,Lending,6.18,72.48,,,5153607.95,5,Ethereum; Binance; OKExChain; OntologyEVM,0,1,0,1,False,https://wing.finance
+358,Astroport,Dexs,91,2652,115882,,2906147.68,5,Sei,0,1,0,1,False,https://astroport.fi
+359,Privacy Cash,Privacy,1747,114529,,,2002753.22,5,Ethereum; Base; Robinhood Chain; Binance,0,1,0,1,False,https://privacycash.org/
+360,Carbon Defi,Dexs,87.18,4608.87,22469,,1096184.32,5,Ethereum; Sei; Celo; TAC,0,1,0,1,False,https://app.carbondefi.xyz/
+361,Topaz CL,Dexs,1328,70635,5351465,,966230.49,5,Binance; Robinhood Chain; Arc; Base; Ethereum,0,1,0,1,False,https://www.topazdex.com
+362,Idle,Yield Aggregator,8.62,1303.4,,,613568.26,5,Ethereum; Optimism; Polygon; Polygon zkEVM; Arbitrum,0,1,0,1,False,https://idle.finance
+363,SMARDEX AMM,Dexs,0.34,39.12,439,,142261.78,5,Ethereum; Arbitrum; Binance; Base; Polygon,0,1,0,1,False,https://smardex.io
+364,Nabla Finance,Dexs,0.04,1585.31,120153,,45891.32,5,Arbitrum; Base; Monad; Berachain; Hyperliquid L1,0,1,0,1,False,
+365,Topaz AMM,Dexs,18.42,1030.72,1378,,0,5,Binance; Ethereum; Arc; Base; Robinhood Chain,0,1,0,1,False,https://www.topazdex.com
+366,Re,RWA,72903,1935422,,,464295993.74,4,Ethereum; Base; Arbitrum; Avalanche,0,1,0,1,False,https://app.re.xyz
+367,Defi Saver Asset Management,CDP Manager,27027,129485,,,376748939.0,4,Ethereum; Arbitrum; Optimism; Base,0,1,0,1,False,https://defisaver.com/
+368,Huma,RWA,97552,2914639,,,374774019.98,4,Ethereum; Monad,0,1,0,1,False,https://app.huma.finance
+369,GMX EVM,Derivatives,30580,1133209,,61207513,209217693.34,4,Arbitrum; Avalanche; MegaETH; Botanix,0,1,0,1,False,https://gmx.io
+370,Reserve Protocol,Indexes,4261,103355,,,46797840.69,4,Ethereum; Base; Binance; Arbitrum,0,1,0,1,False,https://reserve.org
+371,Noon,Yield,9355,260529,,,37073184.29,4,Ethereum; Sophon; zkSync Era; TAC,0,1,0,1,False,https://app.noon.capital
+372,YO Protocol,Yield Aggregator,1848,56343,,,33178331.95,4,Base; Ethereum; Arbitrum,0,1,0,1,False,https://app.yo.xyz
+373,Veno Finance,Liquid Staking,1889,66452,,,33113924.98,4,Cronos; Ethereum; Cronos zkEVM; zkSync Era,0,1,0,1,False,https://veno.finance/
+374,Joe DEX,Dexs,427,39033,143064,,9927427.5,4,Avalanche; Arbitrum; Monad; Binance,0,1,0,1,False,https://lfj.gg/avalanche
+375,Varlamore Capital,Risk Curators,0.5,14.83,,,1951992.97,4,Sonic; Ethereum; Avalanche; Arbitrum,0,1,0,1,False,https://varlamore.capital/
+376,HyperWave,Yield,8.45,1335.48,,,958617.16,4,Hyperliquid L1; Base; Ethereum; Arbitrum,0,1,0,1,False,https://app.hyperwavefi.xyz
+377,Boardwalk,Launchpad,4.56,54.23,,,23591.21,4,Base; Robinhood Chain; Ethereum; Arbitrum,0,1,0,1,False,https://www.useboardwalk.com/
+378,b14g,Restaking,2554,76266,,,260504403.11,3,CORE,0,1,0,1,False,https://www.b14g.xyz/
+379,Enzyme Finance,Indexes,442,22139.28,,,93644532.13,3,Ethereum; Polygon; Arbitrum,0,1,0,1,False,https://enzyme.finance/
+380,Treehouse Protocol,DOR,962,33325,,,64209645.84,3,Ethereum; Avalanche; Mantle,0,1,0,1,False,https://www.treehouse.finance/
+381,Origami Finance,Leveraged Farming,0.01,16946.08,,,53499010.43,3,Ethereum; Plasma; Berachain,0,1,0,1,False,https://origami.finance
+382,Sierra Protocol,Yield,171,5087,,,43641829.77,3,Avalanche; Ethereum; Plume Mainnet,0,1,0,1,False,https://sierra.money/
+383,Ekubo,Dexs,6917,418888,17329659,,29469104.42,3,Ethereum; Robinhood Chain,0,1,0,1,False,https://ekubo.org/
+384,Extra Finance Leverage Farming,Leveraged Farming,417,51880,,,13026156.25,3,Base; Optimism; Berachain,0,1,0,1,False,https://app.extrafi.io/
+385,Exactly,Lending,1790,79996,,,12624800.37,3,Base; Optimism; Ethereum,0,1,0,1,False,https://exact.ly
+386,Snuggle,Liquidity Manager,29403,1271160,,,12147600.38,3,Robinhood Chain; Base; Arbitrum,0,1,0,1,False,https://snuggle.fi/
+387,Flying Tulip Lend,Lending,703,18160,,,9193618.44,3,Ethereum; Sonic; Binance,0,1,0,1,False,https://flyingtulip.com/lend/
+388,Revert Lend,Lending,888,20152,,,6973532.93,3,Base; Arbitrum; Ethereum,0,1,0,1,False,https://revert.finance/#/ref/w6vno3
+389,Flying Tulip ftUSD,Yield Aggregator,46.89,1615.59,,,5462241.99,3,Ethereum; Sonic; Binance,0,1,0,1,False,https://flyingtulip.com/
+390,XGLD,Stablecoin Wrapper,366,25578,,,3651451.08,3,Binance; Base; Ethereum,0,1,0,1,False,https://evm.unitas.so/xgld
+391,Shift Protocol,Onchain Capital Allocator,265,5796.62,,,674000.59,3,Arbitrum; Ethereum; Base,0,1,0,1,False,https://shiftprotocol.xyz
+392,Gravis Finance,Dexs,0.74,19.15,304,,37477.49,3,Binance; Polygon; Heco,0,1,0,1,False,
+393,DerpDEX,Dexs,0.18,4.06,58.36,,23018.4,3,zkSync Era; Op_Bnb; Base,0,1,0,1,False,
+394,WeDeFin,Indexes,0.01,3.21,,,17971.64,3,Base; Ethereum; Arbitrum,0,1,0,1,False,https://app.wedefin.com/
+395,Stabull Finance,Dexs,0.47,354.57,312,,17926.91,3,Polygon; Base; Ethereum,0,1,0,1,False,https://stabull.finance
+396,AmpleSwap,Dexs,0.14,11.91,47.79,,17700.22,3,Binance; DSC; ALV,0,1,0,1,False,https://ampleswap.com
+397,Binance staked ETH,Liquid Staking,582402,19411907,,,8835062649.34,2,Ethereum; Binance,0,1,0,1,False,https://www.binance.com/en/wbeth
+398,SparkLend,Lending,232862,7164115,,,4990212546.87,2,Ethereum; xDai,0,1,0,1,False,https://spark.finance/
+399,Lista Lending,Lending,15650,452008,,,987531064.4,2,Binance; Ethereum,0,1,0,1,False,https://lista.org/lending
+400,tBTC,Decentralized BTC,3712,33573.86,1853203,,342877323.26,2,Ethereum,0,1,0,1,False,https://threshold.network/
+401,Zircuit Staking,Farm,3425,105088,,,56139613.61,2,Ethereum; Zircuit,0,1,0,1,False,https://app.zircuit.com/liquidity-hub
+402,YieldNest,Onchain Capital Allocator,122,2030,,,23499402.94,2,Ethereum; Binance,0,1,0,1,False,https://yieldnest.finance/
+403,Api3,Risk Curators,3939,114546,,,19596960.33,2,Ethereum; Base,0,1,0,1,False,https://api3.org/
+404,Origin ARM,Yield,457,34017,,,12704733.16,2,Ethereum; Sonic,0,1,0,1,False,https://www.originprotocol.com/arm
+405,Echelon Market,Lending,2074,68385,,,6958208.45,2,Echelon Chain,0,1,0,1,False,https://app.echelon.market/
+406,Strike Finance Perpetuals,Derivatives,2254,58725,,1264613,2138911.76,2,Ethereum,0,1,0,1,False,https://www.strikefinance.org/
+407,Kintsu,Liquid Staking,368,20576.23,,,1663494.91,2,Monad; Hyperliquid L1,0,1,0,1,False,https://kintsu.xyz/
+408,Extra Finance Xlend,Lending,372,3344.02,,,1331702.3,2,Base; Optimism,0,1,0,1,False,https://xlend.extrafi.io/
+409,Kaskad,Lending,24,880.52,,,721166.96,2,Robinhood Chain,0,1,0,1,False,https://kaskad.app
+410,Solid Yield,Yield,22.23,1837.55,,,602630.23,2,Fuse; Ethereum,0,1,0,1,False,https://solid.xyz
+411,ZealousSwap,Dexs,69.16,2716.44,22245,,383924.18,2,Kasplex,0,1,0,1,False,https://app.zealousswap.com/swap
+412,Verse,Dexs,4.33,249.18,1444,,276963.6,2,Ethereum; smartBCH,0,1,0,1,False,https://verse.bitcoin.com
+413,Almanak,Onchain Capital Allocator,0.03,470.78,,,265699.15,2,Ethereum; Base,0,1,0,1,False,https://almanak.co
+414,KaspaCom Dex,Dexs,1.47,315.65,147,,82755.38,2,Kasplex,0,1,0,1,False,https://defi.kaspa.com/swap
+415,DefiPlaza,Dexs,0.05,44.6,245,,14742.51,2,Ethereum,0,1,0,1,False,https://defiplaza.net/
+416,Hastra,RWA,93398,2829683,,,0,2,Ethereum,0,1,0,1,False,https://hastra.io/
+417,Velora,DEX Aggregator,7000,317933,28319617,,0,2,Ethereum; Optimism,0,1,0,1,False,https://app.velora.xyz
+418,GAIB,RWA,5556,166911.64,,,0,2,Ethereum,0,1,0,1,False,https://aid.gaib.ai
+419,OpenEden USDO,RWA,1531,46206,,,0,2,Base; Ethereum,0,1,0,1,False,https://openeden.com/usdo
+420,Vultisig,DEX Aggregator,390,10548.37,90091,,0,2,Mayachain,0,1,0,1,False,https://vultisig.com
+421,SSV Network,Staking Pool,10591,305128,,,12359595606.72,1,Ethereum,0,1,0,1,False,https://ssv.network/
+422,EigenCloud,Restaking,3155,496432,,,6071226798.04,1,Ethereum,0,1,0,1,False,https://www.eigencloud.xyz
+423,Sky Lending,CDP,946989,28102445,,,5546880841.93,1,Ethereum,0,1,0,1,False,https://app.sky.money/
+424,Ethena USDe,Basis Trading,330,16423519.12,,,4582395618.69,1,Ethereum,0,1,0,1,False,https://www.app.ethena.fi/join/3y20d
+425,Falcon Finance,Basis Trading,4454,204793,,,1719470184.54,1,Ethereum,0,1,0,1,False,https://app.falcon.finance
+426,Kelp,Liquid Restaking,38873,2153572,,,926584687.85,1,Ethereum,0,1,0,1,False,https://kelpdao.xyz/restake/?utm_source=0x798fF1e6D7AFd28c333eE6eBe03125d30ec6eF10
+427,Lista Liquid Staking,Liquid Staking,13914,468154,,,768028439.37,1,Binance,0,1,0,1,False,https://lista.org/
+428,Liquid Collective,Liquid Staking,45541,1539522,,,648922420.03,1,Ethereum,0,1,0,1,False,https://liquidcollective.io
+429,Symbiotic,Collateral Markets,2376,133422,,,322046077.25,1,Ethereum,0,1,0,1,False,https://symbiotic.fi
+430,HyperLend Pooled,Lending,12694,592705,,,306043437.53,1,Hyperliquid L1,0,1,0,1,False,https://app.hyperlend.finance/?ref=DEFILLAMA
+431,cap,Lending,11765,480100,,,203469628.48,1,Ethereum,0,1,0,1,False,https://cap.app/
+432,stHYPE,Liquid Staking,10217,348373,,,172611298.41,1,Hyperliquid L1,0,1,0,1,False,https://app.valantis.xyz
+433,Avant avUSD,Onchain Capital Allocator,21573,743157,,,116885940.21,1,Avalanche,0,1,0,1,False,https://app.avantprotocol.com/products
+434,fx Protocol,Dual-Token Stablecoin,43679,701067,,,109263565.61,1,Ethereum,0,1,0,1,False,https://fx.aladdin.club
+435,Benqi Lending,Lending,8473,184622,,,106465641.42,1,Avalanche,0,1,0,1,False,https://benqi.fi
+436,Nexus Mutual,Insurance,13,167223,,,96432653.01,1,Ethereum,0,1,0,1,False,https://nexusmutual.io/
+437,VVS Standard,Dexs,1926,140592,638005,,87178896.21,1,Cronos,0,1,0,1,False,https://vvs.finance
+438,Usual USD0,RWA,21204,279814,,,82986253.51,1,Ethereum,0,1,0,1,False,https://usual.money
+439,Lista CDP,CDP,3368,201006,,,76425390.0,1,Binance,0,1,0,1,False,https://lista.org/
+440,Resupply,Lending,5322,126888,,,56955722.39,1,Ethereum,0,1,0,1,False,https://resupply.fi/
+441,Mantle Restaking,Liquid Restaking,2723,183941,,,37956668.49,1,Ethereum,0,1,0,1,False,https://www.methprotocol.xyz/
+442,Frax,Algo-Stables,787,12830.58,,,34365212.36,1,Ethereum,0,1,0,1,False,https://frax.com/
+443,Kinetic,Lending,3041,98492,,,33228112.03,1,Flare,0,1,0,1,False,https://kinetic.market
+444,Avant avETH,Onchain Capital Allocator,2726,100741,,,28911919.43,1,Ethereum,0,1,0,1,False,https://app.avantprotocol.com/?ref=defillama
+445,nest CL,Dexs,17431,571870,12081357,,27984923.43,1,Hyperliquid L1,0,1,0,1,False,https://app.usenest.xyz/
+446,Bedrock uniETH,Liquid Restaking,29.37,53654.51,,,24150511.57,1,Ethereum,0,1,0,1,False,https://bedrock.rockx.com/unieth
+447,Felix CDP,CDP,1319,39333,,,23414442.03,1,Hyperliquid L1,0,1,0,1,False,https://www.usefelix.xyz?ref=4BF702FF
+448,Piku Finance,Basis Trading,1772,71035,,,19849868.4,1,Ethereum,0,1,0,1,False,https://piku.co/
+449,Tectonic,Lending,59,1055.25,,,19833046.47,1,Cronos,0,1,0,1,False,https://tectonic.finance/
+450,Strata Markets,Yield,1657,264931,,,19552226.22,1,Ethereum,0,1,0,1,False,https://strata.markets
+451,Across,Cross Chain Bridge,1739,70754,210628965,,17212856.72,1,Ethereum,0,1,0,1,False,https://across.to
+452,Veranta,Derivatives,14515,676043,,68736734,11200722.92,1,Base,0,1,0,1,False,https://www.veranta.xyz/
+453,BEND,Lending,360,13710,,,11081371.69,1,Berachain,0,1,0,1,False,https://bend.berachain.com
+454,3Jane Lending,Uncollateralized Lending,1915,47807,,,10442784.88,1,Ethereum,0,1,0,1,False,https://www.3jane.xyz/
+455,Fira,Lending,1605,37585.38,,,10080306.91,1,Ethereum,0,1,0,1,False,https://www.fira.money/
+456,Reya Perps,Derivatives,757,46054,,1021124,9690358.82,1,Reya Network,0,1,0,1,False,https://app.reya.xyz
+457,Binaryx Platform,RWA,94.96,37541.55,,,8990811.95,1,Polygon,0,1,0,1,False,https://www.binaryx.com
+458,ShMonad,Liquid Staking,2002,88037,,,7640364.61,1,Monad,0,1,0,1,False,https://shmonad.xyz/
+459,Fluxion Network,Dexs,1983,239513,661110,,7160219.62,1,Mantle,0,1,0,1,False,https://app.fluxion.network/
+460,Neverland,Lending,2087,44398,,,6441311.71,1,Monad,0,1,0,1,False,https://neverland.money
+461,Takara Lend,Lending,909,30056,,,5222961.88,1,Sei,0,1,0,1,False,https://app.takaralend.com/
+462,HypurrFi Pooled,Lending,194,4065,,,4706610.45,1,Hyperliquid L1,0,1,0,1,False,https://hypurrfi.com/
+463,four.meme,Launchpad,2748,229999,281309,,4476237.88,1,Binance,0,1,0,1,False,https://four.meme
+464,Hydrex Integral,Dexs,806,481160,,,4022428.98,1,Base,0,1,0,1,False,https://www.hydrex.fi?anchorRef=0x798fF1e6D7AFd28c333eE6eBe03125d30ec6eF10
+465,Tangent Finance,Lending,874,36512,,,3890381.39,1,Ethereum,0,1,0,1,False,https://app.tangent.finance/
+466,Ostium,Derivatives,751,132347,,8031564,3625152.53,1,Arbitrum,0,1,0,1,False,https://www.ostium.io/
+467,Umia,Launchpad,1441,47341,144069,,3456622.47,1,Base,0,1,0,1,False,https://www.umia.finance
+468,Valantis STEX,Dexs,1.11,506.69,11141,,3111483.7,1,Hyperliquid L1,0,1,0,1,False,https://www.valantis.xyz
+469,POWERCITY Earn Protocol,CDP,1.22,1874.7,,,3054085.38,1,Pulse,0,1,0,1,False,
+470,LeverUp,Derivatives,452,34471,,20449,2280953.84,1,Monad,0,1,0,1,False,https://app.leverup.xyz
+471,Swappi,Dexs,59.33,3093.08,23563,,1780676.54,1,Conflux,0,1,0,1,False,https://app.swappi.io
+472,BabySwap,Dexs,131,4766.1,42905,,1502270.17,1,Binance,0,1,0,1,False,
+473,Wrapped HLP,Yield,121,2888.75,,,1402093.1,1,Hyperliquid L1,0,1,0,1,False,https://www.loopingcollective.org/wrapped-hlp
+474,Nomiswap,Dexs,42.65,2183.42,604616,,1391227.96,1,Binance,0,1,0,1,False,https://nomiswap.io
+475,Unchain X,Dexs,251,8506,95297,,1310443.76,1,Binance,0,1,0,1,False,https://unchainx.io
+476,NetSwap,Dexs,230,7070.65,75810,,1058765.89,1,Metis,0,1,0,1,False,https://netswap.io/#/home
+477,Defi Swap,Dexs,99,24740,32946,,1024323.64,1,Ethereum,0,1,0,1,False,https://crypto.com/defi/swap
+478,Lets Get HAI,CDP,11.02,766.24,,,890862.52,1,Optimism,0,1,0,1,False,https://www.letsgethai.com
+479,Ferro,Dexs,7.28,371.37,18218,,809851.85,1,Cronos,0,1,0,1,False,https://ferroprotocol.com
+480,Etherex CL,Dexs,146,6132,134082,,780170.25,1,Linea,0,1,0,1,False,https://etherex.finance/
+481,Dinosaur Eggs,Dexs,215,4756.13,71956,,764455.42,1,Binance,0,1,0,1,False,
+482,PHUX,Dexs,61.71,4416.38,63413,,734418.23,1,Pulse,0,1,0,1,False,https://phux.io
+483,Titano Swych,Dexs,4.2,94.59,1598,,698839.35,1,Binance,0,1,0,1,False,
+484,Sable Finance,CDP,0.88,17.58,,,636029.18,1,Binance,0,1,0,1,False,https://sable.finance
+485,DIEM Relay,Liquid Staking,100,2667,,,570056.67,1,Base,0,1,0,1,False,https://diem-relay.com
+486,SakeFinance,Lending,23,1105,,,559743.57,1,Soneium,0,1,0,1,False,https://app.sakefinance.com/
+487,Ryze Protocol,Dexs,35.12,1589.41,132611,,499703.69,1,Base,0,1,0,1,False,https://www.ryze.pro/
+488,Bracket Vaults,Onchain Capital Allocator,35.15,3450.06,,,467858.11,1,Ethereum,0,1,0,1,False,https://app.bracket.fi/
+489,Kuru CLOB,Dexs,12.28,214.55,60775,,419795.07,1,Monad,0,1,0,1,False,https://www.kuru.io/
+490,SpiritSwap AMM,Dexs,0.88,178.28,293,,391193.22,1,Fantom,0,1,0,1,False,https://www.spiritswap.finance/chain/ftm/swap
+491,Ramses DLMM,Dexs,105,20923,28193,,384718.26,1,Robinhood Chain,0,1,0,1,False,https://ramses.xyz
+492,HypurrFi Isolated,Lending,14.94,6339.81,,,375716.25,1,Hyperliquid L1,0,1,0,1,False,https://hypurrfi.com/
+493,Asymmetry USDaf,CDP,15,322.51,,,373822.69,1,Ethereum,0,1,0,1,False,https://usdaf.asymmetry.finance/
+494,MojitoSwap,Dexs,2.2,135.76,733,,340131.74,1,Kucoin,0,1,0,1,False,https://www.mojitoswap.finance
+495,OolongSwap,Dexs,2.11,136.18,703,,321055.7,1,Boba,0,1,0,1,False,https://oolongswap.com/#/
+496,Etherex Legacy,Dexs,34,4099,1102,,316441.92,1,Linea,0,1,0,1,False,https://etherex.finance/
+497,Merchant Moe DEX,Dexs,7.83,347.18,2607,,270847.6,1,Mantle,0,1,0,1,False,https://merchantmoe.com/
+498,Bracket LST,Liquid Staking,3.02,304.96,,,225321.49,1,Ethereum,0,1,0,1,False,https://app.bracket.fi/
+499,HyperLend Isolated,Lending,49.66,1810.0,,,207944.29,1,Hyperliquid L1,0,1,0,1,False,https://app.hyperlend.finance/?ref=DEFILLAMA
+500,Base Dollar,CDP,47.98,333.7,,,201674.35,1,Base,0,1,0,1,False,https://basedollar.org
+501,Elara Finance,Treasury Manager,233,2837.19,,,183821.99,1,Ethereum,0,1,0,1,False,https://elara.fi/
+502,Drake Exchange,Derivatives,120,31257,,1126,177531.85,1,Monad,0,1,0,1,False,https://drake.exchange/
+503,Lendle Pooled Markets,Lending,288,9598,,,172049.6,1,Mantle,0,1,0,1,False,
+504,Calamari,Dexs,2.2,1932.42,866,,131604.16,1,Ink,0,1,0,1,False, 
+505,Tokenlon AMM,Dexs,11151,263795,11807525,,123201.25,1,Ethereum,0,1,0,1,False,https://tokenlon.im
+506,Aborean AMM,Dexs,19.4,2181.03,15465,,106217.95,1,Abstract,0,1,0,1,False,https://aborean.finance
+507,Crodex,Dexs,1.95,27.55,651,,105340.12,1,Cronos,0,1,0,1,False,https://swap.crodex.app
+508,Orvex,Dexs,37.69,5248.77,107078,,100805.92,1,Robinhood Chain,0,1,0,1,False,https://orvex.fi/
+509,WigoSwap,Dexs,3.2,237.59,1480,,98189.28,1,Fantom,0,1,0,1,False,
+510,Monday Trade Spot,Dexs,2.29,370.17,2251,,97715.41,1,Monad,0,1,0,1,False,https://app.monday.trade/
+511,Infusion,Dexs,14.32,482.83,4767,,85901.67,1,Base,0,1,0,1,False,
+512,Beraborrow,CDP,0.73,64.03,,,82725.42,1,Berachain,0,1,0,1,False,https://app.beraborrow.com/
+513,firefly,Dexs,0.19,5.0,65.02,,77045.44,1,Manta,0,1,0,1,False,https://fireflydex.io
+514,Lithos,Dexs,11.31,756.42,4622,,65153.91,1,Plasma,0,1,0,1,False,https://lithos.to/
+515,Eggs Finance,Reserve Currency,0.03,51.73,,,53172.99,1,Sonic,0,1,0,1,False,https://eggs.finance/
+516,ApertureSwap,Dexs,4.52,62.61,3173,,48829.58,1,Manta,0,1,0,1,False,
+517,Zarban,Lending,1.11,410.27,,,45320.31,1,Arbitrum,0,1,0,1,False,
+518,ArcherSwap,Dexs,4.4,209.31,1469,,42434.04,1,CORE,0,1,0,1,False,https://archerswap.finance
+519,HyperYield,Lending,18,72.71,,,38000.54,1,Hyperliquid L1,0,1,0,1,False,
+520,Zyberswap AMM,Dexs,1.36,37.47,546,,35315.8,1,Arbitrum,0,1,0,1,False,
+521,BurrBear,Dexs,0.05,3.58,14.23,,32921.13,1,Berachain,0,1,0,1,False,https://app.burrbear.io/
+522,Tsunami,Launchpad,6.85,3917.48,685,,29396.78,1,Ink,0,1,0,1,False, 
+523,Bullbit PERP DEX,Derivatives,726,27331,,17534183,27768.4,1,Base,0,1,0,1,False,http://bullbit.ai/
+524,Butter.xyz,Dexs,0.81,18.07,308,,24210.61,1,Mantle,0,1,0,1,False,
+525,Gliquid,Dexs,0.1,5.59,60.52,,23072.68,1,Hyperliquid L1,0,1,0,1,False,
+526,Retro,Dexs,0.41,18.58,1073,,15671.42,1,Polygon,0,1,0,1,False,https://retro.finance/
+527,Sailor,Dexs,0.18,21.68,61,,14777.77,1,Sei,0,1,0,1,False,
+528,Thirdfy,Dexs,2.55,94.95,648,,11605.08,1,Base,0,1,0,1,False,https://thirdfy.com/
+529,Dusa Protocol,Dexs,0.03,24.18,28,,11438.86,1,Massa,0,1,0,1,False,https://app.dusa.io/
+530,BakerDAO,Reserve Currency,0.15,27.43,,,10351.91,1,Berachain,0,1,0,1,False,https://www.bakerdao.io/
+531,Lodestar Protocol,Lending,71,86.55,,,10134.89,1,Flare,0,1,0,1,False,https://lodestarprotocol.xyz/
+532,Pandora,Dexs,0.1,11.17,34.48,,8852.43,1,Binance,0,1,0,1,False,
+533,Gin Finance,Dexs,0.04,2.62,12.34,,8127.02,1,Boba,0,1,0,1,False,
+534,Durianfun Launchpad,Launchpad,7.32,13.56,605,,6682.99,1,Bitkub,0,1,0,1,False,https://durianfun.xyz/
+535,Bean Exchange,Dexs,0.02,45.26,9.39,,3895.41,1,Monad,0,1,0,1,False,
+536,PurpsExchange,Dexs,0.17,11.12,56.79,,1112.32,1,Monad,0,1,0,1,False,http://app.purps.xyz
+537,Vault Bridge,Risk Curators,1818,70438,,,175.85,1,Ethereum,0,1,0,1,False,https://www.agglayer.dev/
+538,THORSwap,DEX Aggregator,2260,577665,8356,,0,1,Ethereum,0,1,0,1,False,https://www.thorswap.finance/
+539,Piteas,DEX Aggregator,1301,140057.23,293724,,0,1,PulseChain,0,1,0,1,False,https://piteas.io
+540,WINR Protocol,Prediction Market,302,-134.28,,,0,1,Arbitrum,0,1,0,1,False,https://winr.games
+541,Feast,Launchpad,47.04,858.91,,,0,1,Binance,0,1,0,1,False,
+542,Cashmere,Bridge,18,605.03,118763,,0,1,Ethereum,0,1,0,1,False,https://cashmere.exchange/
+543,Clearstar,Risk Curators,15617,405692,,,232362897.74,11,Base; Flare; Ethereum; Monad; Hyperliquid L1; Katana; Arbitrum; Hemi; Unichain; Polygon,0,0,1,1,False,https://clearstar.xyz
+544,SYMMIO,Derivatives,2.54,1743.36,,1209449,1975941.08,9,Base; Arbitrum; Berachain; Binance; Mantle; Sonic; Mode; IOTA EVM,0,0,1,1,False,https://www.symm.io/
+545,Curve LlamaLend,Lending,69.14,5180.19,29321,,72897777.02,4,Ethereum; Arbitrum; Fraxtal; Optimism,0,0,1,1,False,https://www.curve.finance/lend/ethereum/markets/
+546,EtherFi Borrowing Market,Lending,429,14344,,,298127739.59,2,Optimism; Scroll,0,0,1,1,False,https://www.ether.fi
+547,Coinbarrel,Launchpad,80.81,40543.24,,,78264.96,1,Robinhood Chain,0,0,1,1,False,https://coinbarrel.com
+548,Relay,Cross Chain Bridge,504087,33147636,88994596,,0,57,Mythos; Ethereum; Monad; Boba; ZKsync Era; Arc; Base; Binance; Polygon; Gnosis; Optimism; Sonic; Unichain; Cronos; Manta; Shape; Stable; World Chain; Hyperliquid L1; Soneium; X Layer; Ronin; Lisk; Metis; Arbitrum; Avalanche; Abstract; Tempo; Morph; MegaETH; Robinhood Chain; Plasma; Mantle; Somnia; ApeChain; Celo; Mode; Zircuit; Linea; Ink; BOB; Berachain; Doma; Blast; Plume Mainnet; Gensyn; Scroll; Katana; Zora; Ethereal,0,0,0,0,False,https://docs.relay.link/
+549,Jumper Bridge Aggregator,Bridge Aggregator,643,29078,16078303,,0,57,Robinhood Chain; Base; Polygon; Arbitrum; Binance; Ethereum; Ink; Optimism; Monad; Abstract; Scroll; Celo; ZKsync Era; ApeChain; Avalanche; Berachain; Cronos; Hemi; Katana; Linea; Mantle; opBNB; Plume Mainnet; Sonic; Unichain; Gnosis; Taiko; Blast; Boba; Fuse; Mode; Metis; Soneium; Gravity by Galxe; Fraxtal; Fantom; Aurora; Lisk; Sei; Rootstock; Flare; XDC; Kaia; Immutable zkEVM; World Chain; Etherlink; Lens; Ronin; Vana; Plasma; Stable; BOB; Hyperliquid L1,0,0,0,0,False,https://jumper.xyz/
+550,Jumper DEX Aggregator,DEX Aggregator,400,14241,3005845,,0,57,Arbitrum; Base; Robinhood Chain; Binance; Ink; Ethereum; Abstract; Avalanche; Berachain; Celo; Cronos; ZKsync Era; Hemi; Katana; Linea; Mantle; Monad; opBNB; Optimism; Plume Mainnet; Polygon; Scroll; Sonic; Unichain; Gnosis; ApeChain; Fantom; Taiko; Mode; Fuse; Blast; Soneium; Metis; Fraxtal; Gravity by Galxe; Boba; Lisk; Aurora; Hyperliquid L1; Sei; Rootstock; Flare; XDC; Kaia; World Chain; Etherlink; BOB; Vana; Plasma; Stable; Immutable zkEVM; Lens; Ronin,0,0,0,0,False,https://jumper.xyz/
+551,fly.trade,Cross Chain Bridge,822,49118,4463105,,0,32,Berachain; Ink; Scroll; Binance; Ethereum; Arbitrum; Optimism; Base; Fantom; Metis; Taiko; Manta; Avalanche; Polygon; Linea; Stable; Pharos; Telos; Tempo; Katana; Morph; Plasma; Abstract; 0G; Blast; Unichain; Sonic; ZKsync Era; Monad; MegaETH; Hyperliquid L1; Robinhood Chain,0,0,0,0,False,https://app.fly.trade/
+552,vfat Swap,DEX Aggregator,51.34,2798.35,506749,,0,32,Soneium; Monad; Arbitrum; Mode; Unichain; Lisk; Celo; Fraxtal; Ink; Optimism; Hyperliquid L1; Binance; MetalL2; Katana; Ethereum; Base; Avalanche; Sonic; Polygon; World Chain; Plasma; PulseChain; Cronos; Berachain; Linea; MegaETH; Hemi; Mantle; Peaq; Robinhood Chain; Scroll; Arc,0,0,0,0,False,https://vfat.io/swap
+553,Hyperlane,Cross Chain Bridge,2028,31069,1056679,,75030866.55,27,Binance; Ethereum; Base; Arbitrum; Optimism; Ink; Polygon; Hyperliquid L1; Unichain; Avalanche; Linea; BSquared; Blast; Metis; Mantle; Scroll; Mode; xDai; Zora; Plasma; Celo; Sei; Sonic; Swellchain; Plume; Vana; Mint,0,0,0,0,False,https://www.hyperlane.xyz/
+554,Bungee Bridge Aggregator,Bridge Aggregator,272,15667.25,299246,,0,25,Base; Aurora; Mantle; Sonic; Berachain; Fantom; Unichain; Polygon zkEVM; Mode; Blast; Linea; Scroll; Gnosis; Ethereum; Avalanche; ZKsync Era; Optimism; Binance; Arbitrum; Polygon; Hyperliquid L1; Ink; Katana; MegaETH; Monad,0,0,0,0,False,https://bungee.exchange/
+555,OKX Swap,DEX Aggregator,296070,4712805,246013977,,0,22,Mantle; Blast; Sonic; Unichain; Metis; ZKsync Era; Avalanche; Linea; Optimism; Arbitrum; Plasma; Polygon; Ethereum; Base; Binance; Scroll; Monad; Hyperliquid L1; Ink; ApeChain; Fantom; Cronos,0,0,0,0,False,https://www.okx.com/web3/dex-swap
+556,SuperSwap Ink DEX Aggregator,DEX Aggregator,1.2,322,570,,0,21,Hyperliquid L1; Ethereum; Lisk; MegaETH; Soneium; Blast; Optimism; Scroll; Monad; Base; Arbitrum; Binance; Unichain; Polygon; World Chain; Zora; ZKsync Era; Mode; Ink; Plasma; Linea,0,0,0,0,False,https://superswap.ink/
+557,Synapse Cross Chain Bridge,Cross Chain Bridge,7.78,808.65,,,9342240.51,19,Ethereum; Avalanche; Blast; Arbitrum; Binance; Polygon; Optimism; Boba; Metis; Base; Fantom; Klaytn; Cronos; Aurora; Harmony; Moonriver; Moonbeam; Canto,0,0,0,0,False,https://synapseprotocol.com
+558,Bedrock uniBTC,Anchor BTC,12,489.09,,,343784884.09,18,Ethereum; Merlin; BOB; Binance; Mantle; Optimism; BSquared; RSK; Base; ZetaChain; Arbitrum; Mode; Berachain; Hemi; TAC; Taiko; Bitlayer,0,0,0,0,False,https://app.bedrock.technology/
+559,Lynx,Derivatives,355,4631.76,,,223586.97,18,Sonic; Boba; Goat; Arbitrum; Base; Ethereum; Fantom; Celo; Sei; Binance; Fuse; Zircuit; Mode; Polygon; Flare; Linea; Mantle; Optimism,0,0,0,0,False,https://app.lynx.finance/
+560,Circle CCTP,Bridge,5649,193942,386322954,,0,18,Base; Ethereum; Linea; Arbitrum; Avalanche; Sonic; Optimism; World Chain; Polygon; Unichain; Plume Mainnet; Hyperliquid L1; Ink; XDC; Monad,0,0,0,0,False,https://www.circle.com/cross-chain-transfer-protocol
+561,SOCKET Protocol,Bridge Aggregator,272,15696.25,11059681,,0,17,Aurora; Arbitrum; Optimism; Base; Blast; Ethereum; Avalanche; Binance; Polygon; Polygon zkEVM; Fantom; Linea; Mantle; Scroll; ZKsync Era; Gnosis; Mode,0,0,0,0,False,https://www.socket.tech/
+562,LilSwap DEX Aggregator,DEX Aggregator,95.35,2256.92,170083,,0,17,Optimism; Avalanche; Gnosis; Sonic; Arbitrum; Binance; Base; Linea; Unichain; Ink; Hyperliquid L1; Robinhood Chain; Polygon; Ethereum; Plasma,0,0,0,0,False,https://app.lilswap.xyz
+563,LilSwap Bridge Aggregator,DEX Aggregator,3.84,88.15,11142,,0,17,Ethereum; Avalanche; Unichain; Gnosis; Binance; Linea; Plasma; Optimism; Hyperliquid L1; Base; Ink; Arbitrum; Polygon; Sonic; Robinhood Chain,0,0,0,0,False,https://app.lilswap.xyz
+564,Skate AMM,Dexs,0.01,17.77,30,,28330.91,15,Binance; Robinhood Chain; Arbitrum; Ethereum; Base; Hyperliquid L1; Monad; Tempo; MegaETH; Mantle; Plume Mainnet; 0G,0,0,0,0,False,https://amm.skatechain.org/swap
+565,Gauntlet,Risk Curators,139541,3931871,,,1647669799.1,14,Base; Binance; Ethereum; Arbitrum; Morph; Stable; Hyperliquid L1; Polygon; Optimism; Unichain; Katana; Arc; Tempo,0,0,0,0,False,https://www.gauntlet.xyz
+566,KAIO,RWA,1446,43062,,,39641310.06,14,Sei; Immutable zkEVM; Avalanche; Polygon; Ethereum; XDC,0,0,0,0,False,https://www.kaio.xyz/
+567,DyorSwap AMM,Dexs,1.17,858.49,391,,2295115.54,14,X Layer; Blast; Stable; Ink; Plasma; Unichain; Arc; Soneium; Mode; Sonic; Merlin; BOB; ZetaChain; Degen,0,0,0,0,False,https://dyorswap.finance/?chainId=34443
+568,1inch Aqua,Dexs,1000,54449,4420856,,0,14,Sonic; Avalanche; Base; Arbitrum; Linea; ZKsync Era; Optimism; Gnosis; Unichain; Polygon; Ethereum; Robinhood Chain; Binance; Arc,0,0,0,0,False,https://1inch.com/aqua
+569,SolvBTC,Bridge,83441,2561363,,,495279013.97,12,Binance; Ethereum; Base; Arbitrum; X Layer; Mantle; Polygon; Merlin; Avalanche; BOB,0,0,0,0,False,https://app.solv.finance/solvbtc
+570,MEV Capital,Risk Curators,603,117563,,,9967872.3,12,Ethereum; Hyperliquid L1; Base; Avalanche; Arbitrum; Unichain; Sonic; Polygon; Plume; Berachain; Binance,0,0,0,0,False,https://mevcapital.com
+571,Steakhouse Financial,Risk Curators,218421,7439091,,,2581375325.83,11,Base; Ethereum; Robinhood Chain; Arbitrum; Monad; Katana; Arc; Polygon; Unichain; Corn,0,0,0,0,False,https://www.steakhouse.financial/
+572,Binance Alpha,Launchpad,22234,1035472,,,0,11,Ethereum; Base; Binance; Plasma; Sonic; Linea; Avalanche; Arbitrum; Polygon; ZKsync Era; Optimism,0,0,0,0,False,https://www.binance.com/en/alpha/
+573,Based Aggregator,DEX Aggregator,30.6,3658.24,,,0,11,Ethereum; Binance; Polygon; Robinhood Chain; Arbitrum; Base; Ink; Arc; Hyperliquid L1; Stable,0,0,0,0,False,https://app.based.one/swap
+574,RockawayX,Risk Curators,28110,829279,,,285420739.14,10,Ethereum; Monad; Pharos; Sei; Base; Binance; Citrea; Etherlink; Plume Mainnet,0,0,0,0,False,https://rockawayx.com/
+575,Hyperithm,Risk Curators,14126,398766,,,261532107.97,10,Monad; Ethereum; Arbitrum; Plasma; Hyperliquid L1; Katana; Stable; Binance; XRPL EVM,0,0,0,0,False,https://www.hyperithm.com
+576,Frax Swap,Dexs,247,10986.94,221537,,10223568.42,10,Fraxtal; Ethereum; Binance; Avalanche; Polygon; Optimism; Arbitrum; Fantom; Dogechain; Moonbeam,0,0,0,0,False,https://frax.com/swap
+577,K3 Capital,Risk Curators,27607,830894,,,221438368.71,9,Monad; Ethereum; Optimism; Plasma; Arbitrum; Hyperliquid L1; Binance; Unichain; Avalanche,0,0,0,0,False,https://k3.capital
+578,EmpireDEX,Dexs,0.15,5.54,49.2,,2812625.16,9,Binance; Cronos; Ethereum; xDai; Avalanche; Fantom; Polygon; Kava; Empire,0,0,0,0,False,
+579,WAGMI,Dexs,17.28,3614.17,10005,,251710.4,9,Sonic; Metis; Kava; zkSync Era; IOTA EVM; Ethereum; Base; zkLink; Fantom,0,0,0,0,False,https://wagmi.com/
+580,Smithii,Launchpad,503,25054,,,0,9,Ethereum; Polygon; Binance; Base; Arbitrum; Avalanche; Blast,0,0,0,0,False,https://smithii.io/
+581,Aori,Cross Chain Bridge,420,5654.5,85458,,0,9,Arbitrum; Base; Optimism; Ethereum; Plasma; Binance; Monad; Stable; MegaETH,0,0,0,0,False,https://www.aori.io/
+582,Unit,Bridge,14803,425400,60407356,,957636599.98,8,Ethereum; Plasma; Monad; Base; Avalanche,0,0,0,0,False,https://hyperunit.xyz/deposit
+583,Tulipa Capital,Risk Curators,37.31,950.66,,,60867113.66,8,Ethereum; Base; Berachain; Avalanche; BOB; Binance; Monad; TAC,0,0,0,0,False,https://www.tulipa.capital
+584,BlackRock BUIDL,RWA,250284,7600367,,,0,8,Ethereum; Arbitrum; Avalanche; Optimism; Polygon; Binance,0,0,0,0,False,https://securitize.io/
+585,Printr,Launchpad,0.18,94.02,0.01,,0,8,Mantle; Ethereum; Binance; Monad; Base; Avalanche; Arbitrum,0,0,0,0,False,
+586,CIAN Yield Layer,Yield Aggregator,28549,707921,,,313304183.83,7,Ethereum; Mantle; Arbitrum; Optimism; Base; Binance; Scroll,0,0,0,0,False,https://yieldlayer.cian.app/vaults/0xB13aa2d0345b0439b064f26B82D8dCf3f508775d?chainId=1&utm_source=TPFDZE
+587,BitFi Basis,Basis Trading,35.83,663.68,,,254139701.23,7,Binance; Ethereum; Base; Pharos; Hemi; Bitlayer; CORE,0,0,0,0,False,https://www.bitfi.one
+588,Ambient,Dexs,115,7177.65,46253,,2060280.48,7,Scroll; Ethereum; Blast; Plume Mainnet; Canto; Swellchain; Plume,0,0,0,0,False,https://ambient.finance/
+589,basedbid,Launchpad,187,24232.21,1.61,,65176.94,7,Robinhood Chain; Base; Binance; Ethereum; Arc; MegaETH,0,0,0,0,False,https://www.based.bid/
+590,CoWSwap,DEX Aggregator,43446,1630004,63443203,,0,7,Ethereum; Gnosis; Arbitrum; Base; Polygon; Avalanche; Binance,0,0,0,0,False,
+591,Apollo Diversified Credit Securitize Fund,RWA,1303,-427718,,,0,7,Polygon; Avalanche; Ethereum; Ink; Sei,0,0,0,0,False,https://securitize.io/primary-market/apollo-diversified-credit-securitize-fund
+592,Infinex Spot,Dexs,241,12505.97,,,0,7,Ethereum; Base; Polygon; Arbitrum; Binance; Optimism,0,0,0,0,False,https://infinex.xyz/
+593,DashsWallet,Portfolio Tracker,0.05,134.7,2841,,0,7,Optimism; Base; Arbitrum; Ethereum; Avalanche; Polygon; Binance,0,0,0,0,False,https://dashswallet.com/
+594,PinkSale,Launchpad,1.84,12795.12,,,154872740.32,6,Binance; Ethereum; Polygon; Cronos; Avalanche; Fantom,0,0,0,0,False,https://www.pinksale.finance
+595,Feather,Risk Curators,1232,25091.91,,,7775672.0,6,Sei; Celo; MegaETH; Polygon; Klaytn; Ethereum,0,0,0,0,False,https://app.feather.zone/
+596,AutoRange,Dexs,212,1562.39,16387,,593927.96,6,Arbitrum; Ethereum; Base; Celo; Robinhood Chain; Avalanche,0,0,0,0,False,https://autorange.xyz/
+597,zERC20,Privacy,8.27,80.84,,,68791.0,6,Ethereum; Base; Arbitrum; Polygon; Binance; Klaytn,0,0,0,0,False,https://zerc20.io/
+598,Vailox,OTC Marketplace,70.55,3088.53,6107,,1789.18,6,Arbitrum; Binance; Polygon; Ethereum; Base,0,0,0,0,False,https://app.vailox.com
+599,o1 Launchpad,Launchpad,4817,471421,,,0,6,Base; Robinhood Chain; Monad; Arc; Binance; X Layer,0,0,0,0,False,https://launch.o1.exchange
+600,clanker,Launchpad,1937,1348707,,,0,6,Base; Arbitrum; Unichain; Ethereum; Monad; Robinhood Chain,0,0,0,0,False,https://www.clanker.world/
+601,Pocket Universe,Security Extension,316,22094,,,0,6,Ethereum; Base; Arbitrum; Polygon; Binance; Optimism,0,0,0,0,False,https://www.pocketuniverse.app/
+602,sTONks,Launchpad,208,5320.66,1436,,0,6,Ethereum; Binance; Arc; Robinhood Chain,0,0,0,0,False,https://stonks.dog/
+603,Fluid DEX,Dexs,5395,262935,58890582,,230007523.18,5,Ethereum; Arbitrum; Plasma; Base; Polygon,0,0,0,0,False,https://www.fluid.io/
+604,Lombard Vaults,Onchain Capital Allocator,7510,81374,,,74498433.04,5,Ethereum; Base; Binance; Sonic; Corn,0,0,0,0,False,https://www.lombard.finance/app/stake/?referrer=ssybnl
+605,AZverse Perps,Derivatives,16339,2496097,,,52041055.56,5,Arbitrum; Binance; Ethereum; Berachain,0,0,0,0,False,
+606,Yearn Curating,Risk Curators,3755,133583,,,45335302.4,5,Ethereum; Katana; Base; Arbitrum; Hyperliquid L1,0,0,0,0,False,https://yearn.fi/
+607,Apex Omni,Derivatives,6385,294483,,75222835,29894281.66,5,Ethereum; Arbitrum; Base; Binance; Mantle,0,0,0,0,False,https://omni.apex.exchange
+608,Mellow Restaking,Liquid Restaking,52650,2130741,,,23457168.79,5,Ethereum; Binance; Lisk; Fraxtal; Monad,0,0,0,0,False,https://mellow.finance/
+609,alphagrowth,Risk Curators,226,8519,,,7046813.44,5,Base; Unichain; Ethereum; Linea; Monad,0,0,0,0,False,https://app.euler.finance/governor/alphagrowth?network=unichain
+610,Flap sh,Launchpad,750862,31230801,8121774,,3711476.72,5,Binance; Robinhood Chain; X Layer; Base; Monad,0,0,0,0,False,https://flap.sh/board
+611,WisdomTree,RWA,86889,3795574,,,0,5,Ethereum; Arbitrum; Plume Mainnet,0,0,0,0,False,https://www.wisdomtreeprime.com/
+612,HyperDex Aggregator,DEX Aggregator,10.47,474.74,3749,,0,5,Arbitrum; Ethereum; Arc; Robinhood Chain; Base,0,0,0,0,False,
+613,GDEX Spot,Dexs,2,130.02,,,0,5,Base; Ethereum; Arbitrum; Robinhood Chain,0,0,0,0,False,https://gdex.pro/
+614,Caldera,Bridge Aggregator,0.14,5.33,,,0,5,Base; Ethereum; Binance; Arbitrum; ApeChain,0,0,0,0,False,https://caldera.xyz/metalayer
+615,Sentora Curator,Risk Curators,209243,6279724,,,2505851586.66,4,Ethereum; Ink; Tempo,0,0,0,0,False,https://sentora.com/
+616,Neutral Trade,Onchain Capital Allocator,412,-30313,,,23068558.72,4,Robinhood Chain; Ethereum; Monad,0,0,0,0,False,https://www.neutral.trade/
+617,9Summits,Risk Curators,0.01,0.5,,,19892020.29,4,Ethereum; Avalanche; Base; Unichain,0,0,0,0,False,https://9summits.io
+618,TAU Labs,Risk Curators,293,11105,,,13063780.7,4,Ethereum; Base; Plasma,0,0,0,0,False,https://www.628labs.xyz/
+619,SyncSwap,Dexs,348,14413.54,207440,,8309179.81,4,zkSync Era; Linea; Scroll; Sophon,0,0,0,0,False,https://syncswap.xyz/
+620,Capyfi,Lending,1054,31342,,,7079147.45,4,Ethereum; Base; LaChain Network; World Chain,0,0,0,0,False,https://capyfi.com/
+621,Kinza Finance,Lending,66,3361.09,,,2866173.82,4,Binance; Op_Bnb; Ethereum; Mantle,0,0,0,0,False,https://app.kinza.finance
+622,ZeroLend Vaults,Risk Curators,1069,31528,,,1835752.88,4,Ethereum; Berachain; Linea; Sonic,0,0,0,0,False,https://zerolend.xyz/
+623,DLMM KING Pools,Dexs,20.08,2563.98,149185,,237247.66,4,Robinhood Chain; Base; MegaETH; Ethereum,0,0,0,0,False,https://dlmmking.com/
+624,Nullmask,Privacy,34963,1122575,,,189942.97,4,Binance; Ethereum; Base; Robinhood Chain,0,0,0,0,True,https://nullmask.io
+625,Complus Network,Dexs,0.07,25.97,23.21,,64195.58,4,Avalanche; Binance; Polygon; Heco,0,0,0,0,False,
+626,Thick,Dexs,1.98,139.86,644,,19428.14,4,Base; Fantom; Arbitrum; Sonic,0,0,0,0,False,https://eliteness.network/thick
+627,DEX Screener,Coins Tracker,89781,3845572,,,0,4,Ethereum; Base; Polygon,0,0,0,0,False,https://dexscreener.com
+628,VanEck Treasury Fund,RWA,5144,175908,,,0,4,Binance; Ethereum; Avalanche,0,0,0,0,False,https://securitize.io/primary-market/vaneck-vbill
+629,DEXTools,Coins Tracker,2486,56526,,,0,4,Ethereum; Base; Binance,0,0,0,0,False,https://www.dextools.io/marketplace
+630,Clutch Anvil AMM,Dexs,271,19281.84,2062,,0,4,Ethereum; ApeChain; Base; Robinhood Chain,0,0,0,0,False,https://anvil.clutch.market
+631,Hamilton Lane Senior Credit Opportunities Securitize Fund,RWA,229,16326,,,0,4,Polygon; Ethereum; Plume Mainnet; Optimism,0,0,0,0,False,https://securitize.io/primary-market/hl-scope
+632,Dinari,RWA,10.2,1532.11,2304,,0,4,Arbitrum; Base; Ethereum; Plume Mainnet,0,0,0,0,False,https://dinari.com
+633,DigiFT,RWA,7.75,7282.48,,,0,4,Ethereum; Arbitrum; Avalanche,0,0,0,0,False,https://www.digift.io/
+634,Ooga Booga,DEX Aggregator,0.75,371.34,10062,,0,4,Berachain; Hyperliquid L1; Monad; Botanix,0,0,0,0,False,https://app.oogabooga.io
+635,sasa,Launchpad,0.55,123.66,,,0,4,Binance; Robinhood Chain; Base; Arc,0,0,0,0,False,
+636,EulerSwap,Dexs,0.01,0.67,248,,0,4,Ethereum; Unichain; Binance; Monad,0,0,0,0,False,https://app.euler.finance/swap
+637,USDD,CDP,6443,193036,,,1234446114.65,3,Ethereum; Binance,0,0,0,0,False,https://usdd.io/
+638,OpenTrade,RWA,309,15508,,,245825397.98,3,Avalanche; Ethereum; Plume Mainnet,0,0,0,0,False,https://www.opentrade.io
+639,Galaxy Curation,Risk Curators,11096,217837,,,131365340.27,3,Arc; Ethereum; Base,0,0,0,0,False,https://www.galaxy.com/
+640,Mystic Finance Lending,Lending,644,24341,,,32109520.27,3,Flare; Citrea; Plume Mainnet,0,0,0,0,False,https://www.mysticfinance.xyz/
+641,Fraxlend,Lending,3373,50109.63,,,21899540.03,3,Ethereum; Fraxtal; Arbitrum,0,0,0,0,False,https://frax.com/lend
+642,Metronome Synth,Synthetics,9.18,62175.1,,,10105734.94,3,Ethereum; Optimism; Base,0,0,0,0,False,https://metronome.io/
+643,Fulcrom Perps,Derivatives,2214,95235,,,9400094.09,3,Cronos; zkSync Era; Cronos zkEVM,0,0,0,0,False,https://fulcrom.finance
+644,Privacy Pools,Privacy,297,7583.2,,,9046906.51,3,Ethereum; Arbitrum; Optimism,0,0,0,0,False,https://privacypools.com/
+645,Beets DEX,Dexs,193,7613.52,86027,,1405049.46,3,Sonic; Fantom; Optimism,0,0,0,0,False,https://beets.fi
+646,Hanji Protocol,Dexs,1129,43270,11317333,,1084264.71,3,Etherlink; Base; Monad,0,0,0,0,False,https://hanji.io
+647,SakuraSwap CLMM,Dexs,126,20731.69,68693,,452341.36,3,Abstract; Zero Network; Redstone,0,0,0,0,False,https://sakuraswap.com/
+648,Dfyn Network,Dexs,8.78,467.53,2918,,375510.95,3,Polygon; Fantom; OKExChain,0,0,0,0,False,
+649,Myriad Markets,Prediction Market,1.21,277.25,12921,,227715.69,3,Abstract; Binance; Linea,0,0,0,0,False,https://myriad.markets/markets
+650,Apostro,Risk Curators,299,8106,,,208927.78,3,Ethereum; Base; Binance,0,0,0,0,False,https://www.apostro.xyz/
+651,Lunarbase,Dexs,857,11805,3126581,,119288.09,3,Binance; Base; Monad,0,0,0,0,False,https://lunarbase.gg/
+652,Wswap,Dexs,0.27,43.96,89,,103929.11,3,W Chain; Ethereum; Binance,0,0,0,0,False,https://app.w-swap.com/#/
+653,2THICK,Dexs,604,31502,58851,,41544.14,3,Sonic; Base; Fantom,0,0,0,0,False,https://eliteness.network/thick
+654,Alterscope,Risk Curators,10,255.81,,,27757.29,3,Base; Ethereum,0,0,0,0,False,https://www.alterscope.org/
+655,Relend Network,Risk Curators,0.22,4.69,,,13220.78,3,Ethereum; Base; Swellchain,0,0,0,0,False,
+656,E3,Dexs,0.03,2.94,654,,8944.85,3,Base; Fantom; Arbitrum,0,0,0,0,False,https://eliteness.network/e3
+657,Bonker,Launchpad,3.23,154.51,,,1459.15,3,Base; Arc; Robinhood Chain,0,0,0,0,False,https://bonker.wtf
+658,SoneVibe,Lending,0.02,0.28,7.31,,1020.31,3,Soneium; Binance; Astar,0,0,0,0,False,
+659,Loan Meme,Lending,16025,341790.79,,,0,3,Ethereum; Binance,0,0,0,0,False,
+660,AlloX,DEX Aggregator,8468,253265,3388085,,0,3,Binance; Base; Ethereum,0,0,0,0,False,https://allox.ai
+661,Bitwise USCC,Basis Trading,2285,756724,,,0,3,Ethereum; Plume Mainnet,0,0,0,0,False,https://superstate.com/
+662,manifold.xyz,NFT Launchpad,40.71,2520.6,24726,,0,3,Ethereum; Optimism; Base,0,0,0,0,False,https://www.manifold.xyz/
+663,Squeeze,Launchpad,18,11060.46,,,0,3,Base; Robinhood Chain,0,0,0,0,False,https://squeeze.run
+664,Morpho Midnight,Lending,752,17115.77,,,113877408.39,2,Ethereum; Base,0,0,0,0,False,https://app.morpho.org
+665,Keyrock,Risk Curators,5961,109011,,,84073233.8,2,Arc; Ethereum,0,0,0,0,False,https://keyrock.com/
+666,Circle Gateway,Cross Chain Bridge,284,19555,47726535,,72334674.59,2,Ethereum; Arc,0,0,0,0,False,https://www.circle.com/gateway
+667,stUSDT,RWA,5548,166872,,,56297558.81,2,Ethereum,0,0,0,0,False,https://stusdt.io/#/home
+668,Aegis YUSD,Basis Trading,1773,143086,,,34395127.09,2,Ethereum; Binance,0,0,0,0,False,https://app.aegis.im
+669,Lista DEX,Dexs,0.01,0.03,299,,31984307.71,2,Binance; Ethereum,0,0,0,0,False,https://lista.org/swap
+670,Crypto.com Liquid Staking,Liquid Staking,674,54952.92,,,28984366.66,2,Cronos,0,0,0,0,False,https://crypto.com/staking
+671,GLIF,Liquid Staking,3320,113368,,,25148271.76,2,Filecoin; Base,0,0,0,0,False,https://glif.io
+672,Clearpool TPOOL,RWA,1296,42720,,,23536709.31,2,Flare; Ethereum,0,0,0,0,False,https://vaults.clearpool.finance/
+673,Telos Consilium,Risk Curators,703,21146,,,16354402.3,2,Ethereum; Plasma,0,0,0,0,False,https://telosc.com/
+674,Wildcat Protocol,Uncollateralized Lending,45370,1363342,,,14513037.69,2,Ethereum; Plasma,0,0,0,0,False,https://wildcat.finance
+675,Predict Fun,Prediction Market,401693,7575148,20056770,,11825294.57,2,Binance; Blast,0,0,0,0,False,https://predict.fun
+676,Moonlander,Derivatives,213,32771,,30764,10940443.81,2,Cronos; Cronos zkEVM,0,0,0,0,False,https://moonlander.trade/
+677,Moonwell Vaults,Onchain Capital Allocator,462,18069,,,8702131.64,2,Base; Optimism,0,0,0,0,False,https://moonwell.fi/vaults
+678,Beets LST,Liquid Staking,657,19822,,,4934203.52,2,Sonic; Fantom,0,0,0,0,False,https://beets.fi
+679,Lista RWA,RWA,108,2751.43,,,4391559.85,2,Binance; Ethereum,0,0,0,0,False,https://lista.org/rwa
+680,AlphaPing,Risk Curators,68,2329,,,2114136.41,2,Ethereum; Hyperliquid L1,0,0,0,0,False,https://alphaping.ch/
+681,Kittenswap Algebra,Dexs,1562,29028,1838005,,1984297.15,2,Hyperliquid L1; Robinhood Chain,0,0,0,0,False,https://kittenswap.finance
+682,SakuraSwap AMM,Dexs,21.56,2009.22,7184,,1874125.41,2,Abstract; Zero Network,0,0,0,0,False,https://sakuraswap.com/
+683,ElfomoFi,Dexs,609,37320,8842449,,1786555.87,2,Base; Binance,0,0,0,0,False,https://elfomo.fi/
+684,THENA V1,Dexs,21,847,9161,,1561880.77,2,Binance; Op_Bnb,0,0,0,0,False,https://thena.fi/
+685,Nerona,Yield Aggregator,240,34238,,,1351690.01,2,Fluent; Ethereum,0,0,0,0,False,https://app.nerona.xyz//
+686,Hyperbeat USD,Lending,284,12274,,,1318136.84,2,Hyperliquid L1; Ethereum,0,0,0,0,False,https://app.hyperbeat.org
+687,Honeyswap,Dexs,15.01,540.43,5003,,710385.91,2,xDai; Polygon,0,0,0,0,False,https://honeyswap.org/
+688,LiquidCore,Dexs,537,23707,3870487,,314188.43,2,Hyperliquid L1; Robinhood Chain,0,0,0,0,False,https://liqd.ag
+689,StonkBrokers Smart LP,Liquidity Manager,571,30980,,,244658.16,2,Robinhood Chain; Arbitrum,0,0,0,0,False,https://www.stonkbrokers.cash
+690,Equalizer Exchange,Dexs,163,5570.39,2511,,243816.8,2,Sonic; Fantom,0,0,0,0,False,https://equalizer.exchange
+691,B.Protocol Curator,Risk Curators,462,18070,,,129722.47,2,Ethereum; Base,0,0,0,0,False,https://dashboard.bprotocol.org
+692,Sentry,Launchpad,486,10784.57,,,115313.73,2,Ink; Robinhood Chain,0,0,0,0,False,https://sentry.trading
+693,ARMSys,Yield,2.92,720.74,,,52878.81,2,Robinhood Chain; Base,0,0,0,0,False,https://armsys.xyz
+694,Puzzle Ranges,Dexs,12.1,615.73,3209,,30487.84,2,Robinhood Chain; Ethereum,0,0,0,0,False,
+695,Ape.Store,Launchpad,1.21,787.38,,,23552.91,2,Base; Ethereum,0,0,0,0,False,https://ape.store/
+696,Polaris Finance,Dexs,0.01,0.88,4.36,,7290.5,2,Aurora; Telos,0,0,0,0,False,https://polarisfinance.io
+697,Alphix,Dexs,0.09,3.09,4.45,,6838.06,2,Base; Arbitrum,0,0,0,0,False,
+698,SilverSwap,Dexs,0.03,4.5,32,,6313.49,2,Sonic; Nibiru,0,0,0,0,False,https://silverswap.io
+699,StonkBrokers Desks,NftFi,9.98,2125.89,,,2050.4,2,Robinhood Chain; Ethereum,0,0,0,0,False,https://www.stonkbrokers.cash
+700,foxify,Derivatives,135,9187,,,0.04,2,Arbitrum; Sonic,0,0,0,0,False,https://www.foxify.trade/
+701,Invesco USTB,RWA,53171,1786714,,,0,2,Ethereum; Plume Mainnet,0,0,0,0,False,https://superstate.com/
+702,LP Agent,Liquidity Automation,4323,538804,,,0,2,Robinhood Chain,0,0,0,0,False,https://lpagent.io
+703,Sapling,Launchpad,3549,104978,,,0,2,Robinhood Chain,0,0,0,0,False,https://sapling.cash
+704,Securitize Tokenized AAA CLO Fund,RWA,2328,769866,,,0,2,Ethereum,0,0,0,0,False,https://www.bny.com/corporate/global/en/about-us/newsroom/company-news/securitize-launches-tokenized-aaa-clo-fund-with-services-provided-by-bny-bringing-institutional-structured-credit-on-chain.html
+705,Bags,Launchpad,1583,319765,,,0,2,Robinhood Chain,0,0,0,0,False,https://bags.fm/
+706,Lighter Spot,Dexs,818,62031,2021241,,0,2,Robinhood Chain,0,0,0,0,False,https://app.lighter.xyz
+707,StonkBrokers Anvil,NftFi,594,168451.46,3676,,0,2,Base; Robinhood Chain,0,0,0,0,False,https://www.stonkbrokers.cash
+708,BaseStonk,Launchpad,403,49900,30576,,0,2,Base; Robinhood Chain,0,0,0,0,False,https://basestonk.io
+709,Paradex Perps,Derivatives,341,17277,,5645554,0,2,Ethereum,0,0,0,0,False,https://app.paradex.trade/r/defillama
+710,EasyA Kickstart,Launchpad,140,30729,,,0,2,Robinhood Chain,0,0,0,0,False,https://kickstart.easya.io/
+711,Synthra Core,Dexs,58.05,15685.71,6095,,0,2,Robinhood Chain; Arc,0,0,0,0,False,https://app.synthra.org
+712,Solauncher,Launchpad,34.26,779.54,,,0,2,Robinhood Chain,0,0,0,0,False,https://solauncher.org/
+713,Route,DEX Aggregator,21,23218,768923,,0,2,Robinhood Chain; Arc,0,0,0,0,False,
+714,Ebisus Bay DEX,Dexs,5.79,208.07,1932,,0,2,Cronos zkEVM; Cronos,0,0,0,0,False,
+715,Deluthium,DEX Aggregator,2.32,1248.69,2199697,,0,2,Base; Binance,0,0,0,0,False,https://deluthium.ai/
+716,StonkBrokers Safe Launch,Launchpad,1.75,607.89,6.81,,0,2,Robinhood Chain; Arbitrum,0,0,0,0,False,https://www.stonkbrokers.cash
+717,RERANGE,Derivatives,1.62,18.15,,,0,2,Ethereum; Base,0,0,0,0,False,https://rerange.xyz
+718,DyorSwap Launchpad,Launchpad,0.67,148.02,53,,0,2,Plasma; Stable,0,0,0,0,False,https://dyorswap.finance/?chainId=34443
+719,Gloam,Privacy,0.08,4.14,,,0,2,Robinhood Chain; Tempo,0,0,0,0,False,
+720,Kinetiq kHYPE,Liquid Staking,45743,1679717,,,809305612.64,1,Hyperliquid L1,0,0,0,0,False,https://kinetiq.xyz/stake
+721,mETH Protocol,Liquid Staking,32910,1116835,,,557037309.97,1,Ethereum,0,0,0,0,False,https://www.methprotocol.xyz/
+722,Coinbase Wrapped Staked ETH,Liquid Staking,72290,2400699,,,466402873.37,1,Ethereum,0,0,0,0,False,https://www.coinbase.com/price/coinbase-wrapped-staked-eth
+723,ether.fi Liquid,Onchain Capital Allocator,1458,76536,,,388313535.78,1,Ethereum,0,0,0,0,False,https://www.ether.fi
+724,Cooler Loans,Lending,1216,53769,,,228682956.15,1,Ethereum,0,0,0,0,False,https://app.olympusdao.finance/#/lending/cooler
+725,Fluid Lite,Yield Aggregator,6901,144717,,,207482610.1,1,Ethereum,0,0,0,0,False,https://www.fluid.io/
+726,Hyperliquid HLP,Derivatives,15115,485713,,,175295644.31,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz
+727,Saturn,Stablecoin Wrapper,3.48,1251292.9,,,156597178.88,1,Ethereum,0,0,0,0,False,https://app.saturn.credit/
+728,Hyperliquid Spot Orderbook,Dexs,56350,2218340,107226124,,136561253.88,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz
+729,Tydro,Lending,10055,304892,,,132018244.51,1,Ink,0,0,0,0,False,https://tydro.com/
+730,Armitage by Wintermute,Risk Curators,17014,531266,,,128741556.05,1,Ethereum,0,0,0,0,False,https://armitage.wintermute.com
+731,Lighter Robinhood Perps,Derivatives,53729,2219223,,213356484,114566999.15,1,Robinhood Chain,0,0,0,0,False,https://robinhoodchain.lighter.xyz/trade/LIT
+732,Sky Money,Risk Curators,5941,188667,,,110112025.74,1,Ethereum,0,0,0,0,False,https://app.sky.money/?network=ethereum&widget=vaults
+733,Frax USD,RWA,10544,330110,,,101443053.03,1,Ethereum,0,0,0,0,False,https://frax.com/
+734,BitFi BTC,Anchor BTC,68191,719050.18,,,91704092.96,1,AILayer,0,0,0,0,False,https://www.bitfi.one/
+735,Wise Token,Yield,32.04,1143.91,10570,,66872070.13,1,Ethereum,0,0,0,0,False,https://app.wisetoken.com/
+736,Arcus Perps,Derivatives,52510,1916996,,115760513,63896348.26,1,Robinhood Chain,0,0,0,0,False,https://arcus.xyz/
+737,Nado Spot,Dexs,45,3087,162698,,50735834.08,1,Ink,0,0,0,0,False,https://app.nado.xyz?join=sP6or8A
+738,sDAI,Yield,5160,155959,,,41070372.68,1,xDai,0,0,0,0,False,
+739,Kinetiq Earn,Yield Aggregator,4396,35103,,,34931629.0,1,Hyperliquid L1,0,0,0,0,False,https://kinetiq.xyz/stake-hype#kinetiq-earn
+740,Project X,Dexs,22715,1333068,24388604,,33955067.66,1,Hyperliquid L1,0,0,0,0,False,https://www.prjx.com
+741,Papertrade,Derivatives,1264632,65014402,,,32276952.4,1,Hyperliquid L1,0,0,0,0,False,https://papertrade.xyz
+742,Felix Vaults,Onchain Capital Allocator,2156,71038,,,32150080.23,1,Hyperliquid L1,0,0,0,0,False,https://www.usefelix.xyz?ref=4BF702FF
+743,Plasma Saving Vaults,Onchain Capital Allocator,2937,101070,,,31827352.62,1,Plasma,0,0,0,0,False,https://app.plasma.to/
+744,Fables,Dexs,36315,4243335,23503667,,28133213.97,1,Robinhood Chain,0,0,0,0,False,https://www.fables.fi/
+745,Puffer Stake,Liquid Restaking,0.07,63758.6,,,26803252.35,1,Ethereum,0,0,0,0,False,https://www.puffer.fi/restake
+746,Meta Pool ETH,Liquid Staking,264,8972,,,24911435.54,1,Ethereum,0,0,0,0,False,https://metapool.app
+747,UltraYield Vaults,Onchain Capital Allocator,1983,87841,,,23629386.71,1,Ethereum,0,0,0,0,False,https://ultrayield.app/
+748,RockSolid Network,Yield,621,30543,,,22683482.92,1,Ethereum,0,0,0,0,False,https://rocksolid.network/
+749,Hakutora,Risk Curators,1986,64527,,,20454471.37,1,Ethereum,0,0,0,0,False,https://hakutora.xyz
+750,Hyperbeat Earn,Yield Aggregator,702,140081,,,18523263.99,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperbeat.org
+751,GETH,Liquid Staking,2280,73612,,,18134395.76,1,Ethereum,0,0,0,0,False,https://guarda.com/staking/ethereum-staking/
+752,Infrared Finance,Liquid Staking,363,15579,,,16419118.95,1,Berachain,0,0,0,0,False,https://infrared.finance
+753,Agni Finance,Dexs,880,41144,443950,,16237749.66,1,Mantle,0,0,0,0,False,https://agni.finance/
+754,Hyperbeat LST,Liquid Staking,673,21297,,,11871386.14,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperbeat.org/staking
+755,Merchant Moe Liquidity Book,Dexs,169,7223.43,397568,,11777083.34,1,Mantle,0,0,0,0,False,https://merchantmoe.com/
+756,Vena Finance,Lending,1055,11290,,,9184379.9,1,Fluent,0,0,0,0,False,https://vena.finance
+757,Pharaoh DLMM,Dexs,8890,1165862,14115160,,8951198.14,1,Avalanche,0,0,0,0,False,https://www.phar.gg/
+758,Katana DEX,Dexs,531,37375,177238,,8912852.9,1,Ronin,0,0,0,0,False,https://app.roninchain.com/swap#/swap
+759,Antarctic,Derivatives,46644,2428568,,324715570,8401890.23,1,Arbitrum,0,0,0,0,False,https://www.antarctic.exchange/
+760,Prime Staking,Liquid Staking,956,67631,,,7883187.06,1,XDC,0,0,0,0,False,https://primestaking.xyz/
+761,CommunityV3,Dexs,297,98369.42,19373,,7650572.3,1,Ethereum,0,0,0,0,False,
+762,Boros,Interest Rate Derivatives,1074,29761,,132955265,7346712.9,1,Arbitrum,0,0,0,0,False,https://boros.pendle.finance/markets
+763,Avant avBTC,Onchain Capital Allocator,313,13544,,,5848432.38,1,Avalanche,0,0,0,0,False,https://app.avantprotocol.com/products
+764,Angstrom,Dexs,94.87,48805.09,1230718,,5768232.07,1,Ethereum,0,0,0,0,False,https://angstrom.xyz/
+765,YeiLend,Lending,95,3296,,,4723214.7,1,Sei,0,0,0,0,False,https://www.yei.finance
+766,Pharaoh CL,Dexs,8.6,385.64,2449,,4019191.59,1,Avalanche,0,0,0,0,False,https://www.phar.gg/
+767,Perpl,Derivatives,4718,171279,,1406686,3285958.25,1,Monad,0,0,0,0,False,https://perpl.xyz/
+768,VVS Flawless,Dexs,3374,92938,728290,,3199021.78,1,Cronos,0,0,0,0,False,https://vvs.finance/liquidity
+769,Gate Swap Spot,Dexs,661,25353,25375,,3078333.42,1,GateLayer,0,0,0,0,False,https://web3.gate.com/en/swap
+770,Monetrix USDM,Basis Trading,142,17555,,,2910728.34,1,Hyperliquid L1,0,0,0,0,False,https://www.monetrix.xyz/
+771,TokenWorks,NFT Automated Strategies,12770,2192614,,,2869223.15,1,Ethereum,0,0,0,0,False,https://www.nftstrategy.fun/
+772,Meridian Perps,Derivatives,34.88,1709.99,,315676,2584583.19,1,Robinhood Chain,0,0,0,0,False,https://app.meridian.xyz/
+773,Verio,Liquid Staking,0.06,13720.3,,,2341407.59,1,Story,0,0,0,0,False,https://www.verio.network/staking
+774,THENA INTEGRAL,Dexs,934,38053,768146,,2314795.31,1,Binance,0,0,0,0,False,https://www.thena.fi
+775,Venus Flux,Lending,146,5547.04,,,2097172.01,1,Binance,0,0,0,0,False,https://flux.venus.io/lending/56
+776,Sport.fun,Prediction Market,3616,105718,98477,,2081328.51,1,Base,0,0,0,0,False,https://pro.sport.fun
+777,Blackhole CLMM,Dexs,1540,80381,2361522,,2003561.72,1,Avalanche,0,0,0,0,False,https://blackhole.xyz/
+778,Flex,Lending,150,4063,,,1949817.59,1,Ethereum,0,0,0,0,False,https://flexmeow.com/
+779,Kumbaya,Dexs,965,47432,373109,,1917198.9,1,MegaETH,0,0,0,0,False,https://www.kumbaya.xyz/
+780,Zia,Dexs,738,40111,239679,,1917083.78,1,0G,0,0,0,0,False,https://zia.finance/
+781,Trueo,Prediction Market,350,1616.45,67062,,1791436.18,1,Base,0,0,0,0,False,https://trueo.com/
+782,Arena DEX,Dexs,21.31,669.58,7080,,1789156.41,1,Avalanche,0,0,0,0,False,https://arena.social/
+783,Shadow Exchange CLMM,Dexs,1282,65536,726644,,1713381.37,1,Sonic,0,0,0,0,False,https://www.shadow.so
+784,flaunch,Launchpad,3.36,11593.31,,,1642359.84,1,Base,0,0,0,0,False,https://flaunch.gg
+785,Monetrix mxHYPE,Basis Trading,1.82,2968.03,,,1521933.97,1,Hyperliquid L1,0,0,0,0,False,https://www.monetrix.xyz/
+786,Everdex,Dexs,4.29,562.58,1538,,1434153.51,1,Bifrost Network,0,0,0,0,False,https://www.everdex.app/
+787,Katana Perps,Derivatives,12470,189534,,619233,1399429.46,1,Katana,0,0,0,0,False,https://perps.katana.network/
+788,Blackhole AMM,Dexs,184,13821,41940,,1371805.21,1,Avalanche,0,0,0,0,False,https://blackhole.xyz/
+789,XFlows,Dexs,14.21,423.58,28556,,1289214.0,1,Wanchain,0,0,0,0,False,https://xflows.wanchain.org
+790,Shadow Exchange Legacy,Dexs,331,9594.18,18698,,1285061.26,1,Sonic,0,0,0,0,False,https://www.shadow.so/
+791,Koi Finance AMM,Dexs,38.44,976.53,13629,,1209039.53,1,zkSync Era,0,0,0,0,False,https://dapp.koi.finance
+792,Dswap,Dexs,96.7,2714.49,32232,,1141825.16,1,ENI,0,0,0,0,False,https://daoaas.io/swap
+793,Mendi Finance,Lending,112,1571,,,1054920.02,1,Linea,0,0,0,0,False,https://malda.xyz/
+794,W-DEX,Dexs,6355,55103.08,1516926,,987360.29,1,Polygon,0,0,0,0,False,https://w-dex.ai/
+795,Argus World,Launchpad,4085,1482316,,,932065.07,1,Arc,0,0,0,0,False,https://arguspad.io
+796,Honeypop DEX,Dexs,218,6095.09,230196,,902698.44,1,Scroll,0,0,0,0,False,https://honeypop.app
+797,Nerve,Dexs,1.22,126.29,8060,,892970.58,1,Binance,0,0,0,0,False,
+798,Kyo Finance,Dexs,69.15,2426.72,59027,,784688.81,1,Soneium,0,0,0,0,False,https://www.kyo.finance
+799,SomniaLend,Lending,7.38,179.39,,,782870.41,1,Somnia,0,0,0,0,False,https://app.somnialend.finance/
+800,Bond,Dexs,19.01,2248.43,11292,,780794.17,1,0G,0,0,0,0,False,https://bond.xyz/
+801,Kittenswap AMM,Dexs,1.65,77.06,599,,765495.2,1,Hyperliquid L1,0,0,0,0,False,https://kittenswap.finance
+802,BEX,Dexs,31.29,1917.93,10353,,754477.03,1,Berachain,0,0,0,0,False,https://hub.berachain.com/swap/
+803,Supernova CL,Dexs,162,10430,320308,,732950.8,1,Ethereum,0,0,0,0,False,https://supernova.xyz/
+804,MachineX CL,Dexs,746,18545,76774,,730155.76,1,Peaq,0,0,0,0,False,https://www.machinex.xyz/
+805,Consensus Liquidity DEX,Dexs,97.76,3679.08,116119,,726248.11,1,Klaytn,0,0,0,0,False,https://swapscanner.io/swap?from=0x02cbe46fb8a1f579254a9b485788f2d86cad51aa&to=0x0000000000000000000000000000000000000000
+806,THENA FUSION,Dexs,361,13053,136209,,701935.4,1,Binance,0,0,0,0,False,https://www.thena.fi
+807,Kittenswap CL,Dexs,21.11,973.47,3267,,691242.86,1,Hyperliquid L1,0,0,0,0,False,https://kittenswap.finance
+808,Muscadine,Risk Curators,24,852,,,576406.15,1,Base,0,0,0,0,False,
+809,Ethervista,Dexs,2.02,128.85,,,552749.68,1,Ethereum,0,0,0,0,False,https://ethervista.app
+810,GT3,Dexs,8.4,540.06,1416,,506134.0,1,Polygon,0,0,0,0,False,https://dapp.gt3.finance/
+811,Satsuma,Dexs,323,5823.01,109333,,488676.7,1,Citrea,0,0,0,0,False,https://www.satsuma.exchange/
+812,Capricorn,Dexs,653,14915.95,74118,,483118.57,1,Monad,0,0,0,0,False,https://www.capricorn.exchange/
+813,Powercity Flex Protocol,CDP,2.3,555.68,,,466383.12,1,Pulse,0,0,0,0,False,
+814,FanX Protocol,Dexs,45.93,1366.1,15287,,398055.27,1,Chiliz,0,0,0,0,False,https://app.fanx.xyz
+815,Arrowfarm,Liquidity Manager,844,64743.95,,,370649.19,1,Robinhood Chain,0,0,0,0,False,https://www.arrowfarm.io
+816,Limitless Exchange,Prediction Market,176,33430.2,29105,,359107.31,1,Base,0,0,0,0,False,https://limitless.exchange
+817,Nile Legacy,Dexs,1.42,26.94,9017,,343257.3,1,Linea,0,0,0,0,False,
+818,Mosh,Liquidity Automation,397,256575,,,307917.04,1,Robinhood Chain,0,0,0,0,False,
+819,SingularV,Risk Curators,5.54,225.22,,,303701.45,1,Ethereum,0,0,0,0,False,https://app.morpho.org/ethereum/curator/singularv
+820,What The Hook,Liquidity Automation,2339,60409,,,296974.09,1,Robinhood Chain,0,0,0,0,False,https://www.whatthehook.io
+821,aPriori,Liquid Staking,57.54,4600.82,,,248172.82,1,Monad,0,0,0,0,False,https://www.apr.io
+822,token.select,Launchpad,157,19189.32,,,236820.46,1,Robinhood Chain,0,0,0,0,False,https://token.select
+823,Mobius Money,Dexs,0.42,29.62,42,,232487.48,1,Celo,0,0,0,0,False,
+824,PRED,Prediction Market,689,5609.39,79048,,228131.66,1,Base,0,0,0,0,False,https://www.pred.app/
+825,Pharaoh Legacy,Dexs,2.6,226.09,867,,220006.45,1,Avalanche,0,0,0,0,False,https://www.phar.gg/
+826,Sai,Derivatives,441,18164,,84147,219319.13,1,Nibiru,0,0,0,0,False,https://sai.fun/
+827,Scale,Dexs,18.27,1291.11,7385,,212317.32,1,Base,0,0,0,0,False,https://scale.farm
+828,Raphael Exchange CL,Dexs,78.09,9307.81,130506,,210101.4,1,Robinhood Chain,0,0,0,0,False,https://www.raphael.exchange/
+829,Nova Perps,Derivatives,589,2058.3,,,208538.27,1,Arbitrum,0,0,0,0,False,https://nova.markets
+830,FlareBank,Reserve Currency,49.91,188.2,,,198610.01,1,Flare,0,0,0,0,False,
+831,Colend Protocol,Lending,23,716,,,196225.42,1,CORE,0,0,0,0,False,https://www.colend.xyz
+832,CallPut,Options,24.71,16988.07,209,,178599.29,1,Base,0,0,0,0,False,https://callput.app
+833,Goo Exchange CLMM,Dexs,276,21215.38,13367,,177456.62,1,Robinhood Chain,0,0,0,0,False,https://goo.exchange
+834,Wager Predict,Prediction Market,90.88,919.28,,,175645.4,1,Binance,0,0,0,0,False,https://wagerpredict.com/
+835,Tolly,Launchpad,216,18358.23,,,172183.71,1,Arc,0,0,0,0,False,
+836,Blue Planet,Dexs,2.06,82.67,761,,159444.48,1,Binance,0,0,0,0,False,https://app.planet.finance/
+837,Aborean CL,Dexs,274,23491.68,87936,,158274.69,1,Abstract,0,0,0,0,False,https://aborean.finance
+838,AutoShark,Dexs,2.27,64.33,755,,157866.67,1,Binance,0,0,0,0,False,
+839,Asset Chain Swap,Dexs,0.28,169.21,95.05,,145779.45,1,Asset Chain,0,0,0,0,False,https://swap.assetchain.org
+840,MagicSea LB,Dexs,47.36,17529.04,1072,,141195.92,1,IOTA EVM,0,0,0,0,False,https://app.magicsea.finance/swap
+841,Nile CL,Dexs,0.06,12.47,251,,136746.68,1,Linea,0,0,0,0,False,
+842,Supernova AMM,Dexs,5.07,405.77,1393,,135712.59,1,Ethereum,0,0,0,0,False,https://supernova.xyz/
+843,Genius.fun,Launchpad,2080,567246,14312,,125046.56,1,Binance,0,0,0,0,False,https://genius.fun
+844,Ramses CL,Dexs,4.32,328.58,24215,,124174.55,1,Arbitrum,0,0,0,0,False,https://www.ramses.xyz/
+845,Treble Spot,Dexs,2.9,299.66,2368,,123384.6,1,Base,0,0,0,0,False,https://trebleswap.com
+846,Melegaswap,Dexs,1.95,73.91,677,,118623.85,1,Binance,0,0,0,0,False,https://www.melega.finance/
+847,Metropolis DLMM,Dexs,295,20805,280036,,117239.76,1,Sonic,0,0,0,0,False,https://metropolis.exchange
+848,Capybara Dexs,Dexs,2.57,363.43,2808,,115798.74,1,Klaytn,0,0,0,0,False,
+849,Quainance DEX,Dexs,2.47,238.98,824,,114788.97,1,Quai,0,0,0,0,False,https://www.quainance.com/
+850,Nuri CL,Dexs,8.75,254.81,3239,,109469.47,1,Scroll,0,0,0,0,False,
+851,MinMax Finance,Dexs,0.14,11.88,226,,109387.25,1,IoTeX,0,0,0,0,False,
+852,SpinUp DEX,Dexs,0.4,42.7,132,,99563.6,1,Hyperliquid L1,0,0,0,0,False,https://www.spinup.zone/dex/swap
+853,Ramses Legacy,Dexs,0.81,31.56,372,,86009.92,1,Arbitrum,0,0,0,0,False,https://www.ramses.xyz/
+854,Raphael Exchange AMM,Dexs,2.78,274.62,927,,80377.31,1,Robinhood Chain,0,0,0,0,False,https://www.raphael.exchange/
+855,AlienFi,Dexs,0.01,0.13,4.31,,73596.43,1,Arbitrum,0,0,0,0,False,
+856,EddyFinance AMM,Dexs,0.25,7.31,77.63,,73536.67,1,ZetaChain,0,0,0,0,False,
+857,Jetbit,Derivatives,963,21837,,2188100,73295.2,1,Binance,0,0,0,0,False,
+858,SwapBased AMM,Dexs,3.72,152.36,1242,,72406.42,1,Base,0,0,0,0,False,https://swapbased.finance
+859,Velo Finance,Dexs,2.44,126.09,,,71255.98,1,Binance,0,0,0,0,False,https://velofinance.io
+860,Sonex,Dexs,3.25,279.02,6233,,65280.02,1,Soneium,0,0,0,0,False,https://sonex.so
+861,Somnia Exchange,Dexs,9.43,430.04,3083,,64297.41,1,Somnia,0,0,0,0,False,https://somnia.exchange/
+862,LFJ POE,Dexs,103,8611.46,183788,,63532.24,1,Monad,0,0,0,0,False,https://lfj.gg/
+863,Hookers,Launchpad,24.39,6948.98,,,61311.33,1,Robinhood Chain,0,0,0,0,False,https://www.hookersrh.com
+864,Sherwood,Privacy,5.51,387.77,,,60484.02,1,Robinhood Chain,0,0,0,0,False,https://sherwood.cash
+865,WinnieSwap,Dexs,0.53,13.61,5262,,57602.15,1,Berachain,0,0,0,0,False,https://winnieswap.com
+866,MachineX Legacy,Dexs,3.61,69.81,3625,,54857.3,1,Peaq,0,0,0,0,False,https://www.machinex.xyz/
+867,Arctide DEX,Dexs,21.02,3200.47,692,,51695.52,1,Arc,0,0,0,0,False,https://arctide.app/
+868,SwapBased Concentrated Liquidity,Dexs,0.53,70.63,669,,49384.88,1,Base,0,0,0,0,False,https://swapbased.finance/#/swap
+869,Frontier,Launchpad,308,3813.36,76526,,47663.87,1,Robinhood Chain,0,0,0,0,False,https://frontier.fun
+870,Motoswap AMM,Dexs,22.72,43383.9,2400,,47620.58,1,Ethereum,0,0,0,0,False,https://motoswap.org/
+871,Virtus Protocol CL,Dexs,38.6,440.52,6482,,46860.62,1,Base,0,0,0,0,False,https://virtus-protocol.com
+872,Canonic,Dexs,30.08,737.95,104031,,46617.44,1,MegaETH,0,0,0,0,False,https://canonic.trade
+873,Ignix,Launchpad,738,122403,12896,,42670.27,1,X Layer,0,0,0,0,False,https://ignix.bot
+874,HyperBrick,Dexs,0.01,0.3,14.19,,40720.27,1,Hyperliquid L1,0,0,0,0,False,https://hyperbrick.xyz
+875,Cometh,Dexs,0.75,138.18,151,,38750.43,1,Polygon,0,0,0,0,False,https://www.cometh.io/
+876,Metropolis AMM,Dexs,1.85,103.65,622,,37955.44,1,Sonic,0,0,0,0,False,https://metropolis.exchange
+877,Kayen Finance LST,Liquid Staking,15,532,,,35890.62,1,Chiliz,0,0,0,0,False,https://app.kayen.finance/lst/stake
+878,Bush,Dexs,3.78,53.81,20042,,34708.04,1,Robinhood Chain,0,0,0,0,False,
+879,BTR,Dexs,4.16,163.84,9289,,32342.58,1,Monad,0,0,0,0,False,https://btr.markets
+880,BaseX,Dexs,11.97,65.85,141324,,32274.98,1,Base,0,0,0,0,False,
+881,KyotoSwap,Dexs,1.82,52.66,611,,30723.7,1,Binance,0,0,0,0,False,
+882,BitGenie AMM,Dexs,0.99,26.39,329,,29586.76,1,Merlin,0,0,0,0,False,
+883,SolidLizard Dex,Dexs,1.12,45.54,375,,29496.85,1,Arbitrum,0,0,0,0,False,https://solidlizard.finance/
+884,Deepstate,Dexs,0.35,3924.24,0.57,,28793.55,1,Robinhood Chain,0,0,0,0,False,https://deepstate.sh/
+885,Arena Launch,Launchpad,0.07,82.0,5.64,,28140.48,1,Avalanche,0,0,0,0,False,https://arena.social/
+886,TickerSpring Vaults,Liquidity Automation,5.79,2042.16,,,25774.52,1,Robinhood Chain,0,0,0,0,False,https://tickerspring.com
+887,Alt Fun,Launchpad,1.27,3404.32,416,,25622.92,1,Hyperliquid L1,0,0,0,0,False,https://alt.fun/
+888,Crystal Exchange DEX,Dexs,7.17,558.21,141033,,24943.98,1,Monad,0,0,0,0,False,https://crystal.exchange/
+889,Gage,Lending,2.3,2726.41,,,23798.69,1,Robinhood Chain,0,0,0,0,False,https://gage.cash
+890,Catnip,Dexs,0.03,12.99,11.17,,22576.37,1,Robinhood Chain,0,0,0,0,False,https://catnipexchange.com/
+891,Taiko Swap,Dexs,0.24,22.59,79.58,,22479.71,1,Taiko,0,0,0,0,False,https://swap.taiko.xyz/
+892,Llamalend,NFT Lending,2.71,88.27,,,21016.11,1,Ethereum,0,0,0,0,False,https://www.curve.finance/llamalend/
+893,Somnex DEX,Dexs,0.77,27.19,153,,20855.42,1,Somnia,0,0,0,0,False,https://somnex.xyz/
+894,Lunya DEX,Dexs,0.49,26.5,973,,14741.94,1,Arc,0,0,0,0,False,
+895,Koi Finance CL,Dexs,0.48,96.73,170,,12600.49,1,zkSync Era,0,0,0,0,False,https://dapp.koi.finance
+896,Foci,Launchpad,22,14695.71,,,12527.96,1,Arc,0,0,0,0,False,https://foci.family/
+897,Cleopatra CL,Dexs,0.04,1.27,,,12053.39,1,Mantle,0,0,0,0,False,
+898,Pez Family,Launchpad,33.87,1784.07,,,10418.54,1,Robinhood Chain,0,0,0,0,False,https://pez.family
+899,MorFi,Dexs,0.11,7.75,110,,10055.84,1,Morph,0,0,0,0,False,
+900,Axial,Dexs,0.28,94.74,28,,9020.56,1,Avalanche,0,0,0,0,False,https://www.axial.exchange
+901,HX Finance,Dexs,0.06,7.3,33.78,,9000.39,1,Hyperliquid L1,0,0,0,0,False,
+902,Rayls Swap,Dexs,0.6,8.65,201,,6997.39,1,Rayls,0,0,0,0,False,https://swap.rayls.com/swap
+903,Goo Exchange Vaults,Yield,32.54,260.83,,,5609.15,1,Robinhood Chain,0,0,0,0,False,https://goo.exchange
+904,bot.fun,Launchpad,28.23,1407.13,3274,,5534.17,1,Eden,0,0,0,0,False,https://bot.fun
+905,Fenix Standard Pools,Dexs,0.04,154.28,123,,4156.96,1,Blast,0,0,0,0,False,https://www.fenixfinance.io
+906,JAINE,Dexs,0.05,6.23,15.02,,3030.68,1,0G,0,0,0,0,False,https://jaine.app/
+907,Morpheus,Dexs,0.03,0.97,12.24,,2786.91,1,Robinhood Chain,0,0,0,0,False,
+908,Cleopatra Legacy,Dexs,0.01,1.24,4.73,,2169.6,1,Mantle,0,0,0,0,False,
+909,Pumper Launchpad,Launchpad,201,7935.53,,,1838.6,1,Stable,0,0,0,0,False,
+910,Turbo,Dexs,0.09,449.17,192,,954.16,1,Hyperliquid L1,0,0,0,0,False,https://turbotrade.app
+911,Quiver Protocol,Liquidity Manager,2.74,108.09,,,732.88,1,Robinhood Chain,0,0,0,0,False,https://quiverprotocol.finance
+912,PFWA Markets,Prediction Market,2.67,89.21,16.49,,337.0,1,Robinhood Chain,0,0,0,0,False,https://pfwa.fun
+913,StonkBrokers Nightshades,Launchpad,3.5,63815.28,190,,245.5,1,Robinhood Chain,0,0,0,0,False,https://www.stonkbrokers.cash
+914,SolonPad,Launchpad,90,5361,,,56.16,1,Arc,0,0,0,0,False,https://solonpad.fun
+915,Story.fun,Launchpad,8.24,154.57,12.33,,42.53,1,Robinhood Chain,0,0,0,0,False,
+916,Snake Finance,Algo-Stables,15,16994.35,,,16.2,1,Sonic,0,0,0,0,False,https://snake.finance
+917,Overcall,Prediction Market,83.67,322.34,3372,,0.01,1,Robinhood Chain,0,0,0,0,False,
+918,M11 Credit,Risk Curators,8,163.41,,,0.0,1,Ethereum,0,0,0,0,False,https://www.m11credit.com/
+919,Hyperliquid Perps,Derivatives,2494260,78142292,,7570785419,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz
+920,Hyper Foundation HYPE Staking,Staking Pool,975364,32565456,,,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz/staking
+921,Hyperliquid Strategies HYPE Staking,Staking Pool,178671,5642647,,,0,1,Hyperliquid L1,0,0,0,0,False,https://hypestrat.xyz/
+922,Anchorage By Figment HYPE Staking,Staking Pool,132051,4290848,,,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz/staking
+923,HypurrScan HYPE Staking,Staking Pool,108688,3620151,,,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz/staking
+924,Nansen-HypurrCollective HYPE Staking,Staking Pool,101548,3418123,,,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz/staking
+925,Infinite Field HYPE Staking,Staking Pool,78756,2638377,,,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz/staking
+926,Blockchain Capital,RWA,64656,1966179,,,0,1,ZKsync Era,0,0,0,0,False,https://www.blockchaincapital.com/
+927,Apyx Protocol,RWA,54983,1736519,,,0,1,Ethereum,0,0,0,0,False,https://app.apyx.fi
+928,Nado Perps,Derivatives,51525,1737879,,37668120,0,1,Ink,0,0,0,0,False,https://app.nado.xyz
+929,Imperator.co HYPE Staking,Staking Pool,45275,1496581,,,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz/staking
+930,PaperStrategy,Onchain Capital Allocator,43427,3202587,,,0,1,Hyperliquid L1,0,0,0,0,False,https://paperstrategy.xyz
+931,CMI HYPE Staking,Staking Pool,42586,1418169,,,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz/staking
+932,Polymarket Combos,Prediction Market,42439,563299,1743406,,0,1,Polygon,0,0,0,0,False,https://polymarket.com
+933,HyperStake HYPE Staking,Staking Pool,41174,1342540,,,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz/staking
+934,ASXN HYPE Staking,Staking Pool,39634,1329884,,,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz/staking
+935,USDT0-Luganodes HYPE Staking,Staking Pool,39198,1309106,,,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz/staking
+936,HypurrCorea HYPE Staking,Staking Pool,38048,1272638,,,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz/staking
+937,Purrposeful HYPE Staking,Staking Pool,33000,1104792,,,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz/staking
+938,PopDEX Perps,Derivatives,32206,526885,,72099324,0,1,Morph Tachyon,0,0,0,0,False,https://popdex.xyz/
+939,Validao HYPE Staking,Staking Pool,30509,1003130,,,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz/staking
+940,Pier Two HYPE Staking,Staking Pool,29183,959332,,,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz/staking
+941,B-Harvest HYPE Staking,Staking Pool,23523,789672,,,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz/staking
+942,AlphaTicks HYPE Staking,Staking Pool,21953,731686,,,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz/staking
+943,Hyperbeat-P2P-Hypio HYPE Staking,Staking Pool,21183,645647,,,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz/staking
+944,Venice,Farm,20856,1003297,,,0,1,Base,0,0,0,0,False,https://venice.ai/
+945,LiquidSpirit-Hydromancer-RektGang HYPE Staking,Staking Pool,20547,690454,,,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz/staking
+946,Bitwise HYPE Staking,Staking Pool,17754,626193,,,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz/staking
+947,FlowDex HYPE Staking,Staking Pool,16725,570810,,,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz/staking
+948,Kraken Bitcoin Vault,Yield,16228,559503,,,0,1,Ink,0,0,0,0,False,https://www.kraken.com/bitcoin-vault
+949,Meria HYPE Staking,Staking Pool,16068,546457,,,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz/staking
+950,Primit Perps,Derivatives,8851,303717.4,,,0,1,Avalanche,0,0,0,0,False,https://primit.io/
+951,Mainstreet,Yield,8267,250051,,,0,1,Ethereum,0,0,0,0,False,https://mainstreet.finance/
+952,SoDEX Perps,Derivatives,6497,363304,,151445321,0,1,ValueChain,0,0,0,0,False,https://ssi.sosovalue.com/share/MAG7.ssi/0TC050BY?tid=ssi-invite-share-0TC050BY
+953,Orderly Perps,Derivatives,6118,155971,,43458529,0,1,Orderly Network,0,0,0,0,False,https://orderly.network
+954,Pools,Launchpad,5557,283654,,,0,1,Robinhood Chain,0,0,0,0,False,https://pools.trade/
+955,World is Flat,Onchain Voting,5333,37354,,,0,1,Robinhood Chain,0,0,0,0,False,https://worldisflat.fun/
+956,Mantle Index Four Fund,RWA,4832,140335,,,0,1,Mantle,0,0,0,0,False,https://securitize.io/primary-market/mantle-index-four-fund
+957,Brix,RWA,4806,150180,,,0,1,Ethereum,0,0,0,0,False,https://brix.money/
+958,Hyperliquid Outcomes,Prediction Market,4372,75516,2669402,,0,1,Hyperliquid L1,0,0,0,0,False,https://app.hyperliquid.xyz
+959,XAUE Protocol,RWA,4083,118579,,,0,1,Ethereum,0,0,0,0,False,https://xaue.com/
+960,Stockereum,Launchpad,3097,1948452,,,0,1,Ethereum,0,0,0,0,False,
+961,Fidelity Digital Interest Token,RWA,2774,75105,,,0,1,Ethereum,0,0,0,0,False,https://institutional.fidelity.com/app/funds-and-products/9053/fidelity-treasury-digital-fund-onchain-class-fyoxx.html
+962,MatrixDock STBT,RWA,2283,74041,,,0,1,Ethereum,0,0,0,0,False,https://www.matrixdock.com/home
+963,Aark Digital,Derivatives,1382,122443,,,0,1,Arbitrum,0,0,0,0,False,https://app.aark.digital/
+964,Kinetiq Validators,Liquid Staking,993,33883,,,0,1,Hyperliquid L1,0,0,0,0,False,https://kinetiq.xyz/launch
+965,Livepeer,Video Infrastructure,793,26358,,,0,1,Arbitrum,0,0,0,0,False,https://www.livepeer.org/
+966,Peach Launchpad,Launchpad,706,156934,70668,,0,1,Arc,0,0,0,0,False,
+967,Bucket Shop,Yield,435,33302,,,0,1,Robinhood Chain,0,0,0,0,False,
+968,LetsCash,Launchpad,333,52470,25176,,0,1,Robinhood Chain,0,0,0,0,False,https://letscash.fun
+969,ZORA Coins,Launchpad,144,5593,5704,,0,1,Base,0,0,0,0,False,https://zora.co/explore
+970,Hedge Fun,Launchpad,142,1347.32,,,0,1,Robinhood Chain,0,0,0,0,False,https://hedgefun.trade/
+971,XO Market,Prediction Market,129,4334.61,3041961,,0,1,XO,0,0,0,0,False,https://xo.market
+972,SHROOM Treasury,Liquidity Manager,109,64036.98,,,0,1,Robinhood Chain,0,0,0,0,False,
+973,TartSwap Aggregator,DEX Aggregator,53.49,4292.58,15207,,0,1,Binance,0,0,0,0,False,https://tartswap.com
+974,UBI.fun,Launchpad,40.56,22426.43,,,0,1,Arc,0,0,0,0,False,
+975,Carbon.inc,Derivatives,30,1281.44,,1441172,0,1,Base,0,0,0,0,False,https://carbon.inc/
+976,Meow,DEX Aggregator,22.13,1427.37,18890,,0,1,Robinhood Chain,0,0,0,0,False,
+977,Denaria GMX,Derivatives,17.95,5504.91,,67965,0,1,Arbitrum,0,0,0,0,False,https://denaria.finance
+978,Rialto Aggregator,DEX Aggregator,16.79,2188.79,470628,,0,1,Robinhood Chain,0,0,0,0,False,https://rialto.xyz/swap
+979,Ravenhood Mindshare,Volume Boosting,14.72,1443.04,,,0,1,Robinhood Chain,0,0,0,0,False,https://www.ravenhood.xyz/mindshare
+980,SoDEX Spot,Dexs,7.24,2151.98,162675,,0,1,ValueChain,0,0,0,0,False,https://ssi.sosovalue.com/share/MAG7.ssi/0TC050BY?tid=ssi-invite-share-0TC050BY
+981,AKA,Launchpad,5.52,2087.97,,,0,1,Arc,0,0,0,0,False,
+982,RadarDEX,Launchpad,4.71,3459.37,,,0,1,Arc,0,0,0,0,False,
+983,UniDerp,Launchpad,3.01,69.14,297,,0,1,Unichain,0,0,0,0,False,https://uniderp.fun
+984,cro.trade Predict,Prediction Market,2.88,134.9,349,,0,1,Polygon,0,0,0,0,False,https://cro.trade/predict
+985,CheesePad,Launchpad,2.64,9994.27,,,0,1,Binance,0,0,0,0,False,https://www.cheesepad.ai/
+986,GDEX Perps,Derivatives,2.22,412.95,4440,,0,1,Hyperliquid L1,0,0,0,0,False,https://gdex.pro/
+987,Felynx,DEX Aggregator,1.36,555.3,13017,,0,1,Flare,0,0,0,0,False,
+988,Donut,Farm,0.9,24.9,,,0,1,Base,0,0,0,0,False,
+989,bow.fun,Launchpad,0.75,424.32,,,0,1,Robinhood Chain,0,0,0,0,False,https://bow.fun/
+990,Liquid Protocol,Launchpad,0.57,214.88,,,0,1,Base,0,0,0,0,False,https://app.liquidprotocol.org/tokens
+991,Equilibre,Dexs,0.54,63.43,173,,0,1,Kava,0,0,0,0,False,
+992,Holdstation Wallet Miniapp,DEX Aggregator,0.47,54.06,47.22,,0,1,World Chain,0,0,0,0,False,https://holdstation.exchange/
+993,Bubble Curve,Launchpad,0.46,90.91,36,,0,1,Shido,0,0,0,0,False,
+994,Ellipse DEX,Dexs,0.43,1444.09,115,,0,1,Arc,0,0,0,0,False,
+995,HumanFi,DEX Aggregator,0.28,25.39,28.2,,0,1,World Chain,0,0,0,0,False,https://world.org/ecosystem/app_40cf4a75c0ac4d247999bccb1ce8f857
+996,Rainbow Token Launchpad,Launchpad,0.28,107.99,,,0,1,Base,0,0,0,0,False,https://rainbow.me/
+997,pmav,Launchpad,0.09,1.31,413,,0,1,Robinhood Chain,0,0,0,0,False,https://pmav.fun/
+998,Crovia Aggregator,DEX Aggregator,0.08,10.1,5.1,,0,1,Cronos,0,0,0,0,False,https://crovia.app
+999,PurrFlow,DEX Aggregator,0.03,4.54,4.2,,0,1,KUB,0,0,0,0,False,https://purrflow.xyz/
+1000,Agen.space,Launchpad,0.02,430.36,,,0,1,Robinhood Chain,0,0,0,0,False,https://agen.space/
