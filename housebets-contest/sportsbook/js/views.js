@@ -42,7 +42,7 @@ const names = id => `<span class="only-d">${esc(TEAMS[id].name)}</span><span cla
 export function odd(sel, g, f, { inline = false, label } = {}) {
   const on = S.inSlip(sel.id), sus = !!g.sus, lab = label ?? sel.short ?? sel.label;
   const aria = `${sel.label}, ${g.name}, ${sus ? 'suspended' : fmt(sel.p)}`;
-  return `<button class="odd${inline ? ' in' : ''}${on ? ' on' : ''}${sus ? ' sus' : ''}" data-sel="${esc(sel.id)}" data-p="${sel.p}" aria-pressed="${on}" aria-label="${esc(aria)}"${sus ? ' aria-disabled="true" tabindex="-1"' : ''}><span class="l">${esc(lab)}${sel.sub ? ` <small class="mut">${sel.sub}</small>` : ''}</span><span class="p">${sus ? lock : `<i class="ar"></i><span class="pv">${fmt(sel.p)}</span>`}</span></button>`;
+  return `<button class="odd${inline ? ' in' : ''}${on ? ' on' : ''}${sus ? ' sus' : ''}" data-sel="${esc(sel.id)}" data-p="${sel.p}" aria-pressed="${on}" aria-label="${esc(aria)}"${sus ? ' aria-disabled="true" tabindex="-1"' : ''}><span class="l">${inline && sel.short && sel.short !== sel.label ? `<span class="only-d">${esc(sel.label)}</span><span class="only-m">${esc(sel.short)}</span>` : esc(lab)}${sel.sub ? ` <small class="mut">${sel.sub}</small>` : ''}</span><span class="p">${sus ? lock : `<i class="ar"></i><span class="pv">${fmt(sel.p)}</span>`}</span></button>`;
 }
 export function rowOdds(f, mk = '1x2') {
   const { groups } = M.markets(f); let g = groups[0];
@@ -77,7 +77,7 @@ function group(compId, list, opts = {}) {
 }
 function teamChips(list) {
   const ids = [...new Set(list.flatMap(f => [f.home, f.away]))];
-  return `<div class="chips" style="padding:10px 14px;border-bottom:1px solid var(--line)"><span class="mut" style="font-size:13px;align-self:center">Follow a team</span>${ids.map(id => { const on = S.follows('teams', id); return `<button class="chip" data-act="follow" data-kind="teams" data-id="${id}" aria-pressed="${on}" style="${on ? 'border-color:#daa52088;color:var(--gold)' : ''}">${crest(id)}${esc(TEAMS[id].short)} ${ic(on ? 'star-f' : 'star', 14)}</button>`; }).join('')}</div>`;
+  return `<div class="chips scroll" style="padding:10px 14px;border-bottom:1px solid var(--line)"><span class="mut" style="font-size:13px;align-self:center">Follow a team</span>${ids.map(id => { const on = S.follows('teams', id); return `<button class="chip" data-act="follow" data-kind="teams" data-id="${id}" aria-pressed="${on}" style="${on ? 'border-color:#daa52088;color:var(--gold)' : ''}">${crest(id)}${esc(TEAMS[id].short)} ${ic(on ? 'star-f' : 'star', 14)}</button>`; }).join('')}</div>`;
 }
 
 /* ---------- shared bits ---------- */
@@ -184,7 +184,7 @@ export function matchMarkets(id) {
   return head + list.map(g => {
     const shut = matchUI.shut.has(g.id) && !q; let body;
     if (g.tbl) { const lines = [...new Set(g.sels.map(s => s.line))]; body = `<div class="gb tbl"><span></span><span class="mut" style="font-size:12px;text-align:center">${esc(g.head[0])}</span><span class="mut" style="font-size:12px;text-align:center">${esc(g.head[1])}</span>${lines.map(ln => { const pair = g.sels.filter(s => s.line === ln); return `<span class="ln">${ln}</span>${pair.map(s => odd(s, g, f, { inline: true, label: s.label })).join('')}`; }).join('')}</div>`; }
-    else body = `<div class="gb" style="--cols:${g.cols}">${g.sels.map(s => odd(s, g, f, { inline: true, label: g.id === '1x2' ? s.label : (s.label) })).join('')}</div>`;
+    else body = `<div class="gb" style="--cols:${g.cols}">${g.sels.map(s => odd(s, g, f, { inline: true, label: s.label })).join('')}</div>`;
     return `<section class="card mgroup${shut ? ' shut' : ''}${g.sus ? ' sus' : ''}" data-g="${g.id}"><button class="gh" data-act="gtoggle" data-g="${g.id}" aria-expanded="${!shut}"><span>${esc(g.name)}</span><span class="reason">${lock}<span class="rt">${esc(g.sus || '')}</span></span><span class="sp"></span><span class="ch">${ic('up', 18)}</span></button>${body}</section>`;
   }).join('');
 }
@@ -275,7 +275,7 @@ export function betsBody(full) {
   const empty = `<div class="empty"><b>${ui.betsTab === 'open' ? 'No open bets' : 'No settled bets in this range'}</b><span>${ui.betsTab === 'open' ? 'Bets you place show here straight away.' : 'Try a wider date range.'}</span></div>`;
   const cards = `<div class="bcards" style="display:${full ? '' : 'flex'};flex-direction:column;gap:10px">${list.length ? list.map(betCard).join('') : empty}</div>`;
   if (!full) return filters + cards;
-  const table = `<div class="btable card"><div class="bh"><span>Placed</span><span>Bet</span><span>Odds</span><span>Stake</span><span>Returns</span><span>Result</span><span></span></div>${list.length ? list.map(v => { const b = v.b, [rl, rc] = RES[b.status], ex = ui.expanded === b.id; return `<button class="br" data-act="expand" data-id="${b.id}" aria-expanded="${ex}"><span class="mut" style="font-size:12px">${placed(b.placedAt).replace(' ', '<br>')}</span><span><b>${esc(b.label)}</b><small>${esc(b.market)} · ${esc(v.fxLabel)}${v.live ? ` <span class="min" data-betlive="${b.id}">${v.live.score} · ${v.live.min}</span>` : ''}</small></span><span class="num" style="color:var(--price)">${fmt(b.odds)}</span><span class="num">${money(b.stake)}</span><span class="num">${money(b.status === 'open' ? v.ret : b.returned)}</span><span><span class="res ${rc}">${rl}</span></span><span class="mut">${ic(ex ? 'up' : 'down', 16)}</span></button>${ex ? `<div class="bx">${betCard(v)}</div>` : ''}`; }).join('') : empty}</div>`;
+  const table = `<div class="btable card"><div class="bh"><span>Placed</span><span>Bet</span><span>Odds</span><span>Stake</span><span>Returns</span><span>Result</span><span></span></div>${list.length ? list.map(v => { const b = v.b, [rl, rc] = RES[b.status], ex = ui.expanded === b.id; return `<button class="br" data-act="expand" data-id="${b.id}" aria-expanded="${ex}"><span class="mut" style="font-size:12px">${new Date(b.placedAt).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })}<br>${hhmm(new Date(b.placedAt))}</span><span><b>${esc(b.label)}</b><small>${esc(b.market)} · ${esc(v.fxLabel)}${v.live ? ` <span class="min" data-betlive="${b.id}">${v.live.score} · ${v.live.min}</span>` : ''}</small></span><span class="num" style="color:var(--price)">${fmt(b.odds)}</span><span class="num">${money(b.stake)}</span><span class="num">${money(b.status === 'open' ? v.ret : b.returned)}</span><span><span class="res ${rc}">${rl}</span></span><span class="mut">${ic(ex ? 'up' : 'down', 16)}</span></button>${ex ? `<div class="bx">${betCard(v)}</div>` : ''}`; }).join('') : empty}</div>`;
   return `<div style="display:flex;flex-direction:column;gap:12px">${filters}${table}${cards}</div>`;
 }
 export function panelInner() {

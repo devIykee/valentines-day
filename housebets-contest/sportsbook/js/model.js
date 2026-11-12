@@ -162,7 +162,7 @@ export function markets(f, t = now()) {
     const m = (id, tab, name, sels, opt = {}) => out.push({ id, tab, name, cols: opt.cols || sels.length, dep: opt.dep ?? G, tbl: opt.tbl, sels: sels.filter(s => s.p) });
     const r = [P((i, j) => i + sh > j + sa), P((i, j) => i + sh === j + sa), P((i, j) => i + sh < j + sa)];
     m('1x2', 'popular', 'Match result', [{ k: '1', label: h.name, short: h.short, p: price(r[0], f.over) }, { k: 'x', label: 'Draw', p: price(r[1], f.over) }, { k: '2', label: a.name, short: a.short, p: price(r[2], f.over) }]);
-    m('dc', 'popular', 'Double chance', [{ k: '1x', label: `${h.short} or draw`, p: price(r[0] + r[1], 1.04) }, { k: '12', label: `${h.short} or ${a.short}`, p: price(r[0] + r[2], 1.04) }, { k: 'x2', label: `Draw or ${a.short}`, p: price(r[1] + r[2], 1.04) }]);
+    m('dc', 'popular', 'Double chance', [{ k: '1x', label: `${h.short} or draw`, short: `${h.code} or draw`, p: price(r[0] + r[1], 1.04) }, { k: '12', label: `${h.short} or ${a.short}`, short: `${h.code} or ${a.code}`, p: price(r[0] + r[2], 1.04) }, { k: 'x2', label: `Draw or ${a.short}`, short: `Draw or ${a.code}`, p: price(r[1] + r[2], 1.04) }]);
     const ou = (line) => { const pO = P((i, j) => i + j + tot > line); return [pO, 1 - pO]; };
     const lines = [1.5, 2.5, 3.5, 4.5].filter(l => l > tot - .5);
     const main = lines.find(l => { const p = ou(l)[0]; return p < .78; }) || lines[lines.length - 1];

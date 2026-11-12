@@ -102,14 +102,14 @@ function renderPage() {
   keepFocus(() => {
     v.innerHTML = p === 'home' ? V.home() : p === 'live' ? V.live(route.q) : p === 'football' ? V.football(route.q) : p === 'match' ? V.match(route.parts[1]) : p === 'slip' ? V.slipPage() : p === 'states' ? V.statesPage() : V.home();
   });
+  if (demoLabel) v.insertAdjacentHTML('afterbegin', `<div class="demo-pill">Demo state: <b>${demoLabel}</b><a href="#${route.path}${route.q.tab ? '?tab=' + route.q.tab : ''}">Exit</a></div>`);
   if (p === 'match' && M.fx(route.parts[1])) { refreshMatch(); observeBoard(); }
   patch(true);
 }
 function renderFloat() {
   let h = '';
-  if (demoLabel) h += `<div class="demo-pill">Demo state: <b>${demoLabel}</b><a href="#${route.path}${route.q.tab ? '?tab=' + route.q.tab : ''}">Exit</a></div>`;
   if (tour && tour.cap) h += `<div class="cap" role="status">${tour.cap}</div>`;
-  $('#float').innerHTML = h;
+  $('#float').innerHTML = h; document.body.classList.toggle('has-demo', !!demoLabel);
 }
 function renderAll() { renderTop(); renderRail(); renderPage(); renderPanel(); renderFloat(); if ($('#ctl').classList.contains('show')) $('#ctl').innerHTML = V.controlPanel(M.control.state); }
 function keepFocus(fn) {
@@ -147,7 +147,7 @@ function patch(first) {
   }
   for (const box of $$('[data-oddsfor]')) {
     const f = M.fx(box.dataset.oddsfor), g = M.main(f).g, mk = box.dataset.mk, sig = (g.sus ? 'S' : 'O') + mk;
-    if (box.dataset.sig !== sig) { box.dataset.sig = sig; box.innerHTML = box.dataset.inline ? (g.sus ? `<span class="evt">${esc(g.sus)}</span>` : g.sels.map(s => V.odd(s, g, f, { inline: true, label: s.short || s.label })).join('')) : V.rowOdds(f, mk); }
+    if (box.dataset.sig !== sig) { box.dataset.sig = sig; box.innerHTML = box.dataset.inline ? (g.sus ? '' : g.sels.map(s => V.odd(s, g, f, { inline: true, label: s.short || s.label })).join('')) : V.rowOdds(f, mk); }
   }
   for (const c of $$('.odd[data-sel]')) {
     const inf = M.selInfo(c.dataset.sel); if (!inf || inf.closed) continue;
