@@ -57,8 +57,8 @@ Measured on the production files with headless Chromium, 12 Nov 2026. Scripts ar
 | Forced failures: connection lost, price moves, market pauses | Stake never taken (`tests/robust.js`) |
 | Keyboard: Enter on a focused price, `/` to search, arrows and Enter to open a market | Pass (`tests/robust.js`) |
 | All 39 page and state URLs at both widths | No console errors, no horizontal overflow, no odds under 15 px (`tests/states.js`) |
-| Lighthouse, mobile profile, four pages | Performance 97 to 98, accessibility 100 |
-| Lighthouse, desktop profile, five pages | Performance 89 to 94 before the load-time fix, accessibility 90 to 100 before the fixes; not re-run after |
+| Lighthouse, desktop profile, all five pages | Performance 100, accessibility 100, best practices 100 |
+| Lighthouse, mobile profile, all five pages | Performance 97 to 98, accessibility 100, best practices 100 |
 
 Not done: a manual screen-reader pass, and testing on a physical phone.
 
