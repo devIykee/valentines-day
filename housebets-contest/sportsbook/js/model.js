@@ -99,7 +99,9 @@ function fit(target, sc) {
   }
   return { lh: best[0], la: best[1], over };
 }
-for (const f of FIXTURES) { const sc = f.live ? f.live.score : [0, 0]; Object.assign(f, fit(f.target, sc)); f.rem0 = f.live ? Math.max(60, 93 * 60 - f.live.sec) : 93 * 60; }
+// Fitted once offline (same search as fit() below) so the page does no heavy work at load.
+const FITS = {"ars-bha":[0.85,0.725],"avl-ful":[1.05,0.75],"new-eve":[0.875,0.925],"atm-sev":[0.725,0.775],"juv-rom":[1.1,0.9],"b04-bvb":[1.225,1.025],"liv-mun":[1.8,1.025],"mci-tot":[2.05,1],"che-whu":[1.6,0.85],"ars-int":[1.425,0.9],"rma-bay":[1.5,1.275],"bar-psg":[1.525,1.15],"bvb-juv":[1.275,1.1],"rma-vil":[2.075,0.8],"bar-bet":[2.175,0.8],"sev-vil":[1.15,1.075],"nap-mil":[1.275,0.925],"int-laz":[1.7,0.725],"rom-nap":[1.075,1.1],"bay-rbl":[2.1,1],"sge-b04":[1.15,1.425],"rbl-bvb":[1.35,1.125]};
+for (const f of FIXTURES) { const sc = f.live ? f.live.score : [0, 0], pre = FITS[f.id]; Object.assign(f, pre ? { lh: pre[0], la: pre[1], over: f.target.reduce((s, x) => s + 1 / x, 0) } : fit(f.target, sc)); f.rem0 = f.live ? Math.max(60, 93 * 60 - f.live.sec) : 93 * 60; }
 export const fx = id => FIXTURES.find(f => f.id === id) || OTHERS.find(f => f.id === id);
 
 /* ---------- clock ---------- */

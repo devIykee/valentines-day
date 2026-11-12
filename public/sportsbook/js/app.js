@@ -156,7 +156,7 @@ function patch(first) {
     const pv = $('.pv', c); if (!pv) continue;
     const old = +c.dataset.p, cur = inf.price;
     if (Math.abs(old - cur) > 1e-9) {
-      pv.textContent = M.fmt(cur); c.dataset.p = cur; c.setAttribute('aria-label', `${inf.sel.label}, ${inf.group.name}, ${M.fmt(cur)}`);
+      pv.textContent = M.fmt(cur); c.dataset.p = cur; c.setAttribute('aria-label', `${inf.sel.label}${inf.sel.short && inf.sel.short !== inf.sel.label ? ' ' + inf.sel.short : ''} ${M.fmt(cur)}, ${inf.group.name}`);
       if (!first) { c.classList.remove('fl-up', 'fl-dn'); void c.offsetWidth; c.classList.add(cur > old ? 'fl-up' : 'fl-dn'); }
     }
     const prev = M.selInfo(c.dataset.sel, Math.max(0, t - 6)), pp = prev && !prev.closed ? prev.price : cur;
@@ -168,6 +168,8 @@ function patch(first) {
   // slip + bets: re-render only when their visible state changes
   const st = S.state(), sig = st.slip.map(it => { const v = S.itemView(it); return v.status + (v.cur || '') + (v.reason || ''); }).join('|') + '#' + S.openBets().map(b => { const v = S.betView(b); return v.co.kind + (v.co.value || '') + (v.co.left ?? '') + (v.live ? v.live.score + v.live.min : ''); }).join('|');
   if (sig !== betSig) { betSig = sig; if (!first) { renderPanel(); if (page() === 'slip') renderPage(); } }
+  const say = st.ui.receipt ? 'Bet placed.' : st.ui.fail ? 'Bet not placed. Your stake was not taken.' : st.slip.map(it => { const v = S.itemView(it); return v.status === 'changed' ? `Price changed to ${M.fmt(v.cur)}. Accept to continue.` : v.status === 'paused' ? `Selection paused: ${v.reason}.` : ''; }).join(' ');
+  const lr = $('#sr-live'); if (lr && lr.textContent !== say) lr.textContent = say;
 }
 function tick() {
   let dirty = S.resolvePlacing();

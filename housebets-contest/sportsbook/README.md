@@ -46,6 +46,22 @@ The flask icon at the foot of the left rail (phone: Menu, then Demo controls) re
 - **Suspension is selective.** A goal check locks goal-dependent markets only. A suspended price cannot be tapped.
 - **Placing resolves once.** Leaving the page, hiding the tab or closing the sheet mid-confirmation cannot produce a stuck slip or a duplicate bet.
 
+## What was checked
+
+Measured on the production files with headless Chromium, 12 Nov 2026. Scripts are in `tests/` (they expect the site on `localhost:4173` and Playwright installed).
+
+| Check | Result |
+|---|---|
+| End-to-end at 1440×900 and 390×844: add, stake, live return, price fall, VAR suspension, corners stay open, slip pauses, reopen, accept, place, receipt, My bets, cash out | 36 of 36 assertions pass (`tests/flow.js`) |
+| Placing interrupted by navigating away, hiding the tab, or closing the phone sheet | Exactly one bet, one debit, every time (`tests/robust.js`) |
+| Forced failures: connection lost, price moves, market pauses | Stake never taken (`tests/robust.js`) |
+| Keyboard: Enter on a focused price, `/` to search, arrows and Enter to open a market | Pass (`tests/robust.js`) |
+| All 39 page and state URLs at both widths | No console errors, no horizontal overflow, no odds under 15 px (`tests/states.js`) |
+| Lighthouse, mobile profile, four pages | Performance 97 to 98, accessibility 100 |
+| Lighthouse, desktop profile, five pages | Performance 89 to 94 before the load-time fix, accessibility 90 to 100 before the fixes; not re-run after |
+
+Not done: a manual screen-reader pass, and testing on a physical phone.
+
 ## Out of scope, and not built
 
 Multis, accumulators, bet builder, boosts, free bets, promos, outrights, specials, stats widgets, match trackers and AI search.
