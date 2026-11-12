@@ -15,7 +15,7 @@ const ok=(c,m)=>console.log((c?'PASS ':'FAIL ')+m);
     if (tag==='p') { ok(await p.locator('#sbar').isVisible(), 'p slip bar visible after add'); await p.screenshot({path:`${out}/f-bar-p.png`}); await p.locator('#sbar').click(); await p.waitForTimeout(400); }
     const scope = tag==='p' ? '#sheet' : '#panel';
     await p.locator(`${scope} [data-act=quick][data-v="10"]`).click(); await p.waitForTimeout(200);
-    ok((await p.locator(`${scope} .place`).innerText()).includes('Place 10.00 USDT'), tag+' place button carries stake: '+(await p.locator(`${scope} .place`).innerText()).replace(/\n/g,' | '));
+    ok((await p.locator(`${scope} .place`).innerText()).includes('10.00 USDT'), tag+' place button carries stake: '+(await p.locator(`${scope} .place`).innerText()).replace(/\n/g,' | '));
     await p.locator(`${scope} input[data-stake]`).fill('12.5'); await p.waitForTimeout(150);
     ok((await p.locator(`${scope} [data-ret]`).textContent())==='16.25', tag+' return updates as you type');
     if (tag==='p') await p.locator('#sheetbg').click({position:{x:10,y:10}}); 

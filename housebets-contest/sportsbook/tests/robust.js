@@ -23,13 +23,13 @@ const ok=(c,m)=>console.log((c?'PASS ':'FAIL ')+m);
  // 2. forced failures leave money untouched
  for (const f of ['connection','changed','suspended']) { const ctx=await b.newContext({viewport:{width:1440,height:900}}); const p=await ctx.newPage();
   await p.goto(B+'#/match/juv-rom'); await p.waitForTimeout(400); await p.locator('#mkts .odd').first().click(); await p.locator('#panel [data-act=quick][data-v="25"]').click();
-  await p.locator('#rail [data-act=ctl]').click(); await p.locator(`#ctl [data-act=force][data-v=${f}]`).click(); await p.keyboard.press('Escape');
+  await p.evaluate(()=>location.hash='#/states'); await p.waitForTimeout(300); await p.locator(`#ctlin [data-act=force][data-v=${f}]`).click(); await p.evaluate(()=>location.hash='#/match/juv-rom'); await p.waitForTimeout(300);
   await p.locator('#panel .place').click(); await p.waitForTimeout(2700);
   const txt=(await p.locator('#panel').innerText()).replace(/\n/g,' '); const bal=await p.locator('#wal').textContent();
   ok(bal==='250.00' && /Not placed|Paused|Price changed/.test(txt), `forced ${f}: stake not taken (bal ${bal}) :: ${(txt.match(/Not placed[^.]*\.[^.]*\./)||[''])[0]}`); await ctx.close(); }
  // 3. tour runs end to end
  { const ctx=await b.newContext({viewport:{width:1440,height:900}}); const p=await ctx.newPage(); const errs=[]; p.on('pageerror',e=>errs.push(e.message));
-  await p.goto(B+'#/'); await p.waitForTimeout(400); await p.locator('#rail [data-act=ctl]').click(); await p.locator('#ctl [data-act=tour]').click();
+  await p.goto(B+'#/states'); await p.waitForTimeout(400); await p.locator('#ctlin [data-act=tour]').click();
   await p.waitForTimeout(5000); const c1=await p.locator('.cap').textContent().catch(()=>null);
   await p.waitForTimeout(37500); const rc=await p.locator('#panel .rcpt').count(); const c2=await p.locator('.cap').textContent().catch(()=>null);
   ok(!!c1 && rc===1, `tour: caption shown ("${(c1||'').slice(0,40)}") and ends on a receipt (${rc}) :: "${(c2||'').slice(0,50)}"`); ok(errs.length===0,'tour: no errors '+errs.join(';').slice(0,120)); await ctx.close(); }

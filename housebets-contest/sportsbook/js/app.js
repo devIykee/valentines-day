@@ -20,7 +20,7 @@ function go() {
   if (route.q.t != null && !route.q.state) M.control.seek(+route.q.t || 0);
   if (page() === 'match') { V.matchUI.q = route.q.q || ''; if (route.q.m) { const g = M.markets(M.fx(route.parts[1]) || M.fx('ars-bha')).groups.find(g => g.id === route.q.m || g.id.startsWith(route.q.m)); if (g) V.matchUI.tab = g.tab; } else if (!route.q.state) V.matchUI.tab = 'popular'; }
   if (page() === 'slip' && route.q.tab === 'mybets') S.state().ui.tab = 'bets';
-  $('#menu').classList.remove('show'); closeSheet(true);
+  closeSheet(true);
   renderAll(); window.scrollTo(0, 0);
   document.title = ({ home: 'Sports home', live: 'Live', football: 'Football', match: M.fx(route.parts[1]) ? M.fxName(M.fx(route.parts[1])) : 'Match', slip: 'Bet slip & My bets', states: 'All states' }[page()] || 'Sports') + ' · Housebets Sportsbook';
   if (page() === 'match' && route.q.m) setTimeout(() => { const el = $(`.mgroup[data-g^="${CSS.escape(route.q.m)}"]`); if (el) { el.scrollIntoView({ block: 'center', behavior: reduced() ? 'auto' : 'smooth' }); el.classList.add('hl'); setTimeout(() => el.classList.remove('hl'), 1600); } }, 60);
@@ -66,27 +66,29 @@ function applyScenario() {
 /* ---------- shell ---------- */
 const WAVE = `<svg class="wave" viewBox="0 0 62 44" fill="none" aria-hidden="true"><defs><linearGradient id="wv" x1="0" y1="44" x2="62" y2="0"><stop stop-color="#0a6f86"/><stop offset=".55" stop-color="#2fd4f5"/><stop offset="1" stop-color="#c4f4f1"/></linearGradient></defs><path d="M1 41c13-1 21-7 25-17 4-10 11-16 20-14 9 2 12 11 8 17-3 4-10 4-10-1 0-3 3-5 6-3" stroke="url(#wv)" stroke-width="3.200" stroke-linecap="round"/><path d="M9 41c10-3 17-9 21-17 3-7 8-10 14-9" stroke="url(#wv)" stroke-width="1.600" stroke-linecap="round" opacity=".7"/><path d="M19 41c7-4 12-9 15-15" stroke="url(#wv)" stroke-width="1.200" stroke-linecap="round" opacity=".5"/><path d="M0 42.500h60" stroke="#2fd4f5" stroke-width="1.200" opacity=".6"/></svg>`;
 function renderTop() {
-  const st = S.state(), o = S.openBets().length;
+  const st = S.state();
   const acct = st.signedIn
-    ? `<a class="wallet" href="#/slip" aria-label="Demo balance ${st.wallet.toFixed(2)} USDT"><b id="wal">${st.wallet.toFixed(2)}</b>${V.tchip}</a><button class="btn pri only-d" data-act="deposit" style="display:${desktop() ? '' : 'none'}">Deposit</button>`
+    ? `<a class="wallet" href="#/slip?tab=mybets" aria-label="Demo balance ${st.wallet.toFixed(2)} USDT"><b id="wal">${st.wallet.toFixed(2)}</b>${V.tchip}</a><button class="btn pri dep" data-act="deposit">Deposit</button>`
     : `<button class="btn sec" data-act="login">Log In</button><button class="btn pri" data-act="login">Register</button>`;
-  $('#top').innerHTML = `<button class="ibtn tgl" data-act="railtoggle" aria-label="Toggle navigation">${ic('side')}</button><a class="brand" href="#/" aria-label="Housebets, Sports home"><img src="assets/housebets-logo.svg" alt="Housebets" width="116" height="18">${WAVE}</a>
-  <div class="mid"><div class="prize" aria-label="Weekly prize, 50,000 dollars"><span style="color:var(--gold)">${ic('trophy', 24)}</span><span><small>Weekly Prize</small><b>$50,000<i>.00</i></b></span></div><span class="ibtn" aria-hidden="true">${ic('crown')}</span></div>
-  <div class="right"><button class="ibtn srch" data-act="focussearch" aria-label="Search">${ic('search')}</button><button class="ibtn tgl" data-act="paneltoggle" aria-pressed="${st.ui.panelOpen}" aria-label="Toggle bet slip panel">${ic('panel')}</button><button class="ibtn only-m" data-act="opensheet" data-v="bets" aria-label="My bets, ${o} open" style="position:relative">${ic('slip')}${o ? `<span class="badge" style="position:absolute;top:-4px;right:-4px;background:var(--cta);color:var(--ink)">${o}</span>` : ''}</button>${acct}</div>`;
+  $('#top').innerHTML = `<a class="brand" href="#/" aria-label="Housebets, Sports home"><img src="assets/housebets-logo.svg" alt="Housebets" width="116" height="18">${WAVE}</a>
+  <div class="mid"><div class="prize" aria-label="Weekly prize, 50,000 dollars"><span style="color:var(--gold)">${ic('trophy', 22)}</span><span><small>Weekly Prize</small><b>$50,000<i>.00</i></b></span></div></div>
+  <div class="right"><button class="ibtn srch${st.signedIn ? '' : ' so'}" data-act="focussearch" aria-label="Search">${ic('search')}</button>${acct}</div>`;
 }
 function renderRail() {
-  const p = page(), a = (href, icon, label, on) => `<a href="${href}" class="${on ? 'on' : ''}" aria-label="${label}" title="${label}"${on ? ' aria-current="page"' : ''}>${ic(icon)}</a>`;
-  $('#rail').innerHTML = `<div class="grp"><a href="#/" data-act="inert" data-msg="Casino isn't part of this prototype." aria-label="Casino" title="Casino">${ic('casino')}</a>${a('#/', 'basketball', 'Sports home', p === 'home')}</div>
-  <div class="grp">${a('#/live', 'live', 'Live', p === 'live')}${a('#/football?view=all', 'cal', 'Upcoming', false)}${a('#/football', 'soccer', 'Football', p === 'football' || p === 'match')}${M.SPORTS.slice(1).map(s => a('#/live?sport=' + s.id, s.id, s.name, false)).join('')}</div>
-  <div class="grp">${a('#/slip', 'slip', 'Bet slip and My bets', p === 'slip')}</div><span class="sp"></span>
-  <div class="grp"><button data-act="ctl" aria-label="Demo controls" title="Demo controls">${ic('flask')}</button></div>`;
-  $('#bnav').innerHTML = `<button data-act="menu">${ic('menu', 22)}Menu</button><a href="#/" class="${p !== 'slip' ? 'on' : ''}">${ic('basketball', 22)}Sports</a><button data-act="inert" data-msg="Casino isn't part of this prototype.">${ic('casino', 22)}Casino</button><button data-act="opensheet" data-v="chat">${ic('chat', 22)}Chat</button><button data-act="inert" data-msg="Support isn't part of this prototype.">${ic('support', 22)}Support</button>`;
-  $('#menu').innerHTML = `<a href="#/">${ic('home')}Sports home</a><a href="#/live">${ic('live')}Live <span class="mut num">${V.liveCount()}</span></a><a href="#/football">${ic('soccer')}Football</a><a href="#/match/ars-bha">${ic('right')}Arsenal v Brighton</a><a href="#/slip">${ic('slip')}Bet slip &amp; My bets</a><hr><button data-act="ctl">${ic('flask')}Demo controls</button><a href="#/states">${ic('check')}All states</a>`;
+  const p = page(), q = route.q, o = S.openBets().length;
+  const a = (href, icon, label, on, n) => `<a href="${href}" class="${on ? 'on' : ''}"${on ? ' aria-current="page"' : ''}>${icon ? ic(icon, 18) : ''}<span class="lbl">${label}</span>${n != null ? `<span class="n">${n}</span>` : ''}</a>`;
+  const comp = p === 'football' ? q.comp : p === 'match' && M.fx(route.parts[1]) ? M.fx(route.parts[1]).comp : null;
+  $('#rail').innerHTML = `<div class="sg">${a('#/', 'home', 'Home', p === 'home')}${a('#/live', 'live', 'Live', p === 'live' && !q.sport, V.liveCount())}</div>
+  <h3>Sports</h3><div class="sg">${M.SPORTS.map(sp => sp.id === 'soccer' ? a('#/football', 'soccer', 'Football', (p === 'football' || p === 'match') && !comp, M.FIXTURES.length) : a('#/live?sport=' + sp.id, sp.id, sp.name, p === 'live' && q.sport === sp.id, V.sportCount(sp.id))).join('')}</div>
+  <h3>Top competitions</h3><div class="sg">${M.COMP_ORDER.map(id => a('#/football?comp=' + id, null, `${S.follows('comps', id) ? `<span class="fs">${ic('star-f', 12)}</span>` : ''}${M.COMPS[id].name}`, comp === id, M.FIXTURES.filter(f => f.comp === id).length)).join('')}</div>
+  <div class="sg">${a('#/slip?tab=mybets', 'slip', 'My bets', p === 'slip', o || null)}</div>`;
+  const b = (href, icon, label, on, n) => `<a href="${href}" class="${on ? 'on' : ''}"${on ? ' aria-current="page"' : ''}><span class="bi">${ic(icon, 22)}${n ? `<span class="bdg">${n}</span>` : ''}</span>${label}</a>`;
+  $('#bnav').innerHTML = `${b('#/', 'home', 'Home', p === 'home')}${b('#/live', 'live', 'Live', p === 'live', V.liveCount())}${b('#/football', 'soccer', 'Football', p === 'football' || p === 'match')}${b('#/slip?tab=mybets', 'slip', 'My bets', p === 'slip', o)}`;
 }
 function renderPanel() {
   const st = S.state(), html = V.panelInner(), isSlip = page() === 'slip';
-  keepFocus(() => { $('#panel').innerHTML = html; $('#sheetin').innerHTML = html.replace('data-act="closepanel"', 'data-act="closesheet"'); });
-  document.body.classList.toggle('p-open', st.ui.panelOpen && !isSlip);
+  keepFocus(() => { $('#panel').innerHTML = html; $('#sheetin').innerHTML = V.panelInner(true); });
+  document.body.classList.toggle('p-open', !isSlip);
   const bar = $('#sbar'), n = st.slip.length;
   if (!n || isSlip || st.ui.sheet) bar.hidden = true;
   else {
@@ -94,7 +96,7 @@ function renderPanel() {
     const tx = bad ? ({ changed: 'Price changed. Review', paused: 'Paused. Waiting for market', closed: 'Selection unavailable' }[bad.status]) : n === 1 ? `${views[0].label} @ ${M.fmt(views[0].it.price)}` : `${n} singles`;
     bar.hidden = false; bar.className = 'sbar' + (bad ? ' warn' : ''); bar.dataset.act = 'opensheet'; bar.dataset.v = 'slip';
     bar.setAttribute('aria-label', `Open bet slip, ${n} selection${n > 1 ? 's' : ''}`);
-    bar.innerHTML = `<span class="c">${n}</span><span class="tx">${esc(tx)}</span>${!bad && t.stake ? `<span class="rt">${t.stake.toFixed(2)} → ${t.ret.toFixed(2)}</span>` : ''}${ic('up', 20)}`;
+    bar.innerHTML = `<span class="c">${n}</span><span class="tx"><small>Bet slip</small>${esc(tx)}</span>${!bad && t.stake ? `<span class="rt">${t.stake.toFixed(2)} → ${t.ret.toFixed(2)}</span>` : `<span class="rt">Open</span>`}${ic('up', 20)}`;
   }
 }
 function renderPage() {
@@ -111,7 +113,8 @@ function renderFloat() {
   if (tour && tour.cap) h += `<div class="cap" role="status">${tour.cap}</div>`;
   $('#float').innerHTML = h; document.body.classList.toggle('has-demo', !!demoLabel);
 }
-function renderAll() { renderTop(); renderRail(); renderPage(); renderPanel(); renderFloat(); if ($('#ctl').classList.contains('show')) $('#ctl').innerHTML = V.controlPanel(M.control.state); }
+function renderAll() { renderTop(); renderRail(); renderPage(); renderPanel(); renderFloat(); }
+function refreshCtl() { const c = $('#ctlin'); if (c) c.innerHTML = V.controlPanel(M.control.state); }
 function keepFocus(fn) {
   const a = document.activeElement, key = a && (a.dataset.stake ? `[data-stake="${CSS.escape(a.dataset.stake)}"]` : a.id ? '#' + a.id : null), host = a && a.closest('#panel,#sheetin,#view'), pos = a && a.selectionStart;
   fn();
@@ -223,7 +226,7 @@ document.addEventListener('focusin', e => { if (e.target.id === 'q') showSearch(
 document.addEventListener('change', e => {
   const el = e.target, act = el.dataset.act;
   if (act === 'nav-select') location.hash = el.value;
-  else if (act === 'pc') { S.state().settings.pc = el.value; S.emit(); toast('Saved.'); }
+  else if (act === 'pc') { S.state().settings.pc = el.checked ? 'higher' : 'ask'; S.emit(); }
   else if (act === 'bsport') { S.state().ui.sport = el.value; S.emit(); if (page() === 'slip') renderPage(); }
 });
 document.addEventListener('click', e => {
@@ -235,13 +238,13 @@ document.addEventListener('click', e => {
   const act = el.dataset.act, d = el.dataset, ui = S.state().ui, st = S.state();
   const slipRe = () => { if (page() === 'slip') renderPage(); };
   switch (act) {
-    case 'follow': e.preventDefault(); S.toggleFollow(d.kind, d.id); renderPage(); break;
+    case 'follow': e.preventDefault(); S.toggleFollow(d.kind, d.id); renderPage(); renderRail(); toast(S.follows(d.kind, d.id) ? 'Following. It shows first in your lists.' : 'Unfollowed.'); break;
     case 'rm': S.removeSel(d.id); slipRe(); break;
     case 'clear': S.clearSlip(); slipRe(); break;
     case 'quick': S.setStake(d.id, String(d.v)); slipRe(); break;
     case 'max': S.setMax(d.id); slipRe(); break;
     case 'accept': S.acceptAll(); slipRe(); break;
-    case 'place': S.place(); slipRe(); break;
+    case 'place': S.place(); slipRe(); if (S.state().ui.placing) setTimeout(tick, Math.max(0, S.state().ui.placing - Date.now()) + 20); break;
     case 'deposit': S.deposit(100); toast('Demo deposit: 100.00 USDT added. Your slip is as you left it.'); renderTop(); slipRe(); break;
     case 'login': st.signedIn = true; ui.fail = null; S.emit(); renderTop(); slipRe(); toast('Signed in to the demo wallet.'); break;
     case 'viewbets': ui.receipt = null; ui.tab = 'bets'; ui.betsTab = 'open'; S.emit(); slipRe(); break;
@@ -258,20 +261,18 @@ document.addEventListener('click', e => {
     case 'paneltoggle': ui.panelOpen = !ui.panelOpen; S.emit(); renderTop(); break;
     case 'railtoggle': { const r = $('#rail'); r.style.display = getComputedStyle(r).display === 'none' ? 'flex' : 'none'; document.documentElement.style.setProperty('--rail', r.style.display === 'none' ? '0px' : '72px'); break; }
     case 'focussearch': { const q = $('#q'); if (q) { q.focus(); window.scrollTo({ top: 0 }); } else { location.hash = '#/'; setTimeout(() => $('#q') && $('#q').focus(), 80); } break; }
-    case 'menu': $('#menu').classList.toggle('show'); break;
     case 'inert': e.preventDefault(); toast(d.msg); break;
     case 'mtab': V.matchUI.tab = d.tab; V.matchUI.q = ''; if ($('#mq')) $('#mq').value = ''; refreshMatch(); patch(true); if ($('#mini').classList.contains('show')) $('#mtabs').scrollIntoView({ block: 'start' }), window.scrollBy(0, -140); break;
     case 'mclear': V.matchUI.q = ''; $('#mq').value = ''; refreshMatch(); patch(true); break;
     case 'gtoggle': { const s = V.matchUI.shut; s.has(d.g) ? s.delete(d.g) : s.add(d.g); const g = el.closest('.mgroup'); g.classList.toggle('shut'); el.setAttribute('aria-expanded', !g.classList.contains('shut')); break; }
-    case 'ctl': { const c = $('#ctl'); $('#menu').classList.remove('show'); const show = el.tagName === 'A' ? false : !c.classList.contains('show'); c.classList.toggle('show', show); if (show) c.innerHTML = V.controlPanel(M.control.state); break; }
     case 'restart': S.leaveScenario(); M.control.restart(); location.hash = '#/match/ars-bha'; go(); toast('Match restarted at 52:00.'); break;
-    case 'pause': M.control.pause(!M.control.state.paused); $('#ctl').innerHTML = V.controlPanel(M.control.state); break;
-    case 'speed': M.control.speed(+d.v); $('#ctl').innerHTML = V.controlPanel(M.control.state); break;
-    case 'force': ui.forceFail = ui.forceFail === d.v ? null : d.v; $('#ctl').innerHTML = V.controlPanel(M.control.state); toast(ui.forceFail ? 'The next bet you place will fail that way.' : 'Cleared.'); break;
-    case 'signtoggle': st.signedIn = !st.signedIn; S.emit(); renderTop(); $('#ctl').innerHTML = V.controlPanel(M.control.state); break;
+    case 'pause': M.control.pause(!M.control.state.paused); refreshCtl(); break;
+    case 'speed': M.control.speed(+d.v); refreshCtl(); break;
+    case 'force': ui.forceFail = ui.forceFail === d.v ? null : d.v; refreshCtl(); toast(ui.forceFail ? 'The next bet you place will fail that way.' : 'Cleared.'); break;
+    case 'signtoggle': st.signedIn = !st.signedIn; S.emit(); renderTop(); refreshCtl(); break;
     case 'lowbal': st.wallet = 4.2; S.emit(); renderTop(); toast('Balance set to 4.20 USDT.'); break;
     case 'resetall': S.leaveScenario(); S.reset(true); M.control.restart(); location.hash = '#/'; go(); toast('Demo reset.'); break;
-    case 'tour': $('#ctl').classList.remove('show'); startTour(); break;
+    case 'tour': startTour(); break;
   }
 });
 document.addEventListener('keydown', e => {
@@ -284,8 +285,6 @@ document.addEventListener('keydown', e => {
   }
   if (e.key === 'Escape') {
     if (r && !r.hidden) { r.hidden = true; return; }
-    if ($('#ctl').classList.contains('show')) { $('#ctl').classList.remove('show'); return; }
-    if ($('#menu').classList.contains('show')) { $('#menu').classList.remove('show'); return; }
     if (S.state().ui.sheet) { closeSheet(); return; }
     if (document.activeElement && document.activeElement.id === 'mq' && V.matchUI.q) { V.matchUI.q = ''; document.activeElement.value = ''; refreshMatch(); patch(true); }
   }
@@ -299,6 +298,7 @@ $('#sheetbg').addEventListener('click', () => closeSheet());
 $('#sbar').addEventListener('click', () => openSheet('slip'));
 
 S.on(() => { renderPanel(); renderTopWallet(); patch(true); });
+let railSig = ''; setInterval(() => { const sig = V.liveCount() + '|' + S.openBets().length; if (sig !== railSig) { railSig = sig; renderRail(); } }, 2000);
 function renderTopWallet() { const w = $('#wal'), st = S.state(); if (!!w !== st.signedIn) return renderTop(); if (w && w.textContent !== st.wallet.toFixed(2)) w.textContent = st.wallet.toFixed(2); const b = $('[data-act="paneltoggle"]'); b && b.setAttribute('aria-pressed', st.ui.panelOpen); }
 window.addEventListener('hashchange', go);
 let wasDesktop = desktop(); window.addEventListener('resize', () => { if (desktop() !== wasDesktop) { wasDesktop = desktop(); closeSheet(true); renderAll(); } });

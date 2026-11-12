@@ -39,6 +39,16 @@ The flask icon at the foot of the left rail (phone: Menu, then Demo controls) re
 | Nothing live | `#/live?state=nothing-live` |
 | Signed out | `#/?state=signed-out` |
 
+## How it's laid out
+
+Modelled on how established books are built (SportyBet, FanDuel, Pinnacle, Betway), using their patterns, not their look:
+
+- **Desktop:** a labelled sports list on the left (Home, Live, each sport, the five top competitions, My bets), one market list in the middle, the bet slip always open on the right.
+- **Every list row** is the same: time or live minute, the two teams stacked with the score, then three price boxes under fixed 1 / X / 2 column labels, then the market count.
+- **Phone:** the same row with the price boxes on the right, a slip bar at the bottom, and four bottom tabs that all work: Home, Live, Football, My bets.
+- **One flow:** find a match, tap a price, stake, place, receipt. The slip has quick stakes, one Place button that shows the stake and the return, and one checkbox for accepting higher prices.
+- **Kept off the main screens:** the demo controls and the state links live on `#/states`, linked from the footer.
+
 ## How it works
 
 - **One engine.** Every score, clock, price and suspension is a function of one match clock (`js/model.js`). Prices come from a Poisson goal model fitted to each fixture's opening price, so Match result, Double chance, Draw no bet, totals and handicaps agree with each other. Margins on the main markets sit between 104% and 108%.
@@ -54,11 +64,11 @@ Measured on the production files with headless Chromium, 12 Nov 2026. Scripts ar
 |---|---|
 | End-to-end at 1440×900 and 390×844: add, stake, live return, price fall, VAR suspension, corners stay open, slip pauses, reopen, accept, place, receipt, My bets, cash out | 36 of 36 assertions pass (`tests/flow.js`) |
 | Placing interrupted by navigating away, hiding the tab, or closing the phone sheet | Exactly one bet, one debit, every time (`tests/robust.js`) |
-| Forced failures: connection lost, price moves, market pauses | Stake never taken (`tests/robust.js`) |
-| Keyboard: Enter on a focused price, `/` to search, arrows and Enter to open a market | Pass (`tests/robust.js`) |
+| Forced failures: connection lost, price moves, market pauses | Stake never taken, reason shown (`tests/robust.js`) |
+| The 40-second tour, keyboard add, `/` search to a market | Pass (`tests/robust.js`) |
 | All 39 page and state URLs at both widths | No console errors, no horizontal overflow, no odds under 15 px (`tests/states.js`) |
-| Lighthouse, desktop profile, all five pages | Performance 100, accessibility 100, best practices 100 |
-| Lighthouse, mobile profile, all five pages | Performance 97 to 98, accessibility 100, best practices 100 |
+| Lighthouse, desktop, all five pages | Performance 100, accessibility 100, best practices 100 |
+| Lighthouse, mobile, all five pages | Performance 98, accessibility 100, best practices 100 |
 
 Not done: a manual screen-reader pass, and testing on a physical phone.
 

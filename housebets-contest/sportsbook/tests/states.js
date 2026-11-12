@@ -1,7 +1,7 @@
 const { chromium } = require('playwright'); const out=process.argv[2]; const B='http://localhost:4173/';
 (async()=>{ const b=await chromium.launch(); let bad=0;
   const pg=await (await b.newContext()).newPage(); await pg.goto(B+'#/states'); await pg.waitForTimeout(400);
-  const links=await pg.$$eval('.states a.card', as=>as.map(a=>a.getAttribute('href')));
+  const links=await pg.$$eval('.states a', as=>as.map(a=>a.getAttribute('href')));
   const all=['#/','#/live','#/football','#/match/ars-bha','#/slip','#/states','#/live?sport=tennis','#/football?mk=tg','#/match/liv-mun','#/match/ars-bha?m=crn',...links];
   console.log('urls',all.length);
   for (const [tag,w,h] of [['d',1440,900],['p',390,844]]) { const ctx=await b.newContext({viewport:{width:w,height:h}}); 
