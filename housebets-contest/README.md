@@ -7,6 +7,8 @@ Working files for two Housebets contests: the sportsbook design contest ($15,000
 | [01-FIELD-REPORT.md](01-FIELD-REPORT.md) | The official sportsbook brief, what the wireframes show, what 37 public competitor entries shipped, and where the gaps are. Start here. |
 | [02-SPORTSBOOK-PROMPT.md](02-SPORTSBOOK-PROMPT.md) | Build prompt for the sportsbook prototype, with a table of what changed from v1 and why. |
 | [03-AD-PROMPT-HYPERFRAMES.md](03-AD-PROMPT-HYPERFRAMES.md) | Concept, shot list and build prompt for the 30-second ad in HyperFrames. |
+| [sportsbook/](sportsbook/) | **The built prototype.** Static site, no build step. See its README for the walkthrough and state links. |
+| [ad/](ad/) | **The built ad.** HyperFrames project plus the rendered MP4 in `ad/renders/`. See its README for what to fix before submitting. |
 | [inputs/](inputs/) | The original references doc and v1 prompt these build on. |
 
 ## Caveats

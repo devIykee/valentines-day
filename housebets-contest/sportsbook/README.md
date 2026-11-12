@@ -41,7 +41,7 @@ The flask icon at the foot of the left rail (phone: Menu, then Demo controls) re
 
 ## How it works
 
-- **One engine.** Every score, clock, price and suspension is a function of one match clock (`js/model.js`). Prices come from a Poisson goal model fitted to each fixture's opening price, so Match result, Double chance, Draw no bet, totals and handicaps agree with each other. Margins sit between 104% and 108%.
+- **One engine.** Every score, clock, price and suspension is a function of one match clock (`js/model.js`). Prices come from a Poisson goal model fitted to each fixture's opening price, so Match result, Double chance, Draw no bet, totals and handicaps agree with each other. Margins on the main markets sit between 104% and 108%.
 - **Prices never change behind your back.** A slip price that moves must be accepted before anything is placed. The gear icon in the slip offers "Always ask", "Accept higher prices" and "Accept any price".
 - **Suspension is selective.** A goal check locks goal-dependent markets only. A suspended price cannot be tapped.
 - **Placing resolves once.** Leaving the page, hiding the tab or closing the sheet mid-confirmation cannot produce a stuck slip or a duplicate bet.
