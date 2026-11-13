@@ -89,4 +89,4 @@ Any static host works (Vercel, Netlify, GitHub Pages). Routes are hash-based, so
 - Built with Claude Code (Anthropic). Vanilla JavaScript, HTML and CSS. No framework, UI kit or template.
 - Fonts: Figtree, Oxanium and Red Hat Display (SIL Open Font License), self-hosted from Fontsource.
 - Checked with Playwright (headless Chromium) at 390×844 and 1440×900.
-- The Housebets logo with the wave is cut from Housebets' own contest wireframes. The layout follows those wireframes. Icons and club shields are original SVG drawn for this prototype; no club or league logos are used. Player names are invented.
+- The Housebets wordmark and H mark are Housebets' current logo: the wordmark as served on housebets.com, and the H mark as the tab icon. The layout follows those wireframes. Icons and club shields are original SVG drawn for this prototype; no club or league logos are used. Player names are invented.
