@@ -68,7 +68,7 @@ Measured on the production files with headless Chromium, 12 Nov 2026. Scripts ar
 | The 40-second tour, keyboard add, `/` search to a market | Pass (`tests/robust.js`) |
 | All 39 page and state URLs at both widths | No console errors, no horizontal overflow, no odds under 15 px (`tests/states.js`) |
 | Lighthouse, desktop, all five pages | Performance 100, accessibility 100, best practices 100 |
-| Lighthouse, mobile, all five pages | Performance 98, accessibility 100, best practices 100 |
+| Lighthouse, mobile | Performance 94 to 98, accessibility 100, best practices 100 |
 
 Not done: a manual screen-reader pass, and testing on a physical phone.
 
@@ -89,4 +89,4 @@ Any static host works (Vercel, Netlify, GitHub Pages). Routes are hash-based, so
 - Built with Claude Code (Anthropic). Vanilla JavaScript, HTML and CSS. No framework, UI kit or template.
 - Fonts: Figtree, Oxanium and Red Hat Display (SIL Open Font License), self-hosted from Fontsource.
 - Checked with Playwright (headless Chromium) at 390×844 and 1440×900.
-- The Housebets wordmark and H mark are Housebets' current logo: the wordmark as served on housebets.com, and the H mark as the tab icon. The layout follows those wireframes. Icons and club shields are original SVG drawn for this prototype; no club or league logos are used. Player names are invented.
+- Brand assets are Housebets' own, from housebets.com as printed to PDF on 13 Nov 2026: the wordmark (desktop header), the H mark (phone header and tab icon), the USDT coin, the Live, Soccer, Esports, Tennis, Sports and Search icons, and the glass football art in empty states. Other icons and the club shields are original SVG drawn for this prototype; no club or league logos are used. Player names are invented. The layout follows those wireframes. Icons and club shields are original SVG drawn for this prototype; no club or league logos are used. Player names are invented.

@@ -1,6 +1,7 @@
 // HTML for every page. Pure string templates; app.js wires events and patches live cells.
 import * as M from './model.js';
 import * as S from './store.js';
+import { HB } from './brand-icons.js';
 const { TEAMS, COMPS, COMP_ORDER, SPORTS, FIXTURES, OTHERS, fmt } = M;
 
 export const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -25,9 +26,10 @@ const I = {
   trophy: '<path d="M7 4h10v5a5 5 0 0 1-10 0zM7 6H4c0 3 1 5 3 5M17 6h3c0 3-1 5-3 5M12 14v4M8 20h8"/>', mega: '<path d="M4 10v4l10 4V6zM14 9a3 3 0 0 1 0 6M6 14l1 5h3"/>',
   wallet: '<rect x="3" y="6" width="18" height="13" rx="2"/><path d="M16 12.500h2"/>', plus: '<path d="M12 5v14M5 12h14"/>',
 };
-export const ic = (n, s = 20, extra = '') => `<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="${n === 'star-f' ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ${extra}>${I[n === 'star-f' ? 'star' : n]}</svg>`;
+export const ic = (n, s = 20, extra = '') => HB[n] ? `<svg width="${s}" height="${s}" viewBox="${HB[n].vb}" aria-hidden="true" ${extra}>${HB[n].body}</svg>` : _ic(n, s, extra);
+const _ic = (n, s = 20, extra = '') => `<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="${n === 'star-f' ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ${extra}>${I[n === 'star-f' ? 'star' : n]}</svg>`;
 const lock = `<svg class="lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.200" stroke-linecap="round" aria-hidden="true">${I.lock}</svg>`;
-export const tchip = '<i class="tchip" aria-label="USDT">₮</i>';
+export const tchip = `<span class="tchip" role="img" aria-label="USDT"><svg width="16" height="16" viewBox="${HB.usdt.vb}" aria-hidden="true">${HB.usdt.body}</svg></span>`;
 
 /* Original shield crests: shape + two colours + one pattern. No club marks. */
 let cid = 0;
@@ -104,7 +106,7 @@ export function home() {
   const counts = { soccer: FIXTURES.length }; for (const s of SPORTS.slice(1)) counts[s.id] = sportCount(s.id);
   const strip = `<nav class="strip only-m" aria-label="Sports"><a class="chip2 live" href="#/live"><span class="dot"></span>Live<span class="n">${n}</span></a>${SPORTS.map(s => `<a class="chip2" href="${s.id === 'soccer' ? '#/football' : '#/live?sport=' + s.id}">${ic(s.id, 16)}${s.id === 'soccer' ? 'Football' : s.name}<span class="n">${counts[s.id]}</span></a>`).join('')}</nav>`;
   const live = n ? listCard(`<span class="lv"><i></i>LIVE</span> Live now`, lv.slice(0, 5).map(f => row(f, { showComp: true })).join('') + `<a class="all" href="#/live">All live <b>${n}</b>${ic('right', 14)}</a>`)
-    : `<section class="lcard"><div class="empty"><b>Nothing live right now</b><span>The next kick-offs are below.</span></div></section>`;
+    : `<section class="lcard"><div class="empty"><img class="eart" src="assets/sports-ball.png" alt="" width="72" height="72"><b>Nothing live right now</b><span>The next kick-offs are below.</span></div></section>`;
   const soon = listCard('Starting soon', upcoming().slice(0, 6).map(f => row(f, { showComp: true })).join('') + `<a class="all" href="#/football">All football${ic('right', 14)}</a>`);
   const comps = `<section class="lcard only-m"><header class="lh"><div class="lt">Top competitions</div></header>${COMP_ORDER.map(id => { const l = FIXTURES.filter(f => f.comp === id), k = l.filter(M.isLive).length; return `<a class="crow" href="#/football?comp=${id}"><span class="cbadge">${COMPS[id].code}</span><span class="cname">${COMPS[id].name}</span><span class="ls">${l.length}${k ? ` · ${k} live` : ''}</span>${ic('right', 16)}</a>`; }).join('')}</section>`;
   return `${searchBox()}${strip}${live}${soon}${comps}${foot}`;
@@ -122,7 +124,7 @@ export function live(q) {
   const head = pageHead('Live', `${all.length} in play`, filter) + sportStrip(sport, k => link({ sport: k, comp: 'all' }), counts);
   if (!list.length) {
     const what = sport !== 'all' && all.length ? `No live ${SPORTS.find(s => s.id === sport).name.toLowerCase()} right now` : 'Nothing live right now';
-    return `${head}<section class="lcard"><div class="empty"><b>${what}</b><span>Here is what kicks off next.</span></div></section>${listCard('Starting soon', upcoming().slice(0, 6).map(f => row(f, { showComp: true })).join(''))}${foot}`;
+    return `${head}<section class="lcard"><div class="empty"><img class="eart" src="assets/sports-ball.png" alt="" width="72" height="72"><b>${what}</b><span>Here is what kicks off next.</span></div></section>${listCard('Starting soon', upcoming().slice(0, 6).map(f => row(f, { showComp: true })).join(''))}${foot}`;
   }
   const by = new Map(); for (const f of list.sort(byFollowThenTime)) { const k = f.comp || f.compName; (by.get(k) || by.set(k, []).get(k)).push(f); }
   let out = '';
@@ -214,7 +216,7 @@ function receipt(r) {
 export function slipBody() {
   const st = S.state(), ui = st.ui;
   if (ui.receipt) return { body: receipt(ui.receipt), foot: '' };
-  if (!st.slip.length) return { body: `<div class="empty"><span class="eicon">${ic('slip', 28)}</span><b>Your bet slip is empty</b><span>Tap a price to add a bet.</span></div>`, foot: '' };
+  if (!st.slip.length) return { body: `<div class="empty"><img class="eart" src="assets/sports-ball.png" alt="" width="72" height="72"><b>Your bet slip is empty</b><span>Tap a price to add a bet.</span></div>`, foot: '' };
   const views = st.slip.map(S.itemView), b = S.slipButton();
   const head = `<div class="shd"><b>Singles</b><span class="mut">· ${st.slip.length}</span><span class="sp"></span><button data-act="clear">Clear all</button></div>`;
   let btn;

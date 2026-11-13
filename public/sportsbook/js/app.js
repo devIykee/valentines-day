@@ -69,7 +69,7 @@ function renderTop() {
   const acct = st.signedIn
     ? `<a class="wallet" href="#/slip?tab=mybets" aria-label="Demo balance ${st.wallet.toFixed(2)} USDT"><b id="wal">${st.wallet.toFixed(2)}</b>${V.tchip}</a><button class="btn pri dep" data-act="deposit">Deposit</button>`
     : `<button class="btn sec" data-act="login">Log In</button><button class="btn pri" data-act="login">Register</button>`;
-  $('#top').innerHTML = `<a class="brand" href="#/" aria-label="Housebets, Sports home"><img src="assets/housebets-logo.svg" alt="Housebets" width="128" height="20"></a>
+  $('#top').innerHTML = `<a class="brand" href="#/" aria-label="Housebets, Sports home"><img class="wm" src="assets/housebets-logo.svg" alt="Housebets" width="128" height="20"><span class="hm" aria-hidden="true">${ic('hmark', 30)}</span></a>
   <div class="mid"><div class="prize" aria-label="Weekly prize, 50,000 dollars"><span style="color:var(--gold)">${ic('trophy', 22)}</span><span><small>Weekly Prize</small><b>$50,000<i>.00</i></b></span></div></div>
   <div class="right"><button class="ibtn srch${st.signedIn ? '' : ' so'}" data-act="focussearch" aria-label="Search">${ic('search')}</button>${acct}</div>`;
 }
@@ -82,7 +82,7 @@ function renderRail() {
   <h3>Top competitions</h3><div class="sg">${M.COMP_ORDER.map(id => a('#/football?comp=' + id, null, `${S.follows('comps', id) ? `<span class="fs">${ic('star-f', 12)}</span>` : ''}${M.COMPS[id].name}`, comp === id, M.FIXTURES.filter(f => f.comp === id).length)).join('')}</div>
   <div class="sg">${a('#/slip?tab=mybets', 'slip', 'My bets', p === 'slip', o || null)}</div>`;
   const b = (href, icon, label, on, n) => `<a href="${href}" class="${on ? 'on' : ''}"${on ? ' aria-current="page"' : ''}><span class="bi">${ic(icon, 22)}${n ? `<span class="bdg">${n}</span>` : ''}</span>${label}</a>`;
-  $('#bnav').innerHTML = `${b('#/', 'home', 'Home', p === 'home')}${b('#/live', 'live', 'Live', p === 'live', V.liveCount())}${b('#/football', 'soccer', 'Football', p === 'football' || p === 'match')}${b('#/slip?tab=mybets', 'slip', 'My bets', p === 'slip', o)}`;
+  $('#bnav').innerHTML = `${b('#/', 'sports', 'Sports', p === 'home')}${b('#/live', 'live', 'Live', p === 'live', V.liveCount())}${b('#/football', 'soccer', 'Football', p === 'football' || p === 'match')}${b('#/slip?tab=mybets', 'slip', 'My bets', p === 'slip', o)}`;
 }
 function renderPanel() {
   const st = S.state(), html = V.panelInner(), isSlip = page() === 'slip';
