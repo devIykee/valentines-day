@@ -64,13 +64,12 @@ function applyScenario() {
 }
 
 /* ---------- shell ---------- */
-const WAVE = `<svg class="wave" viewBox="0 0 62 44" fill="none" aria-hidden="true"><defs><linearGradient id="wv" x1="0" y1="44" x2="62" y2="0"><stop stop-color="#0a6f86"/><stop offset=".55" stop-color="#2fd4f5"/><stop offset="1" stop-color="#c4f4f1"/></linearGradient></defs><path d="M1 41c13-1 21-7 25-17 4-10 11-16 20-14 9 2 12 11 8 17-3 4-10 4-10-1 0-3 3-5 6-3" stroke="url(#wv)" stroke-width="3.200" stroke-linecap="round"/><path d="M9 41c10-3 17-9 21-17 3-7 8-10 14-9" stroke="url(#wv)" stroke-width="1.600" stroke-linecap="round" opacity=".7"/><path d="M19 41c7-4 12-9 15-15" stroke="url(#wv)" stroke-width="1.200" stroke-linecap="round" opacity=".5"/><path d="M0 42.500h60" stroke="#2fd4f5" stroke-width="1.200" opacity=".6"/></svg>`;
 function renderTop() {
   const st = S.state();
   const acct = st.signedIn
     ? `<a class="wallet" href="#/slip?tab=mybets" aria-label="Demo balance ${st.wallet.toFixed(2)} USDT"><b id="wal">${st.wallet.toFixed(2)}</b>${V.tchip}</a><button class="btn pri dep" data-act="deposit">Deposit</button>`
     : `<button class="btn sec" data-act="login">Log In</button><button class="btn pri" data-act="login">Register</button>`;
-  $('#top').innerHTML = `<a class="brand" href="#/" aria-label="Housebets, Sports home"><img src="assets/housebets-logo.svg" alt="Housebets" width="116" height="18">${WAVE}</a>
+  $('#top').innerHTML = `<a class="brand" href="#/" aria-label="Housebets, Sports home"><img src="assets/housebets-logo-wave.png" alt="Housebets" width="174" height="46"></a>
   <div class="mid"><div class="prize" aria-label="Weekly prize, 50,000 dollars"><span style="color:var(--gold)">${ic('trophy', 22)}</span><span><small>Weekly Prize</small><b>$50,000<i>.00</i></b></span></div></div>
   <div class="right"><button class="ibtn srch${st.signedIn ? '' : ' so'}" data-act="focussearch" aria-label="Search">${ic('search')}</button>${acct}</div>`;
 }

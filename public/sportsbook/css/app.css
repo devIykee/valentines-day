@@ -33,8 +33,8 @@ h2{font-size:18px}
 .top{position:fixed;inset:0 0 auto 0;height:var(--top);background:var(--bar);border-bottom:1px solid var(--line);z-index:40;display:flex;align-items:center;gap:12px;padding:0 16px}
 .ibtn{width:48px;height:48px;border-radius:var(--r);background:var(--s3);display:grid;place-items:center;color:var(--tx);border:1px solid transparent;transition:background .15s}
 .ibtn:hover{background:var(--line2)} .ibtn[aria-pressed=true]{border-color:var(--cy)}
-.brand{display:flex;align-items:flex-end;height:48px;position:relative;padding-right:46px}
-.brand img{height:19px;margin-bottom:12px}
+.brand{display:flex;align-items:center;height:48px;flex:none}
+.brand img{height:46px;width:auto;display:block}
 .brand .wave{position:absolute;right:0;bottom:4px;width:62px;height:44px}
 .top .mid{position:absolute;left:50%;transform:translateX(-50%);display:flex;gap:8px}
 .prize{height:48px;border-radius:var(--r);background:var(--s3);display:flex;align-items:center;gap:10px;padding:0 14px}
@@ -441,7 +441,7 @@ select.dd{appearance:none;height:44px;border-radius:var(--r);background:var(--s2
   .top .mid,.dep{display:none!important}
   .top .srch.so{display:none}
   .btn,.ibtn,.wallet{height:44px} .ibtn{width:44px} .btn{padding:0 14px}
-  .brand img{height:17px;margin-bottom:11px} .brand .wave{width:50px;height:36px;bottom:5px} .brand{padding-right:38px}
+  .brand img{height:38px}
   .main{padding:calc(var(--top) + 8px) 12px calc(var(--nav) + 84px)}
   .lcard{margin-left:-12px;margin-right:-12px;border-radius:0;border-left:0;border-right:0}
   .ph h1{font-size:22px}
