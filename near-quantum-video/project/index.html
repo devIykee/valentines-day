@@ -1,0 +1,619 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1080, height=1920" />
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<script type="importmap">{"imports":{"three":"./assets/lib/three.module.min.js"}}</script>
+<script>
+  window.__hf = window.__hf || {}; window.__hf.buildReady = window.__hf.buildReady || {};
+  window.__hf.buildReady.world = new Promise(r => (window.__threeReady = r));
+</script>
+<style>
+:root { --ink:#05060a; --near:#00ec97; --q:#a37bff; --red:#ff3b2f; --paper:#f3efe6; }
+* { margin:0; padding:0; box-sizing:border-box; }
+html,body { width:1080px; height:1920px; overflow:hidden; background:#05060a; }
+#root { position:relative; width:1080px; height:1920px; overflow:hidden; font-family:Montserrat, sans-serif; color:#fff; }
+#gl { position:absolute; left:0; top:0; width:1080px; height:1920px; }
+.ov { position:absolute; left:0; right:0; text-align:center; opacity:0; }
+.mega { font-family:"Archivo Black"; font-size:230px; line-height:.9; letter-spacing:-.01em; }
+.mega .l { position:absolute; left:0; right:0; top:0; mix-blend-mode:screen; }
+.big { font-family:"Archivo Black"; font-size:92px; line-height:1.0; letter-spacing:-.01em; text-shadow:0 6px 40px rgba(0,0,0,.6); }
+.sub { font-family:Montserrat; font-weight:600; font-size:42px; letter-spacing:.02em; color:rgba(255,255,255,.85); text-shadow:0 4px 24px rgba(0,0,0,.8); }
+.tag { display:inline-block; font-family:"Space Mono"; font-weight:700; font-size:34px; letter-spacing:.12em; padding:10px 22px; border:3px solid currentColor; background:rgba(5,6,10,.55); }
+.cap { position:absolute; left:0; right:0; top:1150px; text-align:center; opacity:0; font-family:Montserrat; font-weight:800; font-size:64px; letter-spacing:.01em; line-height:1.15; padding:0 70px; text-shadow:0 4px 0 rgba(0,0,0,.55), 0 0 30px rgba(0,0,0,.7); }
+.cap .w { display:inline-block; color:#fff; margin:0 .13em; }
+.slot { position:absolute; left:0; right:0; top:420px; height:130px; overflow:hidden; opacity:0; }
+.slot .strip { font-family:"Archivo Black"; font-size:110px; line-height:130px; text-align:center; color:#fff; }
+.scr { position:absolute; left:0; right:0; top:0; text-align:center; opacity:0; font-family:"Space Mono"; font-weight:700; font-size:96px; color:#ff6b5e; }
+#term { position:absolute; left:80px; top:330px; width:920px; height:440px; border-radius:26px; background:rgba(10,14,13,.82); border:2px solid rgba(0,236,151,.45); box-shadow:0 30px 80px rgba(0,0,0,.5), inset 0 1px 0 rgba(255,255,255,.08); padding:34px 38px; font-family:"Space Mono"; font-size:36px; line-height:1.65; color:#e6efe9; opacity:0; }
+#term .dots span { display:inline-block; width:20px; height:20px; border-radius:50%; margin-right:10px; }
+.tl { opacity:0; white-space:nowrap; overflow:hidden; }
+#wallet { position:absolute; left:200px; top:820px; width:680px; padding:30px; border-radius:24px; text-align:center; background:linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.03)); border:2px solid rgba(255,255,255,.25); font-family:"Space Mono"; font-size:36px; opacity:0; }
+#check { position:absolute; left:150px; top:300px; font-family:"Archivo Black"; font-size:70px; line-height:1.3; text-align:left; }
+#check div { opacity:0; }
+#check b { color:var(--near); }
+#endmark { position:absolute; left:0; right:0; top:560px; text-align:center; opacity:0; font-family:"Archivo Black"; font-size:260px; letter-spacing:.02em; color:#fff; }
+.rn { position:absolute; left:0; opacity:0; } .rn i { position:absolute; left:14px; top:6px; width:54px; height:54px; border-radius:50%; border:6px solid #05060a; } .rn small { display:block; margin-left:110px; font-family:"Space Mono"; font-weight:700; font-size:32px; letter-spacing:.1em; } .rn b { display:block; margin-left:110px; font-family:"Archivo Black"; font-size:52px; line-height:1.08; text-shadow:0 6px 30px rgba(0,0,0,.7); }
+#vig { position:absolute; inset:0; pointer-events:none; background:radial-gradient(ellipse at 50% 45%, rgba(0,0,0,0) 55%, rgba(0,0,0,.35) 100%); }
+#flash { position:absolute; inset:0; background:#fff; opacity:0; pointer-events:none; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="83.0" data-width="1080" data-height="1920">
+
+<canvas id="gl" class="clip" data-start="0" data-duration="83.0" data-track-index="0" width="720" height="1280"></canvas>
+<div id="vig" class="clip" data-start="0" data-duration="83.0" data-track-index="1" data-layout-ignore></div>
+
+<div id="ov" class="clip" data-start="0" data-duration="83.0" data-track-index="2" data-track-kind="graphics" data-layout-allow-overlap style="position:absolute;inset:0">
+  <div class="ov big" id="hook1" style="top:260px">MOST CRYPTO WALLETS<br/><span style="color:var(--red)">COULD BE UNLOCKED.</span></div>
+
+  <div class="ov mega" id="qday" style="top:330px"><div class="l" id="qdR" style="color:#ff2a2a">Q-DAY</div><div class="l" id="qdC" style="color:#2af0ff">Q-DAY</div><div style="position:relative">Q-DAY</div></div>
+  <div class="ov sub" id="qdaySub" style="top:560px">the day quantum computers break<br/>today's crypto locks</div>
+
+  <div class="ov" id="lockTag" style="top:250px"><span class="tag" style="color:var(--near)">THE LOCK = MATH</span></div>
+  <div class="slot" id="slot"><div class="strip" id="strip">1,000 YRS<br/>1,000,000 YRS<br/>1,000,000,000 YRS<br/><span style="color:var(--near)">BILLIONS OF YEARS</span></div></div>
+  <div class="ov sub" id="slotSub" style="top:565px">for a normal computer to pick it</div>
+
+  <div class="ov" id="qTag" style="top:250px"><span class="tag" style="color:var(--q)">QUANTUM COMPUTER</span></div>
+  <div class="ov mega" id="short" style="top:330px;font-size:150px"><div class="l" id="shR" style="color:#ff2a2a">SHORTCUT.</div><div class="l" id="shC" style="color:#2af0ff">SHORTCUT.</div><div style="position:relative">SHORTCUT.</div></div>
+
+  <div class="ov" id="whenTag" style="top:250px"><span class="tag" style="color:#ff6b5e">Q-DAY ARRIVES ON</span></div>
+  <div class="ov" id="scrBox" style="top:340px;height:120px"><span class="scr" id="scr0">20.03.2040</span><span class="scr" id="scr1">30.01.2030</span><span class="scr" id="scr2">27.02.2039</span><span class="scr" id="scr3">28.01.2044</span><span class="scr" id="scr4">16.01.2030</span><span class="scr" id="scr5">23.07.2030</span><span class="scr" id="scr6">17.02.2045</span><span class="scr" id="scr7">23.01.2031</span><span class="scr" id="scr8">17.11.2029</span><span class="scr" id="scr9">28.10.2040</span><span class="scr" id="scr10">11.04.2029</span><span class="scr" id="scr11">27.03.2037</span><span class="scr" id="scr12">23.03.2045</span><span class="scr" id="scr13">??.??.????</span></div>
+  <div class="ov" id="chainTag" style="top:520px"><span class="tag" style="color:#fff">MOST BLOCKCHAINS</span></div>
+
+  <div class="ov big" id="addrEq" style="top:260px">ADDRESS <span style="color:var(--red)">=</span> LOCK</div>
+  <div class="ov big" id="newLock" style="top:380px;font-size:76px">NEW LOCK?</div>
+  <div class="ov big" id="newAddr" style="top:470px;font-size:76px;color:#ff6b5e">= NEW ADDRESS.</div>
+  <div class="ov big" id="moveAll" style="top:300px;font-size:110px;color:var(--red)">MOVE<br/>EVERYTHING.</div>
+
+  <div class="ov mega" id="nearMark" style="top:250px;color:var(--near)">NEAR</div>
+  <div class="ov sub" id="nearSub" style="top:470px;font-size:48px">was built differently.</div>
+  <div class="ov" id="acctTag" style="top:250px"><span class="tag" style="color:var(--near)">ACCOUNT = A NAME</span></div>
+  <div class="ov" id="keysTag" style="top:330px"><span class="tag" style="color:#fff">KEYS = SEPARATE</span></div>
+  <div class="ov big" id="chg" style="top:250px;color:var(--near)">CHANGE<br/>THE LOCKS.</div>
+
+  <div class="ov" id="upTag" style="top:250px"><span class="tag" style="color:var(--near)">MAINNET UPGRADE 2.13</span></div>
+  <div class="ov mega" id="mldsa" style="top:340px;font-size:200px"><div class="l" id="mlR" style="color:#00ffa8">ML-DSA</div><div class="l" id="mlC" style="color:#7a5cff">ML-DSA</div><div style="position:relative">ML-DSA</div></div>
+  <div class="ov sub" id="mlSub" style="top:540px">a post-quantum signature</div>
+  <div class="ov" id="nist" style="top:620px"><span class="tag" style="color:#f3c66b">NIST STANDARD · FIPS 204</span></div>
+  <div class="ov" id="latTag" style="top:250px"><span class="tag" style="color:var(--near)">BUILT ON LATTICE MATH</span></div>
+  <div class="ov big" id="noShort" style="top:330px;font-size:80px">NO KNOWN<br/><span style="color:var(--q)">QUANTUM</span> SHORTCUT</div>
+
+  <div class="ov" id="movesTag" style="top:200px"><span class="tag" style="color:var(--near)">THE UPGRADE · 2 MOVES</span></div>
+  <div class="ov big" id="step1" style="top:280px;font-size:68px"><span style="color:var(--near)">①</span> ADD A<br/>QUANTUM-SAFE KEY</div>
+  <div class="ov big" id="step2" style="top:440px;font-size:68px"><span style="color:var(--red)">②</span> REMOVE<br/>THE OLD ONE</div>
+  <div class="ov" id="checkBox" style="top:0;height:900px"><div id="check"><div id="ck1"><b>✓</b> SAME NAME</div><div id="ck2"><b>✓</b> SAME TOKENS</div><div id="ck3"><b>✓</b> NEW LOCK</div></div></div>
+
+  <div id="term">
+    <div class="dots"><span style="background:#ff5f57"></span><span style="background:#febc2e"></span><span style="background:#28c840"></span></div>
+    <div class="tl" id="tl1" style="margin-top:18px">$ near … add-key alice.near</div>
+    <div class="tl" id="tl2" style="color:#8aa39a">  key scheme → <span style="color:var(--near)">ml-dsa-65</span></div>
+    <div class="tl" id="tl3" style="color:var(--near)">✓ quantum-safe key added</div>
+    <div class="tl" id="tl4" style="color:#8aa39a">  NEAR CLI · live today</div>
+  </div>
+  <div id="wallet">WALLETS · incl. LEDGER<br/><span style="font-size:30px;color:#b8c4bf">support in progress</span></div>
+
+  <div class="ov big" id="stepOne" style="top:260px;font-size:110px">STEP<br/><span style="color:var(--near)">ONE.</span></div>
+  <div class="ov" id="roadTag" style="top:250px"><span class="tag" style="color:var(--q)">POST-QUANTUM ROADMAP</span></div>
+  <div id="road" style="position:absolute;left:110px;top:380px;width:860px;height:640px;">
+    <div id="rline" style="position:absolute;left:38px;top:40px;width:6px;height:520px;background:linear-gradient(#00ec97,#a37bff);transform-origin:top"></div>
+    <div class="rn" id="rn1" style="top:0"><i style="background:#00ec97;box-shadow:0 0 14px rgba(0,236,151,.5)"></i><small style="color:#00ec97">✓ LIVE · UPGRADE 2.13</small><b>Your account &amp;<br/>every signature</b></div>
+    <div class="rn" id="rn2" style="top:240px"><i style="background:#a37bff;box-shadow:0 0 14px rgba(163,123,255,.5)"></i><small style="color:#c4a8ff">NEXT</small><b>Validators</b></div>
+    <div class="rn" id="rn3" style="top:410px"><i style="background:#a37bff;box-shadow:0 0 14px rgba(163,123,255,.5)"></i><small style="color:#c4a8ff">NEXT</small><b>Consensus:<br/>the network itself</b></div>
+  </div>
+
+  <div class="ov big" id="coming" style="top:280px;font-size:100px">Q-DAY IS<br/><span style="color:var(--red)">COMING.</span></div>
+  <div class="ov big" id="ready" style="top:280px;font-size:84px">BE READY<br/><span style="color:var(--near)">BEFORE IT DOES.</span></div>
+  <div id="endmark">NEAR</div>
+  <div class="ov big" id="end1" style="top:860px;font-size:72px">CHANGE THE LOCKS.</div>
+  <div class="ov big" id="end2" style="top:950px;font-size:72px;color:var(--near)">KEEP THE HOUSE.</div>
+</div>
+
+<div id="captions" class="clip" data-start="0" data-duration="83.0" data-track-index="3" data-track-kind="captions" style="position:absolute;inset:0">
+<div class="cap" id="cap0"><span class="w" id="c0w0">ONE</span> <span class="w" id="c0w1">DAY</span></div>
+<div class="cap" id="cap1"><span class="w" id="c1w0">A</span> <span class="w" id="c1w1">COMPUTER</span> <span class="w" id="c1w2">WILL</span></div>
+<div class="cap" id="cap2"><span class="w" id="c2w0">EXIST</span> <span class="w" id="c2w1">THAT</span> <span class="w" id="c2w2">COULD</span></div>
+<div class="cap" id="cap3"><span class="w" id="c3w0">UNLOCK</span> <span class="w" id="c3w1">MOST</span> <span class="w" id="c3w2">OF</span></div>
+<div class="cap" id="cap4"><span class="w" id="c4w0">THE</span> <span class="w" id="c4w1">CRYPTO</span> <span class="w" id="c4w2">WALLETS</span></div>
+<div class="cap" id="cap5"><span class="w" id="c5w0">ON</span> <span class="w" id="c5w1">EARTH</span></div>
+<div class="cap" id="cap6"><span class="w" id="c6w0">EXPERTS</span> <span class="w" id="c6w1">HAVE</span> <span class="w" id="c6w2">A</span></div>
+<div class="cap" id="cap7"><span class="w" id="c7w0">NAME</span> <span class="w" id="c7w1">FOR</span> <span class="w" id="c7w2">THAT</span></div>
+<div class="cap" id="cap8"><span class="w" id="c8w0">DAY</span></div>
+<div class="cap" id="cap9"><span class="w" id="c9w0">Q-DAY</span></div>
+<div class="cap" id="cap10"><span class="w" id="c10w0">HERE'S</span> <span class="w" id="c10w1">WHY</span></div>
+<div class="cap" id="cap11"><span class="w" id="c11w0">EVERY</span> <span class="w" id="c11w1">WALLET</span> <span class="w" id="c11w2">IS</span></div>
+<div class="cap" id="cap12"><span class="w" id="c12w0">GUARDED</span> <span class="w" id="c12w1">BY</span> <span class="w" id="c12w2">A</span></div>
+<div class="cap" id="cap13"><span class="w" id="c13w0">LOCK</span> <span class="w" id="c13w1">MADE</span> <span class="w" id="c13w2">OF</span></div>
+<div class="cap" id="cap14"><span class="w" id="c14w0">MATH</span></div>
+<div class="cap" id="cap15"><span class="w" id="c15w0">A</span> <span class="w" id="c15w1">NORMAL</span> <span class="w" id="c15w2">COMPUTER</span></div>
+<div class="cap" id="cap16"><span class="w" id="c16w0">WOULD</span> <span class="w" id="c16w1">NEED</span> <span class="w" id="c16w2">BILLIONS</span></div>
+<div class="cap" id="cap17"><span class="w" id="c17w0">OF</span> <span class="w" id="c17w1">YEARS</span> <span class="w" id="c17w2">TO</span></div>
+<div class="cap" id="cap18"><span class="w" id="c18w0">PICK</span></div>
+<div class="cap" id="cap19"><span class="w" id="c19w0">IT</span></div>
+<div class="cap" id="cap20"><span class="w" id="c20w0">BUT</span> <span class="w" id="c20w1">A</span> <span class="w" id="c20w2">LARGE</span></div>
+<div class="cap" id="cap21"><span class="w" id="c21w0">ENOUGH</span> <span class="w" id="c21w1">QUANTUM</span> <span class="w" id="c21w2">COMPUTER</span></div>
+<div class="cap" id="cap22"><span class="w" id="c22w0">FINDS</span> <span class="w" id="c22w1">A</span> <span class="w" id="c22w2">SHORTCUT</span></div>
+<div class="cap" id="cap23"><span class="w" id="c23w0">NOBODY</span> <span class="w" id="c23w1">KNOWS</span></div>
+<div class="cap" id="cap24"><span class="w" id="c24w0">EXACTLY</span> <span class="w" id="c24w1">WHEN</span> <span class="w" id="c24w2">Q-DAY</span></div>
+<div class="cap" id="cap25"><span class="w" id="c25w0">ARRIVES</span></div>
+<div class="cap" id="cap26"><span class="w" id="c26w0">BUT</span> <span class="w" id="c26w1">ON</span> <span class="w" id="c26w2">MOST</span></div>
+<div class="cap" id="cap27"><span class="w" id="c27w0">BLOCKCHAINS</span></div>
+<div class="cap" id="cap28"><span class="w" id="c28w0">THERE'S</span> <span class="w" id="c28w1">A</span> <span class="w" id="c28w2">CATCH</span></div>
+<div class="cap" id="cap29"><span class="w" id="c29w0">YOUR</span> <span class="w" id="c29w1">ADDRESS</span></div>
+<div class="cap" id="cap30"><span class="w" id="c30w0">IS</span> <span class="w" id="c30w1">YOUR</span> <span class="w" id="c30w2">LOCK</span></div>
+<div class="cap" id="cap31"><span class="w" id="c31w0">NEW</span> <span class="w" id="c31w1">LOCK</span></div>
+<div class="cap" id="cap32"><span class="w" id="c32w0">NEW</span> <span class="w" id="c32w1">ADDRESS</span></div>
+<div class="cap" id="cap33"><span class="w" id="c33w0">YOU'D</span> <span class="w" id="c33w1">HAVE</span> <span class="w" id="c33w2">TO</span></div>
+<div class="cap" id="cap34"><span class="w" id="c34w0">MOVE</span></div>
+<div class="cap" id="cap35"><span class="w" id="c35w0">EVERYTHING</span></div>
+<div class="cap" id="cap36"><span class="w" id="c36w0">NEAR</span> <span class="w" id="c36w1">WAS</span> <span class="w" id="c36w2">BUILT</span></div>
+<div class="cap" id="cap37"><span class="w" id="c37w0">DIFFERENTLY</span></div>
+<div class="cap" id="cap38"><span class="w" id="c38w0">ON</span> <span class="w" id="c38w1">NEAR</span></div>
+<div class="cap" id="cap39"><span class="w" id="c39w0">YOUR</span> <span class="w" id="c39w1">ACCOUNT</span> <span class="w" id="c39w2">IS</span></div>
+<div class="cap" id="cap40"><span class="w" id="c40w0">A</span> <span class="w" id="c40w1">NAME</span></div>
+<div class="cap" id="cap41"><span class="w" id="c41w0">alice.near</span></div>
+<div class="cap" id="cap42"><span class="w" id="c42w0">THE</span> <span class="w" id="c42w1">KEYS</span> <span class="w" id="c42w2">ARE</span></div>
+<div class="cap" id="cap43"><span class="w" id="c43w0">SEPARATE</span></div>
+<div class="cap" id="cap44"><span class="w" id="c44w0">LIKE</span> <span class="w" id="c44w1">KEYS</span> <span class="w" id="c44w2">TO</span></div>
+<div class="cap" id="cap45"><span class="w" id="c45w0">A</span> <span class="w" id="c45w1">HOUSE</span></div>
+<div class="cap" id="cap46"><span class="w" id="c46w0">SO</span> <span class="w" id="c46w1">WHEN</span> <span class="w" id="c46w2">THE</span></div>
+<div class="cap" id="cap47"><span class="w" id="c47w0">LOCKS</span> <span class="w" id="c47w1">NEED</span> <span class="w" id="c47w2">CHANGING</span></div>
+<div class="cap" id="cap48"><span class="w" id="c48w0">YOU</span> <span class="w" id="c48w1">JUST</span> <span class="w" id="c48w2">CHANGE</span></div>
+<div class="cap" id="cap49"><span class="w" id="c49w0">THE</span> <span class="w" id="c49w1">LOCKS</span></div>
+<div class="cap" id="cap50"><span class="w" id="c50w0">SINCE</span> <span class="w" id="c50w1">UPGRADE</span></div>
+<div class="cap" id="cap51"><span class="w" id="c51w0">2.13</span></div>
+<div class="cap" id="cap52"><span class="w" id="c52w0">NEAR</span> <span class="w" id="c52w1">SUPPORTS</span> <span class="w" id="c52w2">A</span></div>
+<div class="cap" id="cap53"><span class="w" id="c53w0">NEW</span> <span class="w" id="c53w1">KIND</span> <span class="w" id="c53w2">OF</span></div>
+<div class="cap" id="cap54"><span class="w" id="c54w0">LOCK</span></div>
+<div class="cap" id="cap55"><span class="w" id="c55w0">ML-DSA</span></div>
+<div class="cap" id="cap56"><span class="w" id="c56w0">A</span> <span class="w" id="c56w1">POST-QUANTUM</span> <span class="w" id="c56w2">SIGNATURE</span></div>
+<div class="cap" id="cap57"><span class="w" id="c57w0">STANDARDIZED</span> <span class="w" id="c57w1">BY</span> <span class="w" id="c57w2">NIST</span></div>
+<div class="cap" id="cap58"><span class="w" id="c58w0">AND</span> <span class="w" id="c58w1">BUILT</span> <span class="w" id="c58w2">ON</span></div>
+<div class="cap" id="cap59"><span class="w" id="c59w0">LATTICE MATH</span> <span class="w" id="c59w1">WITH</span> <span class="w" id="c59w2">NO</span></div>
+<div class="cap" id="cap60"><span class="w" id="c60w0">KNOWN</span> <span class="w" id="c60w1">QUANTUM</span> <span class="w" id="c60w2">SHORTCUT</span></div>
+<div class="cap" id="cap61"><span class="w" id="c61w0">UPGRADING</span> <span class="w" id="c61w1">TAKES</span></div>
+<div class="cap" id="cap62"><span class="w" id="c62w0">TWO</span> <span class="w" id="c62w1">MOVES</span></div>
+<div class="cap" id="cap63"><span class="w" id="c63w0">ADD</span> <span class="w" id="c63w1">A</span> <span class="w" id="c63w2">QUANTUM-SAFE</span></div>
+<div class="cap" id="cap64"><span class="w" id="c64w0">KEY</span></div>
+<div class="cap" id="cap65"><span class="w" id="c65w0">REMOVE</span> <span class="w" id="c65w1">THE</span> <span class="w" id="c65w2">OLD</span></div>
+<div class="cap" id="cap66"><span class="w" id="c66w0">ONE</span></div>
+<div class="cap" id="cap67"><span class="w" id="c67w0">SAME</span> <span class="w" id="c67w1">NAME</span></div>
+<div class="cap" id="cap68"><span class="w" id="c68w0">SAME</span> <span class="w" id="c68w1">TOKENS</span></div>
+<div class="cap" id="cap69"><span class="w" id="c69w0">NEW</span> <span class="w" id="c69w1">LOCK</span></div>
+<div class="cap" id="cap70"><span class="w" id="c70w0">IT</span> <span class="w" id="c70w1">WORKS</span> <span class="w" id="c70w2">TODAY</span></div>
+<div class="cap" id="cap71"><span class="w" id="c71w0">WITH</span> <span class="w" id="c71w1">THE</span> <span class="w" id="c71w2">NEAR</span></div>
+<div class="cap" id="cap72"><span class="w" id="c72w0">CLI</span></div>
+<div class="cap" id="cap73"><span class="w" id="c73w0">AND</span> <span class="w" id="c73w1">NEAR</span> <span class="w" id="c73w2">IS</span></div>
+<div class="cap" id="cap74"><span class="w" id="c74w0">WORKING</span></div>
+<div class="cap" id="cap75"><span class="w" id="c75w0">WITH</span> <span class="w" id="c75w1">WALLETS</span> <span class="w" id="c75w2">LIKE</span></div>
+<div class="cap" id="cap76"><span class="w" id="c76w0">LEDGER</span> <span class="w" id="c76w1">TO</span> <span class="w" id="c76w2">BRING</span></div>
+<div class="cap" id="cap77"><span class="w" id="c77w0">IT</span> <span class="w" id="c77w1">TO</span> <span class="w" id="c77w2">EVERYONE</span></div>
+<div class="cap" id="cap78"><span class="w" id="c78w0">AND</span> <span class="w" id="c78w1">THIS</span> <span class="w" id="c78w2">IS</span></div>
+<div class="cap" id="cap79"><span class="w" id="c79w0">JUST</span> <span class="w" id="c79w1">STEP</span> <span class="w" id="c79w2">ONE</span></div>
+<div class="cap" id="cap80"><span class="w" id="c80w0">TODAY</span></div>
+<div class="cap" id="cap81"><span class="w" id="c81w0">IT</span> <span class="w" id="c81w1">PROTECTS</span> <span class="w" id="c81w2">YOUR</span></div>
+<div class="cap" id="cap82"><span class="w" id="c82w0">ACCOUNT</span></div>
+<div class="cap" id="cap83"><span class="w" id="c83w0">NEXT</span> <span class="w" id="c83w1">ON</span> <span class="w" id="c83w2">THE</span></div>
+<div class="cap" id="cap84"><span class="w" id="c84w0">ROADMAP</span></div>
+<div class="cap" id="cap85"><span class="w" id="c85w0">THE</span> <span class="w" id="c85w1">VALIDATORS</span> <span class="w" id="c85w2">AND</span></div>
+<div class="cap" id="cap86"><span class="w" id="c86w0">THE</span> <span class="w" id="c86w1">CONSENSUS</span> <span class="w" id="c86w2">THAT</span></div>
+<div class="cap" id="cap87"><span class="w" id="c87w0">RUN</span> <span class="w" id="c87w1">THE</span> <span class="w" id="c87w2">NETWORK</span></div>
+<div class="cap" id="cap88"><span class="w" id="c88w0">ITSELF</span></div>
+<div class="cap" id="cap89"><span class="w" id="c89w0">Q-DAY</span> <span class="w" id="c89w1">IS</span> <span class="w" id="c89w2">COMING</span></div>
+<div class="cap" id="cap90"><span class="w" id="c90w0">ON</span> <span class="w" id="c90w1">NEAR</span></div>
+<div class="cap" id="cap91"><span class="w" id="c91w0">YOU</span> <span class="w" id="c91w1">CAN</span> <span class="w" id="c91w2">BE</span></div>
+<div class="cap" id="cap92"><span class="w" id="c92w0">READY</span> <span class="w" id="c92w1">BEFORE</span> <span class="w" id="c92w2">IT</span></div>
+<div class="cap" id="cap93"><span class="w" id="c93w0">DOES</span></div>
+<div class="cap" id="cap94"><span class="w" id="c94w0">CHANGE</span> <span class="w" id="c94w1">THE</span> <span class="w" id="c94w2">LOCKS</span></div>
+<div class="cap" id="cap95"><span class="w" id="c95w0">KEEP</span> <span class="w" id="c95w1">THE</span> <span class="w" id="c95w2">HOUSE</span></div>
+</div>
+<div id="flash" class="clip" data-start="0" data-duration="83.0" data-track-index="4" data-layout-ignore></div>
+
+<audio id="mix" class="clip" src="assets/mix.wav" data-start="0" data-duration="83.0" data-track-index="5" data-volume="1"></audio>
+</div>
+
+<script>
+const tl = gsap.timeline({ paused: true });
+const OUT = "expo.out";
+function cap(sel, s, e) {
+  tl.fromTo(sel, {opacity:0, y:18, filter:"blur(6px)"}, {opacity:1, y:0, filter:"blur(0px)", duration:.14, ease:OUT}, s);
+  tl.to(sel, {opacity:0, duration:.08, ease:"power2.in"}, e - .08);
+  tl.set(sel, {opacity:0, visibility:"hidden"}, e);
+}
+function word(sel, s, e, hot) {
+  tl.set(sel, {color:hot}, s);
+  tl.fromTo(sel, {scale:1.12}, {scale:1, duration:.25, ease:OUT}, s);
+  tl.set(sel, {color:"#ffffff"}, e);
+}
+// entrances (varied on purpose)
+function blurIn(sel, s, d) { tl.fromTo(sel, {opacity:0, filter:"blur(14px)", scale:1.04}, {opacity:1, filter:"blur(0px)", scale:1, duration:d||.32, ease:OUT}, s); }
+function punch(sel, s) { tl.fromTo(sel, {opacity:0, scale:1.9}, {opacity:1, scale:1, duration:.22, ease:"power4.in"}, s - .2); }
+function rise(sel, s) { tl.fromTo(sel, {opacity:0, y:50}, {opacity:1, y:0, duration:.5, ease:OUT}, s); }
+function tagIn(sel, s) { tl.fromTo(sel, {opacity:0, scaleX:.2}, {opacity:1, scaleX:1, duration:.3, ease:OUT}, s); }
+function out(sel, s, d) { tl.to(sel, {opacity:0, filter:"blur(10px)", duration:d||.2, ease:"power2.in"}, s); }
+function rgb(r, c, s) { tl.fromTo(r, {x:-26, opacity:.9}, {x:0, opacity:0, duration:.45, ease:OUT}, s); tl.fromTo(c, {x:26, opacity:.9}, {x:0, opacity:0, duration:.45, ease:OUT}, s); }
+function shake(sel, s, amp) { for (let i=0;i<7;i++) tl.to(sel, {x:(i%2?-1:1)*amp*(1-i/7), y:(i%3-1)*amp*.6*(1-i/7), duration:.035, ease:"none"}, s+i*.035); tl.to(sel, {x:0,y:0,duration:.05}, s+.25); }
+
+// flashes on impacts (white frames) — 3D grade pass also flashes; this one hits the type too
+[[6.96,.55],[17.31,.45],[29.58,.5],[44.88,.35],[80.36,.5]].forEach(([t,k]) => { tl.fromTo("#flash",{opacity:k},{opacity:0,duration:.28,ease:"power2.out",immediateRender:false},t); });
+[6.96,17.31,29.58,44.88,74.49,80.36].forEach(t => shake("#ov", t, 16));
+
+// 1 hook — on screen at frame 0
+tl.fromTo("#hook1", {opacity:1, scale:1.03}, {opacity:1, scale:1, duration:1.2, ease:OUT}, 0);
+out("#hook1", 6.6);
+// 2 Q-DAY
+punch("#qday", 6.96); rgb("#qdR","#qdC",6.96); blurIn("#qdaySub", 7.3); out("#qday", 8.6); out("#qdaySub", 8.6);
+// 3 lock = math, billions of years (slot roll)
+tagIn("#lockTag", 9.7); out("#lockTag", 12.9);
+tl.set("#slot", {opacity:1}, 13.0); tl.fromTo("#strip", {y:0}, {y:-390, duration:.9, ease:"power3.inOut"}, 13.05);
+blurIn("#slotSub", 13.4); out("#slot", 14.6); out("#slotSub", 14.6);
+// 4 quantum
+tagIn("#qTag", 15.84); out("#qTag", 17.1);
+punch("#short", 17.31); rgb("#shR","#shC",17.31); out("#short", 18.15);
+// 5 when? (date scramble)
+tagIn("#whenTag", 19.7); tl.set("#scrBox", {opacity:1}, 19.75); tl.set("#scr0",{opacity:1},19.80);tl.set("#scr0",{opacity:0},20.02);tl.set("#scr1",{opacity:1},20.02);tl.set("#scr1",{opacity:0},20.24);tl.set("#scr2",{opacity:1},20.24);tl.set("#scr2",{opacity:0},20.46);tl.set("#scr3",{opacity:1},20.46);tl.set("#scr3",{opacity:0},20.68);tl.set("#scr4",{opacity:1},20.68);tl.set("#scr4",{opacity:0},20.90);tl.set("#scr5",{opacity:1},20.90);tl.set("#scr5",{opacity:0},21.12);tl.set("#scr6",{opacity:1},21.12);tl.set("#scr6",{opacity:0},21.34);tl.set("#scr7",{opacity:1},21.34);tl.set("#scr7",{opacity:0},21.56);tl.set("#scr8",{opacity:1},21.56);tl.set("#scr8",{opacity:0},21.78);tl.set("#scr9",{opacity:1},21.78);tl.set("#scr9",{opacity:0},22.00);tl.set("#scr10",{opacity:1},22.00);tl.set("#scr10",{opacity:0},22.22);tl.set("#scr11",{opacity:1},22.22);tl.set("#scr11",{opacity:0},22.44);tl.set("#scr12",{opacity:1},22.44);tl.set("#scr12",{opacity:0},22.66);tl.set("#scr13",{opacity:1},22.66);
+tl.fromTo("#scr13", {color:"#ff6b5e"}, {color:"#ffffff", duration:.3}, 22.66);
+tagIn("#chainTag", 21.38); out("#whenTag", 23.1); out("#scrBox", 23.1); out("#chainTag", 23.1);
+// 6 address = lock
+blurIn("#addrEq", 23.56); rise("#newLock", 25.36); rise("#newAddr", 26.17);
+out("#addrEq", 27.8); out("#newLock", 27.8); out("#newAddr", 27.8);
+punch("#moveAll", 27.97); tl.to("#moveAll", {x:900, filter:"blur(20px)", opacity:0, duration:.6, ease:"power3.in"}, 28.7);
+// 7 NEAR
+punch("#nearMark", 29.58); blurIn("#nearSub", 30.0); out("#nearMark", 31.05); out("#nearSub", 31.05);
+tagIn("#acctTag", 32.2); tagIn("#keysTag", 35.06); out("#acctTag", 37.3); out("#keysTag", 37.3);
+
+// 8 ML-DSA / lattice
+tagIn("#upTag", 41.25); out("#upTag", 44.6);
+punch("#mldsa", 44.88); rgb("#mlR","#mlC",44.88); blurIn("#mlSub", 46.63); tagIn("#nist", 48.32);
+out("#mldsa", 50.0); out("#mlSub", 50.0); out("#nist", 50.0);
+tagIn("#latTag", 50.17); out("#latTag", 51.0); blurIn("#noShort", 51.16); out("#noShort", 52.85);
+// 9 two moves
+tagIn("#movesTag", 53.6); rise("#step1", 54.74); rise("#step2", 56.24);
+out("#movesTag", 57.5); out("#step1", 57.5); out("#step2", 57.5);
+tl.set("#checkBox", {opacity:1}, 57.6);
+[["#ck1",57.68],["#ck2",58.52],["#ck3",59.35]].forEach(([s,t]) => tl.fromTo(s, {opacity:0, x:-60}, {opacity:1, x:0, duration:.35, ease:OUT}, t));
+out("#checkBox", 60.1);
+// 10 today: terminal + wallets
+tl.fromTo("#term", {opacity:0, y:60, scale:.96}, {opacity:1, y:0, scale:1, duration:.5, ease:OUT}, 60.3);
+tl.fromTo("#tl1", {opacity:1, clipPath:"inset(0 100% 0 0)"}, {clipPath:"inset(0 0% 0 0)", duration:1.0, ease:"steps(28)"}, 60.6);
+tl.fromTo("#tl2", {opacity:0}, {opacity:1, duration:.15}, 61.8);
+tl.fromTo("#tl3", {opacity:0, x:-20}, {opacity:1, x:0, duration:.25, ease:OUT}, 62.15);
+tl.fromTo("#tl4", {opacity:0}, {opacity:1, duration:.2}, 62.6);
+tl.fromTo("#wallet", {opacity:0, y:80, rotationX:30}, {opacity:1, y:0, rotationX:0, duration:.55, ease:OUT}, 63.58);
+out("#term", 65.8); out("#wallet", 65.8);
+// 11 roadmap
+punch("#stepOne", 66.92); out("#stepOne", 67.7); tagIn("#roadTag", 67.8);
+tl.fromTo("#rline", {scaleY:0}, {scaleY:1, duration:1.6, ease:"power2.inOut"}, 67.9);
+[["#rn1",67.84],["#rn2",71.07],["#rn3",72.1]].forEach(([s,t]) => tl.fromTo(s, {opacity:0, x:-50, filter:"blur(8px)"}, {opacity:1, x:0, filter:"blur(0px)", duration:.4, ease:OUT}, t));
+out("#road", 74.25); out("#roadTag", 74.25);
+// 12 finale
+punch("#coming", 74.49); out("#coming", 75.75);
+blurIn("#ready", 76.09); out("#ready", 78.6);
+tl.fromTo("#endmark", {opacity:0, scale:1.3, filter:"blur(20px)"}, {opacity:1, scale:1, filter:"blur(0px)", duration:.6, ease:OUT}, 78.85);
+rise("#end1", 78.88); rise("#end2", 79.92);
+
+word("#c0w0",0.16,0.21,"#ff5a4e");
+word("#c0w1",0.21,0.54,"#ff5a4e");
+cap("#cap0",0.11,0.54);
+word("#c1w0",0.56,0.63,"#ff5a4e");
+word("#c1w1",0.63,1.20,"#ff5a4e");
+word("#c1w2",1.20,1.46,"#ff5a4e");
+cap("#cap1",0.51,1.46);
+word("#c2w0",1.48,1.83,"#ff5a4e");
+word("#c2w1",1.83,2.12,"#ff5a4e");
+word("#c2w2",2.12,2.52,"#ff5a4e");
+cap("#cap2",1.43,2.52);
+word("#c3w0",2.54,2.97,"#ff5a4e");
+word("#c3w1",2.97,3.24,"#ff5a4e");
+word("#c3w2",3.24,3.36,"#ff5a4e");
+cap("#cap3",2.49,3.36);
+word("#c4w0",3.38,3.59,"#ff5a4e");
+word("#c4w1",3.59,4.02,"#ff5a4e");
+word("#c4w2",4.02,4.51,"#ff5a4e");
+cap("#cap4",3.33,4.51);
+word("#c5w0",4.53,4.66,"#ff5a4e");
+word("#c5w1",4.66,5.16,"#ff5a4e");
+cap("#cap5",4.48,5.16);
+word("#c6w0",5.20,5.50,"#ff5a4e");
+word("#c6w1",5.50,5.72,"#ff5a4e");
+word("#c6w2",5.72,5.93,"#ff5a4e");
+cap("#cap6",5.15,5.93);
+word("#c7w0",6.04,6.08,"#ff5a4e");
+word("#c7w1",6.08,6.31,"#ff5a4e");
+word("#c7w2",6.31,6.51,"#ff5a4e");
+cap("#cap7",5.99,6.51);
+word("#c8w0",6.53,6.94,"#ff5a4e");
+cap("#cap8",6.48,6.94);
+word("#c9w0",6.96,7.94,"#ff5a4e");
+cap("#cap9",6.91,7.94);
+word("#c10w0",7.96,8.32,"#ff5a4e");
+word("#c10w1",8.32,8.84,"#ff5a4e");
+cap("#cap10",7.91,8.84);
+word("#c11w0",8.88,9.08,"#ff5a4e");
+word("#c11w1",9.08,9.37,"#ff5a4e");
+word("#c11w2",9.37,9.71,"#ff5a4e");
+cap("#cap11",8.83,9.71);
+word("#c12w0",9.73,10.17,"#ff5a4e");
+word("#c12w1",10.17,10.31,"#ff5a4e");
+word("#c12w2",10.31,10.36,"#ff5a4e");
+cap("#cap12",9.68,10.36);
+word("#c13w0",10.38,10.67,"#ff5a4e");
+word("#c13w1",10.67,10.96,"#ff5a4e");
+word("#c13w2",10.96,11.08,"#ff5a4e");
+cap("#cap13",10.33,11.08);
+word("#c14w0",11.10,11.67,"#ff5a4e");
+cap("#cap14",11.05,11.67);
+word("#c15w0",11.69,11.74,"#ff5a4e");
+word("#c15w1",11.74,12.12,"#ff5a4e");
+word("#c15w2",12.12,12.62,"#ff5a4e");
+cap("#cap15",11.64,12.62);
+word("#c16w0",12.64,12.80,"#ff5a4e");
+word("#c16w1",12.80,13.12,"#ff5a4e");
+word("#c16w2",13.12,13.57,"#ff5a4e");
+cap("#cap16",12.59,13.57);
+word("#c17w0",13.59,13.76,"#ff5a4e");
+word("#c17w1",13.76,14.09,"#ff5a4e");
+word("#c17w2",14.09,14.21,"#ff5a4e");
+cap("#cap17",13.54,14.21);
+word("#c18w0",14.23,14.48,"#ff5a4e");
+cap("#cap18",14.18,14.48);
+word("#c19w0",14.60,14.77,"#ff5a4e");
+cap("#cap19",14.55,14.77);
+word("#c20w0",14.79,15.00,"#ff5a4e");
+word("#c20w1",15.00,15.07,"#ff5a4e");
+word("#c20w2",15.07,15.41,"#ff5a4e");
+cap("#cap20",14.74,15.41);
+word("#c21w0",15.43,15.84,"#ff5a4e");
+word("#c21w1",15.84,16.33,"#ff5a4e");
+word("#c21w2",16.33,16.87,"#ff5a4e");
+cap("#cap21",15.38,16.87);
+word("#c22w0",16.89,17.24,"#ff5a4e");
+word("#c22w1",17.24,17.31,"#ff5a4e");
+word("#c22w2",17.31,18.28,"#ff5a4e");
+cap("#cap22",16.84,18.28);
+word("#c23w0",18.32,18.60,"#ff5a4e");
+word("#c23w1",18.60,18.96,"#ff5a4e");
+cap("#cap23",18.27,18.96);
+word("#c24w0",19.17,19.47,"#ff5a4e");
+word("#c24w1",19.47,19.76,"#ff5a4e");
+word("#c24w2",19.76,20.09,"#ff5a4e");
+cap("#cap24",19.12,20.09);
+word("#c25w0",20.11,20.78,"#ff5a4e");
+cap("#cap25",20.06,20.78);
+word("#c26w0",20.80,20.99,"#ff5a4e");
+word("#c26w1",20.99,21.13,"#ff5a4e");
+word("#c26w2",21.13,21.36,"#ff5a4e");
+cap("#cap26",20.75,21.36);
+word("#c27w0",21.38,22.22,"#ff5a4e");
+cap("#cap27",21.33,22.22);
+word("#c28w0",22.24,22.69,"#ff5a4e");
+word("#c28w1",22.69,22.71,"#ff5a4e");
+word("#c28w2",22.71,23.17,"#ff5a4e");
+cap("#cap28",22.19,23.17);
+word("#c29w0",23.36,23.56,"#ff5a4e");
+word("#c29w1",23.56,24.00,"#ff5a4e");
+cap("#cap29",23.31,24.00);
+word("#c30w0",24.20,24.36,"#ff5a4e");
+word("#c30w1",24.36,24.72,"#ff5a4e");
+word("#c30w2",24.72,25.34,"#ff5a4e");
+cap("#cap30",24.15,25.34);
+word("#c31w0",25.36,25.60,"#ff5a4e");
+word("#c31w1",25.60,26.15,"#ff5a4e");
+cap("#cap31",25.31,26.15);
+word("#c32w0",26.17,26.36,"#ff5a4e");
+word("#c32w1",26.36,27.02,"#ff5a4e");
+cap("#cap32",26.12,27.02);
+word("#c33w0",27.04,27.46,"#ff5a4e");
+word("#c33w1",27.46,27.80,"#ff5a4e");
+word("#c33w2",27.80,27.95,"#ff5a4e");
+cap("#cap33",26.99,27.95);
+word("#c34w0",27.97,28.19,"#ff5a4e");
+cap("#cap34",27.92,28.19);
+word("#c35w0",28.34,29.08,"#ff5a4e");
+cap("#cap35",28.29,29.08);
+word("#c36w0",29.58,29.71,"#00ec97");
+word("#c36w1",29.71,29.91,"#00ec97");
+word("#c36w2",29.91,30.29,"#00ec97");
+cap("#cap36",29.53,30.29);
+word("#c37w0",30.53,31.18,"#00ec97");
+cap("#cap37",30.48,31.18);
+word("#c38w0",31.20,31.38,"#00ec97");
+word("#c38w1",31.38,31.84,"#00ec97");
+cap("#cap38",31.15,31.84);
+word("#c39w0",31.86,32.20,"#00ec97");
+word("#c39w1",32.20,32.84,"#00ec97");
+word("#c39w2",32.84,33.00,"#00ec97");
+cap("#cap39",31.81,33.00);
+word("#c40w0",33.02,33.11,"#00ec97");
+word("#c40w1",33.11,33.66,"#00ec97");
+cap("#cap40",32.97,33.66);
+word("#c41w0",33.68,34.92,"#00ec97");
+cap("#cap41",33.63,34.92);
+word("#c42w0",34.94,35.06,"#00ec97");
+word("#c42w1",35.06,35.44,"#00ec97");
+word("#c42w2",35.44,35.57,"#00ec97");
+cap("#cap42",34.89,35.57);
+word("#c43w0",35.59,36.28,"#00ec97");
+cap("#cap43",35.54,36.28);
+word("#c44w0",36.32,36.42,"#00ec97");
+word("#c44w1",36.42,36.68,"#00ec97");
+word("#c44w2",36.68,36.79,"#00ec97");
+cap("#cap44",36.27,36.79);
+word("#c45w0",36.81,36.87,"#00ec97");
+word("#c45w1",36.87,37.41,"#00ec97");
+cap("#cap45",36.76,37.41);
+word("#c46w0",37.43,37.52,"#00ec97");
+word("#c46w1",37.52,37.78,"#00ec97");
+word("#c46w2",37.78,37.97,"#00ec97");
+cap("#cap46",37.38,37.97);
+word("#c47w0",37.99,38.30,"#00ec97");
+word("#c47w1",38.30,38.56,"#00ec97");
+word("#c47w2",38.56,39.26,"#00ec97");
+cap("#cap47",37.94,39.26);
+word("#c48w0",39.28,39.48,"#00ec97");
+word("#c48w1",39.48,39.75,"#00ec97");
+word("#c48w2",39.75,40.11,"#00ec97");
+cap("#cap48",39.23,40.11);
+word("#c49w0",40.13,40.33,"#00ec97");
+word("#c49w1",40.33,41.00,"#00ec97");
+cap("#cap49",40.08,41.00);
+word("#c50w0",41.04,41.25,"#00ec97");
+word("#c50w1",41.25,41.68,"#00ec97");
+cap("#cap50",40.99,41.68);
+word("#c51w0",41.88,42.79,"#00ec97");
+cap("#cap51",41.83,42.79);
+word("#c52w0",42.81,43.03,"#00ec97");
+word("#c52w1",43.03,43.63,"#00ec97");
+word("#c52w2",43.63,43.68,"#00ec97");
+cap("#cap52",42.76,43.68);
+word("#c53w0",43.70,43.92,"#00ec97");
+word("#c53w1",43.92,44.24,"#00ec97");
+word("#c53w2",44.24,44.35,"#00ec97");
+cap("#cap53",43.65,44.35);
+word("#c54w0",44.37,44.86,"#00ec97");
+cap("#cap54",44.32,44.86);
+word("#c55w0",44.88,46.54,"#00ec97");
+cap("#cap55",44.83,46.54);
+word("#c56w0",46.56,46.63,"#00ec97");
+word("#c56w1",46.63,47.52,"#00ec97");
+word("#c56w2",47.52,48.28,"#00ec97");
+cap("#cap56",46.51,48.28);
+word("#c57w0",48.32,48.84,"#00ec97");
+word("#c57w1",48.84,49.16,"#00ec97");
+word("#c57w2",49.16,49.48,"#00ec97");
+cap("#cap57",48.27,49.48);
+word("#c58w0",49.50,49.70,"#00ec97");
+word("#c58w1",49.70,50.04,"#00ec97");
+word("#c58w2",50.04,50.15,"#00ec97");
+cap("#cap58",49.45,50.15);
+word("#c59w0",50.17,50.90,"#00ec97");
+word("#c59w1",50.90,51.16,"#00ec97");
+word("#c59w2",51.16,51.28,"#00ec97");
+cap("#cap59",50.12,51.28);
+word("#c60w0",51.30,51.64,"#00ec97");
+word("#c60w1",51.64,52.11,"#00ec97");
+word("#c60w2",52.11,53.08,"#00ec97");
+cap("#cap60",51.25,53.08);
+word("#c61w0",53.10,53.60,"#00ec97");
+word("#c61w1",53.60,53.80,"#00ec97");
+cap("#cap61",53.05,53.80);
+word("#c62w0",53.97,54.17,"#00ec97");
+word("#c62w1",54.17,54.72,"#00ec97");
+cap("#cap62",53.92,54.72);
+word("#c63w0",54.74,54.95,"#00ec97");
+word("#c63w1",54.95,55.02,"#00ec97");
+word("#c63w2",55.02,55.64,"#00ec97");
+cap("#cap63",54.69,55.64);
+word("#c64w0",55.81,56.22,"#00ec97");
+cap("#cap64",55.76,56.22);
+word("#c65w0",56.24,56.66,"#00ec97");
+word("#c65w1",56.66,56.87,"#00ec97");
+word("#c65w2",56.87,57.06,"#00ec97");
+cap("#cap65",56.19,57.06);
+word("#c66w0",57.08,57.64,"#00ec97");
+cap("#cap66",57.03,57.64);
+word("#c67w0",57.68,57.86,"#00ec97");
+word("#c67w1",57.86,58.40,"#00ec97");
+cap("#cap67",57.63,58.40);
+word("#c68w0",58.52,58.70,"#00ec97");
+word("#c68w1",58.70,59.33,"#00ec97");
+cap("#cap68",58.47,59.33);
+word("#c69w0",59.35,59.61,"#00ec97");
+word("#c69w1",59.61,60.22,"#00ec97");
+cap("#cap69",59.30,60.22);
+word("#c70w0",60.24,60.40,"#00ec97");
+word("#c70w1",60.40,60.79,"#00ec97");
+word("#c70w2",60.79,61.16,"#00ec97");
+cap("#cap70",60.19,61.16);
+word("#c71w0",61.18,61.50,"#00ec97");
+word("#c71w1",61.50,61.76,"#00ec97");
+word("#c71w2",61.76,62.03,"#00ec97");
+cap("#cap71",61.13,62.03);
+word("#c72w0",62.05,62.52,"#00ec97");
+cap("#cap72",62.00,62.52);
+word("#c73w0",62.64,62.65,"#00ec97");
+word("#c73w1",62.65,62.81,"#00ec97");
+word("#c73w2",62.81,62.90,"#00ec97");
+cap("#cap73",62.59,62.90);
+word("#c74w0",62.92,63.29,"#00ec97");
+cap("#cap74",62.87,63.29);
+word("#c75w0",63.48,63.58,"#00ec97");
+word("#c75w1",63.58,63.97,"#00ec97");
+word("#c75w2",63.97,64.18,"#00ec97");
+cap("#cap75",63.43,64.18);
+word("#c76w0",64.20,64.54,"#00ec97");
+word("#c76w1",64.54,64.65,"#00ec97");
+word("#c76w2",64.65,64.92,"#00ec97");
+cap("#cap76",64.15,64.92);
+word("#c77w0",64.94,65.05,"#00ec97");
+word("#c77w1",65.05,65.16,"#00ec97");
+word("#c77w2",65.16,66.04,"#00ec97");
+cap("#cap77",64.89,66.04);
+word("#c78w0",66.08,66.17,"#00ec97");
+word("#c78w1",66.17,66.50,"#00ec97");
+word("#c78w2",66.50,66.76,"#00ec97");
+cap("#cap78",66.03,66.76);
+word("#c79w0",66.92,67.02,"#00ec97");
+word("#c79w1",67.02,67.32,"#00ec97");
+word("#c79w2",67.32,67.82,"#00ec97");
+cap("#cap79",66.87,67.82);
+word("#c80w0",67.84,68.24,"#00ec97");
+cap("#cap80",67.79,68.24);
+word("#c81w0",68.26,68.38,"#00ec97");
+word("#c81w1",68.38,68.89,"#00ec97");
+word("#c81w2",68.89,69.09,"#00ec97");
+cap("#cap81",68.21,69.09);
+word("#c82w0",69.11,69.88,"#00ec97");
+cap("#cap82",69.06,69.88);
+word("#c83w0",69.92,70.00,"#00ec97");
+word("#c83w1",70.00,70.12,"#00ec97");
+word("#c83w2",70.12,70.27,"#00ec97");
+cap("#cap83",69.87,70.27);
+word("#c84w0",70.29,70.86,"#00ec97");
+cap("#cap84",70.24,70.86);
+word("#c85w0",70.88,71.07,"#00ec97");
+word("#c85w1",71.07,71.71,"#00ec97");
+word("#c85w2",71.71,71.88,"#00ec97");
+cap("#cap85",70.83,71.88);
+word("#c86w0",71.90,72.10,"#00ec97");
+word("#c86w1",72.10,72.68,"#00ec97");
+word("#c86w2",72.68,72.91,"#00ec97");
+cap("#cap86",71.85,72.91);
+word("#c87w0",72.93,73.12,"#00ec97");
+word("#c87w1",73.12,73.35,"#00ec97");
+word("#c87w2",73.35,73.74,"#00ec97");
+cap("#cap87",72.88,73.74);
+word("#c88w0",73.76,74.47,"#00ec97");
+cap("#cap88",73.71,74.47);
+word("#c89w0",74.49,74.83,"#00ec97");
+word("#c89w1",74.83,75.01,"#00ec97");
+word("#c89w2",75.01,75.82,"#00ec97");
+cap("#cap89",74.44,75.82);
+word("#c90w0",75.84,76.09,"#00ec97");
+word("#c90w1",76.09,76.72,"#00ec97");
+cap("#cap90",75.79,76.72);
+word("#c91w0",76.74,76.94,"#00ec97");
+word("#c91w1",76.94,77.14,"#00ec97");
+word("#c91w2",77.14,77.26,"#00ec97");
+cap("#cap91",76.69,77.26);
+word("#c92w0",77.28,77.63,"#00ec97");
+word("#c92w1",77.63,78.05,"#00ec97");
+word("#c92w2",78.05,78.18,"#00ec97");
+cap("#cap92",77.23,78.18);
+word("#c93w0",78.20,78.83,"#00ec97");
+cap("#cap93",78.15,78.83);
+word("#c94w0",78.88,79.14,"#00ec97");
+word("#c94w1",79.14,79.35,"#00ec97");
+word("#c94w2",79.35,79.90,"#00ec97");
+cap("#cap94",78.83,79.90);
+word("#c95w0",79.92,80.17,"#00ec97");
+word("#c95w1",80.17,80.36,"#00ec97");
+word("#c95w2",80.36,81.00,"#00ec97");
+cap("#cap95",79.87,81.00);
+tl.set("#captions", {opacity:0}, 81.2);
+window.__timelines["main"] = tl;
+</script>
+<script type="module" src="assets/world.js"></script>
+</body>
+</html>
