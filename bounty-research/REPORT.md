@@ -4,6 +4,38 @@ Checked 2026-11-18. Every row was confirmed by opening the program page or repo 
 
 CSV: `self_hosted_bounties.csv` (same rows and columns).
 
+
+## 0. Softer-target shortlist (hardened programs removed)
+
+Rule: drop anything whose scope is L1 consensus or client code run by a foundation, hardware-wallet firmware from vendors with in-house security labs, or a DeFi protocol over $1B TVL with a public max payout already made. That removes 10 programs:
+- **Ethereum Foundation**: clients and compilers.
+- **Solana Agave**: validator client.
+- **BNB Chain**: L1.
+- **TON Core**: node and standard contracts.
+- **Parity**: Polkadot SDK and runtimes.
+- **Hyperliquid**: L1 node and API scope.
+- **Curve**: about $1.1B TVL, max paid in 2024.
+- **Trezor, Ledger, Keystone**: hardware wallets.
+
+CSV: `self_hosted_bounties_softer.csv` (14 rows).
+
+| # | Protocol | Max payout | Scope size | Why it stays |
+|---|---|---|---|---|
+| 1 | marginfi / Project 0 | 2% up to $500k, $50k floor | one Solana lending program | Small TVL (~$79M). App/SDK deprecated in 2026, program still live. |
+| 2 | Squads v4 | $300k fixed (locked SOL) | one program | Fixed amounts, no %-of-funds haircut. |
+| 3 | Phoenix Legacy | $200k | one orderbook program + RB tree | "Legacy" code, $23M TVL. |
+| 4 | Across | $1M | contracts + bots + front end in one repo | High cap. Privileged-party attacks are OOS. |
+| 5 | Frax | 10% of exploitable funds, cap $10M | many products: Fraxswap, Fraxlend, frxETH, FraxNet, Flox, FXB, Hop | Newer products (FraxNet, Flox) are in scope. Pay scales with per-contract funds. Only profitable theft pays. |
+| 6 | Solana Mobile | $75k | 2 SKR programs + Seed Vault | Narrow. Costs an SKR burn per submission. |
+| 7 | Pacifica | $25k USDC | one perps venue | New, $24M TVL. KYC required. |
+| 8 | Flashbots mev-boost/relay | $50k shared pool | 2 Go repos | Off-chain infra, pool is shared. |
+| 9 | Metaplex | $20k+ soft cap (critical, tier 1) | tiered programs | Low cap. Token Metadata is old and widely reviewed. |
+| 10 | Tonkeeper | $0-30k | wallet apps | Weak terms (claims waiver). |
+| 11 | Braavos | $1-5k | Starknet wallet | Low cap. |
+| — | Jupiter, Chainflip, SaucerSwap | not stated | — | Kept, but no stated amount. Ask before investing time. Jupiter has ~$2B TVL and is borderline hardened. |
+
+Ordering is payout divided by the published scope size. It is not an assessment of code quality.
+
 ## 1. Table (sorted by max payout, then TVL; programs with no stated amount last)
 
 | # | Protocol | Chains | Category | TVL | Max payout (USD equiv) | As stated / rule | Tiers | Token | Scope | Submit | KYC | Safe harbor | Response | History / disputes | Updated | Also on platform | URL |
