@@ -1,0 +1,33 @@
+diff --git a/services/api/utils.go b/services/api/utils.go
+index 2875759..27c16b7 100644
+--- a/services/api/utils.go
++++ b/services/api/utils.go
+@@ -316,16 +316,18 @@ func getSlotFromBuilderJSONPayload(input []byte) (uint64, error) {
+ }
+ 
+ func getSlotFromBuilderSSZPayload(input []byte) (uint64, error) {
++	// In an SSZ-encoded SubmitBlockRequest the first field is the fixed-size
++	// BidTrace container, which SSZ inlines at offset 0. Its first field is the
++	// slot (uint64, little-endian). Read it directly from the first 8 bytes.
++	//
++	// The previous implementation interpreted input[4:8] as an SSZ offset to the
++	// message. That is incorrect (the message is not offset-referenced) and it
++	// only returned the right value by accident, because for any real slot
++	// (< 2^32) those upper 4 bytes are zero. A crafted payload with a non-zero
++	// value there drove an out-of-bounds slice: `messageOffset+8` was computed in
++	// uint32 and could wrap past the bounds check, panicking on input[offset:...].
+ 	if len(input) < 8 {
+-		return 0, ErrPayloadTooShortForMessageOffset
++		return 0, ErrPayloadTooShortForSlot
+ 	}
+-
+-	messageOffset := binary.LittleEndian.Uint32(input[4:8])
+-
+-	if int(messageOffset+8) > len(input) {
+-		return 0, errors.Wrapf(ErrPayloadTooShortForSlot, "offset %d", messageOffset)
+-	}
+-	slot := binary.LittleEndian.Uint64(input[messageOffset : messageOffset+8])
+-
+-	return slot, nil
++	return binary.LittleEndian.Uint64(input[:8]), nil
+ }
